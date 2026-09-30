@@ -1,0 +1,130 @@
+<definitions name="InfoBenef_EXPOLPS" targetNamespace="http://h8.cnamts.fr"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
+    xmlns:s1="http://h8.cnamts.fr"
+    xmlns:reqinfobenef="urn:ir:expolps_reqinfobenef" 
+    xmlns:infobenef="urn:ir:expolps_infobenef"
+    xmlns:reqinfobenefnirod="urn:ir:expolps_reqinfobenefnirod"
+    xmlns:listeinfobenef="urn:ir:expolps_listeinfobenef" 
+    xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl"
+    xmlns:wsa="http://www.w3.org/2005/08/addressing"
+    xmlns:ctxbam="urn:siram:bam:ctxbam" 
+    xmlns:ctxlps="urn:siram:lps:ctxlps"
+    xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+    
+    <types>
+        <xsd:schema targetNamespace="http://h8.cnamts.fr">
+            
+            <!-- Header -->
+            <xsd:import namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" 
+                schemaLocation="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+            <xsd:import namespace="http://www.w3.org/2005/08/addressing" 
+                schemaLocation="http://www.w3.org/2006/03/addressing/ws-addr.xsd"/>
+            <xsd:import namespace="urn:siram:lps:ctxlps"
+                schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd" />
+            <xsd:import namespace="urn:siram:bam:ctxbam"
+                schemaLocation="xsd/CTX/ROOT_ctxbam_CTXBAM_V01_02.xsd" />
+            
+        
+            <!-- Import des types utilises par la methode rechercherEtatCivilBenef -->
+            <xsd:import namespace="urn:ir:expolps_reqinfobenef"
+                schemaLocation="xsd/InfoBenef/ROOT_expolps_reqinfobenef_EXPOLPSTRANSP_REQINFOBENEF_V00_02.xsd" />
+            <xsd:import namespace="urn:ir:expolps_infobenef"
+                schemaLocation="xsd/InfoBenef/ROOT_expolps_infobenef_EXPOLPSTRANSP_INFOBENEF_V00_02.xsd" />
+
+            <!-- Import des types utilises par la methode listerBeneficiaires -->
+            <xsd:import namespace="urn:ir:expolps_reqinfobenefnirod"
+                schemaLocation="xsd/InfoBenef/ROOT_expolps_reqinfobenefnirod_EXPOLPSTRANSP_REQINFOBENEFNIROD_V00_03.xsd" />
+            <xsd:import namespace="urn:ir:expolps_listeinfobenef"
+                schemaLocation="xsd/InfoBenef/ROOT_expolps_listeinfobenef_EXPOLPSTRANSP_LISTEINFOBENEF_V00_02.xsd" />
+        </xsd:schema>
+    </types>
+    
+    <!-- ================== -->
+    <!-- Parametres I/O -->
+    <!-- ================== -->
+    <message name="rechercherEtatCivilBenefRequest">
+        <part name="RDECB_Security" element="wsse:Security" />
+        <part name="RDECB_ContexteLPS" element="ctxlps:ContexteLPS" />
+        <part name="RDECB_MessageID" element="wsa:MessageID" />
+        <part name="RDECB_ContexteBAM" element="ctxbam:ContexteBAM" />
+        <part name="parameters" element="reqinfobenef:EXPOLPSTRANSP_REQINFOBENEF" />
+    </message>
+    <message name="rechercherEtatCivilBenefResponse">
+        <part name="parameters" element="infobenef:EXPOLPSTRANSP_INFOBENEF" />
+    </message>
+
+    <message name="listerBeneficiairesRequest">
+        <part name="LB_Security" element="wsse:Security" />
+        <part name="LB_ContexteLPS" element="ctxlps:ContexteLPS" />
+        <part name="LB_MessageID" element="wsa:MessageID" />
+        <part name="LB_ContexteBAM" element="ctxbam:ContexteBAM" />
+        <part name="parameters" element="reqinfobenefnirod:EXPOLPSTRANSP_REQINFOBENEFNIROD" />
+    </message>
+    <message name="listerBeneficiairesResponse">
+        <part name="parameters" element="listeinfobenef:EXPOLPSTRANSP_LISTEINFOBENEF" />
+    </message>
+
+    <!-- ================== -->
+    <!-- Port / Operations -->
+    <!-- ================== -->
+    <portType name="InfoBenefEXPOLPSWS">
+        <operation name="rechercherEtatCivilBenef">
+            <input message="s1:rechercherEtatCivilBenefRequest"
+                wsaw:Action="urn:InfoBenefEXPOLPS:1.0.0:rechercherEtatCivilBenef" />
+            <output message="s1:rechercherEtatCivilBenefResponse"
+                wsaw:Action="urn:InfoBenefEXPOLPS:1.0.0:rechercherEtatCivilBenef" />
+        </operation>
+        <operation name="listerBeneficiaires">
+            <input message="s1:listerBeneficiairesRequest" wsaw:Action="urn:InfoBenefEXPOLPS:1.0.0:listerBeneficiaires" />
+            <output message="s1:listerBeneficiairesResponse"
+                wsaw:Action="urn:InfoBenefEXPOLPS:1.0.0:listerBeneficiaires" />
+        </operation>
+    </portType>
+    
+    <!-- ================== -->
+    <!-- Bindings -->
+    <!-- ================== -->
+    <binding name="InfoBenefEXPOLPSWSPortBinding" type="s1:InfoBenefEXPOLPSWS">
+        <wsoap12:binding style="document"
+            transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsaw:UsingAddressing required="true" />
+        <operation name="rechercherEtatCivilBenef">
+            <wsoap12:operation
+                soapAction="urn:InfoBenefEXPOLPS:1.0.0:rechercherEtatCivilBenef" />
+            <input>
+                <wsoap12:header message="s1:rechercherEtatCivilBenefRequest" part="RDECB_Security" use="literal" />
+                <wsoap12:header message="s1:rechercherEtatCivilBenefRequest" part="RDECB_ContexteLPS" use="literal" />
+                <wsoap12:header message="s1:rechercherEtatCivilBenefRequest" part="RDECB_MessageID" use="literal" />
+                <wsoap12:header message="s1:rechercherEtatCivilBenefRequest" part="RDECB_ContexteBAM" use="literal" />
+                <wsoap12:body parts="parameters" use="literal" />
+            </input>
+            <output>
+                <wsoap12:body use="literal" />
+            </output>
+        </operation>
+        <operation name="listerBeneficiaires">
+            <wsoap12:operation soapAction="urn:InfoBenefEXPOLPS:1.0.0:listerBeneficiaires" />
+            <input>
+                <wsoap12:header message="s1:listerBeneficiairesRequest" part="LB_Security" use="literal" />
+                <wsoap12:header message="s1:listerBeneficiairesRequest" part="LB_ContexteLPS" use="literal" />
+                <wsoap12:header message="s1:listerBeneficiairesRequest" part="LB_MessageID" use="literal" />
+                <wsoap12:header message="s1:listerBeneficiairesRequest" part="LB_ContexteBAM" use="literal" />
+                <wsoap12:body parts="parameters" use="literal" />
+            </input>
+            <output>
+                <wsoap12:body use="literal" />
+            </output>
+        </operation>
+
+    </binding>
+    <!-- ================== -->
+    <!-- Service -->
+    <!-- ================== -->
+    <service name="InfoBenefEXPOLPS">
+        <port binding="s1:InfoBenefEXPOLPSWSPortBinding" name="InfoBenefEXPOLPSWSPort">
+            <wsoap12:address location="https://qualiflps.services-ps.ameli.fr/lps" />
+        </port>
+    </service>
+</definitions>

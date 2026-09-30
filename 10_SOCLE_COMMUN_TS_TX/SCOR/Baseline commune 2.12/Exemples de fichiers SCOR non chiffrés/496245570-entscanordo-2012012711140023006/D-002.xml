@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SCANORDO Nature="SCANORDO" Version="02.02" xmlns="http://www.interregime.fr/SCANORDO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interregime.fr/SCANORDO Z:\Edi\BaseDocumentaire\Documents\CNAMTS\PR4E1E~1\Messages\Externes\MESSAG~2\xsd\ROOT_SCANORDO_V02_00.xsd">
+	<Identifiant>002</Identifiant>
+    <Temps>2012-01-27T11:14:00</Temps>
+	<Facture>
+		<Identifiant>866920190</Identifiant>
+        <Renouvellement>false</Renouvellement>
+        <MtTotal>583.37</MtTotal>
+        <MtCaisse>18.99</MtCaisse>
+        <MtComplementaire>564.38</MtComplementaire>
+        <Beneficiaire>
+            <NIRAssure>136017858867153</NIRAssure>
+            <DateNai>6635-73-08</DateNai>
+            <RangNai>1</RangNai>
+        </Beneficiaire>
+		<Organisme>
+			<Identite>925372008</Identite>
+		</Organisme>
+	</Facture>
+</SCANORDO>

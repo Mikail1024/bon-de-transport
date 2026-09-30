@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARL xmlns="http://www.interregime.fr/ARLSCANORDO" PGMD_Profil="ARLSCANORDO" Profil_Version="02.00">
+  <Identification>2012030812152503124</Identification>
+  <Temps>2012-03-08T12:15:25</Temps>
+  <DiagEntete>
+    <Identification>011297700-2012030812120865902</Identification>
+    <Temps>2012-03-08T00:00:00</Temps>
+    <Profil>ENTSCANORDO</Profil>
+    <Diagnostic>
+      <Activite>CTRENV</Activite>
+      <Etat>R</Etat>
+      <Cause>5999</Cause>
+      <Libelle>Dossier rejete</Libelle>
+    </Diagnostic>
+    <DiagDocument>
+      <Mindex>
+        <Profil>SCANORDO</Profil>
+        <Identification>001</Identification>
+        <Temps>2012-03-08T12:12:08.0Z</Temps>
+      </Mindex>
+      <Diagnostic>
+        <Activite>CTRDOC</Activite>
+        <Etat>R</Etat>
+        <Cause>5380</Cause>
+        <Libelle>Option de numerisation non conforme # CPDF:FVPF:validationPDFRudimentaire|CategorieControlePDF|validite_PDF|version PDF non autorisee. La/les version(s) autorisee(s) est/sont PDF-1.4</Libelle>
+      </Diagnostic>
+    </DiagDocument>
+  </DiagEntete>
+</ARL>

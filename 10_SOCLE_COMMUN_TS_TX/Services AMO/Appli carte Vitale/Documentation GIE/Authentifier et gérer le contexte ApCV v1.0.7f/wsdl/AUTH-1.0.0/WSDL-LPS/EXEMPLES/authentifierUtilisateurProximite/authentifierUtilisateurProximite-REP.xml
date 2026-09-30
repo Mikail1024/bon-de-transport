@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:add="http://www.w3.org/2005/08/addressing">
+  <soap:Header>
+    <add:MessageID>_82164d3a-cf63-4b5d-9d69-a603edc94019</add:MessageID>
+    <add:Action>urn:ApCV_AUTH:1.0.0:authentifierUtilisateurProximite</add:Action>
+  </soap:Header>
+  <soap:Body>
+    <AuthentifierUtilisateurProximiteRep xmlns="http://www.sesam-vitale.fr/apcv/auth/1/0" version="1.0" horodatage="2020-04-30T09:30:10Z" ID="_51659667-e952-44ba-a504-929e0236b5a4">
+      <CodeStatut>0</CodeStatut>
+      <ContexteApCV>
+        <DateFinValidite>2001-12-17T10:30:47Z</DateFinValidite>
+        <Identifiant>9cdd4f1d-21fe-42d8-bddc-434360a17d8f</Identifiant>
+        <TokenApCV>1.0:9cdd4f1d-21fe-42d8-bddc-434360a17d8f</TokenApCV>
+      </ContexteApCV>
+      <ProfilApCV>
+        <Identification numSerie="000464100000" type="T"/>
+        <Utilisateur>
+          <IdentitePatient>
+            <INSACTIF>
+              <IdIndividu>
+                <NumIdentifiant>1750163220748</NumIdentifiant>
+                <Cle>46</Cle>
+                <TypeMatricule>String</TypeMatricule>
+              </IdIndividu>
+              <OID>1.2.250.1.213.1.4.8</OID>
+              <DateDeb>2015-12-17</DateDeb>
+              <DateFin>2016-12-17</DateFin>
+            </INSACTIF>
+            <TIQ>
+              <NomNaissance>ADRUN</NomNaissance>
+              <Prenom>ADRUN</Prenom>
+              <ListePrenom>BAPTISTE Michel Edouard</ListePrenom>
+              <Sexe>M</Sexe>
+              <DateNaissance>1975-01-01</DateNaissance>
+              <LieuNaissance>72000</LieuNaissance>
+            </TIQ>
+          </IdentitePatient>
+          <CarteVitaleIndividu>
+            <IdentiteAMO>
+              <NomFamille>ADRUN</NomFamille>
+              <NomUsage>ADRUN</NomUsage>
+              <Prenom>BAPTISTE</Prenom>
+              <Qualite>0</Qualite>
+              <DateNaissance rang="1">1975-01-01</DateNaissance>
+              <NIRCertifie cle="46">1750163220748</NIRCertifie>
+              <ContratAMO>
+                <NIRAssure cle="46">1750163220748</NIRAssure>
+                <OrganismeAMO codeRegime="01" codeCaisse="349" codeCentre="9881"/>
+              </ContratAMO>
+            </IdentiteAMO>
+          </CarteVitaleIndividu>
+        </Utilisateur>
+        <Individu>          
+          <CarteVitaleIndividu>
+            <IdentiteAMO>
+              <NomFamille>ADRUN</NomFamille>
+              <NomUsage>ADRUN</NomUsage>
+              <Prenom>ZOE</Prenom>
+              <Qualite>2</Qualite>
+              <DateNaissance rang="1">1975-12-31</DateNaissance>
+              <NIRCertifie cle="46">1750163220748</NIRCertifie>
+              <ContratAMO>
+                <NIRAssure cle="46">1750163220748</NIRAssure>
+                <OrganismeAMO codeRegime="01" codeCaisse="349" codeCentre="9881"/>
+              </ContratAMO>
+            </IdentiteAMO>
+          </CarteVitaleIndividu>
+        </Individu>
+        <Individu>
+          <CarteVitaleIndividu>
+            <IdentiteAMO>
+              <NomFamille>ADRUN</NomFamille>
+              <NomUsage>ADRUN</NomUsage>
+              <Prenom>VICTOR</Prenom>
+              <Qualite>6</Qualite>
+              <DateNaissance rang="1">2011-07-14</DateNaissance>
+              <NIRCertifie cle="46">1750163220748</NIRCertifie>
+              <ContratAMO>
+                <NIRAssure cle="46">1750163220748</NIRAssure>
+                <OrganismeAMO codeRegime="01" codeCaisse="349" codeCentre="9881"/>
+              </ContratAMO>
+            </IdentiteAMO>
+          </CarteVitaleIndividu>
+        </Individu>
+      </ProfilApCV>
+    </AuthentifierUtilisateurProximiteRep>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,20 @@
+<xs:schema targetNamespace="http://www.w3.org/2003/05/soap-envelope" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<xs:annotation>
+		<xs:documentation>
+			Enveloppe SOAP originale, ne peut plus être redéfinie.
+	  </xs:documentation>
+	</xs:annotation>
+	<xs:include schemaLocation="soap-type-body-base.xsd"/>
+	<xs:include schemaLocation="soap-type-header-base.xsd"/>
+	<xs:include schemaLocation="soap-element-body.xsd"/>
+	<xs:include schemaLocation="soap-element-header.xsd"/>
+	<xs:include schemaLocation="soap-element-envelope.xsd"/>
+	<xs:redefine schemaLocation="soap-type-envelope-base.xsd">
+	
+		<xs:complexType name="Envelope" final="#all">
+			<xs:complexContent>
+				<xs:extension base="env:Envelope"/>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:redefine>
+</xs:schema>

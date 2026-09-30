@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Entete PGMD_Profil="ENTSCANORDO" Profil_Version="02.06" xmlns="http://www.interregime.fr/ENTSCANORDO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <Identification>011297700-2012033016151760335</Identification>
+  <Temps>2012-03-30T16:15:17</Temps>
+  <Fonction>9</Fonction>
+  <NbrDoc>11</NbrDoc>
+  <InfoIDXLOT>01</InfoIDXLOT>
+  <InfoNBLOT>01</InfoNBLOT>
+  <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+  <Emetteur>
+    <Identite R="FINESS">011297700</Identite>
+    <Nom>off011297700</Nom>
+    <RPPS>18004215139</RPPS>
+    <Telecom>
+      <Type>EM</Type>
+      <Numero>pairps10@dqi143l020.gie-sv.fr</Numero>
+    </Telecom>
+    <Qualite>OPORDO</Qualite>
+    <Region>78</Region>
+    <SpecialitePS>35</SpecialitePS>
+    <Agrement>
+      <Id>pair0000</Id>
+      <Version>aa00</Version>
+    </Agrement>
+  </Emetteur>
+  <Recepteur>
+    <Identite R="CGRORGDEST">01001</Identite>
+    <Qualite>OPAMO</Qualite>
+  </Recepteur>
+  <Trace>
+    <Activite>LOTFSE</Activite>
+    <Temps>2012-03-30T00:00:00</Temps>
+    <Archive>273</Archive>
+    <InfoType>1</InfoType>
+    <InfoNBFACT>004</InfoNBFACT>
+  </Trace>
+    <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>002</Identification>
+      <Temps>2012-03-30T16:15:17.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-002.pkcs7</Adresse>
+      <Type Q="XML">PKCS7</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-002-001.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>BRDT</Nature>
+      <Identification>011297700.BRDT.20120330161517.001</Identification>
+    </Lien>
+    <Lien>
+      <Adresse>P-002-002.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>TKVT</Nature>
+      <Identification>011297700.TKVT.20120330161517.002</Identification>
+    </Lien>
+  </Document>
+  <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>003</Identification>
+      <Temps>2012-03-30T16:15:17.0Z</Temps>
+      <Descriptif>Ordonnance incomplète</Descriptif>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-003.pkcs7</Adresse>
+      <Type Q="XML">PKCS7</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-003-001.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Version>02.02</Version>
+      <Nature>FRST</Nature>
+      <Identification>011297700.FRST.20120330161517.001</Identification>
+    </Lien>
+  </Document>
+  <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>004</Identification>
+      <Temps>2012-03-30T16:15:17.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-004.pkcs7</Adresse>
+      <Type Q="XML">PKCS7</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-004-001.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>ORDN</Nature>
+      <Identification>011297700.ORDN.20120330161517.001</Identification>
+    </Lien>
+  </Document>
+  <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>001</Identification>
+      <Temps>2012-03-30T16:15:17.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-001.pkcs7</Adresse>
+      <Type Q="XML">PKCS7</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-001-001.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Version>02.02</Version>
+      <Nature>FSNC</Nature>
+      <Identification>011297700.FSNC.20120330161517.001</Identification>
+    </Lien>
+    <Lien>
+      <Adresse>P-001-002.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Version>02.02</Version>
+      <Nature>ORDE</Nature>
+      <Identification>011297700.ORDE.20120330161517.002</Identification>
+    </Lien>
+    <Lien>
+      <Adresse>P-001-003.pkcs7</Adresse>
+      <Type Q="PDF">PKCS7</Type>
+      <Version>02.02</Version>
+      <Nature>ORDN</Nature>
+      <Identification>011297700.ORDN.20120330161517.003</Identification>
+    </Lien>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>PRST</Nature>
+      <Identification>011297700.PRST.20120330161517.876</Identification>
+      <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+    </LienExterne>
+  </Document>
+
+</Entete>

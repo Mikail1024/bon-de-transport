@@ -1,0 +1,170 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>fr.santesocial.lps</groupId>
+	<artifactId>TLSi-ICIR</artifactId>
+	<version>3.0.1</version>
+	<packaging>jar</packaging>
+
+	<properties>
+		<java.version>17</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<clienttlsi.version>4.0.1</clienttlsi.version>
+		<jakarta.ws.version>4.0.0</jakarta.ws.version>
+		<validation.version>3.0.2</validation.version>
+		<jaxws.maven.plugin.version>4.0.2</jaxws.maven.plugin.version>
+		<log4j.version>2.21.1</log4j.version>
+		<slf4j.version>2.0.9</slf4j.version>
+		<maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+		<maven.source.plugin.version>3.0.1</maven.source.plugin.version>
+		<maven.javadoc.plugin.version>3.6.2</maven.javadoc.plugin.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>fr.santesocial.lps</groupId>
+			<artifactId>ClientTLSi-Assertion</artifactId>
+			<version>${clienttlsi.version}</version>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.apache.logging.log4j</groupId>
+    		<artifactId>log4j-core</artifactId>
+    		<version>${log4j.version}</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>jakarta.validation</groupId>
+		    <artifactId>jakarta.validation-api</artifactId>
+		    <version>${validation.version}</version>
+			<classifier>sources</classifier>
+			<scope>test</scope>
+		</dependency>
+	    <dependency>
+	        <groupId>jakarta.xml.bind</groupId>
+	        <artifactId>jakarta.xml.bind-api</artifactId>
+	        <version>${jakarta.ws.version}</version>
+	    </dependency>
+	    <dependency>
+		    <groupId>com.sun.xml.bind</groupId>
+		    <artifactId>jaxb-impl</artifactId>
+	        <version>${jakarta.ws.version}</version>
+	    </dependency>		
+		
+	  	<dependency>
+		    <groupId>jakarta.xml.ws</groupId>
+		    <artifactId>jakarta.xml.ws-api</artifactId>
+	      	<version>${jakarta.ws.version}</version>
+	  	</dependency>
+	  	<dependency>
+		    <groupId>com.sun.xml.ws</groupId>
+		    <artifactId>jaxws-rt</artifactId>
+	      	<version>${jakarta.ws.version}</version>
+	  	</dependency>
+	  	
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>2.14.2</version>
+		</dependency>
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-annotations</artifactId>
+		    <version>2.14.2</version>
+		</dependency>
+
+	</dependencies>
+	
+	
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${maven.compiler.plugin.version}</version>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+						<compilerArgs>
+							<arg>-Xlint:unchecked</arg>
+						</compilerArgs>
+						<!-- tell compiler to use endorsed dir -->
+						<!-- <compilerArguments> <endorseddirs>${endorsed.dir}</endorseddirs> 
+							</compilerArguments> -->
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			<!-- Inclusion des sources dans le JAR généré -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven.source.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<!-- Inclusion de la javadoc dans le JAR généré -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId> 
+				<artifactId>maven-javadoc-plugin</artifactId> 
+				<version>${maven.javadoc.plugin.version}</version>
+				<configuration>
+					<author>GIE SESAM-VITALE</author>
+					<bottom>Copyright &#169; 2023 GIE SESAM-VITALE. All Rights Reserved.</bottom>
+				</configuration>
+				<executions> 
+					<execution> 
+						<id>attach-javadocs</id> 
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution> 
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>com.sun.xml.ws</groupId>
+				<artifactId>jaxws-maven-plugin</artifactId>
+				<version>${jaxws.maven.plugin.version}</version>
+
+				<configuration>
+					<extension>true</extension>
+					<wsdlDirectory>src/main/resources</wsdlDirectory>
+					<bindingDirectory>src/main/resources2</bindingDirectory>
+					<sourceDestDir>${basedir}/target/generated-sources</sourceDestDir>
+			<!--		<vmArgs>
+						<vmArg>-Djavax.xml.accessExternalSchema=all</vmArg>
+						<vmArg>-Djavax.xml.accessExternalDTD=all</vmArg>
+					</vmArgs>-->
+				</configuration>
+
+				<executions>
+					<execution>
+						<id>ICIR</id>
+						<goals>
+							<goal>wsimport</goal>
+						</goals>
+						<configuration>
+							<wsdlFiles>
+								<wsdlFile>wsdl/DESIR_ICIR_EXP_1.5.0.wsdl</wsdlFile>
+							</wsdlFiles>
+							<wsdlLocation>/*</wsdlLocation>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

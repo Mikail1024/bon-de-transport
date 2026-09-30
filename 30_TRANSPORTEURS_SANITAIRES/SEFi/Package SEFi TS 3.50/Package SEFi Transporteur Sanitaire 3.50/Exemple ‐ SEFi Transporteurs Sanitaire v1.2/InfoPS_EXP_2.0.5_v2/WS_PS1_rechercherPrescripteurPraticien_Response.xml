@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+		<ns6:EXPOLPSTRANSP_INFOPSINDIVIDU xmlns:ns7="urn:ir:expolps_reqinfopsam" xmlns:ns6="urn:ir:expolps_infopsindividu" xmlns:ns5="urn:ir:expolps_infopsstructure" xmlns:ns4="urn:ir:expolps_reqinfotransp" xmlns:ns3="urn:ir:expolps_infotransp" xmlns:ns2="urn:ir:expolps_reqinfopsfiness" xmlns="urn:siram:partenairesante">
+			<ns6:PARTENAIREDESANTE>
+				<CodeSpe>01</CodeSpe>
+				<PRESTATAIRE>
+					<NomFamille>FICTIF</NomFamille>
+					<Prenom>ALAIN</Prenom>
+				</PRESTATAIRE>
+			</ns6:PARTENAIREDESANTE>
+		</ns6:EXPOLPSTRANSP_INFOPSINDIVIDU>
+	</S:Body>
+</soap:Envelope>

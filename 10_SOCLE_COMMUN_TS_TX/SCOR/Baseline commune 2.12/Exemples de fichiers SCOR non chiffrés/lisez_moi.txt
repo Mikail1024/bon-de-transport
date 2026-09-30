@@ -1,0 +1,13 @@
+Ces flux sont fournis à titres d'exemples:
+dans la balise telecom, le champ numéro (adresse@nom_domaine.fr) sera à personnaliser
+
+le flux aller est le 496245570-ENTSCANORDO-2012012711140023006.zip
+Remarque : dans l’entête SEH, étant donné que les PJ ne sont pas chiffrées, 
+		le type de celles-ci est « PDF » ou « XML », et non « PKCS7 ».
+	   Pour des PJ chiffrées, il faut mettre PKCS7
+
+pour les flux retours:
+SO_187559958_2012012711250503075.zip est un ARL positif
+SO_496245570_2012012711313803083.zip est un ARL négatif, suite à un rejet sur l’un des fichiers index (code régime incohérent)
+SO_565038410_2012012711282803081.zip est un ARL négatif, suite à un rejet SEH (code spécialité PS inconnu)
+SO_746917865_2012012711342803085.zip est un ARL négatif, suite à un rejet de niveau ordonnance (options de numération non conforme).

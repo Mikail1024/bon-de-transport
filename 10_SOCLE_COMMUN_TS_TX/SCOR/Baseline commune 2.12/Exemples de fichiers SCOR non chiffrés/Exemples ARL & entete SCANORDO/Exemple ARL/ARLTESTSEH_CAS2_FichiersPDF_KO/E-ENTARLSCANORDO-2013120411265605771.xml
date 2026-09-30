@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entete xmlns="http://www.interregime.fr/ENTARLSCANORDO" PGMD_Profil="ENTARLSCANORDO" Profil_Version="02.00">
+<Identification>2013120411265605771</Identification>
+<Temps>2013-12-04T11:26:56</Temps>
+<Fonction>53</Fonction>
+<Emetteur>
+<Identite R="CGRORGDEST">01001</Identite>
+<Qualite>OPAMO</Qualite>
+</Emetteur>
+<Recepteur>
+<Identite R="FINESS">565038410</Identite>
+<Nom>off565038410</Nom>
+<Telecom>
+<Type>EM</Type>
+<Numero>at.effitic.soreau@sesam-vitale.fr</Numero>
+</Telecom>
+<Qualite>OPORDO</Qualite>
+</Recepteur>
+<Document>
+<Mindex>
+<Profil>ARLSCANORDO</Profil>
+<Identification>2013120411265605771</Identification>
+<Temps>2013-12-04T11:26:56</Temps>
+</Mindex>
+<Lien>
+<Adresse>D-ARLSCANORDO-2013120411265605771.xml</Adresse>
+<Type>XML</Type>
+</Lien>
+</Document>
+</Entete>

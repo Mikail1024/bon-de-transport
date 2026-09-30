@@ -1,0 +1,200 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>fr.santesocial.lps</groupId>
+	<artifactId>ClientTLSi-Assertion</artifactId>
+	<version>4.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>ClientTLSi-Assertion</name>
+
+	<distributionManagement>
+		<repository>
+			<id>${repo.gie.id}</id>
+			<name>${repo.gie.name}</name>
+			<url>${repo.gie.url}</url>
+		</repository>
+		<snapshotRepository>
+			<id>${repo.gie.snapshot.id}</id>
+			<name>${repo.gie.snapshot.name}</name>
+			<url>${repo.gie.snapshot.url}</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<properties>
+		<java.version>17</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<log4j.version>2.21.1</log4j.version>
+		<slf4j.version>2.0.9</slf4j.version>
+		<bouncycastle.version>1.76</bouncycastle.version>
+		<opensaml.version>4.0.1</opensaml.version>
+		<iaik.version>1.4</iaik.version>
+		<mica.version>2.01.01</mica.version>
+		<jna.version>5.7.0</jna.version>
+		<junit.version>4.13.2</junit.version>
+		<maven.compiler.plugin.version>3.7.0</maven.compiler.plugin.version>
+		<maven.jar.plugin.version>3.3.0</maven.jar.plugin.version>
+		<maven.source.plugin.version>3.0.1</maven.source.plugin.version>
+		<maven.javadoc.plugin.version>3.6.2</maven.javadoc.plugin.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>fr.santesocial.mica</groupId>
+			<artifactId>jnamica</artifactId>
+			<version>${mica.version}</version>
+			<exclusions>
+		        <exclusion>
+					<groupId>com.sun.jna</groupId>
+					<artifactId>jna</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+		
+		<dependency>
+    		<groupId>org.apache.logging.log4j</groupId>
+    		<artifactId>log4j-core</artifactId>
+    		<version>${log4j.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-reload4j</artifactId>
+		    <version>${slf4j.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcpkix-jdk18on</artifactId>
+		    <version>${bouncycastle.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk18on</artifactId>
+		    <version>${bouncycastle.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.opensaml</groupId>
+			<artifactId>opensaml-core</artifactId>
+		    <version>${opensaml.version}</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.opensaml</groupId>
+		    <artifactId>opensaml-saml-api</artifactId>
+		    <version>${opensaml.version}</version>
+			<exclusions>
+		        <exclusion>
+		            <groupId>org.apache.santuario</groupId>
+		            <artifactId>xmlsec</artifactId>
+		        </exclusion>
+			    <exclusion>
+			    	<groupId>org.bouncycastle</groupId>
+			    	<artifactId>bcprov-jdk15on</artifactId>
+			    </exclusion>
+			    <exclusion>
+			    	<groupId>org.bouncycastle</groupId>
+			    	<artifactId>bcpkix-jdk15on</artifactId>
+			    </exclusion>
+		    </exclusions>
+		</dependency>
+		<dependency>
+		    <groupId>org.opensaml</groupId>
+		    <artifactId>opensaml-saml-impl</artifactId>
+		    <version>${opensaml.version}</version>
+			<exclusions>
+		        <exclusion>
+		            <groupId>org.apache.santuario</groupId>
+		            <artifactId>xmlsec</artifactId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+		
+		<dependency>
+			<groupId>iaik.pkcs.pkcs11.wrapper</groupId>
+			<artifactId>iaikPkcs11Wrapper</artifactId>
+		    <version>${iaik.version}</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>net.java.dev.jna</groupId>
+			<artifactId>jna</artifactId>
+			<version>${jna.version}</version>
+		</dependency>
+		
+		<!-- TEST -->
+		<dependency>
+		    <groupId>junit</groupId>
+		    <artifactId>junit</artifactId>
+		    <version>${junit.version}</version>
+		    <scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${maven.compiler.plugin.version}</version>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+						<compilerArgs>
+							<arg>-Xlint:unchecked</arg>
+						</compilerArgs>
+						<!-- tell compiler to use endorsed dir -->
+						<!-- <compilerArguments> <endorseddirs>${endorsed.dir}</endorseddirs> 
+							</compilerArguments> -->
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+		<plugins>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>${maven.jar.plugin.version}</version>
+			</plugin>
+			
+			<!-- Inclusion des sources dans le JAR généré -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>${maven.source.plugin.version}</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			
+			<!-- Inclusion de la javadoc dans le JAR généré -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>${maven.javadoc.plugin.version}</version>
+				<configuration>
+					<author>GIE SESAM-VITALE</author>
+					<header><![CDATA[<b>GIE SESAM VITALE</b><br><font size=-1>ClientTLSi-Assertion v3.0<br>Pour g&eacute;n&eacute;ration des assertions PS, Structure et Vitale</font>]]></header>
+					<footer><![CDATA[<b>GIE SESAM VITALE</b><br><font size=-1>ClientTLSi-Assertion v3.0<br>Pour g&eacute;n&eacute;ration des assertions PS, Structure et Vitale</font>]]></footer>
+					<bottom>Copyright &#169; 2023 GIE SESAM-VITALE. All Rights Reserved.</bottom>
+				</configuration>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

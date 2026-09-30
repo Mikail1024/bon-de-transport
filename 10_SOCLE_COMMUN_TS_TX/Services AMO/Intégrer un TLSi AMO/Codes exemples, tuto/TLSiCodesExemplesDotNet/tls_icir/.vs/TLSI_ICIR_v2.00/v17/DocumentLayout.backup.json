@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7E8A7D-DFD3-4C00-A161-C74486D6CA0B}|TLSINSi\\TLSINSi.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\tlsinsi\\patientins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7E8A7D-DFD3-4C00-A161-C74486D6CA0B}|TLSINSi\\TLSINSi.csproj|solutionrelative:tlsinsi\\patientins.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|s:\\tlsi_codeexemple\\dotnet\\ok\\livraison\\tls_icir\\assertionlibrary\\vitale\\unsafemicamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\vitale\\unsafemicamethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\psc\\accestokenamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\psc\\accestokenamoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\assertionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\assertionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\assertionmessageinspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\assertionmessageinspector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7E8A7D-DFD3-4C00-A161-C74486D6CA0B}|TLSINSi\\TLSINSi.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\tlsinsi\\certificat\\certificatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7E8A7D-DFD3-4C00-A161-C74486D6CA0B}|TLSINSi\\TLSINSi.csproj|solutionrelative:tlsinsi\\certificat\\certificatehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A7E8A7D-DFD3-4C00-A161-C74486D6CA0B}|TLSINSi\\TLSINSi.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\tlsinsi\\certificat\\pkcs12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A7E8A7D-DFD3-4C00-A161-C74486D6CA0B}|TLSINSi\\TLSINSi.csproj|solutionrelative:tlsinsi\\certificat\\pkcs12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\vitale\\mica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\vitale\\mica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\vitale\\vitalesignatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\vitale\\vitalesignatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\vitale\\samlvitaleassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\vitale\\samlvitaleassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\pkcs11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\pkcs11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\pssignatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\pssignatureprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\assertionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\assertionexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\tlsm\\pkcs12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\tlsm\\pkcs12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\structure\\myxmlwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\structure\\myxmlwriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\structure\\rsapkcs11sha256signaturedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\structure\\rsapkcs11sha256signaturedescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\structure\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\structure\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\saml\\samlattributestatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\saml\\samlattributestatement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\saml\\samlattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\saml\\samlattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\psc\\samlpscassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\psc\\samlpscassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\samlpsassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\samlpsassertion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\signing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\signing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\session.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\pkcs11cryptoki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\pkcs11cryptoki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\object.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\nativemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\nativemethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\mechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\mechanism.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\cryptokiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\cryptokiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\cryptoki\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\cryptoki\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\assertionlibrary\\cps\\saisiecodeporteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C590F98A-365C-4FCF-BB82-CCB62268E844}|AssertionLibrary\\TLSi_AssertionLibrary.csproj|solutionrelative:assertionlibrary\\cps\\saisiecodeporteur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Pkcs12.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\tlsm\\Pkcs12.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\tlsm\\Pkcs12.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\tlsm\\Pkcs12.cs",
+              "RelativeToolTip": "AssertionLibrary\\tlsm\\Pkcs12.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Mica.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\Mica.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\Vitale\\Mica.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\Mica.cs",
+              "RelativeToolTip": "AssertionLibrary\\Vitale\\Mica.cs",
+              "ViewState": "AQIAAOAAAAAAAAAAAAAAAPMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pkcs12.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\TLSINSi\\certificat\\Pkcs12.cs",
+              "RelativeDocumentMoniker": "TLSINSi\\certificat\\Pkcs12.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\TLSINSi\\certificat\\Pkcs12.cs",
+              "RelativeToolTip": "TLSINSi\\certificat\\Pkcs12.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccesTokenAMOService.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\psc\\AccesTokenAMOService.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\psc\\AccesTokenAMOService.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\psc\\AccesTokenAMOService.cs",
+              "RelativeToolTip": "AssertionLibrary\\psc\\AccesTokenAMOService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwGwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssertionMessageInspector.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\AssertionMessageInspector.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\AssertionMessageInspector.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\AssertionMessageInspector.cs",
+              "RelativeToolTip": "AssertionLibrary\\AssertionMessageInspector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssertionFactory.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\AssertionFactory.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\AssertionFactory.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\AssertionFactory.cs",
+              "RelativeToolTip": "AssertionLibrary\\AssertionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnsafeMicaMethods.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\UnsafeMicaMethods.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\Vitale\\UnsafeMicaMethods.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\UnsafeMicaMethods.cs",
+              "RelativeToolTip": "AssertionLibrary\\Vitale\\UnsafeMicaMethods.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAiwAEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Pkcs11.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\Pkcs11.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\Pkcs11.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\Pkcs11.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\Pkcs11.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwv3gAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientINS.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\TLSINSi\\PatientINS.cs",
+              "RelativeDocumentMoniker": "TLSINSi\\PatientINS.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\TLSINSi\\PatientINS.cs",
+              "RelativeToolTip": "TLSINSi\\PatientINS.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB8CAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SamlVitaleAssertion.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\SamlVitaleAssertion.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\Vitale\\SamlVitaleAssertion.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\SamlVitaleAssertion.cs",
+              "RelativeToolTip": "AssertionLibrary\\Vitale\\SamlVitaleAssertion.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CertificateHelper.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\TLSINSi\\certificat\\CertificateHelper.cs",
+              "RelativeDocumentMoniker": "TLSINSi\\certificat\\CertificateHelper.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\TLSINSi\\certificat\\CertificateHelper.cs",
+              "RelativeToolTip": "TLSINSi\\certificat\\CertificateHelper.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwC0AAACHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VitaleSignatureProvider.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\VitaleSignatureProvider.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\Vitale\\VitaleSignatureProvider.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Vitale\\VitaleSignatureProvider.cs",
+              "RelativeToolTip": "AssertionLibrary\\Vitale\\VitaleSignatureProvider.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PsSignatureProvider.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\PsSignatureProvider.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\PsSignatureProvider.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\PsSignatureProvider.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\PsSignatureProvider.cs",
+              "ViewState": "AQIAACQBAAAAAAAAAABRwHkBAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssertionException.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\AssertionException.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\AssertionException.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\AssertionException.cs",
+              "RelativeToolTip": "AssertionLibrary\\AssertionException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyXmlWriter.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\structure\\MyXmlWriter.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\structure\\MyXmlWriter.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\structure\\MyXmlWriter.cs",
+              "RelativeToolTip": "AssertionLibrary\\structure\\MyXmlWriter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RSAPKCS11SHA256SignatureDescription.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\structure\\RSAPKCS11SHA256SignatureDescription.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\structure\\RSAPKCS11SHA256SignatureDescription.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\structure\\RSAPKCS11SHA256SignatureDescription.cs",
+              "RelativeToolTip": "AssertionLibrary\\structure\\RSAPKCS11SHA256SignatureDescription.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "INIFile.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\structure\\INIFile.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\structure\\INIFile.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\structure\\INIFile.cs",
+              "RelativeToolTip": "AssertionLibrary\\structure\\INIFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SamlAttributeStatement.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\saml\\SamlAttributeStatement.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\saml\\SamlAttributeStatement.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\saml\\SamlAttributeStatement.cs",
+              "RelativeToolTip": "AssertionLibrary\\saml\\SamlAttributeStatement.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABRwAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SamlAttribute.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\saml\\SamlAttribute.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\saml\\SamlAttribute.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\saml\\SamlAttribute.cs",
+              "RelativeToolTip": "AssertionLibrary\\saml\\SamlAttribute.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABRwAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SamlPscAssertion.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\psc\\SamlPscAssertion.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\psc\\SamlPscAssertion.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\psc\\SamlPscAssertion.cs",
+              "RelativeToolTip": "AssertionLibrary\\psc\\SamlPscAssertion.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABRwAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SamlPsAssertion.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\SamlPsAssertion.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\SamlPsAssertion.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\SamlPsAssertion.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\SamlPsAssertion.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAABRwAoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Slot.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Slot.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\Slot.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Slot.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\Slot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Signing.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Signing.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\Signing.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Signing.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\Signing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Session.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Session.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\Session.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Session.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\Session.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAABRwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PKCS11cryptoki.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\PKCS11cryptoki.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\PKCS11cryptoki.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\PKCS11cryptoki.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\PKCS11cryptoki.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAABRwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Object.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Object.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\Object.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Object.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\Object.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAABRwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NativeMethods.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\NativeMethods.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\NativeMethods.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\NativeMethods.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\NativeMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Mechanism.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Mechanism.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\Mechanism.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Mechanism.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\Mechanism.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CryptokiException.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\CryptokiException.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\CryptokiException.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\CryptokiException.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\CryptokiException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Certificate.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Certificate.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\cryptoki\\Certificate.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\cryptoki\\Certificate.cs",
+              "RelativeToolTip": "AssertionLibrary\\cps\\cryptoki\\Certificate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssertionLibrary\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAIBJwAsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:09:35.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SaisieCodePorteur.cs [Design]",
+              "DocumentMoniker": "S:\\TLSi_CodeExemple\\DotNet\\ok\\Livraison\\tls_icir\\AssertionLibrary\\cps\\SaisieCodePorteur.cs",
+              "RelativeDocumentMoniker": "AssertionLibrary\\cps\\SaisieCodePorteur.cs",
+              "ToolTip": "S:\\TLSi_CodeExemple\\DotNet\\tls_icir\\AssertionLibrary\\cps\\SaisieCodePorteur.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\tls_icir\\AssertionLibrary\\cps\\SaisieCodePorteur.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-12T13:09:35.376Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

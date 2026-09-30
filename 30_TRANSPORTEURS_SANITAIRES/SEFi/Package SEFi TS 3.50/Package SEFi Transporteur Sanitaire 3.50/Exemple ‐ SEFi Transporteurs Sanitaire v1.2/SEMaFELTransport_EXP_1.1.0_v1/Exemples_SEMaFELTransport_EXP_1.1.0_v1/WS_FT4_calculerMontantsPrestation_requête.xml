@@ -1,0 +1,71 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:add="http://www.w3.org/2005/08/addressing" xmlns:urn="urn:siram:bam:ctxbam" xmlns:urn1="urn:siram:lps:ctxlps" xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:urn2="urn:ir:se_tarifprestationtransp" xmlns:urn3="urn:siram:pn:facturation">
+   <soap:Header>
+      <add:MessageID>cdb6fe26-234a-4ac1-b308-bbdc30108f8b</add:MessageID>
+      <add:Action>urn:semafeltransport:1.0.0:calculerMontantsPrestation</add:Action>
+      <urn:ContexteBAM Version="01_02">
+         <urn:Id>e9092257-459f-4387-a128-81a18d3cdd87</urn:Id>
+         <urn:Temps>2023-03-14T12:55:36.391Z</urn:Temps>
+         <urn:Emetteur>500000000078030/CDET0001</urn:Emetteur>
+         <urn:COUVERTURE>
+            <urn:GrandRegime>01</urn:GrandRegime>
+            <urn:Organisme>261</urn:Organisme>
+            <urn:CodeCentre>9880</urn:CodeCentre>
+         </urn:COUVERTURE>
+      </urn:ContexteBAM>
+      <urn1:ContexteLPS Version="01_00">
+         <urn1:Id>28bd0078-0ecf-4776-953a-09af13e10012</urn1:Id>
+         <urn1:Temps>2023-03-14T12:55:36.391Z</urn1:Temps>
+         <urn1:Emetteur>500000000078030/CDET0001</urn1:Emetteur>
+         <urn1:LPS>
+            <urn1:IDAM R="4">TESTSGIE0000</urn1:IDAM>
+            <urn1:Version>1.00.00</urn1:Version>
+            <urn1:Instance>1a5b28f3-29c8-40ac-ad27-858ab883e77f</urn1:Instance>
+            <urn1:Nom>GIE</urn1:Nom>
+         </urn1:LPS>
+      </urn1:ContexteLPS>
+      <oas:Security>
+         <saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" ID="_0059e534-2e9b-4820-a109-a534a88ed859" IssueInstant="2024-03-14T15:23:19.745Z" Version="2.0"><saml2:Issuer Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName">C=FR,2.5.4.8=Paris (75),O=ETB TRANS SIRENE0603,OU=300000001806033,2.5.4.12=Personnel santé ou social,GN=LOUIS+CN=500000001806033/CPET00001+SN=EMPLOYE SIRENE0000006030002</saml2:Issuer><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI="#_0059e534-2e9b-4820-a109-a534a88ed859"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>E+M4LuRnwXMvVzQPWevu5cyKZxbdCXwRHBxtoAvBFSg=</DigestValue></Reference></SignedInfo><SignatureValue>tjkl25fB4swI5hDmfRSIWeLgawiICHuwYBeevUqkzYRQfbqM0+HgjFZXSz7vbvJOypaC4E+miGae&#13; HrQIPVUZBE5MHK0UgDefI0TlNfM82Vz6jZfiDaduaIbFigR0o9CLikr+yBKriTgQgEQoVySRshSU&#13; v57rX3Nqr/v2+K+XYU5Fc90VEfeM31TjNgZ+JpRqFkVy/gktkJgBWH8mW9MyP7ggOnKgr7dmamU0&#13; Ela1N1sKwH4eT+qs7FSbQmJxF7C2Sbl6nwFSx5w+0eI1ZOGuMJKnFWg4kJcWtXsILU1r5xqGVslM&#13; 2Yqy63g+1qM4nQN+JvDkY0EqjTH+aFd2UdS8xA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIII+TCCBuGgAwIBAgIQa8KHS5M0vtHzf9MkDtZxAzANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UE&#13; BhMCRlIxEzARBgNVBAoMCkFTSVAtU0FOVEUxFzAVBgNVBAsMDjAwMDIgMTg3NTEyNzUxMRcwFQYD&#13; VQQLDA5JR0MtU0FOVEUgVEVTVDEtMCsGA1UEAwwkVEVTVCBBQyBJR0MtU0FOVEUgU1RBTkRBUkQg&#13; UEVSU09OTkVTMB4XDTIxMTAwMTEyMTE0MFoXDTI0MTAwMTEyMTE0MFowgdYxCzAJBgNVBAYTAkZS&#13; MRMwEQYDVQQIDApQYXJpcyAoNzUpMR0wGwYDVQQKDBRFVEIgVFJBTlMgU0lSRU5FMDYwMzEYMBYG&#13; A1UECwwPMzAwMDAwMDAxODA2MDMzMSMwIQYDVQQMDBpQZXJzb25uZWwgc2FudMOpIG91IHNvY2lh&#13; bDFUMAwGA1UEKgwFTE9VSVMwIAYDVQQDDBk1MDAwMDAwMDE4MDYwMzMvQ1BFVDAwMDAxMCIGA1UE&#13; BAwbRU1QTE9ZRSBTSVJFTkUwMDAwMDA2MDMwMDAyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB&#13; CgKCAQEA71z8W2cBVNKlfmIDVN/iRlgu2DNX7ZRcbWz78cf/su7SOX+ij9c4vAauy4m6l/ccTn8S&#13; NquR0aaCy5FwXAh0JdHSN2OpX/Wl8ValqRtWPVoTBsAyd4JAai1cxYutZDc6rhKquo1FlRRvVMl+&#13; HCEnBjwgn8ySMYYriE9i8Lw3CEdGLL3+AZht42EI9cnrqMOcyCZaHykuYz2LDws7YrwABi/8oBQJ&#13; jHh5HP8o99pWgJCO6wQZ2eFJl7TPQW7DaaI40Jvy3pUk7HuqDiyRVqnJhOqk8D7gFp7m3kbGITRd&#13; omdJ0N78o6VCmzO4HBgyXp3tllnDDE4GmefN0d6HHj+kAQIDAQABo4IEEjCCBA4wCQYDVR0TBAIw&#13; ADAdBgNVHQ4EFgQU/xUx9gXHD2M1Ec7RLaGXbZGVF2AwHwYDVR0jBBgwFoAU+KGFiQPaUv/TNr4D&#13; 2KjZYQk2PZIwDgYDVR0PAQH/BAQDAgZAMFMGA1UdIARMMEowSAYNKoF6AYFVAQcCAQEBATA3MDUG&#13; CCsGAQUFBwIBFilodHRwOi8vaWdjLXNhbnRlLmVzYW50ZS5nb3V2LmZyL1BDJTIwVEVTVDATBgNV&#13; HSUEDDAKBggrBgEFBQcDBDArBgNVHRAEJDAigA8yMDIxMTAwMTEyMTE0MFqBDzIwMjQxMDAxMTIx&#13; MTQwWjCCAUgGA1UdHwSCAT8wggE7MDygOqA4hjZodHRwOi8vaWdjLXNhbnRlLmVzYW50ZS5nb3V2&#13; LmZyL0NSTC9BQ0ktU1QtUFAtVEVTVC5jcmwwgfqggfeggfSGgfFsZGFwOi8vYW5udWFpcmUtaWdj&#13; LmVzYW50ZS5nb3V2LmZyL2NuPVRFU1QlMjBBQyUyMElHQy1TQU5URSUyMFNUQU5EQVJEJTIwUEVS&#13; U09OTkVTLG91PVRFU1QlMjBBQyUyMFJBQ0lORSUyMElHQy1TQU5URSUyMFNUQU5EQVJELG91PUlH&#13; Qy1TQU5URSUyMFRFU1Qsb3U9MDAwMiUyMDE4NzUxMjc1MSxvPUFTSVAtU0FOVEUsYz1GUj9jZXJ0&#13; aWZpY2F0ZXJldm9jYXRpb25saXN0O2JpbmFyeT9iYXNlP29iamVjdENsYXNzPXBraUNBMIIBAgYD&#13; VR0uBIH6MIH3MIH0oIHxoIHuhoHrbGRhcDovL2FubnVhaXJlLWlnYy5lc2FudGUuZ291di5mci9j&#13; bj1URVNUJTIwQUMlMjBJR0MtU0FOVEUlMjBTVEFOREFSRCUyMFBFUlNPTk5FUyxvdT1URVNUJTIw&#13; QUMlMjBSQUNJTkUlMjBJR0MtU0FOVEUlMjBTVEFOREFSRCxvdT1JR0MtU0FOVEUlMjBURVNULG91&#13; PTAwMDIlMjAxODc1MTI3NTEsbz1BU0lQLVNBTlRFLGM9RlI/ZGVsdGFyZXZvY2F0aW9ubGlzdDti&#13; aW5hcnk/YmFzZT9vYmplY3RDbGFzcz1wa2lDQTCBgAYIKwYBBQUHAQEEdDByMCYGCCsGAQUFBzAB&#13; hhpodHRwOi8vb2NzcC5lc2FudGUuZ291di5mcjBIBggrBgEFBQcwAoY8aHR0cDovL2lnYy1zYW50&#13; ZS5lc2FudGUuZ291di5mci9BQyUyMFRFU1QvQUNJLVNULVBQLVRFU1QuY2VyMA8GCCqBegFHAQIF&#13; BAMEAYAwDwYIKoF6AUcBAgIEAwIBAjAjBggqgXoBRwECAwQXExU4MDI1MDAwMDAxLzI5MDAyMTc0&#13; NzEwDQYJKoZIhvcNAQELBQADggIBALSqHrfkd6Pk7Ys8bXwfTFEqkSVcHrvcUmQiXVwSlNRtwmtu&#13; j6itove67CdUVh0+kKAuntFXqtuRNiUst5ugT1sooNUpnItD8ho5MiDxUQxqNiWrmiuMJlNGwTA0&#13; YDXDlBVN3WGzWWp4FIft6Up0de5+oXNi5Okdj9dWLZHpXmZS2j9+XOhMQp8gQ/oZtNR1oi17QE2N&#13; 6j5dgfqY8DrioBb6Nzner8vQXFI9pzgf/HaLLdvbyCsdhGHzoVMLBjm8q8d6K/s5iyNqR8WC3G+h&#13; TDCEHM3mdHm1uJZK7j689IQmUjSW7JvxJdxI+tr1FbOF7XZxTmnMvXd+KBpgaSY2kViDCcnR/zad&#13; 9yjV03DP3OB9mGgEM/uDNoNNPr6EBsra3LuiLyVSAxiiQUZpFIRch7ZoOJHubjij2D8cZuQPnVHr&#13; +VNi+RXOlLgeM3FxjOBT4RfnBJpSpd1WDF+Y/+0E4AZu4xfDRpura6UX/YB06FvoOd3EMJFY/pDx&#13; dIlkMGkZfgDic60tj3on23onI5tfFaO+/BAfQnmmU3dosLcSAQJf0JaJo7pAK0PI2cwcV9Q9KIIk&#13; k7eRm3rmsAf9fVaGLuu6wASKrtMrq7RqJth4HYyHCG1oZF/MiNXwH+6O3ZDN0PkGPlP3RqTUuy6u&#13; RZSlTsFyM+b9hCT+izY+9RsDgaJr</X509Certificate></X509Data></KeyInfo></Signature><saml2:Subject><saml2:NameID NameQualifier="CDE-CPE">500000001806033/CPET00001</saml2:NameID></saml2:Subject><saml2:AttributeStatement><saml2:Attribute Name="identifiantFacturation"><saml2:AttributeValue>992519116</saml2:AttributeValue></saml2:Attribute></saml2:AttributeStatement></saml2:Assertion>
+      </oas:Security>
+   </soap:Header>
+   <soap:Body>
+      <urn2:SE_TARIFPRESTATIONTRANSP>
+         <urn2:SERVICE>
+            <urn3:Prs>VSL</urn3:Prs>
+            <urn3:RMB>
+               <urn3:Part>
+                  <urn3:Tux>065</urn3:Tux>
+               </urn3:Part>
+               <urn3:CONTRAT>
+                  <urn3:Contrat>BASE</urn3:Contrat>
+                  <urn3:COUVERTURE>
+                     <urn3:GrandRegime>01</urn3:GrandRegime>
+                     <urn3:Organisme>261</urn3:Organisme>
+                     <urn3:EntiteGestion>9880</urn3:EntiteGestion>
+                     <urn3:Nature>AMO</urn3:Nature>
+                  </urn3:COUVERTURE>
+               </urn3:CONTRAT>
+            </urn3:RMB>
+            <urn3:TRSP>
+               <urn3:EFT>
+                  <urn3:TypFac>FORF</urn3:TypFac>
+                  <urn3:EltFac>1</urn3:EltFac>
+               </urn3:EFT>
+               <urn3:TRJ>
+                  <urn3:DEPART>
+                     <urn3:Date>2024-01-24</urn3:Date>
+                     <urn3:Heure>08:00:00</urn3:Heure>
+                     <urn3:CodeCommune>20600</urn3:CodeCommune>
+                  </urn3:DEPART>
+                  <urn3:ARRIVEE>
+                     <urn3:Date>2024-01-24</urn3:Date>
+                     <urn3:Heure>08:01:00</urn3:Heure>
+                     <urn3:CodeCommune>20620</urn3:CodeCommune>
+                  </urn3:ARRIVEE>
+                  <urn3:DistanceParcourue>30</urn3:DistanceParcourue>
+                  <urn3:NbPersonnesTransportees>1</urn3:NbPersonnesTransportees>
+               </urn3:TRJ>
+            </urn3:TRSP>
+         </urn2:SERVICE>
+      </urn2:SE_TARIFPRESTATIONTRANSP>
+   </soap:Body>
+</soap:Envelope>

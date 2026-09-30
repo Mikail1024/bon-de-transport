@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+		<ns2:SE_MODALITEPECB2TRANSP xmlns:ns4="urn:ir:se_acqmodalitepecb2transp" xmlns:ns3="urn:siram:prescription" xmlns:ns2="urn:ir:se_modalitepecb2transp" xmlns="urn:siram:pn:facturation">
+			<FACTURE>
+				<BENEFICIAIRE>
+					<RangBen>0</RangBen>
+				</BENEFICIAIRE>
+				<COUVERTURE>
+					<GrandRegime>01</GrandRegime>
+					<Organisme>261</Organisme>
+					<EntiteGestion>9880</EntiteGestion>
+					<CONTRATS Id="1">
+						<NatureAssurance>10</NatureAssurance>
+						<CadreReglement>NON</CadreReglement>
+					</CONTRATS>
+					<CONTEXTE/>
+				</COUVERTURE>
+				<CADRE>
+					<EXECUTION>
+						<SERVICE>
+							<RMB>
+								<Exo>4</Exo>
+								<Part>
+									<Tux>100</Tux>
+								</Part>
+								<CONTRAT Id="1"/>
+							</RMB>
+						</SERVICE>
+					</EXECUTION>
+				</CADRE>
+			</FACTURE>
+		</ns2:SE_MODALITEPECB2TRANSP>
+	</S:Body>
+</soap:Envelope>

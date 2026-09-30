@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resultat xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.cnamts.fr/INSiLot2/REPUnitaire">
+  <CR xmlns="http://www.cnamts.fr/INSiResultat">
+    <CodeCR>00</CodeCR>
+    <LibelleCR>OK</LibelleCR>
+  </CR>
+  <INDIVIDU xmlns="http://www.cnamts.fr/INSiResultat">
+    <INSACTIF>
+      <IdIndividu>
+        <NumIdentifiant>1810163220751</NumIdentifiant>
+        <Cle>40</Cle>
+      </IdIndividu>
+      <OID>1.2.250.1.213.1.4.8</OID>
+    </INSACTIF>
+    <TIQ>
+      <NomNaissance>ADRDEUX</NomNaissance>
+      <ListePrenom>LAURENT</ListePrenom>
+      <Sexe>M</Sexe>
+      <DateNaissance>1981-01-01</DateNaissance>
+      <LieuNaissance>63220</LieuNaissance>
+    </TIQ>
+  </INDIVIDU>
+</Resultat>

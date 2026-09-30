@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sesam-vitale.fr/apcv/auth/1/0" targetNamespace="http://www.sesam-vitale.fr/apcv/auth/1/0" elementFormDefault="qualified" version="1.0.0">
+  <xsd:annotation>
+    <xsd:documentation>Ce schema definit les elements des services AUTH</xsd:documentation>
+  </xsd:annotation>
+  <xsd:element name="AuthentifierUtilisateurProximiteReq" type="AuthentifierUtilisateurProximiteReqType"/>
+  <xsd:element name="AuthentifierUtilisateurProximiteRep" type="AuthentifierUtilisateurProximiteRepType"/>
+  <xsd:element name="RestituerContexteApCVReq" type="RestituerContexteApCVReqType"/>
+  <xsd:element name="RestituerContexteApCVRep" type="RestituerContexteApCVRepType"/>
+  <xsd:element name="DetruireContexteApCVReq" type="DetruireContexteApCVReqType"/>
+  <xsd:element name="DetruireContexteApCVRep" type="DetruireContexteApCVRepType"/>
+  <!-- +++++++++++++++++ AuthentifierUtilisateurProximiteReqType +++++++++++++++++-->
+  <xsd:complexType name="AuthentifierUtilisateurProximiteReqType">
+    <xsd:annotation>
+      <xsd:documentation>Requete authentifier l utilisateur de l APCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="ProfessionnelSante" type="ProfessionnelSanteType"/>
+      <xsd:element name="Donnees" type="xsd:string"/>
+    </xsd:sequence>
+    <xsd:attribute name="version" type="xsd:string" use="required" fixed="1.0"/>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ AuthentifierUtilisateurProximiteRepType ++++++++++++++++++-->
+  <xsd:complexType name="AuthentifierUtilisateurProximiteRepType">
+    <xsd:annotation>
+      <xsd:documentation>Reponse authentifier l utilisateur de l APCV.</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="CodeStatut" type="CodeStatutAuthentifierUtilisateurApCVType"/>
+      <xsd:element name="ContexteApCV" type="ContexteApCVRepType"/>
+      <xsd:element name="ProfilApCV" type="ProfilApCVType"/>
+    </xsd:sequence>
+    <xsd:attribute name="version" type="xsd:string" use="required" fixed="1.0"/>
+    <xsd:attribute name="horodatage" type="xsd:dateTime" use="required"/>
+    <xsd:attribute name="ID" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+  <xsd:simpleType name="CodeStatutAuthentifierUtilisateurApCVType">
+    <xsd:annotation>
+      <xsd:documentation>
+          0 : OK.
+			</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:enumeration value="0"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- +++++++++++++++++ RestituerContexteApCVReqType +++++++++++++++++-->
+  <xsd:complexType name="RestituerContexteApCVReqType">
+    <xsd:annotation>
+      <xsd:documentation>Requète restituer le contexte ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:attribute name="version" type="xsd:string" use="required" fixed="1.0"/>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ RestituerContexteApCVRepType ++++++++++++++++++-->
+  <xsd:complexType name="RestituerContexteApCVRepType">
+    <xsd:annotation>
+      <xsd:documentation>Réponse restituer le contexte ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="CodeStatut" type="CodeStatutRestituerContexteApCVType"/>
+      <xsd:element name="ContexteApCV" type="ContexteApCVRepType" minOccurs="0"/>
+      <xsd:element name="ProfilApCV" type="ProfilApCVType" minOccurs="0"/>
+    </xsd:sequence>
+    <xsd:attribute name="version" type="xsd:string" use="required" fixed="1.0"/>
+    <xsd:attribute name="horodatage" type="xsd:dateTime" use="required"/>
+    <xsd:attribute name="ID" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+  <xsd:simpleType name="CodeStatutRestituerContexteApCVType">
+    <xsd:annotation>
+      <xsd:documentation>
+                0 : OK.
+                1 : Contexte non valide.
+			</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:enumeration value="0"/>
+      <xsd:enumeration value="1"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- +++++++++++++++++ DetruireContexteApCVReqType +++++++++++++++++-->
+  <xsd:complexType name="DetruireContexteApCVReqType">
+    <xsd:annotation>
+      <xsd:documentation>Requète detruire le contexte ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="ContexteApCV" type="ContexteApCVReqType"/>
+    </xsd:sequence>
+    <xsd:attribute name="version" type="xsd:string" use="required" fixed="1.0"/>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ DetruireContexteApCVRepType ++++++++++++++++++-->
+  <xsd:complexType name="DetruireContexteApCVRepType">
+    <xsd:annotation>
+      <xsd:documentation>Réponse detruire le contexte ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="CodeStatut" type="CodeStatutDetruireContexteApCVType"/>
+    </xsd:sequence>
+    <xsd:attribute name="version" type="xsd:string" use="required" fixed="1.0"/>
+    <xsd:attribute name="horodatage" type="xsd:dateTime" use="required"/>
+    <xsd:attribute name="ID" type="xsd:ID" use="required"/>
+  </xsd:complexType>
+  <xsd:simpleType name="CodeStatutDetruireContexteApCVType">
+    <xsd:annotation>
+      <xsd:documentation>
+                0 : OK.
+                1 : Contexte non valide
+			</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:enumeration value="0"/>
+      <xsd:enumeration value="1"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- +++++++++++++++++ ContexteApCVReqType ++++++++++++++++++-->
+  <xsd:complexType name="ContexteApCVReqType">
+    <xsd:annotation>
+      <xsd:documentation>Contexte ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="Identifiant" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ ContexteApCVRepType ++++++++++++++++++-->
+  <xsd:complexType name="ContexteApCVRepType">
+    <xsd:annotation>
+      <xsd:documentation>Contexte ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="DateFinValidite" type="xsd:dateTime"/>
+      <xsd:element name="Identifiant" type="xsd:string"/>
+      <xsd:element name="TokenApCV" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ ProfessionnelSanteType ++++++++++++++++++-->
+  <xsd:complexType name="ProfessionnelSanteType">
+    <xsd:annotation>
+      <xsd:documentation>Professionel de santé</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="IdentifiantFacturation" type="IdentifiantFacturationType" minOccurs="0"/>
+      <xsd:element name="CodeSpecialiteAMO" type="CodeSpecialitePSType" minOccurs="0"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="IdentifiantFacturationType">
+    <xsd:annotation>
+      <xsd:documentation>Identifiant de facturation PS</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{9}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="CodeSpecialitePSType">
+    <xsd:annotation>
+      <xsd:documentation>Code spécialite PS</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{2,3}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- +++++++++++++++++ ProfilApCVType ++++++++++++++++++-->
+  <xsd:complexType name="ProfilApCVType">
+    <xsd:sequence>
+      <xsd:element name="Identification" type="IdentificationProfilApCVType"/>
+      <xsd:element name="Utilisateur" type="UtilisateurType"/>
+      <xsd:element name="Individu" type="IndividuType" minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ IdentificationProfilApCVType ++++++++++++++++++-->
+  <xsd:complexType name="IdentificationProfilApCVType">
+    <xsd:annotation>
+      <xsd:documentation>Identification Profil ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:attribute name="numSerie" type="NumSerieApCV" use="required"/>
+    <xsd:attribute name="type" type="TypeCarteType" use="required"/>
+  </xsd:complexType>
+  <xsd:simpleType name="NumSerieApCV">
+    <xsd:annotation>
+      <xsd:documentation>Numero de serie d'une ApCV</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{12}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="TypeCarteType">
+    <xsd:annotation>
+      <xsd:documentation>Valeur du type de carte : R pour reelle, T pour Test, D pour demonstration</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="R"/>
+      <xsd:enumeration value="T"/>
+      <xsd:enumeration value="D"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!--+++++++++++++++++++++ UtilisateurType +++++++++++++++++++++++++++-->
+  <xsd:complexType name="UtilisateurType">
+    <xsd:sequence>
+      <xsd:element name="IdentitePatient" type="IdentitePatientType"/>
+      <xsd:element name="CarteVitaleIndividu" type="CarteVitaleIndividuType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!--+++++++++++++++++++++ IndividuType +++++++++++++++++++++++++++-->
+  <xsd:complexType name="IndividuType">
+    <xsd:sequence>
+      <xsd:element name="IdentitePatient" type="IdentitePatientType" minOccurs="0"/>
+      <xsd:element name="CarteVitaleIndividu" type="CarteVitaleIndividuType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!--+++++++++++++++++++++ IdentitePatientType +++++++++++++++++++++++++++-->
+  <xsd:complexType name="IdentitePatientType">
+    <xsd:sequence>
+      <xsd:element name="INSACTIF" type="IdentifiantNationalSante" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="TIQ" type="TraitsDIdentite" minOccurs="1" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="IdentifiantNationalSante">
+    <xsd:sequence>
+      <xsd:element name="IdIndividu" type="Matricule" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="OID" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="DateDeb" type="xsd:date" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="DateFin" type="xsd:date" minOccurs="0" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="Matricule" abstract="false" mixed="false">
+    <xsd:sequence>
+      <xsd:element name="NumIdentifiant" type="NIR" minOccurs="1" maxOccurs="1"/>
+      <xsd:element name="Cle" type="CLE" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="TypeMatricule" type="xsd:string" minOccurs="0" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="TraitsDIdentite" abstract="false" mixed="false">
+    <xsd:sequence>
+      <xsd:element name="NomNaissance" type="NomNaissanceType" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="Prenom" type="PrenomsType" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="ListePrenom" type="PrenomsType" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="Sexe" type="CodSexe" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="DateNaissance" type="DateLunaire" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="LieuNaissance" type="COG" minOccurs="0" maxOccurs="1"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="CLE">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{2}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="COG">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="(([0-8][0-9AB])|(9[0-8AB]))[0-9]{3}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="NIR">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{6}[A-Za-z0-9]{1}(\d{6})"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="CodSexe">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[A-Z]{1}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="DateLunaire">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{4}-\d{2}-\d{2}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="NomNaissanceType">
+    <xsd:annotation>
+      <xsd:documentation>Nom de naissance</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1"/>
+      <xsd:maxLength value="80"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="PrenomsType">
+    <xsd:annotation>
+      <xsd:documentation>Prenoms</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1"/>
+      <xsd:maxLength value="54"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!-- +++++++++++++++++ CarteVitaleIndividuType ++++++++++++++++++-->
+  <xsd:complexType name="CarteVitaleIndividuType">
+    <xsd:annotation>
+      <xsd:documentation>Carte Vitale Individuelle dématerialisée</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="IdentiteAMO" type="IdentiteAMOType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!-- +++++++++++++++++ IdentiteAMOType ++++++++++++++++++-->
+  <xsd:complexType name="IdentiteAMOType">
+    <xsd:annotation>
+      <xsd:documentation>Identité AMO</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="NomFamille" type="NomFamilleType" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="NomUsage" type="NomUsageType" minOccurs="0" maxOccurs="1"/>
+      <xsd:element name="Prenom" type="PrenomType"/>
+      <xsd:element name="Qualite" type="QualiteType"/>
+      <xsd:element name="DateNaissance" type="DateNaissanceType"/>
+      <xsd:element name="NIRCertifie" type="NIRType"/>
+      <xsd:element name="ContratAMO" type="ContratAMOType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="QualiteType">
+    <xsd:annotation>
+      <xsd:documentation>Qualité du beneficiaire</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="0"/>
+      <xsd:maxInclusive value="9"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="NomUsageType">
+    <xsd:annotation>
+      <xsd:documentation>Nom d'usage</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1"/>
+      <xsd:maxLength value="25"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="NomFamilleType">
+    <xsd:annotation>
+      <xsd:documentation>Nom de famille</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1"/>
+      <xsd:maxLength value="27"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="PrenomType">
+    <xsd:annotation>
+      <xsd:documentation>Prenom du beneficiaire</xsd:documentation>
+    </xsd:annotation>
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="1"/>
+      <xsd:maxLength value="15"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="DateNaissanceType">
+    <xsd:annotation>
+      <xsd:documentation>definition des informations de naissance</xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="dateLunaireType">
+        <xsd:attribute name="rang" type="RangNaissanceType" use="optional"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:simpleType name="dateLunaireType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{4}-\d{2}-\d{2}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="RangNaissanceType">
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="0"/>
+      <xsd:maxInclusive value="9"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!--+++++++++++++++++++++ ContratAMOType +++++++++++++++++++++++++-->
+  <xsd:complexType name="ContratAMOType">
+    <xsd:sequence>
+      <xsd:element name="NIRAssure" type="NIRType"/>
+      <xsd:element name="OrganismeAMO" type="OrganismeAMOType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <!--+++++++++++++++++++++ NIRType +++++++++++++++++++++++++++-->
+  <xsd:complexType name="NIRType">
+    <xsd:annotation>
+      <xsd:documentation>NIR avec sa cle</xsd:documentation>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="valNIRType">
+        <xsd:attribute name="cle" type="cleType" use="required"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:simpleType name="cleType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="[0-9]{2}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="valNIRType">
+    <xsd:restriction base="xsd:string">
+      <xsd:pattern value="\d{6}[A-Za-z0-9]{1}\d{6}"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <!--+++++++++++++++++++++ OrganismeAMOType +++++++++++++++++++++++++++-->
+  <xsd:complexType name="OrganismeAMOType">
+    <xsd:annotation>
+      <xsd:documentation>Organisme AMO</xsd:documentation>
+    </xsd:annotation>
+    <xsd:attribute name="codeRegime" use="required">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:pattern value="[0-9]{2}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+    <xsd:attribute name="codeCaisse" use="required">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:pattern value="[0-9]{3}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+    <xsd:attribute name="codeCentre" use="required">
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:pattern value="[0-9]{4}"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:attribute>
+  </xsd:complexType>
+</xsd:schema>

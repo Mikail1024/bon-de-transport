@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header xmlns:s="http://www.w3.org/2003/05/soap-envelope" />
+  <Body xmlns="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+    <S:Fault xmlns="" xmlns:ns4="http://schemas.xmlsoap.org/soap/envelope/">
+      <S:Code>
+        <S:Value>S:Sender</S:Value>
+        <S:Subcode>
+          <S:Value>S:siram_10</S:Value>
+        </S:Subcode>
+      </S:Code>
+      <S:Reason>
+        <S:Text xml:lang="en">Une erreur technique survenue sur votre poste de travail empêche le traitement de votre demande. Vous pouvez renouveler votre demande. Si le problème persiste contactez l'éditeur du progiciel ou votre responsable informatique.</S:Text>
+      </S:Reason>
+      <S:Detail>
+        <siram:Erreur code="desir_220" messageID="uuid:bda4cf71-022d-41ed-8e9e-52d100ffa7a0" severite="erreur" xmlns:siram="urn:siram">Données d'authentification invalides</siram:Erreur>
+      </S:Detail>
+    </S:Fault>
+  </Body>
+</soap:Envelope>

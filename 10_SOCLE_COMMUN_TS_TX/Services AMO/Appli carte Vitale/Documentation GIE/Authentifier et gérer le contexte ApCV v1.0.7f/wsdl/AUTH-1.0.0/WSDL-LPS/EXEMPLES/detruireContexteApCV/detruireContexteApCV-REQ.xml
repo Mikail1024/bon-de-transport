@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" 
+   xmlns:add="http://www.w3.org/2005/08/addressing"
+   xmlns:urn="urn:siram:lps:ctxlps" 
+   xmlns:ns5="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+   <soap:Header>
+      <urn:ContexteLPS Version="01_00">
+			<urn:Id>_065de12a-b2df-4a6c-a84e-cd4eb9ba2da0</urn:Id>
+			<urn:Temps>2020-03-19T12:00:00Z</urn:Temps>
+			<urn:Emetteur>899900013147</urn:Emetteur>
+			<urn:LPS>
+				<urn:IDAM R="4">NUMEROLPS</urn:IDAM>
+				<urn:Version>01.00</urn:Version>
+				<urn:Instance>abcd1234-a001-b005-c001-111111111111</urn:Instance>
+				<urn:Nom>urn:lps:Monlogiciel:2.40</urn:Nom>
+			</urn:LPS>
+	</urn:ContexteLPS>
+      <ns5:Security xmlns:ns5="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns="urn:amc:med" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="urn:amc:ci" xmlns:ns4="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+	  <saml:Assertion  ID="_2c5636a9-fbdc-4719-8993-aa6e18ac32b9"  IssueInstant="2020-03-19T11:38:53.986Z"  Version="2.0"  xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ><saml:Issuer  Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName" >CN=899900013154, OID.2.5.4.4=AL, OID.2.5.4.42=AL, OU=Pharmacien, O=TEST, C=FR</saml:Issuer><Signature  xmlns="http://www.w3.org/2000/09/xmldsig#" ><SignedInfo ><CanonicalizationMethod  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" ></CanonicalizationMethod><SignatureMethod  Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" ></SignatureMethod><Reference  URI="#_2c5636a9-fbdc-4719-8993-aa6e18ac32b9" ><Transforms ><Transform  Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" ></Transform><Transform  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" ></Transform></Transforms><DigestMethod  Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" ></DigestMethod><DigestValue >JgsDgS6lx5ILDxCAPS7L7joXcQfS7HSPsgCdyyfNUPs=</DigestValue></Reference></SignedInfo><SignatureValue >x0uSKlMY4keeohXvI7UGh0WF7bZ6w4CHagqCUJC3UM2NJyfvdlodmUhCXGX4XU0uhbojzucHsnI3
+yA35DxeQ463d9+qqt5vFPX9L/EnuIoE/XBT1d6hI3dwXgfk7fFeszeWnrIvTIubEdhlv1zIvfCSp
+MFMALxO7SnRykT2hZJf0++m9C4ztcNkU+NqbNoyvID88O0qxELWXq00q0XE53g6MsrvL2/mc1wwJ
+1lvnKcvqVNMGD5W6x/8CD6sJ6KwA3VnVeurJ87cgEmb7hlNPKAgsCy0Cim1FVWxKPwpcu0xRFOZd
+GFo3cMJb9e0oDe1jdPy5Oscogwivyq2w5BcSlA==</SignatureValue><KeyInfo ><X509Data ><X509Certificate >MIIFJTCCBI6gAwIBAgIDTJ8gMA0GCSqGSIb3DQEBBQUAMFcxCzAJBgNVBAYTAkZSMRQwEgYDVQQK
+EwtDTkFNVFMtVEVTVDEaMBgGA1UECxMRVEVTVCBQUk9GRVNTSU9ORUwxFjAUBgNVBAMTDVRFU1Qg
+Q0xBU1NFLTEwHhcNMTUwNzAzMTE1NTI5WhcNMjkwNjI5MTE1NTI5WjBiMQswCQYDVQQGEwJGUjEN
+MAsGA1UEChMEVEVTVDETMBEGA1UECxMKUGhhcm1hY2llbjELMAkGA1UEKhMCQUwxCzAJBgNVBAQT
+AkFMMRUwEwYDVQQDEww4OTk5MDAwMTMxNTQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDfGrUuTr9phuswpK3wLkOb2YNXjduQxynsrlzQyWZ+9ES6dUciGs1P05TRPO/nldHBgoTwC1n+
+rNbUcqhSlmyUEtXbUMFofG5r6nH5JwIBrojePdgDAwSnaVmQhe+LiwqzfzyBpGptbgueeZtJ/kgr
+QXRazFnUEGlaGFciEgLBUWIhVlA2yCwCWhVfHeaZzRKuMaEULc23dV2vELD8OStXR2xa4BAPgU8k
+n6R6pyFMDOwbtLr9OjMc9aUejKW312F4OPOnvWnlnKlbd34tX3GIHcN4yBWP1dxNUXe61Lx4bsWZ
+0vJdiVs2J4JAOm0NNfNkAXRAic3cufuXK60Yt1b9AgMBAAGjggJuMIICajAdBgNVHQ4EFgQUeqvd
+fijwnBGyLnof+Bar3LLx8SwwHwYDVR0jBBgwFoAUa36B9aH5nAkFM+G1E//ber/m2u0wCwYDVR0P
+BAQDAgbAMBMGA1UdJQQMMAoGCCsGAQUFBwMEMBkGA1UdIAQSMBAwDgYMKoF6AUcDBwkBAQEBMAkG
+A1UdEwQCMAAwEQYJYIZIAYb4QgEBBAQDAgUgMCYGCWCGSAGG+EIBDQQZFhdDZXJ0aWZpY2F0IGRl
+IHNpZ25hdHVyZTCBvgYDVR0fBIG2MIGzMDugOaA3hjVodHRwOi8vYW5udWFpcmUuZ2lwLWNwcy5m
+ci9jcmwvdGVzdC9URVNUIENMQVNTRS0xLmNybDB0oHKgcIZubGRhcDovL2FubnVhaXJlLmdpcC1j
+cHMuZnIvY249dGVzdCBjbGFzc2UtMSxvdT10ZXN0IHByb2Zlc3Npb25uZWwsbz10ZXN0LGM9ZnI/
+Y2VydGlmaWNhdGVyZXZvY2F0aW9ubGlzdDtiaW5hcnkweQYDVR0uBHIwcDBuoGygaoZobGRhcDov
+L2FubnVhaXJlLmdpcC1jcHMuZnIvY249dGVzdCBjbGFzc2UtMSxvdT10ZXN0IHByb2Zlc3Npb25u
+ZWwsbz10ZXN0LGM9ZnI/ZGVsdGFyZXZvY2F0aW9ubGlzdDtiaW5hcnkwIwYIKoF6AUcBAgMEFxMV
+ODAyNTAwMDAwMS8yNDAwMjkxOTk1MA8GCCqBegFHAQIFBAMEAYAwDwYIKoF6AUcBAgIEAwIBADAP
+BggqgXoBRwECBwQDAgEVMBEGCCqBegFHBAIGBAUwAwwBRzANBgkqhkiG9w0BAQUFAAOBgQBRWwc6
+2MvMAFFDNKtXyL0A+5qqya1CK3G82xOhFwS/r8nQ5bp6aJYLct8AHCXXRrObhwME0wv/T0tk3sb4
+HnACt9SDJYx8SQz9H+RqaMt7Db9pRb/EkuBjTaYXeT6RiVcX7AbvmeBxO3O7MGsaS5SGdpMitKxq
+PeZoWB3hgrqNpg==</X509Certificate></X509Data></KeyInfo></Signature><saml:Subject ><saml:NameID  NameQualifier="CPS" >899900013154</saml:NameID></saml:Subject><saml:AttributeStatement ><saml:Attribute  Name="identifiantFacturation" ><saml:AttributeValue >991118019</saml:AttributeValue></saml:Attribute></saml:AttributeStatement></saml:Assertion>
+	  </ns5:Security>
+      <add:MessageID>_82164d3a-cf63-4b5d-9d69-a603edc94019</add:MessageID>
+      <add:Action>urn:ApCV_AUTH:1.0.0:detruireContexteApCV</add:Action>
+   </soap:Header>
+   <soap:Body>
+       <DetruireContexteApCVReq version="1.0" xmlns="http://www.sesam-vitale.fr/apcv/auth/1/0">
+         <ContexteApCV>
+            <Identifiant>9cdd4f1d-21fe-42d8-bddc-434360a17d8f</Identifiant>
+         </ContexteApCV>
+      </DetruireContexteApCVReq>
+   </soap:Body>
+</soap:Envelope>

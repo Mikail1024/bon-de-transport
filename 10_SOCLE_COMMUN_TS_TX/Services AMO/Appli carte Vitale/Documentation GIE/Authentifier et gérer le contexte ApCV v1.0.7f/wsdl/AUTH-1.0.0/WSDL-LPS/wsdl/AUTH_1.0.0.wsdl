@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ctxlps="urn:siram:lps:ctxlps" xmlns:tns="http://www.sesam-vitale.fr/apcv/auth/1/0" targetNamespace="http://www.sesam-vitale.fr/apcv/auth/1/0" name="AUTH">
+  <wsdl:types>
+    <xsd:schema>
+      <!-- Header -->
+      <xsd:import namespace="urn:siram:lps:ctxlps" schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd"/>
+      <xsd:import namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" schemaLocation="xsd/oasis-200401/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+      <xsd:import namespace="http://www.w3.org/2005/08/addressing" schemaLocation="xsd/SOAP/ws-addr.xsd"/>
+      <!-- Body -->
+      <xsd:import namespace="http://www.sesam-vitale.fr/apcv/auth/1/0" schemaLocation="xsd/SERVICES/AUTH-1.0.xsd"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="authentifierUtilisateurProximiteRequest">
+    <wsdl:part name="authentifierUtilisateurProximiteReq" element="tns:AuthentifierUtilisateurProximiteReq"/>
+    <wsdl:part name="securityHeaderReq" element="wsse:Security"/>
+    <wsdl:part name="contexteLPSHeaderReq" element="ctxlps:ContexteLPS"/>
+    <wsdl:part name="messageIDReq" element="wsa:MessageID"/>
+  </wsdl:message>
+  <wsdl:message name="authentifierUtilisateurProximiteResponse">
+    <wsdl:part name="authentifierUtilisateurProximiteRep" element="tns:AuthentifierUtilisateurProximiteRep"/>
+    <wsdl:part name="messageIDRep" element="wsa:MessageID"/>
+  </wsdl:message>
+  <wsdl:message name="restituerContexteApCVRequest">
+    <wsdl:part name="restituerContexteApCVReq" element="tns:RestituerContexteApCVReq"/>
+    <wsdl:part name="securityHeaderReq" element="wsse:Security"/>
+    <wsdl:part name="contexteLPSHeaderReq" element="ctxlps:ContexteLPS"/>
+    <wsdl:part name="messageIDReq" element="wsa:MessageID"/>
+  </wsdl:message>
+  <wsdl:message name="restituerContexteApCVResponse">
+    <wsdl:part name="restituerContexteApCVRep" element="tns:RestituerContexteApCVRep"/>
+    <wsdl:part name="messageIDRep" element="wsa:MessageID"/>
+  </wsdl:message>
+  <wsdl:message name="detruireContexteApCVRequest">
+    <wsdl:part name="detruireContexteApCVReq" element="tns:DetruireContexteApCVReq"/>
+    <wsdl:part name="securityHeaderReq" element="wsse:Security"/>
+    <wsdl:part name="contexteLPSHeaderReq" element="ctxlps:ContexteLPS"/>
+    <wsdl:part name="messageIDReq" element="wsa:MessageID"/>
+  </wsdl:message>
+  <wsdl:message name="detruireContexteApCVResponse">
+    <wsdl:part name="detruireContexteApCVRep" element="tns:DetruireContexteApCVRep"/>
+    <wsdl:part name="messageIDRep" element="wsa:MessageID"/>
+  </wsdl:message>
+  <wsdl:portType name="ServiceAUTH">
+    <wsdl:operation name="authentifierUtilisateurProximite">
+      <wsdl:input message="tns:authentifierUtilisateurProximiteRequest" wsaw:Action="urn:ApCV_AUTH:1.0.0:authentifierUtilisateurProximite"/>
+      <wsdl:output message="tns:authentifierUtilisateurProximiteResponse" wsaw:Action="urn:ApCV_AUTH:1.0.0:authentifierUtilisateurProximite"/>
+    </wsdl:operation>
+    <wsdl:operation name="restituerContexteApCV">
+      <wsdl:input message="tns:restituerContexteApCVRequest" wsaw:Action="urn:ApCV_AUTH:1.0.0:restituerContexteApCV"/>
+      <wsdl:output message="tns:restituerContexteApCVResponse" wsaw:Action="urn:ApCV_AUTH:1.0.0:restituerContexteApCV"/>
+    </wsdl:operation>
+    <wsdl:operation name="detruireContexteApCV">
+      <wsdl:input message="tns:detruireContexteApCVRequest" wsaw:Action="urn:ApCV_AUTH:1.0.0:detruireContexteApCV"/>
+      <wsdl:output message="tns:detruireContexteApCVResponse" wsaw:Action="urn:ApCV_AUTH:1.0.0:detruireContexteApCV"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceAUTHBinding" type="tns:ServiceAUTH">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="authentifierUtilisateurProximite">
+      <soap:operation soapAction="urn:ApCV_AUTH:1.0.0:authentifierUtilisateurProximite" style="document"/>
+      <wsdl:input>
+        <soap:header message="tns:authentifierUtilisateurProximiteRequest" part="securityHeaderReq" use="literal"/>
+        <soap:header message="tns:authentifierUtilisateurProximiteRequest" part="contexteLPSHeaderReq" use="literal"/>
+        <soap:header message="tns:authentifierUtilisateurProximiteRequest" part="messageIDReq" use="literal"/>
+        <soap:body parts="authentifierUtilisateurProximiteReq" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:header message="tns:authentifierUtilisateurProximiteResponse" part="messageIDRep" use="literal"/>
+        <soap:body parts="authentifierUtilisateurProximiteRep" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="restituerContexteApCV">
+      <soap:operation soapAction="urn:ApCV_AUTH:1.0.0:restituerContexteApCV" style="document"/>
+      <wsdl:input>
+        <soap:header message="tns:restituerContexteApCVRequest" part="securityHeaderReq" use="literal"/>
+        <soap:header message="tns:restituerContexteApCVRequest" part="contexteLPSHeaderReq" use="literal"/>
+        <soap:header message="tns:restituerContexteApCVRequest" part="messageIDReq" use="literal"/>
+        <soap:body parts="restituerContexteApCVReq" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:header message="tns:restituerContexteApCVResponse" part="messageIDRep" use="literal"/>
+        <soap:body parts="restituerContexteApCVRep" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="detruireContexteApCV">
+      <soap:operation soapAction="urn:ApCV_AUTH:1.0.0:urn:ApCV_AUTH:1.0.0:detruireContexteApCV" style="document"/>
+      <wsdl:input>
+        <soap:header message="tns:detruireContexteApCVRequest" part="securityHeaderReq" use="literal"/>
+        <soap:header message="tns:detruireContexteApCVRequest" part="contexteLPSHeaderReq" use="literal"/>
+        <soap:header message="tns:detruireContexteApCVRequest" part="messageIDReq" use="literal"/>
+        <soap:body parts="detruireContexteApCVReq" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:header message="tns:detruireContexteApCVResponse" part="messageIDRep" use="literal"/>
+        <soap:body parts="detruireContexteApCVRep" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="AUTH">
+    <wsdl:port name="ServiceAUTHPort" binding="tns:ServiceAUTHBinding">
+      <soap:address location="http://127.0.0.1:8080/wssoap/apcv/auth/1/0"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

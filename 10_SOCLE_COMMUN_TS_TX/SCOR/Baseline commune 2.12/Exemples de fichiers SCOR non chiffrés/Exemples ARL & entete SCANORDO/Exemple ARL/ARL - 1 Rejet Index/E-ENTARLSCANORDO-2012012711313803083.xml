@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entete PGMD_Profil="ENTARLSCANORDO" Profil_Version="02.00">
+<Identification>2012012711313803083</Identification>
+<Temps>2012-01-27T11:31:38</Temps>
+<Emetteur>
+<Identite R="CGRORGDEST">92003</Identite>
+<Qualite>OPAMO</Qualite>
+</Emetteur>
+<Recepteur>
+<Identite R="FINESS">496245570</Identite>
+<Nom>off496245570</Nom>
+<Telecom>
+<Type>EM</Type>
+<Numero>pairps10@dqi143l020.gie-sv.fr</Numero>
+</Telecom>
+<Qualite>OPORDO</Qualite>
+</Recepteur>
+<Document>
+<Mindex>
+<Profil>ARLSCANORDO</Profil>
+<Identification>2012012711313803083</Identification>
+<Temps>2012-01-27T11:31:38</Temps>
+</Mindex>
+<Lien>
+<Adresse>D-ARLSCANORDO-2012012711313803083.xml</Adresse>
+<Type>XML</Type>
+</Lien>
+</Document>
+</Entete>

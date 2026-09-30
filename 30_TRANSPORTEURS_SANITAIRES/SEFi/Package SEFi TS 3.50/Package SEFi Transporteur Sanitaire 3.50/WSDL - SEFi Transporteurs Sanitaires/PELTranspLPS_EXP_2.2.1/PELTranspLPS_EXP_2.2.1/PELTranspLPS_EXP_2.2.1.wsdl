@@ -1,0 +1,116 @@
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s1="http://cnam.fr" xmlns:reqpeltransp="urn:ir:expolps_reqpeltransp" xmlns:peltransp="urn:ir:expolps_peltransp" xmlns:reqreservertrajet="urn:ir:expolps_reqreservertrajet" xmlns:reservertrajet="urn:ir:expolps_reservertrajet" xmlns:reqexecutertrajet="urn:ir:expolps_reqexecutertrajet" xmlns:executertrajet="urn:ir:expolps_executertrajet" xmlns:ctxlps="urn:siram:lps:ctxlps" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" name="PELTranspLPS" targetNamespace="http://cnam.fr">
+	<types>
+		<xsd:schema targetNamespace="http://cnam.fr">
+			<!-- Import des types utilises par la methode acquerirPrescription -->
+			<xsd:import namespace="urn:ir:expolps_reqpeltransp" schemaLocation="xsd/PELTranspLPS/ROOT_expolps_reqpeltransp_EXPOLPSTRANSP_REQPELTRANSP_V00_01.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_peltransp" schemaLocation="xsd/PELTranspLPS/ROOT_expolps_peltransp_EXPOLPSTRANSP_PELTRANSP_V00_07.xsd"/>
+			<!-- Import des types utilises par la methode reserverTrajet -->
+			<xsd:import namespace="urn:ir:expolps_reqreservertrajet" schemaLocation="xsd/PELTranspLPS/ROOT_expolps_reqreservertrajet_EXPOLPSTRANSP_REQRESERVERTRAJET_V00_03.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_reservertrajet" schemaLocation="xsd/PELTranspLPS/ROOT_expolps_reservertrajet_EXPOLPSTRANSP_RESERVERTRAJET_V00_04.xsd"/>
+			<!-- Import des types utilises par la methode executerTrajet -->
+			<xsd:import namespace="urn:ir:expolps_reqexecutertrajet" schemaLocation="xsd/PELTranspLPS/ROOT_expolps_reqexecutertrajet_EXPOLPSTRANSP_REQEXECUTERTRAJET_V00_03.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_executertrajet" schemaLocation="xsd/PELTranspLPS/ROOT_expolps_executertrajet_EXPOLPSTRANSP_EXECUTERTRAJET_V00_04.xsd"/>
+			<!-- Import des headers -->
+			<xsd:import schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd" namespace="urn:siram:lps:ctxlps"/>
+			<xsd:import schemaLocation="xsd/WSSE/Security.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+			<xsd:import schemaLocation="xsd/SOAP/ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+		</xsd:schema>
+	</types>
+	<message name="acquerirPrescriptionRequest">
+		<part name="parameters" element="reqpeltransp:EXPOLPSTRANSP_REQPELTRANSP"/>
+		<part name="CFA_Security" element="wsse:Security"/>
+		<part name="CFA_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<part name="CFA_MessageID" element="wsa:MessageID"/>
+	</message>
+	<message name="acquerirPrescriptionResponse">
+		<part name="parameters" element="peltransp:EXPOLPSTRANSP_PELTRANSP"/>
+	</message>
+	<message name="reserverTrajetRequest">
+		<part name="parameters" element="reqreservertrajet:EXPOLPSTRANSP_REQRESERVERTRAJET"/>
+		<part name="CFA_Security" element="wsse:Security"/>
+		<part name="CFA_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<part name="CFA_MessageID" element="wsa:MessageID"/>
+	</message>
+	<message name="reserverTrajetResponse">
+		<part name="parameters" element="reservertrajet:EXPOLPSTRANSP_RESERVERTRAJET"/>
+	</message>
+	<message name="executerTrajetRequest">
+		<part name="parameters" element="reqexecutertrajet:EXPOLPSTRANSP_REQEXECUTERTRAJET"/>
+		<part name="CFA_Security" element="wsse:Security"/>
+		<part name="CFA_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<part name="CFA_MessageID" element="wsa:MessageID"/>
+	</message>
+	<message name="executerTrajetResponse">
+		<part name="parameters" element="executertrajet:EXPOLPSTRANSP_EXECUTERTRAJET"/>
+	</message>
+	<portType name="PELTranspLPSEXPWS">
+		<operation name="acquerirPrescription">
+			<input message="s1:acquerirPrescriptionRequest" wsaw:Action="urn:PELTranspLPS:2.1.1:acquerirPrescription"/>
+			<output message="s1:acquerirPrescriptionResponse" wsaw:Action="urn:PELTranspLPS:2.1.1:acquerirPrescription"/>
+		</operation>
+		<operation name="reserverTrajet">
+			<input message="s1:reserverTrajetRequest" wsaw:Action="urn:PELTranspLPS:2.1.1:reserverTrajet"/>
+			<output message="s1:reserverTrajetResponse" wsaw:Action="urn:PELTranspLPS:2.1.1:reserverTrajet"/>
+		</operation>
+		<operation name="executerTrajet">
+			<input message="s1:executerTrajetRequest" wsaw:Action="urn:PELTranspLPS:2.1.1:executerTrajet"/>
+			<output message="s1:executerTrajetResponse" wsaw:Action="urn:PELTranspLPS:2.1.1:executerTrajet"/>
+		</operation>
+	</portType>
+	<binding name="PELTranspLPSEXPWSPortBinding" type="s1:PELTranspLPSEXPWS">
+		<wsoap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http" />
+		<operation name="acquerirPrescription">
+			<wsoap12:operation soapAction="urn:PELTranspLPS:2.1.1:acquerirPrescription" />
+			<input>
+				<wsoap12:body parts="parameters" use="literal"/>
+				<wsoap12:header message="s1:acquerirPrescriptionRequest" part="CFA_ContexteLPS" use="literal"/>
+				<wsoap12:header message="s1:acquerirPrescriptionRequest" part="CFA_Security" use="literal"/>
+				<wsoap12:header message="s1:acquerirPrescriptionRequest" part="CFA_MessageID" use="literal"/>
+			</input>
+			<output>
+				<wsoap12:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="reserverTrajet">
+			<wsoap12:operation soapAction="urn:PELTranspLPS:2.1.1:reserverTrajet" />
+			<input>
+				<wsoap12:body parts="parameters" use="literal"/>
+				<wsoap12:header message="s1:reserverTrajetRequest" part="CFA_ContexteLPS" use="literal"/>
+				<wsoap12:header message="s1:reserverTrajetRequest" part="CFA_Security" use="literal"/>
+				<wsoap12:header message="s1:reserverTrajetRequest" part="CFA_MessageID" use="literal"/>
+			</input>
+			<output>
+				<wsoap12:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="executerTrajet">
+			<wsoap12:operation soapAction="urn:PELTranspLPS:2.1.1:executerTrajet" />
+			<input>
+				<wsoap12:body parts="parameters" use="literal"/>
+				<wsoap12:header message="s1:executerTrajetRequest" part="CFA_ContexteLPS" use="literal"/>
+				<wsoap12:header message="s1:executerTrajetRequest" part="CFA_Security" use="literal"/>
+				<wsoap12:header message="s1:executerTrajetRequest" part="CFA_MessageID" use="literal"/>
+			</input>
+			<output>
+				<wsoap12:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="PELTranspLPSEXP">
+		<port name="PELTranspLPSEXPWSPort" binding="s1:PELTranspLPSEXPWSPortBinding">
+			<wsoap12:address location="https://qualiflps.services-ps.ameli.fr/lps"/>
+		</port>
+	</service>
+	<!-- ================== -->
+	<!-- Paramètres I/O -->
+	<!-- ================== -->
+	<!-- ================== -->
+	<!-- Port / Operations -->
+	<!-- ================== -->
+	<!-- ================== -->
+	<!-- Bindings -->
+	<!-- ================== -->
+	<!-- ================== -->
+	<!-- Service -->
+	<!-- ================== -->
+</definitions>

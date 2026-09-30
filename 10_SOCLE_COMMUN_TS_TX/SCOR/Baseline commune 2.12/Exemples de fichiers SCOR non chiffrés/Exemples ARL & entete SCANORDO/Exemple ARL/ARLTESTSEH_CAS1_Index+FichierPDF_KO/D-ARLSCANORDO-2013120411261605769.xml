@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARL xmlns="http://www.interregime.fr/ARLSCANORDO" PGMD_Profil="ARLSCANORDO" Profil_Version="02.02">
+<Identification>2013120411261605769</Identification>
+<Temps>2013-12-04T11:26:16</Temps>
+<Fonction>53</Fonction>
+<DiagEntete>
+<Identification>518735912-2013120411263633579</Identification>
+<Temps>2013-12-04T00:00:00</Temps>
+<Fonction>53</Fonction>
+<Profil>ENTSCANORDO</Profil>
+<Trace>
+<Activite>LOTFSE</Activite>
+<Temps>2013-12-04T00:00:00</Temps>
+<Archive>991</Archive>
+<InfoType>1</InfoType>
+<InfoNBFACT>001</InfoNBFACT>
+</Trace>
+<Diagnostic>
+<Activite>CTRENV</Activite>
+<Etat>R</Etat>
+<Cause>5999</Cause>
+<Libelle>Dossier rejete</Libelle>
+</Diagnostic>
+<DiagDocument>
+<Mindex>
+<Profil>SCANORDO</Profil>
+<Identification>001</Identification>
+<Temps>2013-12-04T11:26:36</Temps>
+<Archive>152719478</Archive>
+</Mindex>
+<Diagnostic>
+<Activite>CTRDOC</Activite>
+<Etat>R</Etat>
+<Cause>5270</Cause>
+<Libelle>Structure de donnees de l'index incorrecte # CDOC:DLSO:controlerValiditeXMLIndex|CategorieControleIndexSCAN|validite_XML_index|Validation des donnees XML de l index -SCANORDO/traitement/1000005768.LOT/D-001.xml- incorrecte (ligne 17, colonne 31 -value '020175' does not match regular expression facet '[0-9]{9,10}'-)</Libelle>
+</Diagnostic>
+</DiagDocument>
+</DiagEntete>
+</ARL>

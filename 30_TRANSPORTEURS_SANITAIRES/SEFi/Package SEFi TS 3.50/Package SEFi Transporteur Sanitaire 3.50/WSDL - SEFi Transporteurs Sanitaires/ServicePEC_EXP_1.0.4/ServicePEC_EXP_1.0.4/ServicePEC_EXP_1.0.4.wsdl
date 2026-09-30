@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.cnamts.fr/webservice" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ctxbam="urn:siram:bam:ctxbam" xmlns:ctxlps="urn:siram:lps:ctxlps" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:se_acqmodalitepectransp="urn:ir:se_acqmodalitepectransp" xmlns:se_modalitepectransp="urn:ir:se_modalitepectransp" xmlns:ns="urn:siram:pn:facturation" xmlns:ns1="urn:siram:prescription" xmlns:ns2="urn:siram:prescription:P2" xmlns:servicepec="urn:siram:PriseEnChargeTransport" name="calculer" targetNamespace="http://www.cnamts.fr/webservice">
+	<wsdl:types>
+		<xsd:schema>
+			<xsd:import schemaLocation="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+			<xsd:import namespace="urn:siram:lps:ctxlps" schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd"/>
+			<xsd:import namespace="urn:siram:bam:ctxbam" schemaLocation="xsd/CTX/ROOT_ctxbam_CTXBAM_V01_02.xsd"/>
+			<xsd:import schemaLocation="http://www.w3.org/2005/08/addressing/ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+			<xsd:import namespace="urn:ir:se_acqmodalitepectransp" schemaLocation="xsd/PriseEnChargeTransport/ROOT_se_acqmodalitepectransp_SE_ACQMODALITEPECTRANSP_V00_05.xsd"/>
+			<xsd:import namespace="urn:ir:se_modalitepectransp" schemaLocation="xsd/PriseEnChargeTransport/ROOT_se_modalitepectransp_SE_MODALITEPECTRANSP_V00_03.xsd"/>
+		</xsd:schema>
+	</wsdl:types>
+	<wsdl:message name="CalculerRequest">
+		<wsdl:part name="CPEC_Security" element="wsse:Security"/>
+		<wsdl:part name="CPEC_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="CPEC_MessageID" element="wsa:MessageID"/>
+		<wsdl:part name="CPEC_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="calculer" element="se_acqmodalitepectransp:SE_ACQMODALITEPECTRANSP"/>
+	</wsdl:message>
+	<wsdl:message name="CalculerResponse">
+		<wsdl:part name="calculerResponse" element="se_modalitepectransp:SE_MODALITEPECTRANSP"/>
+	</wsdl:message>
+	<wsdl:portType name="ServicePECService">
+		<wsdl:operation name="calculer">
+			<wsdl:input name="CalculerRequest" message="tns:CalculerRequest" wsaw:Action="urn:servicepec:1.0.0:calculer"/>
+			<wsdl:output name="CalculerResponse" message="tns:CalculerResponse" wsaw:Action="urn:servicepec:1.0.0:calculer"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ServicePECServiceBinding" type="tns:ServicePECService">
+		<wsoap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="calculer">
+			<wsoap12:operation soapAction="urn:servicepec:1.0.0:calculer"/>
+			<wsdl:input name="CalculerRequest">
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_Security" use="literal"/>
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_ContexteLPS" use="literal"/>
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_MessageID" use="literal"/>
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_ContexteBAM" use="literal"/>
+				<wsoap12:body parts="calculer" use="literal"/>
+			</wsdl:input>
+			<wsdl:output name="CalculerResponse">
+				<wsoap12:body parts="calculerResponse" use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ServicePEC">
+		<wsdl:port name="ServicePECService" binding="tns:ServicePECServiceBinding">
+			<wsoap12:address location="https://qualiflps.services-ps.ameli.fr/lps"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

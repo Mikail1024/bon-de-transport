@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Entete PGMD_Profil="ENTSCANORDO" Profil_Version="02.06" xmlns="http://www.interregime.fr/ENTSCANORDO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <Identification>496245570-2012012711140023006</Identification>
+  <Temps>2012-01-27T11:14:00</Temps>
+  <Fonction>9</Fonction>
+  <NbrDoc>7</NbrDoc>
+  <InfoIDXLOT>01</InfoIDXLOT>
+  <InfoNBLOT>01</InfoNBLOT>
+  <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+  <Emetteur>
+    <Identite R="FINESS">496245570</Identite>
+    <Nom>off496245570</Nom>
+    <RPPS>68125981943</RPPS>
+    <Telecom>
+      <Type>EM</Type>
+      <Numero>adresse@domaine.fr</Numero>
+    </Telecom>
+    <Qualite>OPORDO</Qualite>
+    <Region>79</Region>
+    <SpecialitePS>34</SpecialitePS>
+    <Agrement>
+      <Id>pair0000</Id>
+      <Version>aa00</Version>
+    </Agrement>
+  </Emetteur>
+  <Recepteur>
+    <Identite R="CGRORGDEST">92002</Identite>
+    <Qualite>OPAMO</Qualite>
+  </Recepteur>
+  <Trace>
+    <Activite>LOTFSE</Activite>
+    <Temps>2012-01-27T00:00:00</Temps>
+    <Archive>930</Archive>
+    <InfoType>2</InfoType>
+    <InfoNBFACT>003</InfoNBFACT>
+  </Trace>
+    <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>002</Identification>
+      <Temps>2012-01-27T11:14:00.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-002.xml</Adresse>
+      <Type Q="XML">XML</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-002-001.pdf</Adresse>
+      <Type Q="PDF">PDF</Type>
+      <Version>02.02</Version>
+      <Nature>PRST</Nature>
+      <Identification>496245570.PRST.20120127111400.001</Identification>
+    </Lien>
+  </Document>
+  <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>003</Identification>
+      <Temps>2012-01-27T11:14:00.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-003.xml</Adresse>
+      <Type Q="XML">XML</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-003-001.pdf</Adresse>
+      <Type Q="PDF">PDF</Type>
+      <Nature>FSNC</Nature>
+      <Identification>496245570.FSNC.20120127111400.001</Identification>
+    </Lien>
+    <Lien>
+      <Adresse>P-003-002.pdf</Adresse>
+      <Type Q="PDF">PDF</Type>
+      <Nature>ORDN</Nature>
+      <Identification>496245570.ORDN.20120127111400.002</Identification>
+    </Lien>
+  </Document>
+  <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>001</Identification>
+      <Temps>2012-01-27T11:14:00.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-001.xml</Adresse>
+      <Type Q="XML">XML</Type>
+    </Lien>
+    <Lien>
+      <Adresse>P-001-001.pdf</Adresse>
+      <Type Q="PDF">PDF</Type>
+      <Nature>FRST</Nature>
+      <Identification>496245570.FRST.20120127111400.001</Identification>
+    </Lien>
+  </Document>
+
+</Entete>

@@ -1,0 +1,1088 @@
+{
+  "$id": "https://finess.fr/activite.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Activite",
+  "description": "Schéma JSON du flux Activités, incluant toutes les activités publiables rattachées aux structures publiées",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Version du schéma utilisée pour générer le fichier."
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Horodatage de génération du fichier au format ISO 8601."
+    },
+    "pmej": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "numFiness": {
+            "$ref": "#/definitions/finessId"
+          },
+          "pmSmsseId": {
+            "type": "string"
+          },
+          "activitesAutorisees": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/activiteAutorisee"
+            }
+          },
+          "ege": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "egeId": {
+                  "type": "string"
+                },
+                "numFinessEge": {
+                  "$ref": "#/definitions/finessId"
+                },
+                "activitesExercees": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/definitions/activiteExercee"
+                  }
+                }
+              },
+              "required": [
+                "egeId",
+                "numFinessEge"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "numFiness",
+          "pmSmsseId"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "pmej"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "finessId": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9]{9}$",
+      "description": "Numéro FINESS alphanumérique sur 9 caractères"
+    },
+    "activiteBase": {
+      "type": "object",
+      "properties": {
+        "caracteristiquesGeneriques": {
+          "$ref": "#/definitions/caracteristiquesGeneriques"
+        },
+        "nature": {
+          "$ref": "#/definitions/natureActivite"
+        }
+      },
+      "required": [
+        "caracteristiquesGeneriques",
+        "nature"
+      ],
+      "additionalProperties": false
+    },
+    "activiteAutorisee": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/activiteBase"
+        },
+        {
+          "properties": {
+            "caracteristiquesGeneriques": {
+              "type": "object",
+              "properties": {
+                "pmSmsseExploitanteId": {
+                  "type": "string",
+                  "description": "Identifiant interne de la PMEJ exploitante (pmSmsseId)"
+                }
+              }
+            }
+          },
+          "evenement": {
+            "$ref": "#/definitions/evenement"
+          },
+          "engagement": {
+            "$ref": "#/definitions/engagement"
+          },
+          "capacite": {
+            "$ref": "#/definitions/capacite"
+          },
+          "zoneIntervention": {
+            "$ref": "#/definitions/zoneIntervention"
+          },
+          "required": [
+            "evenement"
+          ]
+        }
+      ]
+    },
+    "activiteExercee": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/activiteBase"
+        },
+        {
+          "properties": {
+            "caracteristiquesGeneriques": {
+              "type": "object",
+              "properties": {
+                "identifiantAutorisation": {
+                  "type": "string",
+                  "description": "Identifiant renseigné au niveau des activités exercées. Il référence l’identifiant technique 'activiteAeId' de l’activité autorisée correspondante."
+                },
+                "egeId": {
+                  "type": "string"
+                },
+                "egeExploitanteId": {
+                  "type": "string",
+                  "description": "Identifiant de l’EGE exploitante"
+                },
+                "egeFacturante": {
+                  "type": "string",
+                  "enum": [
+                    "O",
+                    "N"
+                  ],
+                  "description": "Indique si l'EGE est facturante (O/N)"
+                }
+              },
+              "required": [
+                "identifiantAutorisation",
+                "egeId"
+              ]
+            },
+            "evenement": {
+              "$ref": "#/definitions/evenement"
+            },
+            "engagement": {
+              "$ref": "#/definitions/engagement"
+            },
+            "capacite": {
+              "$ref": "#/definitions/capacite"
+            },
+            "zoneIntervention": {
+              "$ref": "#/definitions/zoneIntervention"
+            }
+          },
+          "required": [
+            "evenement"
+          ]
+        }
+      ]
+    },
+    "caracteristiquesGeneriques": {
+      "type": "object",
+      "properties": {
+        "activiteAeId": {
+          "type": "string"
+        },
+        "etatObjet": {
+          "type": "string",
+          "description": "Représente le macro-état de l'activité : 'A' pour Actif et 'I' pour Inactif ; Le micro-état 'mis en œuvre' est déterminé à partir des événements.",
+          "coding": {
+            "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"
+          }
+        },
+        "identifiantAutorisation": {
+          "type": "string"
+        },
+        "numAutorisationArhgos": {
+          "type": "string"
+        },
+        "dateDebutActiviteAutorisee": {
+          "type": "string"
+        },
+        "dateFinActiviteAutorisee": {
+          "type": "string"
+        },
+        "dateFinEffectiveActivite": {
+          "type": "string"
+        },
+        "dateCaduciteAutorisation": {
+          "type": "string"
+        },
+        "egeId": {
+          "type": "string"
+        },
+        "typeActiviteSMSSE": {
+          "type": "string",
+          "coding": {
+            "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"
+          }
+        }
+      },
+      "required": [
+        "activiteAeId",
+        "etatObjet",
+        "dateDebutActiviteAutorisee",
+        "typeActiviteSMSSE"
+      ],
+      "additionalProperties": false
+    },
+    "natureActivite": {
+      "type": "object",
+      "properties": {
+        "codeNature": {
+          "type": "string",
+          "enum": [
+            "AASA",
+            "ASR",
+            "EML",
+            "ASDR",
+            "ASOCR",
+            "AMSR",
+            "AER",
+            "AMF",
+            "AMM"
+          ]
+        },
+        "caracteristiquesSpecifiques": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "codeNature",
+        "caracteristiquesSpecifiques"
+      ],
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "properties": {
+            "codeNature": {
+              "const": "AASA"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesAASA"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "ASR"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesASR"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "EML"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesEML"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "ASDR"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesASDR"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "ASOCR"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesASOCR"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "AMSR"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesAMSR"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "AER"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesAER"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "AMF"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesAMF"
+            }
+          }
+        },
+        {
+          "properties": {
+            "codeNature": {
+              "const": "AMM"
+            },
+            "caracteristiquesSpecifiques": {
+              "$ref": "#/definitions/caracteristiquesSpecifiquesAMM"
+            }
+          }
+        }
+      ]
+    },
+    "caracteristiquesSpecifiquesAASA": {
+      "type": "object",
+      "properties": {
+        "aaAutreActSoinId": {
+          "type": "string"
+        },
+        "dateLimDep": {
+          "type": "string"
+        },
+        "dateLimVisiteConformite": {
+          "type": "string"
+        },
+        "dateVisite": {
+          "type": "string"
+        },
+        "numDecision": {
+          "type": "string"
+        },
+        "resultatVisite": {
+          "type": "string"
+        },
+        "etatArhgos": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteAASA": {
+          "type": "object",
+          "properties": {
+            "activiteSanitaireRegulee": {
+              "type": "string",
+              "coding": {
+                "system": "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
+              }
+            },
+            "modaliteActivite": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee"
+              }
+            },
+            "formeActivite": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteSanitaireRegulee",
+            "modaliteActivite",
+            "formeActivite"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaAutreActSoinId",
+        "activiteAeId",
+        "typeActiviteAASA"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesASR": {
+      "type": "object",
+      "properties": {
+        "aaSoumiseAReconnaissanceId": {
+          "type": "string"
+        },
+        "etatArhgos": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteASR": {
+          "type": "object",
+          "properties": {
+            "activiteSanitaireRegulee": {
+              "type": "string",
+              "coding": {
+                "system": "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
+              }
+            },
+            "modaliteActivite": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee"
+              }
+            },
+            "formeActivite": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteSanitaireRegulee",
+            "modaliteActivite",
+            "formeActivite"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaSoumiseAReconnaissanceId",
+        "activiteAeId",
+        "typeActiviteASR"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesEML": {
+      "type": "object",
+      "properties": {
+        "aaEmlId": {
+          "type": "string"
+        },
+        "marque": {
+          "type": "string"
+        },
+        "numeroSerie": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteEML": {
+          "type": "object",
+          "properties": {
+            "typeEmlId": {
+              "type": "string",
+              "coding": {
+                "system": "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"
+              }
+            }
+          },
+          "required": [
+            "typeEmlId"
+          ]
+        }
+      },
+      "required": [
+        "aaEmlId",
+        "activiteAeId",
+        "typeActiviteEML"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesASDR": {
+      "type": "object",
+      "properties": {
+        "aaSanitaireDiverseReguleeId": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteASDR": {
+          "type": "object",
+          "properties": {
+            "activiteSanitaireDiverseRegulee": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
+              }
+            },
+            "modeFonctionnement": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
+              }
+            },
+            "public": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteSanitaireDiverseRegulee",
+            "modeFonctionnement",
+            "public"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaSanitaireDiverseReguleeId",
+        "activiteAeId",
+        "typeActiviteASDR"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesASOCR": {
+      "type": "object",
+      "properties": {
+        "aaSocialeReguleeId": {
+          "type": "string"
+        },
+        "ageMaxAutorise": {
+          "type": "string"
+        },
+        "ageMaxInstalle": {
+          "type": "string"
+        },
+        "ageMinAutorise": {
+          "type": "string"
+        },
+        "ageMinInstalle": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteASOCR": {
+          "type": "object",
+          "properties": {
+            "activiteSocialeRegulee": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"
+              }
+            },
+            "modeFonctionnement": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
+              }
+            },
+            "public": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteSocialeRegulee",
+            "modeFonctionnement",
+            "public"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaSocialeReguleeId",
+        "activiteAeId",
+        "typeActiviteASOCR"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesAMSR": {
+      "type": "object",
+      "properties": {
+        "aaSocialeReguleeId": {
+          "type": "string"
+        },
+        "ageMaxAutorise": {
+          "type": "string"
+        },
+        "ageMaxInstalle": {
+          "type": "string"
+        },
+        "ageMinAutorise": {
+          "type": "string"
+        },
+        "ageMinInstalle": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteAMSR": {
+          "type": "object",
+          "properties": {
+            "activiteSocialeRegulee": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"
+              }
+            },
+            "modeFonctionnement": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
+              }
+            },
+            "public": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteSocialeRegulee",
+            "modeFonctionnement",
+            "public"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaSocialeReguleeId",
+        "activiteAeId",
+        "typeActiviteAMSR"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesAER": {
+      "type": "object",
+      "properties": {
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteAER": {
+          "type": "object",
+          "properties": {
+            "activiteEnseignementRegulee": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee"
+              }
+            },
+            "modeFonctionnement": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"
+              }
+            },
+            "public": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteEnseignementRegulee",
+            "modeFonctionnement",
+            "public"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "activiteAeId",
+        "typeActiviteAER"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesAMF": {
+      "type": "object",
+      "properties": {
+        "aaSoinAmfId": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "typeActiviteAMF": {
+          "type": "object",
+          "properties": {
+            "activiteAMF": {
+              "type": "string",
+              "coding": {
+                "system": "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"
+              }
+            },
+            "modaliteActivite": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee"
+              }
+            },
+            "formeActivite": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"
+              }
+            }
+          },
+          "required": [
+            "activiteAMF",
+            "modaliteActivite",
+            "formeActivite"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaSoinAmfId",
+        "activiteAeId",
+        "typeActiviteAMF"
+      ],
+      "additionalProperties": false
+    },
+    "caracteristiquesSpecifiquesAMM": {
+      "type": "object",
+      "properties": {
+        "aaSoinAmmId": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "appareil": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "typeAppareilAMM": {
+                "type": "string",
+                "coding": {
+                  "system": "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
+                }
+              },
+              "statutAppareilAMM": {
+                "type": "string",
+                "coding": {
+                  "system": "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite"
+                }
+              },
+              "nombreAppareilAMM": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "typeAppareilAMM",
+              "statutAppareilAMM",
+              "nombreAppareilAMM"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "typeActiviteAMM": {
+          "type": "object",
+          "properties": {
+            "activiteAMM": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"
+              }
+            },
+            "modaliteAMM": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm"
+              }
+            },
+            "mentionAMM": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm"
+              }
+            },
+            "ptsAMM": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"
+              }
+            },
+            "declarationAMM": {
+              "type": "string",
+              "coding": {
+                "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm"
+              }
+            }
+          },
+          "required": [
+            "activiteAMM",
+            "modaliteAMM",
+            "mentionAMM",
+            "ptsAMM",
+            "declarationAMM"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "aaSoinAmmId",
+        "activiteAeId",
+        "typeActiviteAMM"
+      ],
+      "additionalProperties": false
+    },
+    "evenement": {
+      "type": "array",
+       "description": "Les événements assurent le suivi du cycle de vie des objets dans FiNESS+ et permettent notamment de déterminer les micro-états associés, dont le micro-état 'mise en œuvre'. Pour les activités dont etatObjet = 'A', seuls les événements de type 12 et 15 sont pris en compte, triés par date décroissante, puis le plus récent est retenu.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "evenementId": {
+            "type": "string"
+          },
+          "dateEnregistrement": {
+            "type": "string"
+          },
+          "dateEvenement": {
+            "type": "string"
+          },
+          "etatObjet1": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"
+            }
+          },
+          "identifiantObjet1": {
+            "type": "string"
+          },
+          "identifiantObjet2": {
+            "type": "string"
+          },
+          "systemeMaitre": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information"
+            }
+          },
+          "typeObjet1": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet"
+            }
+          },
+          "typeObjet2": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet"
+            }
+          },
+          "codeEvenement": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif"
+            }
+          }
+        },
+        "required": [
+          "evenementId",
+          "dateEnregistrement",
+          "dateEvenement",
+          "etatObjet1",
+          "identifiantObjet1",
+          "systemeMaitre",
+          "typeObjet1",
+          "codeEvenement"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "engagement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "engagementId": {
+            "type": "string"
+          },
+          "typeEngagement": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
+            }
+          },
+          "sousTypeEngagement": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
+            }
+          },
+          "dateEffetEngagement": {
+            "type": "string"
+          },
+          "dateSignatureEngagement": {
+            "type": "string"
+          },
+          "dateCaduciteEngagement": {
+            "type": "string"
+          },
+          "dateFinEngagement": {
+            "type": "string"
+          },
+          "dateNotificationEngagement": {
+            "type": "string"
+          },
+          "nomEngagement": {
+            "type": "string"
+          },
+          "identifiantEngagement": {
+            "type": "string"
+          },
+          "motifArrete": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"
+            }
+          },
+          "autoriteRegulationEngagement": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "autoriteRegulationid": {
+                  "type": "string",
+                  "coding": {
+                    "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "required": [
+          "engagementId",
+          "typeEngagement",
+          "sousTypeEngagement",
+          "dateEffetEngagement"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "capacite": {
+      "type": "array",
+      "description": "La capacité totale correspond à une capacité sans granularité : sans modeFinancement, sans habilitation, sans typeLogement et sans genre ; La capacité autorisée est identifiée par statutCapacite = 01. La capacité installée est identifiée par statutCapacite = 09",
+      "items": {
+        "type": "object",
+        "properties": {
+          "idCapacite": {
+            "type": "string"
+          },
+          "nombre": {
+            "type": "string"
+          },
+          "precision": {
+            "type": "string"
+          },
+          "variation": {
+            "type": "string"
+          },
+          "activiteAeId": {
+            "type": "string"
+          },
+          "engagementId": {
+            "type": "string"
+          },
+          "habilitation": {
+            "type": "string",
+            "coding": {
+              "system": "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere"
+            }
+          },
+          "statutCapacite": {
+            "type": "string",
+            "coding": {
+              "system": "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite"
+            }
+          },
+          "modeFinancement": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement"
+            }
+          },
+          "uniteMesureCapacite": {
+            "type": "string",
+            "coding": {
+              "system": "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"
+            }
+          },
+          "typeLogement": {
+            "type": "string",
+            "coding": {
+              "system": "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement"
+            }
+          },
+          "genre": {
+            "type": "string",
+            "coding": {
+              "system": "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite"
+            }
+          }
+        },
+        "required": [
+          "idCapacite",
+          "nombre",
+          "statutCapacite",
+          "uniteMesureCapacite"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "zoneIntervention": {
+      "type": "object",
+      "properties": {
+        "zoneInterventionAutoriseeId": {
+          "type": "string"
+        },
+        "libelleZI": {
+          "type": "string"
+        },
+        "activiteAeId": {
+          "type": "string"
+        },
+        "communeZI": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "commune": {
+                "type": "string",
+                "coding": {
+                  "system": "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM"
+                }
+              }
+            },
+            "required": [
+              "commune"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "zoneInterventionAutoriseeId",
+        "activiteAeId",
+        "communeZI"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

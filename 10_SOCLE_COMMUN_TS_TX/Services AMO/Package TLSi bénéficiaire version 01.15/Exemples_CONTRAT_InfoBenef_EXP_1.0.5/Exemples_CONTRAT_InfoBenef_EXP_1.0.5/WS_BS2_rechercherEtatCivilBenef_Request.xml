@@ -1,0 +1,109 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:siram:bam:ctxbam" xmlns:add="http://www.w3.org/2005/08/addressing" xmlns:urn1="urn:siram:lps:ctxlps" xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:urn2="urn:ir:expolps_reqinfobenef" xmlns:urn3="urn:siram:beneficiaire">
+	<soap:Header>
+		<urn:ContexteBAM Version="01_02">
+			<urn:Id>f21b24ef-ebbb-4726-949f-9be663dacaf3</urn:Id>
+			<urn:Temps>2019-03-15T11:29:46.977Z</urn:Temps>
+			<urn:Emetteur>899900038839</urn:Emetteur>
+			<urn:COUVERTURE>
+				<urn:ASSURE>
+					<urn:Id>
+						<urn:Num>1420134057001</urn:Num>
+						<urn:Cle>32</urn:Cle>
+					</urn:Id>
+				</urn:ASSURE>
+				<urn:BENEFICIAIRE>
+					<urn:DateNai>1942-01-01</urn:DateNai>
+					<urn:Rang>1</urn:Rang>
+				</urn:BENEFICIAIRE>
+			</urn:COUVERTURE>
+		</urn:ContexteBAM>
+		<add:MessageID>634ff1b3-ecef-44ac-a9b4-dad039f9edec</add:MessageID>
+		<add:Action>urn:InfoBenefEXPOLPS:1.0.0:rechercherEtatCivilBenef</add:Action>
+		<urn1:ContexteLPS Version="01_00">
+			<urn1:Id>4e2520a9-3a78-4f3e-a72a-79c85ed96b6c</urn1:Id>
+			<urn1:Temps>2019-03-15T11:29:46.977Z</urn1:Temps>
+			<urn1:Emetteur>899900038839</urn1:Emetteur>
+			<urn1:LPS>
+				<urn1:IDAM R="4">NumAutorisation</urn1:IDAM>
+				<urn1:Version>01.00</urn1:Version>
+				<urn1:Instance>34a37f1e-57e1-4155-a5de-39212944c161</urn1:Instance>
+				<urn1:Nom>LPS GIE SV</urn1:Nom>
+			</urn1:LPS>
+		</urn1:ContexteLPS>
+		<oas:Security>
+			<Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion" ID="_7fb70a53-361c-4609-b6da-e9a77b3408f2" IssueInstant="2019-03-15T10:29:47.266Z" Version="2.0">
+				<Issuer Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName"> GN=ADEMIS+SN=TRAL+CN=899900038839,OU=Médecin,O=TEST,C=FR</Issuer>
+				<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+					<SignedInfo>
+						<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+						<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+						<Reference URI="#_7fb70a53-361c-4609-b6da-e9a77b3408f2">
+							<Transforms>
+								<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+								<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+							</Transforms>
+							<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+							<DigestValue>QpfDNOAc781tP1wL1eivJrujzQKn45ZD94zV0isN3m0=</DigestValue>
+						</Reference>
+					</SignedInfo>
+					<SignatureValue>VjuL2wmtyPic+zK/l4BeeI/NpbnryQzjst1Ss6fFt5+6XbjFVk6ld96U70z8RzH7Idu4ISqWcrup
+Mowqf9uxWFNfCbpdJArdTPFdAjaMMQa2QBBjqQtK8uEWZei1lhGtJxSFWaNF21WOd55V2OpysDR+
+KUkC6gyja+8MiZUg2mqLbQRZzGKe+SDikmKFZ7WCEcrwJ5O5a50fViOmMonLCeD8gIOQ2AVNGP6Q
+2kchE3D5wxq/RfgGOis9MiNLX2t2qgtMb805MzTI4FR3x4hTOFEDfjSy3KHTOlZjb2BZ3H0lE3Gg
+yG8fPPmLiDPM1yII77x0MBZfZf4xLvK2EF5m4w==</SignatureValue>
+					<KeyInfo>
+						<X509Data>
+							<X509Certificate>MIIFqjCCBJKgAwIBAgIDW8YyMA0GCSqGSIb3DQEBBQUAMFExCzAJBgNVBAYTAkZSMQ0wCwYDVQQK
+EwRURVNUMRswGQYDVQQLExJURVNUIFBST0ZFU1NJT05ORUwxFjAUBgNVBAMTDVRFU1QgQ0xBU1NF
+LTEwHhcNMTYwMjAxMDAwMDAxWhcNMjAwMzMxMjE1OTU5WjBhMQswCQYDVQQGEwJGUjENMAsGA1UE
+ChMEVEVTVDEQMA4GA1UECxQHTelkZWNpbjExMBMGA1UEAxMMODk5OTAwMDM4ODM5MAsGA1UEBBQE
+VFJBTDANBgNVBCoUBkFERU1JUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMnfRpYB
+i/leZlaBltHwr/pbC+h3Eqmx0t8GvwhTv2AFoCpVgQ0LWV6oSzWMzec2F0kHrQ8BMB1zHEd82cNz
+DXGb4ZVHRJ1vtWLQedvVCKStkeeEi5lpobFsy44h7Mkv3Vnt8PsV1sC5gu6vE5eF5jmo4awbosJy
+hVMsYRaXnSesfEZJRcmij9tCHHVo7nKSUIKDGLI8BN1H3Wu2HvdWH3xgX3VviUDwP8aieqCsBzEO
+eRJUssYyayAHx6eca+FALNNcDNvB411m5avYkN0HTxoVf8kuTDPGEqoQssl8sseiXu4S82PgESw9
+OMSVB2vUy+s6XBBXL6oBp3fFNiVFLWECAwEAAaOCAnkwggJ1MB8GA1UdIwQYMBaAFHYQNUO0i3+M
+bgC3kqaQgrPBS9LqMB0GA1UdDgQWBBQgUkib020rcoQZ95HaG5ppKBH7tzAOBgNVHQ8BAf8EBAMC
+BsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwKwYDVR0QBCQwIoAPMjAxNjAyMDEwMDAwMDFagQ8yMDIw
+MDIyOTIzNTk1OVowGQYDVR0gBBIwEDAOBgwqgXoBRwMHCQEBAgEwCQYDVR0TBAIwADCBvgYDVR0f
+BIG2MIGzMDugOaA3hjVodHRwOi8vYW5udWFpcmUuZ2lwLWNwcy5mci9jcmwvdGVzdC9URVNUIENM
+QVNTRS0xLmNybDB0oHKgcIZubGRhcDovL2FubnVhaXJlLmdpcC1jcHMuZnIvY249dGVzdCBjbGFz
+c2UtMSxvdT10ZXN0IHByb2Zlc3Npb25uZWwsbz10ZXN0LGM9ZnI/Y2VydGlmaWNhdGVyZXZvY2F0
+aW9ubGlzdDtiaW5hcnkweQYDVR0uBHIwcDBuoGygaoZobGRhcDovL2FubnVhaXJlLmdpcC1jcHMu
+ZnIvY249dGVzdCBjbGFzc2UtMSxvdT10ZXN0IHByb2Zlc3Npb25uZWwsbz10ZXN0LGM9ZnI/ZGVs
+dGFyZXZvY2F0aW9ubGlzdDtiaW5hcnkwEQYJYIZIAYb4QgEBBAQDAgUgMCMGCCqBegFHAQIDBBcT
+FTgwMjUwMDAwMDEvMjUwMDU3NzI1MzAPBggqgXoBRwECBQQDBAGAMA8GCCqBegFHAQICBAMCAQAw
+DwYIKoF6AUcBAgcEAwIBCjAUBggqgXoBRwQCBQQIMAYMBFNNMjYwDQYJKoZIhvcNAQEFBQADggEB
+AKJSDGsSD6HAtaIZGFyMnx4Vh62ger27vaWXv6O+Xps/DUk6QJ6zF/9FUjGt2Zf0WdU4o409DH3H
+LHH3Rm8sz8nWCcM3MYkvPHBNH6gMMxTFU/PT3POpSyph+88aDybDzeEr3D2UfKVckEXNXok+oab0
+LZ8Goj2Xkup5HSH2exyumoHaVYjxkRsQ1Mh8H6A9W0m5bR4xEGbd9xsmyOFQ+nKhSsX7JmQZAUlQ
+UEjqZroR/6I6DrzFyqU9TlMKWB8P4T7wGvCDg6udUN2xSQsMtLKuE+8CSRYgmPqg/vwRYN07e2yI
+z337OvUcvfEQ315f1S+YHD0rpz6A4qOcb0C1R94=</X509Certificate>
+						</X509Data>
+					</KeyInfo>
+				</Signature>
+				<Subject>
+					<NameID NameQualifier="CPS">899900038839</NameID>
+				</Subject>
+				<AttributeStatement>
+					<Attribute Name="identifiantFacturation">
+						<AttributeValue>993006311</AttributeValue>
+					</Attribute>
+				</AttributeStatement>
+			</Assertion>
+		</oas:Security>
+	</soap:Header>
+	<soap:Body>
+		<urn2:EXPOLPSTRANSP_REQINFOBENEF>
+			<urn2:DateEval>2019-03-15</urn2:DateEval>
+			<urn2:BENEFICIAIRE>
+				<urn3:NirOD>
+					<urn3:Num>1420134057001</urn3:Num>
+					<urn3:Cle>32</urn3:Cle>
+				</urn3:NirOD>
+				<urn3:DateNai>1942-01-01</urn3:DateNai>
+				<urn3:RangNai>1</urn3:RangNai>
+			</urn2:BENEFICIAIRE>
+		</urn2:EXPOLPSTRANSP_REQINFOBENEF>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,90 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:siram:bam:ctxbam"
+xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:urn1="urn:siram:lps:ctxlps" xmlns:cer="http://www.cnamts.fr/CertificatMedical" xmlns:urn2="urn:ir:expolps_reqpeltransp" xmlns:urn3="urn:siram:prescription" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soap:Header>
+		<ctxlps:ContexteLPS xmlns:ctxlps="urn:siram:lps:ctxlps" Nature="CTXLPS" Version="1.0">
+			<ctxlps:Id>_31d23f23-78bb-484e-9daa-b58ab1e23af9</ctxlps:Id>
+			<ctxlps:Temps>2013-10-17T12:00:00Z</ctxlps:Temps>
+			<ctxlps:Emetteur>500000000016261/CDET0001</ctxlps:Emetteur>
+			<ctxlps:LPS>
+				<ctxlps:IDAM R="4">NumAutorisation</ctxlps:IDAM>
+				<ctxlps:Version>01.00</ctxlps:Version>
+				<ctxlps:Instance>abcd1234-a001-b005-c001-111111111111</ctxlps:Instance>
+				<ctxlps:Nom>LPS GIE SV</ctxlps:Nom>
+			</ctxlps:LPS>
+		</ctxlps:ContexteLPS>
+		<wsa:MessageID>_03560690-26f2-4424-b23b-702e031d90fb</wsa:MessageID>
+		<wsa:Action>urn:PELTranspLPS:2.1.1:acquerirPrescription</wsa:Action>
+		<oas:Security xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<Assertion xmlns="urn:oasis:names:tc:SAML:2.0:assertion" ID="_04cf288f-84c4-4bf8-848a-9b40715079cf" IssueInstant="2013-12-02T15:41:28.413Z" Version="2.0">
+				<Issuer Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName"> GN=PATRICK+SN=SIRENE0000016260001+CN=500000000016261/CDET0001,OU=300000000016261,L=Paris (75),O=TEST,C=FR</Issuer>
+				<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+					<SignedInfo>
+						<CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+						<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+						<Reference URI="#_04cf288f-84c4-4bf8-848a-9b40715079cf">
+							<Transforms>
+								<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+								<Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+							</Transforms>
+							<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+							<DigestValue>SIPySQa5uv0f+KniC/4e+cPZO3pJPxSBVZnlTnH0sU8=</DigestValue>
+						</Reference>
+					</SignedInfo>
+					<SignatureValue>NxzKyMwe/OJyEsIu72C5ulFhcW8lkx47tmOmv7kHAX7m1U+iAGcnatBHBLMxFybd9b0Qpi07mf05
+/MBbupdBOfP5MY0NxGy3qbH+tQiSZS4+TSr7P02krnDbFCjHli5jx3OwxpXTx6GBfxzQfW+GHT25
+jWmaATrubqB6WNoldWaOI2C5nFC60imP3la3FzCFWPdCI8VTTpCDps7MzH1UocH6LfDHlPKFFx4P
+63gZmMjHyGfxbWFvZkZXytRqhLtt1s5QaeoBfuTuwzIEi+nYJ0Gz9FsUEvshx7tS+AfgCZgPZtVR
+cMM85t5LwshsLVEvgHyAnzQYJ4OLagPBOeP5zg==</SignatureValue>
+					<KeyInfo>
+						<X509Data>
+							<X509Certificate>MIIFsTCCBJmgAwIBAgIDTIGIMA0GCSqGSIb3DQEBBQUAME0xCzAJBgNVBAYTAkZSMQ0wCwYDVQQK
+EwRURVNUMRcwFQYDVQQLEw5URVNUIFNUUlVDVFVSRTEWMBQGA1UEAxMNVEVTVCBDTEFTU0UtMjAe
+Fw0xMjA4MTUwMDAwMDFaFw0xNDA4MzEyMTU5NTlaMIGaMQswCQYDVQQGEwJGUjENMAsGA1UEChME
+VEVTVDETMBEGA1UEBxQKUGFyaXMgKDc1KTEYMBYGA1UECxMPMzAwMDAwMDAwMDE2MjYxMU0wHwYD
+VQQDExg1MDAwMDAwMDAwMTYyNjEvQ0RFVDAwMDEwGgYDVQQEFBNTSVJFTkUwMDAwMDE2MjYwMDAx
+MA4GA1UEKhQHUEFUUklDSzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOqGGn5fj/Cz
+7L/G0MldwN+kSthrLtVMVfeeOuKxqLtD1kfKGRoedcSB5+ILPP5cG6lSTTQ8hruMibAryvmBXO2W
+1LazT+fEQpEqDDNtpNEiOGBJCBVVLikBqoiUpsQMEvUcOvcSx3GH+UoR+pZ33ah4a5Z0oY+n/AJF
+Q1yJHmzQaD2pIqo6RQlpzlr7qd2cn2cmExs8/kF8kuisB+VFmqOGTdNRT/tpYoo+qnMJA3fX3QOv
+t9g4T+qT8UmfeLvX1BetjI7U61lYcU1pnCH5EebQTw+mFueWYJXzfw14Isf96EG2WRJ1EdDU9iT1
+0TCPvNDquXMq0NHTx+JhwyYFEWcCAwEAAaOCAkowggJGMB8GA1UdIwQYMBaAFERyEonCcneb2wo7
+j0oyrk4sr1h2MB0GA1UdDgQWBBTJoMoWtYmnWhcMRdD0D0B3owyVUTAOBgNVHQ8BAf8EBAMCBsAw
+EwYDVR0lBAwwCgYIKwYBBQUHAwQwKwYDVR0QBCQwIoAPMjAxMjA4MTUwMDAwMDFagQ8yMDE0MDcz
+MTIzNTk1OVowGQYDVR0gBBIwEDAOBgwqgXoBRwMHCQIBAgEwCQYDVR0TBAIwADCBugYDVR0fBIGy
+MIGvMDugOaA3hjVodHRwOi8vYW5udWFpcmUuZ2lwLWNwcy5mci9jcmwvdGVzdC9URVNUIENMQVNT
+RS0yLmNybDBwoG6gbIZqbGRhcDovL2FubnVhaXJlLmdpcC1jcHMuZnIvY249dGVzdCBjbGFzc2Ut
+MixvdT10ZXN0IHN0cnVjdHVyZSxvPXRlc3QsYz1mcj9jZXJ0aWZpY2F0ZXJldm9jYXRpb25saXN0
+O2JpbmFyeTB1BgNVHS4EbjBsMGqgaKBmhmRsZGFwOi8vYW5udWFpcmUuZ2lwLWNwcy5mci9jbj10
+ZXN0IGNsYXNzZS0yLG91PXRlc3Qgc3RydWN0dXJlLG89dGVzdCxjPWZyP2RlbHRhcmV2b2NhdGlv
+bmxpc3Q7YmluYXJ5MBEGCWCGSAGG+EIBAQQEAwIFIDAjBggqgXoBRwECAwQXExU4MDI1MDAwMDAx
+LzIzMDA5OTM0MzYwDwYIKoF6AUcBAgUEAwQBgDAPBggqgXoBRwECAgQDAgECMA0GCSqGSIb3DQEB
+BQUAA4IBAQBdz/WoDmYG+hOlJdzuq2bMJjHome81VLr5W4NVuIzLKdnD/S4/Nez4TcWPV0JgLNpJ
++B9vyNzLTSA+UTWRJpOeEnxwqXxm3YY1UX4vOtjbbINafCjtYNP1PUo3eCbBDWS4Cvl4m8bs2CZw
+qdnIaOsYgOfRNhf6Sxcy0yI75d5Yxuz001zpZbDrrTUYQlIeRMZMLSyC39zH4UM4gvmJtcvQ/YKi
+cZJxhwBAFvwS3oGvIz2os3Ojo3dow3IE11dbyVM3KKbQa7LpuoAnZIhPjzjeIFXlcjxD13a5f4dT
+sx879HiaYoqLTiLCYwngigk4hZPv07BPuRvUaBVLJRrxkHfX</X509Certificate>
+						</X509Data>
+					</KeyInfo>
+				</Signature>
+				<Subject>
+					<NameID NameQualifier="CDE-CPE">500000000016261/CDET0001</NameID>
+				</Subject>
+				<AttributeStatement>
+					<Attribute Name="identifiantFacturation">
+						<AttributeValue>992500538</AttributeValue>
+					</Attribute>
+				</AttributeStatement>
+			</Assertion>
+		</oas:Security>
+	</soap:Header>
+	<soap:Body>
+		<urn2:EXPOLPSTRANSP_REQPELTRANSP>
+			<urn2:PRESCRIPTION>
+				<urn3:Numero>FR0108A856ZLG5</urn3:Numero>
+				<urn3:PATIENT>
+					<urn3:NomFamille>PECPLUSDEUX</urn3:NomFamille>
+				</urn3:PATIENT>
+			</urn2:PRESCRIPTION>
+		</urn2:EXPOLPSTRANSP_REQPELTRANSP>
+	</soap:Body>
+</soap:Envelope>

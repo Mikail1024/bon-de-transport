@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+		<ns3:EXPOLPSTRANSP_INFOTRANSP xmlns:ns7="urn:ir:expolps_reqinfopsam" xmlns:ns6="urn:ir:expolps_infopsindividu" xmlns:ns5="urn:ir:expolps_infopsstructure" xmlns:ns4="urn:ir:expolps_reqinfotransp" xmlns:ns3="urn:ir:expolps_infotransp" xmlns:ns2="urn:ir:expolps_reqinfopsfiness" xmlns="urn:siram:partenairesante">
+			<ns3:TRANSPORTEUR>
+				<VEHICULE>
+					<Immatriculation>BO203ND</Immatriculation>
+					<DateAutoDDASS>2011-12-01+01:00</DateAutoDDASS>
+				</VEHICULE>
+				<VEHICULE>
+					<Immatriculation>DR203NO</Immatriculation>
+					<DateAutoDDASS>2011-12-01+01:00</DateAutoDDASS>
+				</VEHICULE>
+				<PERSONNEL>
+					<NomFamille>ANTOINE</NomFamille>
+					<Prenom>MARC</Prenom>
+					<DateEntree>2010-10-01+02:00</DateEntree>
+					<DIPLOME>
+						<Nature>BNS</Nature>
+						<DateAcquis>2009-01-01+01:00</DateAcquis>
+					</DIPLOME>
+					<DIPLOME>
+						<Nature>CCA</Nature>
+						<DateAcquis>2010-10-01+02:00</DateAcquis>
+					</DIPLOME>
+				</PERSONNEL>
+				<PERSONNEL>
+					<NomFamille>CAILLOU</NomFamille>
+					<Prenom>PIERRE</Prenom>
+					<DateEntree>2005-01-01+01:00</DateEntree>
+					<DIPLOME>
+						<Nature>BNS</Nature>
+						<DateAcquis>2008-01-01+01:00</DateAcquis>
+					</DIPLOME>
+					<DIPLOME>
+						<Nature>CCA</Nature>
+						<DateAcquis>2009-01-01+01:00</DateAcquis>
+					</DIPLOME>
+				</PERSONNEL>
+				<PERSONNEL>
+					<NomFamille>VAILLANT</NomFamille>
+					<Prenom>MICHEL</Prenom>
+					<DateEntree>2009-01-01+01:00</DateEntree>
+					<DIPLOME>
+						<Nature>AFPS</Nature>
+						<DateAcquis>2008-06-01+02:00</DateAcquis>
+					</DIPLOME>
+				</PERSONNEL>
+			</ns3:TRANSPORTEUR>
+		</ns3:EXPOLPSTRANSP_INFOTRANSP>
+	</S:Body>
+</soap:Envelope>

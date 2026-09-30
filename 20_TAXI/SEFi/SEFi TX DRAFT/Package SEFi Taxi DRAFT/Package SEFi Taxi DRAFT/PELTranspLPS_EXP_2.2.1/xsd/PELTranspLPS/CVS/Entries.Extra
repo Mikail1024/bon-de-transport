@@ -1,0 +1,12 @@
+/AUX_prescription_EXPOLPSTRANSP_EXECUTERTRAJET_V00_04.xsd////////
+/AUX_prescription_EXPOLPSTRANSP_PELTRANSP_V00_07.xsd////////
+/AUX_prescription_EXPOLPSTRANSP_REQEXECUTERTRAJET_V00_03.xsd////////
+/AUX_prescription_EXPOLPSTRANSP_REQPELTRANSP_V00_01.xsd////////
+/AUX_prescription_EXPOLPSTRANSP_REQRESERVERTRAJET_V00_03.xsd////////
+/AUX_prescription_EXPOLPSTRANSP_RESERVERTRAJET_V00_04.xsd////////
+/ROOT_expolps_executertrajet_EXPOLPSTRANSP_EXECUTERTRAJET_V00_04.xsd////////
+/ROOT_expolps_peltransp_EXPOLPSTRANSP_PELTRANSP_V00_07.xsd////////
+/ROOT_expolps_reqexecutertrajet_EXPOLPSTRANSP_REQEXECUTERTRAJET_V00_03.xsd////////
+/ROOT_expolps_reqpeltransp_EXPOLPSTRANSP_REQPELTRANSP_V00_01.xsd////////
+/ROOT_expolps_reqreservertrajet_EXPOLPSTRANSP_REQRESERVERTRAJET_V00_03.xsd////////
+/ROOT_expolps_reservertrajet_EXPOLPSTRANSP_RESERVERTRAJET_V00_04.xsd////////

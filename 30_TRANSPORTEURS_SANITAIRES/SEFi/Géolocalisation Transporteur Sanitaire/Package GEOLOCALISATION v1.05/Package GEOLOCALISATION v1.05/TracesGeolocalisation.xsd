@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2014 rel. 2 (http://www.altova.com) by GIE SESAM VITALE (GIE SESAM VITALE) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="www.cnamts.fr/namespace/EXP/0/0/Transporteur" xmlns:gpx="http://www.topografix.com/GPX/1/1" targetNamespace="www.cnamts.fr/namespace/EXP/0/0/Transporteur" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://www.topografix.com/GPX/1/1" schemaLocation="http://www.topografix.com/gpx/1/1/gpx.xsd"/>
+	<!--v 1.0 - GIE S/V - Récriture du schema initial avec ajout de contrainte sur les champs-->
+	<xs:simpleType name="DistanceValueType">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="9999"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="DistanceType">
+		<xs:simpleContent>
+			<xs:extension base="DistanceValueType">
+				<xs:attribute name="Q" type="xs:NCName" use="required" fixed="reel"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:simpleType name="BoitierGPSValueType">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="BoitierGPSType">
+		<xs:simpleContent>
+			<xs:extension base="BoitierGPSValueType">
+				<xs:attribute name="Q" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:int">
+							<xs:minInclusive value="1"/>
+							<xs:maxInclusive value="5"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="PersonnelType">
+		<xs:sequence>
+			<xs:element name="Usage">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Prenom">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TrajetType">
+		<xs:sequence>
+			<xs:element name="Identifiant" type="xs:integer"/>
+			<xs:element name="Vehicule">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Conducteur" type="PersonnelType"/>
+			<xs:element name="Accompagnateur" type="PersonnelType" minOccurs="0"/>
+			<xs:element name="Distance" type="DistanceType"/>
+			<xs:element name="BoitierGPS" type="BoitierGPSType"/>
+			<xs:element ref="gpx:gpx"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="TransportType">
+		<xs:sequence maxOccurs="unbounded">
+			<xs:element name="Identifiant" type="xs:integer"/>
+			<xs:element name="Trajet" type="TrajetType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContexteMAType">
+		<xs:sequence>
+			<xs:element name="Nature" type="xs:NCName" fixed="TA"/>
+			<xs:element name="Transport" type="TransportType"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="EmetteurType">
+		<xs:sequence>
+			<xs:element name="Identite_PSAM">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CURMEDType">
+		<xs:sequence>
+			<xs:element name="Identification">
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Emetteur" type="EmetteurType"/>
+			<xs:element name="ContexteMA" type="ContexteMAType"/>
+		</xs:sequence>
+		<xs:attribute name="PGMD_Profil" type="xs:NCName" use="required" fixed="Transporteur"/>
+		<xs:attribute name="PGMD_Version" type="xs:decimal" use="required" fixed="8.3"/>
+		<xs:attribute name="Profil_Version" type="xs:decimal" use="required" fixed="0.3"/>
+	</xs:complexType>
+	<xs:element name="CURMED" type="CURMEDType">
+		<xs:annotation>
+			<xs:documentation> Element racine du schéma</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

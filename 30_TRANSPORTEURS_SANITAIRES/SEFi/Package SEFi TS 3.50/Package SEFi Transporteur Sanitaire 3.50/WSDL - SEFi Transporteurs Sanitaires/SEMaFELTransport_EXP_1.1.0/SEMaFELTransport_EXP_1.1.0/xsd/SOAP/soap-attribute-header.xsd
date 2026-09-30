@@ -1,0 +1,18 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.w3.org/2003/05/soap-envelope" targetNamespace="http://www.w3.org/2003/05/soap-envelope" elementFormDefault="qualified">
+	<!-- DEBUT FK 20061130 : Extraction des attributs génériques du header depuis le schéma envelope.xsd-->
+	<!-- Global Attributes.  The following attributes are intended to be
+  usable via qualified attribute names on any complex type referencing
+  them.  -->
+	<!-- FK xs:attribute name="mustUnderstand" type="xs:boolean" default="0"/>
+	<xs:attribute name="relay" type="xs:boolean" default="0"/ FK -->
+	<xs:attribute name="mustUnderstand" type="xs:boolean"/>
+	<xs:attribute name="relay" type="xs:boolean"/>
+	<xs:attribute name="role" type="xs:anyURI"/>
+	<!-- 'encodingStyle' indicates any canonicalization conventions
+  followed in the contents of the containing element.  For example, the
+  value 'http://www.w3.org/2003/05/soap-encoding' indicates the pattern
+  described in the last call working draft of SOAP Version 1.2 Part 2:
+  Adjuncts -->
+	<xs:attribute name="encodingStyle" type="xs:anyURI"/>
+	<!-- FIN FK 20061130  -->
+</xs:schema>

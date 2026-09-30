@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+		edited with XMLSpy v2012 rel. 2 sp1 (http://www.altova.com) by
+		JC Alberti (cnam)
+	-->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+	xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:tns="http://www.cnamts.fr/webservice" 
+	xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" 
+	xmlns:se_soumisfactransp="urn:ir:se_soumisfactransp" 
+	xmlns:se_arcvfactransp="urn:ir:se_arcvfactransp" 
+	xmlns:se_validefactransp="urn:ir:se_validefactransp" 
+	xmlns:se_avalfactransp="urn:ir:se_avalfactransp" 
+	xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" 
+	xmlns:wsa="http://www.w3.org/2005/08/addressing" 
+	xmlns:ctxbam="urn:siram:bam:ctxbam" 
+	xmlns:ctxlps="urn:siram:lps:ctxlps" 
+	xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" 
+	name="ServiceAccueilSEFiTransport" 
+	targetNamespace="http://www.cnamts.fr/webservice">
+	
+	<wsdl:types>
+		<xs:schema>
+			<!-- Header -->
+			<xs:import schemaLocation="./docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+			<xs:import schemaLocation="./www.w3.org/2006/03/addressing/ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+			<xs:import namespace="urn:siram:lps:ctxlps" schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd"/>
+			<xs:import namespace="urn:siram:bam:ctxbam" schemaLocation="xsd/CTX/ROOT_ctxbam_CTXBAM_V01_02.xsd"/>
+			<!-- Body -->
+			<xs:import namespace="urn:ir:se_soumisfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_soumisfactransp_SE_SOUMISFACTRANSP_V00_14.xsd"/>
+			<xs:import namespace="urn:ir:se_arcvfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_arcvfactransp_SE_ARCV_FACTRANSP_V00_02.xsd"/>
+			<xs:import namespace="urn:ir:se_validefactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_validefactransp_SE_VALIDEFACTRANSP_V00_14.xsd"/>
+			<xs:import namespace="urn:ir:se_avalfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_avalfactransp_SE_AVAL_FACTRANSP_V00_03.xsd"/>
+		</xs:schema>
+	</wsdl:types>
+
+	<wsdl:message name="controlerRecevabiliteRequest">
+		<wsdl:part name="parameters" element="se_soumisfactransp:SE_SOUMISFACTRANSP"/>
+		<wsdl:part name="CRR_Security" element="wsse:Security"/>
+		<wsdl:part name="CRR_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="CRR_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="CRR_MessageID" element="wsa:MessageID"/>
+	</wsdl:message>
+	<wsdl:message name="controlerRecevabiliteResponse">
+		<wsdl:part name="parameters" element="se_arcvfactransp:SE_ARCV_FACTRANSP"/>
+	</wsdl:message>
+	<wsdl:message name="validerRequest">
+		<wsdl:part name="parameters" element="se_validefactransp:SE_VALIDEFACTRANSP"/>
+		<wsdl:part name="VR_Security" element="wsse:Security"/>
+		<wsdl:part name="VR_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="VR_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="VR_MessageID" element="wsa:MessageID"/>
+	</wsdl:message>
+	<wsdl:message name="validerResponse">
+		<wsdl:part name="parameters" element="se_avalfactransp:SE_AVAL_FACTRANSP"/>
+	</wsdl:message>
+	<wsdl:portType name="ServiceAccueilSEFiTransportService">
+		<wsdl:operation name="controlerRecevabilite">
+			<wsdl:input message="tns:controlerRecevabiliteRequest" wsaw:Action="urn:ServiceAccueilSEFiTransport:2.0.0:controlerRecevabilite"/>
+			<wsdl:output message="tns:controlerRecevabiliteResponse" wsaw:Action="urn:ServiceAccueilSEFiTransport:2.0.0:controlerRecevabilite"/>
+		</wsdl:operation>
+		<wsdl:operation name="valider">
+			<wsdl:input message="tns:validerRequest" wsaw:Action="urn:ServiceAccueilSEFiTransport:2.0.0:valider"/>
+			<wsdl:output message="tns:validerResponse" wsaw:Action="urn:ServiceAccueilSEFiTransport:2.0.0:valider"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ServiceAccueilSEFiTransportServiceBinding"
+	 	type="tns:ServiceAccueilSEFiTransportService">
+		<soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="controlerRecevabilite">
+			<soap12:operation soapAction="urn:ServiceAccueilSEFiTransport:2.0.0:controlerRecevabilite"/>
+			<wsdl:input>
+				<soap12:body parts="parameters" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_Security" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_ContexteLPS" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_ContexteBAM" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_MessageID" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="valider">
+			<soap12:operation soapAction="urn:ServiceAccueilSEFiTransport:2.0.0:valider"/>
+			<wsdl:input>
+				<soap12:body parts="parameters" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_Security" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_ContexteLPS" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_ContexteBAM" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_MessageID" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ServiceAccueilSEFiTransport">
+		<wsdl:port name="ServiceAccueilSEFiTransportService" binding="tns:ServiceAccueilSEFiTransportServiceBinding">
+			<soap12:address location="https://qualiflps.services-ps.ameli.fr/lps"/>
+		</wsdl:port>
+	</wsdl:service>
+	<!-- Requêtes contenant la partie métier et les entêtes -->
+	<!-- Message avec WS-Action -->
+	<!-- Binding -->
+</wsdl:definitions>

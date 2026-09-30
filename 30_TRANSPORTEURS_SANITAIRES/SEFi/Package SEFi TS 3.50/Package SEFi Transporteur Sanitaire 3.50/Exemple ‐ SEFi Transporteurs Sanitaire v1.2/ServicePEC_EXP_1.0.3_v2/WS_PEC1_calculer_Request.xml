@@ -1,0 +1,96 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:siram:bam:ctxbam" xmlns:add="http://www.w3.org/2005/08/addressing" xmlns:urn1="urn:siram:lps:ctxlps" xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:urn2="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" xmlns:xe="http://www.w3.org/2001/04/xmlenc#" xmlns:urn3="urn:ir:se_acqmodalitepectransp" xmlns:urn4="urn:siram:prescription">
+	<soap:Header>
+		<urn:ContexteBAM Version="01_02">
+			<urn:Id>_b9f6092f-b05f-4620-afdc-8dcf623cd6fc</urn:Id>
+			<urn:Temps>2014-03-31T12:00:00.00Z</urn:Temps>
+			<urn:Emetteur>500000000016261/CDET0001</urn:Emetteur>
+			<urn:DateRef>2012-10-01T12:00:00</urn:DateRef>
+			<urn:COUVERTURE>
+				<urn:GrandRegime>01</urn:GrandRegime>
+				<urn:ASSURE>
+					<urn:Id>
+						<urn:Num>1830163220110</urn:Num>
+						<urn:Cle>01</urn:Cle>
+					</urn:Id>
+				</urn:ASSURE>
+				<urn:BENEFICIAIRE>
+					<urn:DateNai>1983-01-01</urn:DateNai>
+					<urn:Rang>1</urn:Rang>
+				</urn:BENEFICIAIRE>
+			</urn:COUVERTURE>
+		</urn:ContexteBAM>
+		<add:MessageID>_518b0095-daeb-400f-8265-65ea66ab2350</add:MessageID>
+		<add:Action>urn:servicepec:1.0.0:calculer</add:Action>
+		<urn1:ContexteLPS Version="01_00">
+			<urn1:Id>_b08f198e-eb9c-4895-8df7-ce49b23a78ac</urn1:Id>
+			<urn1:Temps>2014-03-31T12:00:00.00Z</urn1:Temps>
+			<urn1:Emetteur>500000000016261/CDET0001</urn1:Emetteur>
+			<urn1:LPS>
+				<urn1:IDAM R="4">NumAutorisation</urn1:IDAM>
+				<urn1:Version>01.00</urn1:Version>
+				<urn1:Instance>abcd1234-a001-b005-c001-111111111111</urn1:Instance>
+				<urn1:Nom>LPS GIE SV</urn1:Nom>
+			</urn1:LPS>
+		</urn1:ContexteLPS>
+		<oas:Security>
+			<Assertion  ID="_51e43c54-a063-426d-b813-115c18e8b83f"  IssueInstant="2014-04-25T14:27:01.237Z"  Version="2.0"  xmlns="urn:oasis:names:tc:SAML:2.0:assertion" >
+				<Issuer  Format="urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName" > GN=PATRICK+SN=SIRENE0000016260001+CN=500000000016261/CDET0001,OU=300000000016261,L=Paris (75),O=TEST,C=FR</Issuer>
+				<Signature  xmlns="http://www.w3.org/2000/09/xmldsig#" >
+					<SignedInfo >
+						<CanonicalizationMethod  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+						<SignatureMethod  Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+						<Reference  URI="#_51e43c54-a063-426d-b813-115c18e8b83f" >
+							<Transforms >
+								<Transform  Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+								<Transform  Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+							</Transforms>
+							<DigestMethod  Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+							<DigestValue >udLj0nuz3E81Ra9Ja9YA+OWBbG/EqhBFu41Ymx669Xs=</DigestValue>
+						</Reference>
+					</SignedInfo>
+					<SignatureValue >wRyefCZ4h0Wqx5EaHI8JJvav0ATrwi6YPfK7E4ilAUwCdlXhcGlHFJA2sjRW4HLgukZUK203PMm8x5bOL5444Gd5ExNrKG9R7ldRwfcH/MJr+42Sl0FEddzbW1D6mCCeW33JOfMiguMl/wyNywmhxcV1UoSQbKOpuWeUBaOR4BSXA+fNjzm8J2vIT1ir7f8mIbZOpvZP7knnKxwrczPb+t0wOWwxjgKCYrOHa+RYV3fEJHwX+dfg54LEXFQ3dLiZGLRNKNC0/9VQNeyG0nbwXIJNkHVPoODGJRCqFZYaOHheJghxPihfU8BZFhExHibv+6N5LVWAaE/rcUDUoREZoA==</SignatureValue>
+					<KeyInfo >
+						<X509Data >
+							<X509Certificate >MIIFsTCCBJmgAwIBAgIDTIGIMA0GCSqGSIb3DQEBBQUAME0xCzAJBgNVBAYTAkZSMQ0wCwYDVQQKEwRURVNUMRcwFQYDVQQLEw5URVNUIFNUUlVDVFVSRTEWMBQGA1UEAxMNVEVTVCBDTEFTU0UtMjAeFw0xMjA4MTUwMDAwMDFaFw0xNDA4MzEyMTU5NTlaMIGaMQswCQYDVQQGEwJGUjENMAsGA1UEChMEVEVTVDETMBEGA1UEBxQKUGFyaXMgKDc1KTEYMBYGA1UECxMPMzAwMDAwMDAwMDE2MjYxMU0wHwYDVQQDExg1MDAwMDAwMDAwMTYyNjEvQ0RFVDAwMDEwGgYDVQQEFBNTSVJFTkUwMDAwMDE2MjYwMDAxMA4GA1UEKhQHUEFUUklDSzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOqGGn5fj/Cz7L/G0MldwN+kSthrLtVMVfeeOuKxqLtD1kfKGRoedcSB5+ILPP5cG6lSTTQ8hruMibAryvmBXO2W1LazT+fEQpEqDDNtpNEiOGBJCBVVLikBqoiUpsQMEvUcOvcSx3GH+UoR+pZ33ah4a5Z0oY+n/AJFQ1yJHmzQaD2pIqo6RQlpzlr7qd2cn2cmExs8/kF8kuisB+VFmqOGTdNRT/tpYoo+qnMJA3fX3QOvt9g4T+qT8UmfeLvX1BetjI7U61lYcU1pnCH5EebQTw+mFueWYJXzfw14Isf96EG2WRJ1EdDU9iT10TCPvNDquXMq0NHTx+JhwyYFEWcCAwEAAaOCAkowggJGMB8GA1UdIwQYMBaAFERyEonCcneb2wo7j0oyrk4sr1h2MB0GA1UdDgQWBBTJoMoWtYmnWhcMRdD0D0B3owyVUTAOBgNVHQ8BAf8EBAMCBsAwEwYDVR0lBAwwCgYIKwYBBQUHAwQwKwYDVR0QBCQwIoAPMjAxMjA4MTUwMDAwMDFagQ8yMDE0MDczMTIzNTk1OVowGQYDVR0gBBIwEDAOBgwqgXoBRwMHCQIBAgEwCQYDVR0TBAIwADCBugYDVR0fBIGyMIGvMDugOaA3hjVodHRwOi8vYW5udWFpcmUuZ2lwLWNwcy5mci9jcmwvdGVzdC9URVNUIENMQVNTRS0yLmNybDBwoG6gbIZqbGRhcDovL2FubnVhaXJlLmdpcC1jcHMuZnIvY249dGVzdCBjbGFzc2UtMixvdT10ZXN0IHN0cnVjdHVyZSxvPXRlc3QsYz1mcj9jZXJ0aWZpY2F0ZXJldm9jYXRpb25saXN0O2JpbmFyeTB1BgNVHS4EbjBsMGqgaKBmhmRsZGFwOi8vYW5udWFpcmUuZ2lwLWNwcy5mci9jbj10ZXN0IGNsYXNzZS0yLG91PXRlc3Qgc3RydWN0dXJlLG89dGVzdCxjPWZyP2RlbHRhcmV2b2NhdGlvbmxpc3Q7YmluYXJ5MBEGCWCGSAGG+EIBAQQEAwIFIDAjBggqgXoBRwECAwQXExU4MDI1MDAwMDAxLzIzMDA5OTM0MzYwDwYIKoF6AUcBAgUEAwQBgDAPBggqgXoBRwECAgQDAgECMA0GCSqGSIb3DQEBBQUAA4IBAQBdz/WoDmYG+hOlJdzuq2bMJjHome81VLr5W4NVuIzLKdnD/S4/Nez4TcWPV0JgLNpJ+B9vyNzLTSA+UTWRJpOeEnxwqXxm3YY1UX4vOtjbbINafCjtYNP1PUo3eCbBDWS4Cvl4m8bs2CZwqdnIaOsYgOfRNhf6Sxcy0yI75d5Yxuz001zpZbDrrTUYQlIeRMZMLSyC39zH4UM4gvmJtcvQ/YKicZJxhwBAFvwS3oGvIz2os3Ojo3dow3IE11dbyVM3KKbQa7LpuoAnZIhPjzjeIFXlcjxD13a5f4dTsx879HiaYoqLTiLCYwngigk4hZPv07BPuRvUaBVLJRrxkHfX</X509Certificate>
+						</X509Data>
+					</KeyInfo>
+				</Signature>
+				<Subject >
+					<NameID  NameQualifier="CDE-CPE" >500000000016261/CDET0001</NameID>
+				</Subject>
+				<AttributeStatement >
+					<Attribute  Name="identifiantFacturation" >
+						<AttributeValue >992500538</AttributeValue>
+					</Attribute>
+				</AttributeStatement>
+			</Assertion>         
+		</oas:Security>
+	</soap:Header>
+	<soap:Body>
+		<urn3:SE_ACQMODALITEPECTRANSP>
+			<urn4:PRESCRIPTION>
+				<urn4:DatePrescription>2012-10-01</urn4:DatePrescription>
+				<urn4:PATIENT>
+					<urn4:DateNai>1983-01-01</urn4:DateNai>
+					<urn4:RangNai>1</urn4:RangNai>
+					<urn4:COUVERTURE>
+						<urn4:ASSURE>
+							<urn4:Id>
+								<urn4:Num>1830163220110</urn4:Num>
+								<urn4:Cle>01</urn4:Cle>
+							</urn4:Id>
+						</urn4:ASSURE>
+					</urn4:COUVERTURE>
+				</urn4:PATIENT>
+				<urn4:EltTransport>
+					<urn4:ModeTransport>VSL</urn4:ModeTransport>
+					<urn4:CONTEXTETRANSPORT>
+						<urn4:Motif>ALD</urn4:Motif>
+						<urn4:Motif>CDP100</urn4:Motif>
+						<urn4:DateRealisation>2012-10-01</urn4:DateRealisation>
+					</urn4:CONTEXTETRANSPORT>
+				</urn4:EltTransport>
+			</urn4:PRESCRIPTION>
+		</urn3:SE_ACQMODALITEPECTRANSP>
+	</soap:Body>
+</soap:Envelope>

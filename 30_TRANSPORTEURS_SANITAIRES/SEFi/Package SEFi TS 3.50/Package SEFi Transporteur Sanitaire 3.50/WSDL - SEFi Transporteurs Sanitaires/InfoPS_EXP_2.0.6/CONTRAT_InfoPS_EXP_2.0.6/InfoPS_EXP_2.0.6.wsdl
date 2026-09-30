@@ -1,0 +1,115 @@
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s1="http://g2.cnamts.fr" xmlns:reqinfopsfiness="urn:ir:expolps_reqinfopsfiness" xmlns:infopsstructure="urn:ir:expolps_infopsstructure" xmlns:reqinfopsam="urn:ir:expolps_reqinfopsam" xmlns:infopsindividu="urn:ir:expolps_infopsindividu" xmlns:reqinfotransp="urn:ir:expolps_reqinfotransp" xmlns:infotransp="urn:ir:expolps_infotransp" xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:ctxlps="urn:siram:lps:ctxlps" xmlns:ns="urn:siram:partenairesante" name="InfoPS" targetNamespace="http://g2.cnamts.fr">
+	<types>
+		<xsd:schema targetNamespace="http://g2.cnamts.fr">
+			<!-- Header -->
+			<xsd:import schemaLocation="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+			<xsd:import schemaLocation="http://www.w3.org/2005/08/addressing/ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+			<xsd:import namespace="urn:siram:lps:ctxlps" schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_reqinfopsfiness" schemaLocation="xsd/InfoPS/ROOT_expolps_reqinfopsfiness_EXPOLPSTRANSP_REQINFOPSFINESS_V00_03.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_infopsstructure" schemaLocation="xsd/InfoPS/ROOT_expolps_infopsstructure_EXPOLPSTRANSP_INFOPSSTRUCTURE_V00_02.xsd"/>
+			<!-- Import des types utilises par la methode rechercherPrescripteurPraticien -->
+			<xsd:import namespace="urn:ir:expolps_reqinfopsam" schemaLocation="xsd/InfoPS/ROOT_expolps_reqinfopsam_EXPOLPSTRANSP_REQINFOPSAM_V00_02.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_infopsindividu" schemaLocation="xsd/InfoPS/ROOT_expolps_infopsindividu_EXPOLPSTRANSP_INFOPSINDIVIDU_V00_03.xsd"/>
+			<!-- Import des types utilises par la methode rechercherDonneesTransporteur -->
+			<xsd:import namespace="urn:ir:expolps_reqinfotransp" schemaLocation="xsd/InfoPS/ROOT_expolps_reqinfotransp_EXPOLPSTRANSP_REQINFOTRANSP_V00_02.xsd"/>
+			<xsd:import namespace="urn:ir:expolps_infotransp" schemaLocation="xsd/InfoPS/ROOT_expolps_infotransp_EXPOLPSTRANSP_INFOTRANSP_V00_02.xsd"/>
+		</xsd:schema>
+	</types>
+	<message name="rechercherEtablissementRequest">
+		<part name="RE_Security" element="wsse:Security"/>
+		<part name="RE_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<part name="RE_MessageID" element="wsa:MessageID"/>
+		<part name="parameters" element="reqinfopsfiness:EXPOLPSTRANSP_REQINFOPSFINESS"/>
+	</message>
+	<message name="rechercherEtablissementResponse">
+		<part name="parameters" element="infopsstructure:EXPOLPSTRANSP_INFOPSSTRUCTURE"/>
+	</message>
+	<message name="rechercherPrescripteurPraticienRequest">
+		<part name="RPP_Security" element="wsse:Security"/>
+		<part name="RPP_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<part name="RPP_MessageID" element="wsa:MessageID"/>
+		<part name="parameters" element="reqinfopsam:EXPOLPSTRANSP_REQINFOPSAM"/>
+	</message>
+	<message name="rechercherPrescripteurPraticienResponse">
+		<part name="parameters" element="infopsindividu:EXPOLPSTRANSP_INFOPSINDIVIDU"/>
+	</message>
+	<message name="rechercherDonneesTransporteurRequest">
+		<part name="RDT_Security" element="wsse:Security"/>
+		<part name="RDT_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<part name="RDT_MessageID" element="wsa:MessageID"/>
+		<part name="parameters" element="reqinfotransp:EXPOLPSTRANSP_REQINFOTRANSP"/>
+	</message>
+	<message name="rechercherDonneesTransporteurResponse">
+		<part name="parameters" element="infotransp:EXPOLPSTRANSP_INFOTRANSP"/>
+	</message>
+	<portType name="InfoPSIRWS">
+		<operation name="rechercherEtablissement">
+			<input message="s1:rechercherEtablissementRequest" wsaw:Action="urn:InfoPS:2.0.1:rechercherEtablissement"/>
+			<output message="s1:rechercherEtablissementResponse" wsaw:Action="urn:InfoPS:2.0.1:rechercherEtablissement"/>
+		</operation>
+		<operation name="rechercherPrescripteurPraticien">
+			<input message="s1:rechercherPrescripteurPraticienRequest" wsaw:Action="urn:InfoPS:2.0.0:rechercherPrescripteurPraticien"/>
+			<output message="s1:rechercherPrescripteurPraticienResponse" wsaw:Action="urn:InfoPS:2.0.0:rechercherPrescripteurPraticien"/>
+		</operation>
+		<operation name="rechercherDonneesTransporteur">
+			<input message="s1:rechercherDonneesTransporteurRequest" wsaw:Action="urn:InfoPS:2.0.0:rechercherDonneesTransporteur"/>
+			<output message="s1:rechercherDonneesTransporteurResponse" wsaw:Action="urn:InfoPS:2.0.0:rechercherDonneesTransporteur"/>
+		</operation>
+	</portType>
+	<binding name="InfoPSIRWSPortBinding" type="s1:InfoPSIRWS">
+		<wsoap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="rechercherEtablissement">
+			<wsoap12:operation soapAction="urn:InfoPS:2.0.1:rechercherEtablissement"/>
+			<input>
+				<wsoap12:header message="s1:rechercherEtablissementRequest" part="RE_Security" use="literal"/>
+				<wsoap12:header message="s1:rechercherEtablissementRequest" part="RE_ContexteLPS" use="literal"/>
+				<wsoap12:header message="s1:rechercherEtablissementRequest" part="RE_MessageID" use="literal"/>
+				<wsoap12:body parts="parameters" use="literal"/>
+			</input>
+			<output>
+				<wsoap12:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="rechercherPrescripteurPraticien">
+			<wsoap12:operation soapAction="urn:InfoPS:2.0.0:rechercherPrescripteurPraticien"/>
+			<input>
+				<wsoap12:header message="s1:rechercherPrescripteurPraticienRequest" part="RPP_Security" use="literal"/>
+				<wsoap12:header message="s1:rechercherPrescripteurPraticienRequest" part="RPP_ContexteLPS" use="literal"/>
+				<wsoap12:header message="s1:rechercherPrescripteurPraticienRequest" part="RPP_MessageID" use="literal"/>
+				<wsoap12:body parts="parameters" use="literal"/>
+			</input>
+			<output>
+				<wsoap12:body use="literal"/>
+			</output>
+		</operation>
+		<operation name="rechercherDonneesTransporteur">
+			<wsoap12:operation soapAction="urn:InfoPS:2.0.0:rechercherDonneesTransporteur"/>
+			<input>
+				<wsoap12:header message="s1:rechercherDonneesTransporteurRequest" part="RDT_Security" use="literal"/>
+				<wsoap12:header message="s1:rechercherDonneesTransporteurRequest" part="RDT_ContexteLPS" use="literal"/>
+				<wsoap12:header message="s1:rechercherDonneesTransporteurRequest" part="RDT_MessageID" use="literal"/>
+				<wsoap12:body parts="parameters" use="literal"/>
+			</input>
+			<output>
+				<wsoap12:body use="literal"/>
+			</output>
+		</operation>
+	</binding>
+	<service name="InfoPSIR">
+		<port name="InfoPSIRWSPort" binding="s1:InfoPSIRWSPortBinding">
+			<wsoap12:address location="https://qualiflps.services-ps.ameli.fr/lps"/>
+		</port>
+	</service>
+	<!-- ================== -->
+	<!-- Parametres I/O -->
+	<!-- ================== -->
+	<!-- ================== -->
+	<!-- Port / Operations -->
+	<!-- ================== -->
+	<!-- ================== -->
+	<!-- Bindings -->
+	<!-- ================== -->
+	<!-- ================== -->
+	<!-- Service -->
+	<!-- ================== -->
+</definitions>

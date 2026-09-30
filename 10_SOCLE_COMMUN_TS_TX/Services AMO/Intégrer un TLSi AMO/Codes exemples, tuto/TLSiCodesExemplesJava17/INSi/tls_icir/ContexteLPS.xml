@@ -1,0 +1,11 @@
+<ContexteLPS Version="01_00" Nature="CTXLPS" xmlns="urn:siram:lps:ctxlps">
+ <Id>05f7274d-f75a-4d68-8d3f-bf80fe9ffb4b</Id>
+ <Temps>2021-03-31T09:26:39.0064Z</Temps>
+ <Emetteur></Emetteur>
+ <LPS>
+	<IDAM R="4"></IDAM>
+	<Version>1.00.00</Version>
+	<Instance></Instance>
+	<Nom></Nom>
+ </LPS>
+</ContexteLPS>

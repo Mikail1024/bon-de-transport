@@ -1,0 +1,14 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+      <ns6:SE_ARCV_FACTRANSP xmlns:ns9="urn:ir:se_prestationrembtransp" xmlns:ns8="urn:ir:se_tarifprestationtransp" xmlns:ns7="urn:ir:se_avalfactransp" xmlns:ns6="urn:ir:se_arcvfactransp" xmlns:ns5="urn:ir:se_soumisfactransp" xmlns:ns4="urn:ir:se_validefactransp" xmlns:ns3="urn:ir:se_factransp" xmlns:ns2="urn:ir:se_reqfactransp" xmlns="urn:siram:pn:facturation">
+         <ns6:FACTURE>
+            <CLAUSE>
+               <Texte>Après validation et conformément aux textes régissant notre mission de service public, votre facture sera vérifiée par l'organisme qui a en charge votre dossier.</Texte>
+            </CLAUSE>
+            <ns6:CERTIFICAT>
+               <ns6:Valeur>5F763DAA87FEB0DAB067DC3B2FC5F4E9</ns6:Valeur>
+            </ns6:CERTIFICAT>
+         </ns6:FACTURE>
+      </ns6:SE_ARCV_FACTRANSP>
+   </env:Body>
+</soap:Envelope>

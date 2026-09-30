@@ -1,0 +1,21 @@
+<!-- Schema defined in the SOAP Version 1.2 Part 1 specification
+     Proposed Recommendation:
+     http://www.w3.org/TR/2003/PR-soap12-part1-20030507/
+     $Id: soap-element-envelope.xsd,v 1.27 2014/11/28 09:32:19 boyer-99999 Exp $
+
+     Copyright (C)2003 W3C(R) (MIT, ERCIM, Keio), All Rights Reserved.
+     W3C viability, trademark, document use and software licensing rules
+     apply.
+     http://www.w3.org/Consortium/Legal/
+
+     This document is governed by the W3C Software License [1] as
+     described in the FAQ [2].
+
+     [1] http://www.w3.org/Consortium/Legal/copyright-software-19980720
+     [2] http://www.w3.org/Consortium/Legal/IPR-FAQ-20000620.html#DTD
+--><xs:schema targetNamespace="http://www.w3.org/2003/05/soap-envelope" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.w3.org/2003/05/soap-envelope">
+			
+	<xs:include schemaLocation="soap-type-envelope-base.xsd"/>
+  			
+	<xs:element name="Envelope" type="tns:Envelope"/>
+</xs:schema>

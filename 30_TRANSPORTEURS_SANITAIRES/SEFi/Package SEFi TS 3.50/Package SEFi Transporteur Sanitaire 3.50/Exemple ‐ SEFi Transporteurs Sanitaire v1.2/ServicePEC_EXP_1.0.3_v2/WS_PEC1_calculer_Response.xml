@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+		<ns3:SE_MODALITEPECTRANSP xmlns:ns4="urn:ir:se_acqmodalitepectransp" xmlns:ns3="urn:ir:se_modalitepectransp" xmlns:ns2="urn:siram:pn:facturation" xmlns="urn:siram:prescription">
+			<ns2:FACTURE>
+				<ns2:BENEFICIAIRE>
+					<ns2:RangBen>0</ns2:RangBen>
+				</ns2:BENEFICIAIRE>
+				<ns2:COUVERTURE>
+					<ns2:GrandRegime>01</ns2:GrandRegime>
+					<ns2:Organisme>349</ns2:Organisme>
+					<ns2:EntiteGestion>9880</ns2:EntiteGestion>
+					<ns2:Nature>AMO</ns2:Nature>
+					<ns2:CONTRATS Id="1">
+						<ns2:Contrat>BASE</ns2:Contrat>
+						<ns2:NatureAssurance>AS</ns2:NatureAssurance>
+						<ns2:CadreReglement>O</ns2:CadreReglement>
+					</ns2:CONTRATS>
+					<ns2:CONTEXTE/>
+				</ns2:COUVERTURE>
+				<ns2:COUVERTURE>
+					<ns2:Nature>AMC</ns2:Nature>
+					<ns2:CONTRATS Id="2">
+						<ns2:Contrat>AME-C</ns2:Contrat>
+						<ns2:NatureAssurance>AS</ns2:NatureAssurance>
+						<ns2:CadreReglement>O</ns2:CadreReglement>
+					</ns2:CONTRATS>
+					<ns2:CONTEXTE/>
+				</ns2:COUVERTURE>
+				<ns2:CADRE>
+					<ns2:EXECUTION>
+						<ns2:SERVICE>
+							<ns2:RMB>
+								<ns2:Exo>0</ns2:Exo>
+								<ns2:Part>
+									<ns2:Tux>65</ns2:Tux>
+								</ns2:Part>
+								<ns2:CONTRAT Id="1"/>
+							</ns2:RMB>
+						</ns2:SERVICE>
+					</ns2:EXECUTION>
+				</ns2:CADRE>
+			</ns2:FACTURE>
+		</ns3:SE_MODALITEPECTRANSP>
+	</S:Body>
+</soap:Envelope>

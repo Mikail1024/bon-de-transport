@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug">
+	<Appenders>
+		<Console name="STDOUT" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{ISO8601} [%-5p] %C:%M (%F:%L) - %m%n" />
+		</Console>
+		
+		<RollingFile name="FILE" fileName="lesLogs.log" filePattern="lesLogs-%d{MM-dd-yyyy}-%i.log" append="">
+      		<PatternLayout>
+        		<Pattern>%d{HH:mm:ss,SSS} %-5p %C - %m</Pattern>
+      		</PatternLayout>
+      		<Policies>
+      			<SizeBasedTriggeringPolicy size="5 MB" />
+      		</Policies>
+      		<DefaultRolloverStrategy max="2"/>
+    	</RollingFile>
+		
+	</Appenders>
+
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="FILE" />
+			<AppenderRef ref="STDOUT" />
+		</Root>
+	</Loggers>
+
+</Configuration>

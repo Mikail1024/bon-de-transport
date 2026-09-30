@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions 
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl"
+	xmlns:wsa="http://www.w3.org/2005/08/addressing"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+    xmlns:tns="http://www.cnamts.fr/webservice"
+    xmlns:wsoap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+	xmlns:ctxbam="urn:siram:bam:ctxbam"  
+	xmlns:ctxlps="urn:siram:lps:ctxlps"
+	xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+    xmlns:se_acqmodalitepecb2transp="urn:ir:se_acqmodalitepecb2transp"
+    xmlns:se_modalitepecb2transp="urn:ir:se_modalitepecb2transp" 
+    xmlns:ns="urn:siram:pn:facturation"
+    xmlns:ns1="urn:siram:prescription"
+    xmlns:ns2="urn:siram:prescription:P2" 
+    name="calculer" 
+    xmlns:servicepecb2="urn:siram:servicePriseEnChargeB2"
+    targetNamespace="http://www.cnamts.fr/webservice">
+    
+    <wsdl:documentation>Service Prise En Charge B2 Exposé></wsdl:documentation>
+    <wsdl:types>
+        <xsd:schema>
+			<!-- Header -->
+			<xsd:import namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+				schemaLocation="xsd/WSSE/oasis-200401-wss-wssecurity-secext-1.0.xsd" />
+			<xsd:import namespace="urn:siram:lps:ctxlps"
+				schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd" />
+			<xsd:import namespace="urn:siram:bam:ctxbam"
+				schemaLocation="xsd/CTX/ROOT_ctxbam_CTXBAM_V01_02.xsd" />
+			<xsd:import namespace="http://www.w3.org/2005/08/addressing"
+				schemaLocation="xsd/SOAP/ws-addr.xsd" />
+            <!-- body -->
+            <xsd:import namespace="urn:ir:se_acqmodalitepecb2transp" schemaLocation="xsd/ServicePriseEnChargeB2/ROOT_se_acqmodalitepecb2transp_SE_ACQMODALITEPECB2TRANSP_V00_02.xsd"/>
+            <xsd:import namespace="urn:ir:se_modalitepecb2transp" schemaLocation="xsd/ServicePriseEnChargeB2/ROOT_se_modalitepecb2transp_SE_MODALITEPECB2TRANSP_V00_01.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+    <wsdl:message name="CalculerRequest">
+		<wsdl:part name="CPEC_Security" element="wsse:Security" />
+		<wsdl:part name="CPEC_ContexteLPS" element="ctxlps:ContexteLPS" />
+		<wsdl:part name="CPEC_MessageID" element="wsa:MessageID" />
+		<!-- Le contexte BAM doit contenir :
+				la clé bénef (à minima le NIR OD + éventuellement la date et rang de naissance
+				le rattachement connu du bénef (à minima le code régime + éventuellement code organisme et code centre)
+				la date d'évaluation -->
+		<wsdl:part name="CPEC_ContexteBAM" element="ctxbam:ContexteBAM" />
+        <!-- La couverture du benef (régime + organisme) est renseignée dans le body -->
+        <wsdl:part name="calculer" element="se_acqmodalitepecb2transp:SE_ACQMODALITEPECB2TRANSP"/>
+    </wsdl:message>
+    <wsdl:message name="CalculerResponse">
+        <wsdl:part name="calculerResponse" element="se_modalitepecb2transp:SE_MODALITEPECB2TRANSP"/>
+    </wsdl:message>
+    <wsdl:portType name="ServicePECB2Service">
+        <!-- Renommage du nom de l'opération (compatibilité avec W0 assurée par le composant d'adaptation) -->
+        <wsdl:operation name="calculer">
+            <wsdl:input name="CalculerRequest" message="tns:CalculerRequest" wsaw:Action="urn:servicepecb2:4.0.1:calculer"/>
+            <wsdl:output name="CalculerResponse" message="tns:CalculerResponse" wsaw:Action="urn:servicepecb2:4.0.1:calculer"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="ServicePECB2ServiceBinding" type="tns:ServicePECB2Service">
+        <wsoap12:binding style="document" transport="http://www.w3.org/2003/05/soap/bindings/HTTP/"/>
+        <wsaw:UsingAddressing required="true"/>
+        <wsdl:operation name="calculer">
+            <wsoap12:operation soapAction="urn:servicepecb2:4.0.1:calculer"/>
+            <wsdl:input name="CalculerRequest">
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_Security" use="literal" />
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_ContexteLPS" use="literal" />
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_MessageID" use="literal" />
+				<wsoap12:header message="tns:CalculerRequest" part="CPEC_ContexteBAM" use="literal" />
+                <wsoap12:body parts="calculer" use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="CalculerResponse">
+                <wsoap12:body parts="calculerResponse" use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="ServicePECB2">
+        <wsdl:documentation>PEC Web Services</wsdl:documentation>
+        <wsdl:port name="ServicePECB2Service" binding="tns:ServicePECB2ServiceBinding">
+            <wsoap12:address location="https://ws-ps.ameli.fr/WebGate/services/W1/0100"/>
+            <!-- adresse du serveur -->
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:add="http://www.w3.org/2005/08/addressing">
+	<soap:Header>
+		<add:MessageID>_82164d3a-cf63-4b5d-9d69-a603edc94019</add:MessageID>
+		<add:Action>urn:ApCV_AUTH:1.0.0:detruireContexteApCV</add:Action>
+	</soap:Header>
+	<soap:Body>
+		<DetruireContexteApCVRep xmlns="http://www.sesam-vitale.fr/apcv/auth/1/0" version="1.0" horodatage="2020-04-30T09:30:10Z" ID="_51659667-e952-44ba-a504-929e0236b5a4">
+			<CodeStatut>0</CodeStatut>
+		</DetruireContexteApCVRep>
+	</soap:Body>
+</soap:Envelope>

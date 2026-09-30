@@ -1,0 +1,67 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:urn="urn:siram:bam:ctxbam" xmlns:add="http://www.w3.org/2005/08/addressing" xmlns:urn1="urn:siram:lps:ctxlps" xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:urn2="urn:ir:se_acqmodalitepecb2transp" xmlns:urn3="urn:siram:prescription">
+   <soap:Header>
+      <urn:ContexteBAM Version="01_02">
+         <urn:Id>d2b35b99-6467-45e0-946b-4ec9b3766ee1</urn:Id>
+         <urn:Temps>2015-05-19T12:00:00.000Z</urn:Temps>
+         <urn:Emetteur>992512345</urn:Emetteur>
+         <urn:DateRef>2015-05-19T12:00:00.000Z</urn:DateRef>
+         <urn:COUVERTURE>
+            <urn:GrandRegime>01</urn:GrandRegime>
+            <urn:ASSURE>
+               <urn:Id>
+                  <urn:Num>1650163220102</urn:Num>
+                  <urn:Cle>18</urn:Cle>
+               </urn:Id>
+            </urn:ASSURE>
+            <urn:BENEFICIAIRE>
+               <urn:DateNai>1976-06-02</urn:DateNai>
+               <urn:Rang>1</urn:Rang>
+            </urn:BENEFICIAIRE>
+         </urn:COUVERTURE>
+      </urn:ContexteBAM>
+      <add:MessageID>96f1ce05-6ac6-4b83-b0bb-93675d80b450</add:MessageID>
+      <add:Action>urn:servicepecb2:4.0.1:calculer</add:Action>
+      <urn1:ContexteLPS Version="01_00">
+         <urn1:Id>73bdb637-1cb5-4b67-8fbb-5c172392bd44</urn1:Id>
+         <urn1:Temps>2015-05-19T12:00:00.000Z</urn1:Temps>
+         <urn1:Emetteur>992512345</urn1:Emetteur>
+         <urn1:LPS>
+            <urn1:IDAM R="4">NumAutorisation</urn1:IDAM>
+            <urn1:Version>01.00</urn1:Version>
+            <urn1:Instance>abcd1234-a001-b005-c001-111111111111</urn1:Instance>
+            <urn1:Nom>NomProgiciel</urn1:Nom>
+         </urn1:LPS>
+      </urn1:ContexteLPS>
+      <oas:Security>
+         <oas:UsernameToken>
+            <oas:Username>login</oas:Username>
+            <oas:Password>password</oas:Password>
+         </oas:UsernameToken>
+      </oas:Security>
+   </soap:Header>
+   <soap:Body>
+      <urn2:SE_ACQMODALITEPECB2TRANSP>
+         <urn3:PRESCRIPTION>
+            <urn3:DatePrescription>2015-05-19</urn3:DatePrescription>
+            <urn3:PATIENT>
+               <urn3:DateNai>1976-06-02</urn3:DateNai>
+               <urn3:RangNai>1</urn3:RangNai>
+               <urn3:COUVERTURE>
+                  <urn3:ASSURE>
+                     <urn3:Id>
+                        <urn3:Num>1650163220102</urn3:Num>
+                        <urn3:Cle>18</urn3:Cle>
+                     </urn3:Id>
+                  </urn3:ASSURE>
+               </urn3:COUVERTURE>
+            </urn3:PATIENT>
+            <urn3:EltTransport>
+               <urn3:ModeTransport>ABA</urn3:ModeTransport>
+               <urn3:CONTEXTETRANSPORT>
+                  <urn3:DateRealisation>2015-05-19</urn3:DateRealisation>
+               </urn3:CONTEXTETRANSPORT>
+            </urn3:EltTransport>
+         </urn3:PRESCRIPTION>
+      </urn2:SE_ACQMODALITEPECB2TRANSP>
+   </soap:Body>
+</soap:Envelope>

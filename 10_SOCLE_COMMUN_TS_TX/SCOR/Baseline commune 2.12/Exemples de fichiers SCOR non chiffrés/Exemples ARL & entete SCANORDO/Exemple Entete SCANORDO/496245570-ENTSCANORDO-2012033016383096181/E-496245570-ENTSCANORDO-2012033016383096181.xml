@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Entete PGMD_Profil="ENTSCANORDO" Profil_Version="02.06" xmlns="http://www.interregime.fr/ENTSCANORDO" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+  <Identification>496245570-2012033016383096181</Identification>
+  <Temps>2012-03-30T16:38:30</Temps>
+  <Fonction>53</Fonction>
+  <NbrDoc>1</NbrDoc>
+  <InfoIDXLOT>01</InfoIDXLOT>
+  <InfoNBLOT>01</InfoNBLOT>
+  <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+  <Emetteur>
+    <Identite R="FINESS">496245570</Identite>
+    <Nom>off496245570</Nom>
+    <RPPS>76226670643</RPPS>
+    <Telecom>
+      <Type>EM</Type>
+      <Numero>pairps10@dqi143l020.gie-sv.fr</Numero>
+    </Telecom>
+    <Qualite>OPORDO</Qualite>
+    <Region>16</Region>
+    <SpecialitePS>13</SpecialitePS>
+    <Agrement>
+      <Id>pair0000</Id>
+      <Version>aa00</Version>
+    </Agrement>
+  </Emetteur>
+  <Recepteur>
+    <Identite R="CGRORGDEST">01002</Identite>
+    <Qualite>OPAMO</Qualite>
+  </Recepteur>
+  <Trace>
+    <Activite>LOTFSE</Activite>
+    <Temps>2012-03-30T00:00:00</Temps>
+    <Archive>280</Archive>
+    <InfoType>2</InfoType>
+    <InfoNBFACT>001</InfoNBFACT>
+  </Trace>
+    <Document>
+    <Mindex>
+      <Profil>SCANORDO</Profil>
+      <Identification>001</Identification>
+      <Temps>2012-03-30T16:38:30.0Z</Temps>
+    </Mindex>
+    
+    <Lien>
+      <Adresse>D-001.pkcs7</Adresse>
+      <Type Q="XML">PKCS7</Type>
+    </Lien>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>PRST</Nature>
+      <Identification>496245570.PRST.20120330163830.309</Identification>
+      <InfoModeEnvoi>CDROM</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>TKVT</Nature>
+      <Identification>496245570.TKVT.20120330163830.566</Identification>
+      <InfoModeEnvoi>PAPIER</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>FSEC</Nature>
+      <Identification>496245570.FSEC.20120330163830.051</Identification>
+      <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>FSNC</Nature>
+      <Identification>496245570.FSNC.20120330163830.398</Identification>
+      <InfoModeEnvoi>PAPIER</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>TKVT</Nature>
+      <Identification>496245570.TKVT.20120330163830.963</Identification>
+      <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>ORDN</Nature>
+      <Identification>496245570.ORDN.20120330163830.032</Identification>
+      <InfoModeEnvoi>TELETRANS</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>PRST</Nature>
+      <Identification>496245570.PRST.20120330163830.682</Identification>
+      <InfoModeEnvoi>PAPIER</InfoModeEnvoi>
+    </LienExterne>
+    <LienExterne>
+      <Type Q="PDF">PKCS7</Type>
+      <Nature>FSNC</Nature>
+      <Identification>496245570.FSNC.20120330163830.969</Identification>
+      <InfoModeEnvoi>CDROM</InfoModeEnvoi>
+    </LienExterne>
+  </Document>
+
+</Entete>

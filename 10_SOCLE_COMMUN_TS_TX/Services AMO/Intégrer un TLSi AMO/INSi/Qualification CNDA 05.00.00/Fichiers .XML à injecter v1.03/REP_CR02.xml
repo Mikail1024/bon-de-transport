@@ -1,0 +1,18 @@
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+    <ns3:LeResultatDuLot xmlns:ns4="http://www.w3.org/2003/05/soap-envelope" xmlns:ns6="http://www.cnamts.fr/MRA/INSSansDates" xmlns:ns1="http://www.cnamts.fr/MRA/CommunLot" xmlns:ns5="http://www.cnamts.fr/INSiLot2/REQueteUnitaire" xmlns:ns3="http://www.cnamts.fr/INSiLot2/iResultatLot" xmlns:ns0="http://www.cnamts.fr/INSiLOt2/ARL" xmlns:ns2="http://www.cnamts.fr/INSiLot2/RequeteLot" xmlns:ns7="http://www.cnamts.fr/INSiLot2/REPUnitaire" xmlns:ns8="http://www.cnamts.fr/INSiLot2/Retrait">
+      <ns3:LotReqConcerne>
+        <ns1:IdLot>XXXX</ns1:IdLot>
+      </ns3:LotReqConcerne>
+      <ns3:CrGlobal>
+        <ns1:CR>
+          <ns1:Code>02</ns1:Code>
+          <ns1:Libelle>Votre lot n'est pas encore traité</ns1:Libelle>
+        </ns1:CR>
+        <ns1:EstimDelai>00:03:00</ns1:EstimDelai>
+      </ns3:CrGlobal>
+    </ns3:LeResultatDuLot>
+  </S:Body>
+</soap:Envelope>

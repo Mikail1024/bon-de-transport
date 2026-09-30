@@ -1,0 +1,13 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.w3.org/2003/05/soap-envelope" targetNamespace="http://www.w3.org/2003/05/soap-envelope" elementFormDefault="qualified">
+	<xs:complexType name="Header">
+		<xs:annotation>
+			<xs:documentation>
+	  Elements replacing the wildcard MUST be namespace qualified, but can be in the targetNamespace
+	  </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute namespace="##other" processContents="lax"/>
+	</xs:complexType>
+</xs:schema>

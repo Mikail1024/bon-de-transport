@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+	Règle de nommage de ce fichier, concernant le numéro de version x.y.z figurant avant l'extension ".wsdl"
+	- x = à incrémenter lors d'une modification majeure, telle que l'ajout/suppression d'une opération
+	- y = à incrémenter lors d'une modification de XSD incluse (et donc une modification de son nom de fichier)
+	- z = à incrémenter en cas de version corrective de ce fichier
+
+	/!\ attention à la valeur de <soap12:address location="..."/>, à adapter lors des dev, puis rectifier avant livraison
+
+-->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tns="http://www.cnamts.fr/webservice" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:se_reqfactransp="urn:ir:se_reqfactransp" xmlns:se_factransp="urn:ir:se_factransp" xmlns:ns="urn:siram:pn:facturation" xmlns:se_soumisfactransp="urn:ir:se_soumisfactransp" xmlns:se_arcvfactransp="urn:ir:se_arcvfactransp" xmlns:se_validefactransp="urn:ir:se_validefactransp" xmlns:se_avalfactransp="urn:ir:se_avalfactransp" xmlns:se_tarifprestationtransp="urn:ir:se_tarifprestationtransp" xmlns:se_prestationrembtransp="urn:ir:se_prestationrembtransp" xmlns:semafeltransport="urn:siram:serviceexternemafactureenlignetransport" xmlns:wsaw="http://www.w3.org/2006/02/addressing/wsdl" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:ctxbam="urn:siram:bam:ctxbam" xmlns:ctxlps="urn:siram:lps:ctxlps" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" name="controlerRecevabilite" targetNamespace="http://www.cnamts.fr/webservice">
+	<!-- Requêtes contenant la partie métier et les entêtes -->
+	<wsdl:types>
+		<xs:schema>
+			<!-- Header -->
+			<xs:import schemaLocation="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"/>
+			<xs:import schemaLocation="http://www.w3.org/2005/08/addressing/ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+			<xs:import namespace="urn:siram:lps:ctxlps" schemaLocation="xsd/CTX/ROOT_ctxlps_CTXLPS_V01_00.xsd"/>
+			<xs:import namespace="urn:siram:bam:ctxbam" schemaLocation="xsd/CTX/ROOT_ctxbam_CTXBAM_V01_02.xsd"/>
+			<!-- Body -->
+			<xs:import namespace="urn:ir:se_reqfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_reqfactransp_SE_REQFACTRANSP_V00_03.xsd"/>
+			<xs:import namespace="urn:ir:se_factransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_factransp_SE_FACTRANSP_V00_15.xsd"/>
+			<xs:import namespace="urn:ir:se_soumisfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_soumisfactransp_SE_SOUMISFACTRANSP_V00_14.xsd"/>
+			<xs:import namespace="urn:ir:se_arcvfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_arcvfactransp_SE_ARCV_FACTRANSP_V00_02.xsd"/>
+			<xs:import namespace="urn:ir:se_validefactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_validefactransp_SE_VALIDEFACTRANSP_V00_14.xsd"/>
+			<xs:import namespace="urn:ir:se_avalfactransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_avalfactransp_SE_AVAL_FACTRANSP_V00_03.xsd"/>
+			<xs:import namespace="urn:ir:se_tarifprestationtransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_tarifprestationtransp_SE_TARIFPRESTATIONTRANSP_V00_03.xsd"/>
+			<xs:import namespace="urn:ir:se_prestationrembtransp" schemaLocation="xsd/ServiceExterneMaFactureEnLigneTransport/ROOT_se_prestationrembtransp_SE_PRESTATIONREMBTRANSP_V00_03.xsd"/>
+		</xs:schema>
+	</wsdl:types>
+	<!-- Message avec WS-Action -->
+	<wsdl:message name="consulterRequest">
+		<wsdl:part name="parameters" element="se_reqfactransp:SE_REQFACTRANSP"/>
+		<wsdl:part name="CR_Security" element="wsse:Security"/>
+		<wsdl:part name="CR_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="CR_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="CR_MessageID" element="wsa:MessageID"/>
+	</wsdl:message>
+	<wsdl:message name="consulterResponse">
+		<wsdl:part name="parameters" element="se_factransp:SE_FACTRANSP"/>
+	</wsdl:message>
+	<wsdl:message name="controlerRecevabiliteRequest">
+		<wsdl:part name="parameters" element="se_soumisfactransp:SE_SOUMISFACTRANSP"/>
+		<wsdl:part name="CRR_Security" element="wsse:Security"/>
+		<wsdl:part name="CRR_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="CRR_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="CRR_MessageID" element="wsa:MessageID"/>
+	</wsdl:message>
+	<wsdl:message name="controlerRecevabiliteResponse">
+		<wsdl:part name="parameters" element="se_arcvfactransp:SE_ARCV_FACTRANSP"/>
+	</wsdl:message>
+	<wsdl:message name="calculerMontantsPrestationRequest">
+		<wsdl:part name="parameters" element="se_tarifprestationtransp:SE_TARIFPRESTATIONTRANSP"/>
+		<wsdl:part name="CMPR_Security" element="wsse:Security"/>
+		<wsdl:part name="CMPR_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="CMPR_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="CMPR_MessageID" element="wsa:MessageID"/>
+	</wsdl:message>
+	<wsdl:message name="calculerMontantsPrestationResponse">
+		<wsdl:part name="parameters" element="se_prestationrembtransp:SE_PRESTATIONREMBTRANSP"/>
+	</wsdl:message>
+	<wsdl:message name="validerRequest">
+		<wsdl:part name="parameters" element="se_validefactransp:SE_VALIDEFACTRANSP"/>
+		<wsdl:part name="VR_Security" element="wsse:Security"/>
+		<wsdl:part name="VR_ContexteLPS" element="ctxlps:ContexteLPS"/>
+		<wsdl:part name="VR_ContexteBAM" element="ctxbam:ContexteBAM"/>
+		<wsdl:part name="VR_MessageID" element="wsa:MessageID"/>
+	</wsdl:message>
+	<wsdl:message name="validerResponse">
+		<wsdl:part name="parameters" element="se_avalfactransp:SE_AVAL_FACTRANSP"/>
+	</wsdl:message>
+	<wsdl:portType name="SEMaFELTransportService">
+		<wsdl:operation name="consulter">
+			<wsdl:input message="tns:consulterRequest" wsaw:Action="urn:semafeltransport:1.0.0:consulter"/>
+			<wsdl:output message="tns:consulterResponse" wsaw:Action="urn:semafeltransport:1.0.0:consulter"/>
+		</wsdl:operation>
+		<wsdl:operation name="controlerRecevabilite">
+			<wsdl:input message="tns:controlerRecevabiliteRequest" wsaw:Action="urn:semafeltransport:1.0.0:controlerRecevabilite"/>
+			<wsdl:output message="tns:controlerRecevabiliteResponse" wsaw:Action="urn:semafeltransport:1.0.0:controlerRecevabilite"/>
+		</wsdl:operation>
+		<wsdl:operation name="calculerMontantsPrestation">
+			<wsdl:input message="tns:calculerMontantsPrestationRequest" wsaw:Action="urn:semafeltransport:1.0.0:calculerMontantsPrestation"/>
+			<wsdl:output message="tns:calculerMontantsPrestationResponse" wsaw:Action="urn:semafeltransport:1.0.0:calculerMontantsPrestation"/>
+		</wsdl:operation>
+		<wsdl:operation name="valider">
+			<wsdl:input message="tns:validerRequest" wsaw:Action="urn:semafeltransport:1.0.0:valider"/>
+			<wsdl:output message="tns:validerResponse" wsaw:Action="urn:semafeltransport:1.0.0:valider"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<!-- Binding -->
+	<wsdl:binding name="SEMaFELTransportServiceBinding" type="tns:SEMaFELTransportService">
+		<soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="consulter">
+			<soap12:operation soapAction="urn:semafeltransport:1.0.0:consulter"/>
+			<wsdl:input>
+				<soap12:body parts="parameters" use="literal"/>
+				<soap12:header message="tns:consulterRequest" part="CR_Security" use="literal"/>
+				<soap12:header message="tns:consulterRequest" part="CR_ContexteLPS" use="literal"/>
+				<soap12:header message="tns:consulterRequest" part="CR_ContexteBAM" use="literal"/>
+				<soap12:header message="tns:consulterRequest" part="CR_MessageID" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="controlerRecevabilite">
+			<soap12:operation soapAction="urn:semafeltransport:1.0.0:controlerRecevabilite"/>
+			<wsdl:input>
+				<soap12:body parts="parameters" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_Security" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_ContexteLPS" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_ContexteBAM" use="literal"/>
+				<soap12:header message="tns:controlerRecevabiliteRequest" part="CRR_MessageID" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="calculerMontantsPrestation">
+			<soap12:operation soapAction="urn:semafeltransport:1.0.0:calculerMontantsPrestation"/>
+			<wsdl:input>
+				<soap12:body parts="parameters" use="literal"/>
+				<soap12:header message="tns:calculerMontantsPrestationRequest" part="CMPR_Security" use="literal"/>
+				<soap12:header message="tns:calculerMontantsPrestationRequest" part="CMPR_ContexteLPS" use="literal"/>
+				<soap12:header message="tns:calculerMontantsPrestationRequest" part="CMPR_ContexteBAM" use="literal"/>
+				<soap12:header message="tns:calculerMontantsPrestationRequest" part="CMPR_MessageID" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="valider">
+			<soap12:operation soapAction="urn:semafeltransport:1.0.0:valider"/>
+			<wsdl:input>
+				<soap12:body parts="parameters" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_Security" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_ContexteLPS" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_ContexteBAM" use="literal"/>
+				<soap12:header message="tns:validerRequest" part="VR_MessageID" use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap12:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="SEMaFELTransport">
+		<wsdl:port name="SEMaFELTransportService" binding="tns:SEMaFELTransportServiceBinding">
+			<!-- soap12:address location="http://hee40c01.alcor.cnqd.cnamts.fr/MetierE7ws/SEMaFELTransport" /-->
+			<soap12:address location="https://qualiflps.services-ps.ameli.fr/lps"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

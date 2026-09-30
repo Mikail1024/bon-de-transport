@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARL xmlns="http://www.interregime.fr/ARLSCANORDO" PGMD_Profil="ARLSCANORDO" Profil_Version="01.03">
+<Identification>2012012711342803085</Identification>
+<Temps>2012-01-27T11:34:28</Temps>
+<Fonction>9</Fonction>
+<Info Q="IDXLOT">1</Info>
+<Info Q="NBLOT">1</Info>
+<DiagEntete>
+<Identification>746917865-2011041411542819851</Identification>
+<Temps>2011-04-14T00:00:00</Temps>
+<Fonction>9</Fonction>
+<Profil>ENTSCANORDO</Profil>
+<Diagnostic>
+<Activite>CTRENV</Activite>
+<Etat>R</Etat>
+<Cause>5999</Cause>
+<Libelle>Dossier rejete</Libelle>
+</Diagnostic>
+<DiagDocument>
+<Mindex>
+<Profil>SCANORDO</Profil>
+<Identification>001</Identification>
+<Temps>2011-04-14T11:54:28.0Z</Temps>
+</Mindex>
+<Diagnostic>
+<Activite>CTRDOC</Activite>
+<Etat>R</Etat>
+<Cause>5380</Cause>
+<Libelle>Option de numerisation non conforme # CPDF:FVPF:validationPDFRudimentaire|CategorieControlePDF|validite_PDF|version PDF non autorisee. La/les version(s) autorisee(s) est/sont PDF-1.4</Libelle>
+</Diagnostic>
+</DiagDocument>
+<DiagDocument>
+<Mindex>
+<Profil>SCANORDO</Profil>
+<Identification>002</Identification>
+<Temps>2011-04-14T11:54:28.0Z</Temps>
+</Mindex>
+<Diagnostic>
+<Activite>CTRDOC</Activite>
+<Etat>R</Etat>
+<Cause>5380</Cause>
+<Libelle>Option de numerisation non conforme # CPDF:FVPF:validationPDFRudimentaire|CategorieControlePDF|validite_PDF|version PDF non autorisee. La/les version(s) autorisee(s) est/sont PDF-1.4</Libelle>
+</Diagnostic>
+</DiagDocument>
+</DiagEntete>
+</ARL>

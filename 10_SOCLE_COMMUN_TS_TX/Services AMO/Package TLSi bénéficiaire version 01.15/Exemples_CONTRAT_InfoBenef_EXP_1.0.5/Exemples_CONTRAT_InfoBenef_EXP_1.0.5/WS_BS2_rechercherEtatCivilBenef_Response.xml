@@ -1,0 +1,16 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+      <ns5:EXPOLPSTRANSP_INFOBENEF xmlns:ns5="urn:ir:expolps_infobenef" xmlns:ns4="urn:ir:expolps_reqinfobenef" xmlns:ns3="urn:ir:expolps_reqinfobenefnirod" xmlns:ns2="urn:ir:expolps_listeinfobenef" xmlns="urn:siram:beneficiaire">
+         <ns5:COUVERTURE>
+            <GrandRegime>01</GrandRegime>
+            <Organisme>261</Organisme>
+            <EntiteGestion>9880</EntiteGestion>
+         </ns5:COUVERTURE>
+         <ns5:BENEFICIAIRE>
+            <NomFamille>DEYMETE</NomFamille>
+            <NomUsage>DEYMETE</NomUsage>
+            <Prenom>OLIVIER</Prenom>
+         </ns5:BENEFICIAIRE>
+      </ns5:EXPOLPSTRANSP_INFOBENEF>
+   </S:Body>
+</soap:Envelope>

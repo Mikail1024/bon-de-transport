@@ -1,0 +1,29 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <env:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope" xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+      <ns7:SE_AVAL_FACTRANSP xmlns:ns9="urn:ir:se_prestationrembtransp" xmlns:ns8="urn:ir:se_tarifprestationtransp" xmlns:ns7="urn:ir:se_avalfactransp" xmlns:ns6="urn:ir:se_arcvfactransp" xmlns:ns5="urn:ir:se_soumisfactransp" xmlns:ns4="urn:ir:se_validefactransp" xmlns:ns3="urn:ir:se_factransp" xmlns:ns2="urn:ir:se_reqfactransp" xmlns="urn:siram:pn:facturation">
+         <ns7:FACTURE>
+            <Numero>453651102</Numero>
+            <DateFacturation>2024-03-14+01:00</DateFacturation>
+            <OrgDest>261</OrgDest>
+            <COUVERTURE>
+               <GrandRegime>01</GrandRegime>
+               <Organisme>261</Organisme>
+               <EntiteGestion>9880</EntiteGestion>
+            </COUVERTURE>
+            <ENVELOPPE>
+               <Lot>515</Lot>
+            </ENVELOPPE>
+            <ns7:AdresseOrgDest>
+               <Dst>Caisse Primaire de la DROME</Dst>
+               <Cpl>BP 1000</Cpl>
+               <Voi>Av</Voi>
+               <Nom>President Herriot</Nom>
+               <Dis>CEDEX</Dis>
+               <Cod>26024</Cod>
+               <Cmn>VALENCE</Cmn>
+            </ns7:AdresseOrgDest>
+            <ns7:DateTraitement>2024-03-14T16:31:43.380+01:00</ns7:DateTraitement>
+         </ns7:FACTURE>
+      </ns7:SE_AVAL_FACTRANSP>
+   </env:Body>
+</soap:Envelope>

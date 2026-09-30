@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ARL xmlns="http://www.interregime.fr/ARLSCANORDO" PGMD_Profil="ARLSCANORDO" Profil_Version="02.00">
+<Identification>2012012711282803081</Identification>
+<Temps>2012-01-27T11:28:28</Temps>
+<Fonction>9</Fonction>
+<DiagEntete>
+<Identification>565038410-2011120510542663945</Identification>
+<Temps>2011-12-05T00:00:00</Temps>
+<Fonction>9</Fonction>
+<Profil>ENTSCANORDO</Profil>
+<Diagnostic>
+<Activite>CTRENV</Activite>
+<Etat>R</Etat>
+<Cause>5113</Cause>
+<Libelle>Code Specialite PS non connu ou non autorise du systeme # CLOT:TSCO:traiterReponseHabilitation|CategorieControleSEH_SCANORDO|habilitation_specialite|CLOT:TSCO:traiterReponseHabilitation|CategorieControleSEH_SCANORDO|habilitation_specialite|CategoriePS -88-200- non habilitee</Libelle>
+</Diagnostic>
+</DiagEntete>
+</ARL>

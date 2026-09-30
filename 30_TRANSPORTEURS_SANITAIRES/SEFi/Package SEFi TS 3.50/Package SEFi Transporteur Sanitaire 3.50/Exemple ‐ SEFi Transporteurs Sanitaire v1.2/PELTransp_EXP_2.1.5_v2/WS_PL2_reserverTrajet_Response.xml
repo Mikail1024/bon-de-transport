@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+	<S:Body xmlns:S="http://www.w3.org/2003/05/soap-envelope">
+		<ns6:EXPOLPSTRANSP_RESERVERTRAJET xmlns:ns7="urn:ir:expolps_reqpeltransp" xmlns:ns6="urn:ir:expolps_reservertrajet" xmlns:ns5="urn:ir:expolps_reqexecutertrajet" xmlns:ns4="urn:ir:expolps_executertrajet" xmlns:ns3="urn:ir:expolps_reqreservertrajet" xmlns:ns2="urn:ir:expolps_peltransp" xmlns="urn:siram:prescription">
+			<ns6:TRAJET>
+				<Identifiant>31553</Identifiant>
+				<TRACE>
+					<Etat>RES</Etat>
+					<Horodatage>2013-12-02T17:06:05.595+01:00</Horodatage>
+				</TRACE>
+			</ns6:TRAJET>
+			<ns6:TRAJET>
+				<Identifiant>31574</Identifiant>
+				<TRACE>
+					<Etat>RES</Etat>
+					<Horodatage>2013-12-02T17:06:05.598+01:00</Horodatage>
+				</TRACE>
+			</ns6:TRAJET>
+		</ns6:EXPOLPSTRANSP_RESERVERTRAJET>
+	</S:Body>
+</soap:Envelope>
