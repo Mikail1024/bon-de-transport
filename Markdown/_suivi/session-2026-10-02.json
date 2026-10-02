@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-02",
+  "initial_credits": 10000,
+  "tier": "Agentic Plus",
+  "credits_per_page": 45,
+  "order": "source path alphabetical",
+  "documents": [
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.pdf",
+      "pages": 24,
+      "sha256": "6cf8df42865457b332ae16d95bdbd8a82cf0aad934dbcf930293644eda2efe0e",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.md",
+      "status": "completed",
+      "estimated_credits": 1080,
+      "job_id": "pjb-8jjue1xa939zeappocmer4qj2074",
+      "download_path": "/Users/mikail/Downloads/:Users:mikail:Documents:Bon de transport:Markdown:10_SOCLE_COMMUN_TS_TX:B2:Evolutions:Avenant 48 RPPS - provisoire:PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.md",
+      "output_bytes": 71975,
+      "images_directory": "Markdown/10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images",
+      "missing_images": [],
+      "output_sha256": "487b2112329259e53dfd6259620005a35251906283f6c4cc977ae455693a351f",
+      "quality_check": "24 pages visible in export; tables and revisions present; all image references resolved; full transcription not manually audited",
+      "actual_credits": 1080
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.pdf",
+      "pages": 3,
+      "sha256": "b078c20ae1f4fb2b5303cbd07347e46ffec410d944df5c7cc490cbee60b43cb1",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.md",
+      "status": "completed",
+      "estimated_credits": 135,
+      "job_id": "pjb-apiu4rda290ka4ac13i6b94jcscc",
+      "actual_credits": 135,
+      "images_directory": "Markdown/10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28_images",
+      "missing_images": [],
+      "output_sha256": "595bf3aee8f396bf8780db3c4a916906bde132af49f6463d58a1f09d4089ab11",
+      "quality_check": "3 pages in export; all image references resolved; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.pdf",
+      "pages": 178,
+      "sha256": "37c5c31daa555effbfd5c5388ed698e0c1db4dec2da4e0855ca34b59554da179",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.md",
+      "status": "completed",
+      "estimated_credits": 8010,
+      "job_id": "pjb-5rkmdnzl5en3fwwxqundtbd80xzr",
+      "actual_credits": 8010,
+      "images_directory": "Markdown/10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2_images",
+      "missing_images": [],
+      "output_sha256": "03d95f2c5fac6fb43690d558cbb27aad5f4a1eefc7830d67927a5c545d3b67ee",
+      "quality_check": "178 pages shown in UI; tables and revisions present; full transcription not manually audited"
+    }
+  ],
+  "settings": {
+    "cost_optimizer": false,
+    "ocr_languages": [
+      "fr",
+      "en"
+    ],
+    "extract_revisions": true,
+    "annotate_links": true,
+    "preserve_very_small_text": true,
+    "inline_images": true,
+    "embedded_images": true,
+    "tables_as_markdown": false
+  },
+  "next_document": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.pdf",
+  "expected_final_remaining_credits": 775,
+  "status": "stopped_insufficient_credits_for_next_document",
+  "final_used_credits": 9225,
+  "final_remaining_credits": 775,
+  "total_completed_documents": 3,
+  "total_completed_pages": 205,
+  "next_document_pages": 137,
+  "next_document_required_credits": 6165
+}

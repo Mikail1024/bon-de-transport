@@ -1,0 +1,1341 @@
+[
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.pdf",
+    "pages": 24,
+    "sha256": "6cf8df42865457b332ae16d95bdbd8a82cf0aad934dbcf930293644eda2efe0e",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.md",
+    "status": "completed",
+    "session": "2026-10-02",
+    "job_id": "pjb-8jjue1xa939zeappocmer4qj2074",
+    "output_sha256": "487b2112329259e53dfd6259620005a35251906283f6c4cc977ae455693a351f"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.pdf",
+    "pages": 3,
+    "sha256": "b078c20ae1f4fb2b5303cbd07347e46ffec410d944df5c7cc490cbee60b43cb1",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.md",
+    "status": "completed",
+    "session": "2026-10-02",
+    "job_id": "pjb-apiu4rda290ka4ac13i6b94jcscc",
+    "output_sha256": "595bf3aee8f396bf8780db3c4a916906bde132af49f6463d58a1f09d4089ab11"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.pdf",
+    "pages": 178,
+    "sha256": "37c5c31daa555effbfd5c5388ed698e0c1db4dec2da4e0855ca34b59554da179",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.md",
+    "status": "completed",
+    "session": "2026-10-02",
+    "job_id": "pjb-5rkmdnzl5en3fwwxqundtbd80xzr",
+    "output_sha256": "03d95f2c5fac6fb43690d558cbb27aad5f4a1eefc7830d67927a5c545d3b67ee"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.pdf",
+    "pages": 137,
+    "sha256": "9ba50b70833ecc43ca69230743bd84e6f2ce6b30751028ad3f61a015afde8043",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.pdf",
+    "pages": 2,
+    "sha256": "877d2bc50482d60b1b6795b83cda6a5969e53b0c7e44a51f36399d70fbd55932",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.pdf",
+    "pages": 17,
+    "sha256": "d5ecac160b8931c47cbcc3c91b090589cce4f9c32dff7c06f440438b3722eb82",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.pdf",
+    "pages": 24,
+    "sha256": "9d6c37569ed43ebb1c81442e595708d6aa743664db9e43087d1cc068a9cacb20",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.pdf",
+    "pages": 38,
+    "sha256": "87efa025521550ee2512639b7447359129d5ca1bcb4f1d26bad7eeb00b1fb920",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.pdf",
+    "pages": 7,
+    "sha256": "60d316f48e865ea1256542698c714635416537669ebb6bde112163c4eb091cd0",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.pdf",
+    "pages": 1,
+    "sha256": "4d798d5555a3ee311b7f64406c4c762f5c6a2f1c62fe9f000f5e82655b504357",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.pdf",
+    "pages": 3,
+    "sha256": "4b12f4dd26a90e3c041bf1458e83aefd526abede451eb2c7c85792e6519df71b",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.pdf",
+    "pages": 16,
+    "sha256": "6154fe26149adcdad2bf4807d38a99f4d47cb1581179f14ee7c0ddf210bc932e",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.pdf",
+    "pages": 5,
+    "sha256": "872871f88f47688487b7e6ce6d938a61f461537b4a2a4af0161702ec2695d851",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.pdf",
+    "pages": 55,
+    "sha256": "c692ac762c1f11f095070fe2e7c6a01510920a92aa3bfbf5b8749606f0438c58",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.pdf",
+    "pages": 3,
+    "sha256": "fdea17674f65fb8a9fc998bb6da39c5b13bb2f99735219519c4a67240036c1ba",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.pdf",
+    "pages": 6,
+    "sha256": "48600bb7d2479b3a9013651eec3832d53358ba14be55e83eea4800610766e331",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.pdf",
+    "pages": 37,
+    "sha256": "c6ab1c65cec2b11f5716497f62c524960446484ae0c67adcc40efae78c2fa6ac",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.pdf",
+    "pages": 69,
+    "sha256": "a176d56e4a890aec639749c5daec8bb8546db70993214198f97d0a6dcd92f9c3",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.pdf",
+    "pages": 71,
+    "sha256": "1dfaee564523c64bfb6a8596e84386dfb91a4cfa04dba50654d88c2bbf9dccea",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.pdf",
+    "pages": 3,
+    "sha256": "0079c0a1b9d7209f91b3f95c56d44c64d686c4593803e587acb454a405741cce",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
+    "pages": 62,
+    "sha256": "ff7db212b4f9be4e4b90c1e0839a744ecf4bb8d70fff9b4cb99a9918a4ec85e0",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.pdf",
+    "pages": 52,
+    "sha256": "335555d28ea5a45522dd092c400d1673934dc9ed51b661ba278e4acbf5e8ed32",
+    "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.pdf",
+    "pages": 4,
+    "sha256": "3c39537f07606307632ab3e356e686a6036ae2f9ea60f9dce67b14a15a73b85b",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.pdf",
+    "pages": 4,
+    "sha256": "cb71e9b845d1ffcb2ac642745567b7b9160848ec12834c915c67a3143cf8eaad",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.pdf",
+    "pages": 1,
+    "sha256": "d19a9584b2344185763ea6c066c812bf11b507e246c5a73fb17c3763b9f86702",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.pdf",
+    "pages": 7,
+    "sha256": "acee7019584d8bb808dec8f7310bacf068565c1f6c2301369c7e796da079de70",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.pdf",
+    "pages": 8,
+    "sha256": "a96e7e2016f1dd330eab92793a2db22e8486d312a9c669a3c72e56e8854baf5e",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.pdf",
+    "pages": 3,
+    "sha256": "1494da17cd720f2e42659cb33c9fea637e487ee01659623d0d41b9be58097137",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.pdf",
+    "pages": 2,
+    "sha256": "c6abb9d1b5750e8fd0d80bc7356edc48dfea9816ffe44f901b25622002f65585",
+    "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.pdf",
+    "pages": 2,
+    "sha256": "6a9d6efbabf659b7ae104e41767164547d1d695dc9da24a303035195daf07ff3",
+    "output": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.pdf",
+    "pages": 41,
+    "sha256": "3759bc34a23dc70abb6418d0879908b37853af6f791f36ded2670c98feb457c2",
+    "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.pdf",
+    "pages": 49,
+    "sha256": "916eccaba854085bf2c16f01b64e790fbaf04bb4e5e2edd4ecb599765bdb07c4",
+    "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.pdf",
+    "pages": 9,
+    "sha256": "aadf184e0f4eccbfe8e32aaa69f1f34a861956eae5bac6d6b1b1922bc6afadca",
+    "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.pdf",
+    "pages": 1,
+    "sha256": "001469173851d6cfde80034c3a0a8486ee51b3d42177ef4c163370a5d3fadef8",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.pdf",
+    "pages": 1,
+    "sha256": "479297d4f0cb533c7bc67b7295e01b7cdfd964602ee30910db1cf24ae8faba13",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.pdf",
+    "pages": 1,
+    "sha256": "001469173851d6cfde80034c3a0a8486ee51b3d42177ef4c163370a5d3fadef8",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.pdf",
+    "pages": 1,
+    "sha256": "67d3bc807c8f8093a08d9900bfe593c90ed95fa96fe70f94ba731f625e706eba",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).pdf",
+    "pages": 2,
+    "sha256": "590f48899dadc18e6e32e0be695277aeb4c9be3c5f7b9c917cdb72ad5c36422d",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.pdf",
+    "pages": 2,
+    "sha256": "a4688111bb3e65e71f62dd7fec898642688e8af8b3502adedd88c6dd387bae66",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
+    "pages": 52,
+    "sha256": "c4bd9c9780fda5d721170aab44bcc6d7db7d1101148f85aa252828d4f137494f",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-003_01.26.01_TT-TA.pdf",
+    "pages": 74,
+    "sha256": "50a2347bd78673faafeb63b4c4529931eec10d4f88e0eb40861b959e75b2c2d9",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-003_01.26.01_TT-TA.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-006_01.24_DICO.pdf",
+    "pages": 34,
+    "sha256": "b6370f6e11ba093b3466788948646d9970d4a113eb75055b97cdf52ec25a9e4b",
+    "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-006_01.24_DICO.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/API Lecture Vitale - MEMO EDITEURS.pdf",
+    "pages": 2,
+    "sha256": "ae2c4b23a44668de4efb268902b502d178a925828283349143fd0a638ef2e274",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/API Lecture Vitale - MEMO EDITEURS.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Conditions_contractuelles_API_DE_LECTURE_v01.00.pdf",
+    "pages": 15,
+    "sha256": "6ee9fca66ff49179f018954d47704d9234b89cbeedc3a050321b1d80dcb23b26",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Conditions_contractuelles_API_DE_LECTURE_v01.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Licence Package API de Lecture v0.8.pdf",
+    "pages": 19,
+    "sha256": "d3ae79f9665c1418989c23244a6ff44436101a04b97004ba2a02832a19f4d4c4",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Licence Package API de Lecture v0.8.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Solution lecture Vitale - tableau comparatif 2026-03-18.pdf",
+    "pages": 1,
+    "sha256": "caf6fcbb4c08704b7e0de64c768d72f7e0b69f1c34dd45eeb74d1419beef284f",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Solution lecture Vitale - tableau comparatif 2026-03-18.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-013 - Fiche Livraison Services appli carte Vitale v1.17.pdf",
+    "pages": 5,
+    "sha256": "352679a5a93edcbde90a64f4fe9e5767b7e5dd99273b856650b34ef6ca7f1417",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-013 - Fiche Livraison Services appli carte Vitale v1.17.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-701 - Fiche Livraison globale appli carte Vitale v1.31.pdf",
+    "pages": 6,
+    "sha256": "1bbe3521d02fb4b9f51a77d0226542eafdfbe77364bea52aedcc103258eb0787",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-701 - Fiche Livraison globale appli carte Vitale v1.31.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-001-Echanges de proximité v1.6.pdf",
+    "pages": 16,
+    "sha256": "970688c82db8e9f7dbe919f59186059e0569bcd2724abb9162a34dc1ba8de9ed",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-001-Echanges de proximité v1.6.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-006-Préconisations paramétrage lecteurs.pdf",
+    "pages": 3,
+    "sha256": "a5992169dfbab773c9991b926c3f4c32ffb5a515ccbd74b106cafae075cfdcb6",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-006-Préconisations paramétrage lecteurs.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-MP-001 - GI Demander l'authentification et gérer le contexte ApCV v1.8.pdf",
+    "pages": 45,
+    "sha256": "2fd08367efbaf0b1adc3cbf28681c2e48db9ccd53f6cf2ebeb6625f9ad7b7a72",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-MP-001 - GI Demander l'authentification et gérer le contexte ApCV v1.8.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-SFG-004 - Editeurs - Demander l'authentification et gérer le contexte ApCV v1.5.10.pdf",
+    "pages": 31,
+    "sha256": "4091acb21327fa7e0b24ae79de6a113ca4380cd78bd5db764abaf0a7969ec692",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-SFG-004 - Editeurs - Demander l'authentification et gérer le contexte ApCV v1.5.10.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/PDT-INF-905-Qualification automatique INS ApCV.pdf",
+    "pages": 3,
+    "sha256": "983c06b744dd0a7ced4abdcdc0b8b8ec0924079d2af2b7e3940114d694dd4abb",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/PDT-INF-905-Qualification automatique INS ApCV.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/Conditions_contractuelles_APCV_V1.1.pdf",
+    "pages": 17,
+    "sha256": "9e20a1ad501492f4077b7b796c78fc8e6b0edb2e3b58410b82789e65c714c8b3",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/Conditions_contractuelles_APCV_V1.1.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL-GCONFORM-appli carte Vitale_Package CNDA_V01.00.06.pdf",
+    "pages": 6,
+    "sha256": "dab53af0ff1b54665d6ece326c9d5393d0dae5c98d803deb7a22f3f699fe0d70",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL-GCONFORM-appli carte Vitale_Package CNDA_V01.00.06.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL_GCONFORM_appli carte Vitale_Demander l'authentification et gérer le contexte appli carte Vitale_v01.00.05.pdf",
+    "pages": 11,
+    "sha256": "39b30e0126412f68d0b5442740d75b53a2255ce625f3020ee2da63f2a6a50d4c",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL_GCONFORM_appli carte Vitale_Demander l'authentification et gérer le contexte appli carte Vitale_v01.00.05.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/20221116_JNI -Présentation-BSP-v1.2.pdf",
+    "pages": 6,
+    "sha256": "0a387ec304085587711049e71a408cd8a0f803b9237106115798ef7f3c209fae",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/20221116_JNI -Présentation-BSP-v1.2.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.pdf",
+    "pages": 102,
+    "sha256": "7aea43c27664cfd29ea126e61afd9e7c0a81cb2a8d347bcbf951d0b427f26ad4",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.pdf",
+    "pages": 102,
+    "sha256": "f0cedc24764166ee52d0ad9f63f268566a2b06474c89fba9912f04f9d57f5d5b",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_CIPHER_SUITE_V1_2_0.pdf",
+    "pages": 1,
+    "sha256": "4623f328d3bbf990bbb97ecc7a5e53b9b72ef31bdb3b43f114d6afdb413c48dd",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_CIPHER_SUITE_V1_2_0.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-031_Modalite acces cartes et certificats_1.4.pdf",
+    "pages": 20,
+    "sha256": "ee5c4a3d6b1619471fd47aff7e0c94fce433f82e3fd0e526365e5ba358a5f054",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-031_Modalite acces cartes et certificats_1.4.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3.pdf",
+    "pages": 9,
+    "sha256": "10083c0db6a09f72c34cd0e25f48779723d7c6118506cdba2593825223af2743",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3_MR.pdf",
+    "pages": 9,
+    "sha256": "763ba44868cb5609f09b76ea7c0a5d53f9b6527a28188c1d4776aa24997cd95a",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Modalités d'accès aux volets transport synchrone des services en santé ou des téléservices de l’AMO.pdf",
+    "pages": 5,
+    "sha256": "bc5dbcfcf0967100ae3ce829ee3cb50e95f4dd2e765790958c9dda5bf4739d88",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Modalités d'accès aux volets transport synchrone des services en santé ou des téléservices de l’AMO.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-850_CI_TLSI_AMO_1.2.3.pdf",
+    "pages": 2,
+    "sha256": "97d4758a6b7f61e4b6d1229c546fbeb520e92d690ac54a221ff8e7bab2e91095",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-850_CI_TLSI_AMO_1.2.3.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-913 WSDL_XSD  Gestion Redirections et Recommandations Mise en Cache.pdf",
+    "pages": 2,
+    "sha256": "ec58041029fb2f057986ea87b479b92974a15fba05ade195d06ec298afb87568",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-913 WSDL_XSD  Gestion Redirections et Recommandations Mise en Cache.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Présentation du cadre d'intéropérabilité.pdf",
+    "pages": 30,
+    "sha256": "a1ce1bd2f0662166275742fd95403082da057ea59caa64663fb23f5456dad296",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Présentation du cadre d'intéropérabilité.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesDotNet/tls_icir/TLSi_LPS_Guide_Implementation_CSharp.pdf",
+    "pages": 10,
+    "sha256": "d08d51bed43b752a5c3ee8e183d86ff54624b438c319f2a15095fa5f87574779",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesDotNet/tls_icir/TLSi_LPS_Guide_Implementation_CSharp.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesJava17/INSi/TLSi_LPS_Guide_Implementation_Java.pdf",
+    "pages": 12,
+    "sha256": "c497dddf8a731be5738d45f673bfd54fe484379066f4cc08bc8aec3b1f354ffa",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesJava17/INSi/TLSi_LPS_Guide_Implementation_Java.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Disponibilite-des-TLSi-par-regime-publiee.pdf",
+    "pages": 1,
+    "sha256": "1d042f99b8b5c7882cb50251c7a1446381485093a207937753d8032c648729bd",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Disponibilite-des-TLSi-par-regime-publiee.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide de demarrage TLSi 2026.pdf",
+    "pages": 2,
+    "sha256": "01612eb4644f330d5b6a0f100d32b95ffcd9998924cd2daeb95fac01e82484db",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide de demarrage TLSi 2026.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide des livrables TLSi 2026.pdf",
+    "pages": 3,
+    "sha256": "c50757f338bbc7bea19fa6f7bf3f019f2e51f9b1c35b50388ee377387f011f0d",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide des livrables TLSi 2026.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Package GIE 05.00.01/SEL-MP-043_05-00-01_INSi avec MR.pdf",
+    "pages": 44,
+    "sha256": "9a607d0da22e6a7c98896ea0cbeef2e273c60bc2b5e6f3fbc7b381b050890abb",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Package GIE 05.00.01/SEL-MP-043_05-00-01_INSi avec MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Conditions_contractuelles_INSI_V4.2.pdf",
+    "pages": 17,
+    "sha256": "9a19a312c90db47cbafd0a59432b6817cd77b720728727b576da0f5a61335534",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Conditions_contractuelles_INSI_V4.2.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Package_CNDA_INSi_V05.00.00.pdf",
+    "pages": 6,
+    "sha256": "ece5b7741ed024afce11f99149f752f6fb3646a8e1640151e7e0a769b3b3a81e",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Package_CNDA_INSi_V05.00.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/SEL-GCONFORM_INSi_V01.14.pdf",
+    "pages": 42,
+    "sha256": "e83d0fdb891046f25c30d0c44b80afda37f75ba1fd424c1b40d721d984df3d5d",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/SEL-GCONFORM_INSi_V01.14.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/CI-TLSi_CIPHER_SUITE_V1_2_0.pdf",
+    "pages": 1,
+    "sha256": "5d00b1359d91efbae2cf1e41a6f8424187bf08f9bc4a7187e181acd928d839c8",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/CI-TLSi_CIPHER_SUITE_V1_2_0.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/Tutorial_IGC_Santé_ANS - Vérification_des_certificats.pdf",
+    "pages": 5,
+    "sha256": "86152ada24e6a38705e9ab2e07f3a44de80678392233c696b109fc2c02d38b0b",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/Tutorial_IGC_Santé_ANS - Vérification_des_certificats.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/bonnes_pratiques_versions_LPS_TLSi_V2.0.pdf",
+    "pages": 2,
+    "sha256": "a028fe65e2a41cc7a4add5f5bfefad81ab6a11a53c15134c72457d23f0cd1d7a",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/bonnes_pratiques_versions_LPS_TLSi_V2.0.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/PDT-INF-846-Fiche de livraison Package documentaire TLSi bénéficiaire.pdf",
+    "pages": 3,
+    "sha256": "64b8ee7af54f77a56320e755a86916e3e1700e0de84bdd39e5c515d7d0be546c",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/PDT-INF-846-Fiche de livraison Package documentaire TLSi bénéficiaire.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/Conditions_contractuelles_Beneficiaire_V1.0.pdf",
+    "pages": 17,
+    "sha256": "6af49096cab29f44d2bf73eee6e94b3fddd662c323707884b0b9ca9da10aff97",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/Conditions_contractuelles_Beneficiaire_V1.0.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_Package CNDA_V01.15.00.pdf",
+    "pages": 5,
+    "sha256": "9325a00172ff6d667764ba211aadee9c8efbd3f6d0d05af573277d5f8cd378a1",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_Package CNDA_V01.15.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_V01.00.pdf",
+    "pages": 12,
+    "sha256": "4cc76491a668ca052a6018e9cb3784a31c3e00d5e621cc2e3c06e6d1e190c6c3",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_V01.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire avec MR.pdf",
+    "pages": 16,
+    "sha256": "f14b43c30a5a5268a478ee68b7308e66d9c52d5a9a83613170bc3c621c5810af",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire avec MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire sans MR.pdf",
+    "pages": 15,
+    "sha256": "c156ab82b2f9fb8ea49c5e95c4a2b8d2840bdd506f24db5f897794e6b93be2f6",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire sans MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/AMELI/Annexe-30-facturation-b2-nouvelle-convention.pdf",
+    "pages": 60,
+    "sha256": "5800e107536fa11c98d76b191b6c2e1a93c37808ebcd8bc2aa47b2ef481baca1",
+    "output": "20_TAXI/B2/AMELI/Annexe-30-facturation-b2-nouvelle-convention.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/AMELI/Cahier-des-charges-éditeurs-logiciels-facturation-B2-taxis.pdf",
+    "pages": 100,
+    "sha256": "17ea4b58c7d0e8b7afb924cab3e978765faf677957379d04fc6a1f56718e18a2",
+    "output": "20_TAXI/B2/AMELI/Cahier-des-charges-éditeurs-logiciels-facturation-B2-taxis.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/AMELI/annexe-29-b2-facturation-taxi.pdf",
+    "pages": 6,
+    "sha256": "818dd40ea10fa2cd700b770d6f209bb0038a717a87c19d9f98d47e136c2c7479",
+    "output": "20_TAXI/B2/AMELI/annexe-29-b2-facturation-taxi.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Cahier de Test_Facturation B2 NC TAXIS v03.00.00.pdf",
+    "pages": 44,
+    "sha256": "43beba81f10c8ef4471a05e0047c17435ebe9ac9e557e081e594bffafed7d1f4",
+    "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Cahier de Test_Facturation B2 NC TAXIS v03.00.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Conditions_contractuelles_Convention Taxis_v2.00.pdf",
+    "pages": 18,
+    "sha256": "18efef81a9e879986760bdaade139966339e2e073fb23a1befba41785284e2c3",
+    "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Conditions_contractuelles_Convention Taxis_v2.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Facture_Taxi_et_annexe_606b_092025.pdf",
+    "pages": 2,
+    "sha256": "b14dd5ca1afb85c32fabbdfdc8b76c06ba3946f67e12e2c18fdae906710c2ad7",
+    "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Facture_Taxi_et_annexe_606b_092025.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/VOL_TECH_TA-rev2.pdf",
+    "pages": 10,
+    "sha256": "fac1cfc38ae1974c8af3b65a6b9d19c8ef0b47b9c39d79b0608ff5d82fdc4cfe",
+    "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/VOL_TECH_TA-rev2.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/Métier Taxi/Référentiels métier/Cahier des charges supplément forfaitaire TPMR Taxi.pdf",
+    "pages": 7,
+    "sha256": "a55ad1c137eb103d1ba8b16968bd2351c59c35425810c8940bce3d763d282c7a",
+    "output": "20_TAXI/Métier Taxi/Référentiels métier/Cahier des charges supplément forfaitaire TPMR Taxi.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/Métier Taxi/Référentiels métier/Convention-cadre nationale Taxi - arrêté du 29-07-2025 (JO 08-08-2025).pdf",
+    "pages": 30,
+    "sha256": "71f522b058163322550982b105c048a8d302f8c4f3023eae12b18590f23c6adc",
+    "output": "20_TAXI/Métier Taxi/Référentiels métier/Convention-cadre nationale Taxi - arrêté du 29-07-2025 (JO 08-08-2025).md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/Métier Taxi/Référentiels métier/Liste des établissements éligibles au forfait Grande Ville - 01-04-2026.pdf",
+    "pages": 1,
+    "sha256": "7f02c2ba392c67515e5986d1bfa7332ab8a4523aec93470bd56d54d57e093344",
+    "output": "20_TAXI/Métier Taxi/Référentiels métier/Liste des établissements éligibles au forfait Grande Ville - 01-04-2026.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Cartes de test Taxi/Commande CDE CPE - Taxis Conventionnés (octobre 2022).pdf",
+    "pages": 7,
+    "sha256": "e943e9ce3f9f8bd141f237d8e8a352b06e218ffa6f0f8e121c7741c969fe9b61",
+    "output": "20_TAXI/SEFi/Cartes de test Taxi/Commande CDE CPE - Taxis Conventionnés (octobre 2022).md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi taxis.pdf",
+    "pages": 6,
+    "sha256": "ee58a053de68324a6abb774985888c9b4918e54eb8ebe616a43a8bfbbd736309",
+    "output": "20_TAXI/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi taxis.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle annexe 4 à la facture taxis conventionnés - TX.pdf",
+    "pages": 1,
+    "sha256": "ec7eb3ec4ad1a83acda2aae90209de05cbc5b670a4af03911636405456200616",
+    "output": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle annexe 4 à la facture taxis conventionnés - TX.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle de facture national des taxis conventionnés - TX.pdf",
+    "pages": 1,
+    "sha256": "864248026e901e6fdd9800ac45ae6e4647ae9926ed90d81ad1622b7340be6060",
+    "output": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle de facture national des taxis conventionnés - TX.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Documents papier Taxi/Facture et annexe taxi conventionné - CNAM 606b-09-2025.pdf",
+    "pages": 4,
+    "sha256": "9b42db0960877201f64e0744e353cc97d20878def3d832514db3fb9109f4ed52",
+    "output": "20_TAXI/SEFi/Documents papier Taxi/Facture et annexe taxi conventionné - CNAM 606b-09-2025.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Géolocalisation Taxi/Géolocalisation Taxi DRAFT/Géolocalisation Taxi DRAFT/FACT-SFG-039 Facturation Taxi - Constituer et transmettre les traces de géolocalisation v1.08.pdf",
+    "pages": 36,
+    "sha256": "cca533b4b84fe1d5c73f25cc314c16eac1870fdfcd604cccb29b5ee3dd253a96",
+    "output": "20_TAXI/SEFi/Géolocalisation Taxi/Géolocalisation Taxi DRAFT/Géolocalisation Taxi DRAFT/FACT-SFG-039 Facturation Taxi - Constituer et transmettre les traces de géolocalisation v1.08.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/Géolocalisation Taxi/PDT-INF-937 Diffusion Géolocalisation Taxi DRAFT.pdf",
+    "pages": 2,
+    "sha256": "8477437b555f59754fff6b5c363b0bccfe2608c03734ea3c54255b98d36804d7",
+    "output": "20_TAXI/SEFi/Géolocalisation Taxi/PDT-INF-937 Diffusion Géolocalisation Taxi DRAFT.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SCOR/SCOR - Rappel des conditions relatives à l'utilisation de SCOR par les taxis (25-03-2026).pdf",
+    "pages": 1,
+    "sha256": "b3120b08c310a51e3e7ed93029e647cbd7e94425639bd7e991aa7da7878603b4",
+    "output": "20_TAXI/SEFi/SCOR/SCOR - Rappel des conditions relatives à l'utilisation de SCOR par les taxis (25-03-2026).md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/2026 07 02 - présentation évolution corpus documentaire.pdf",
+    "pages": 31,
+    "sha256": "c79a675a9feb45183c5049852813af6e558f37aaec38395ec702942f2c5c2c21",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/2026 07 02 - présentation évolution corpus documentaire.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFI Taxi - consignes facturation double spécialité V1.1.pdf",
+    "pages": 4,
+    "sha256": "5f9fd92620ed45db73b64ddacf56356a34f4a70167f06c84cd952cf06ba4ba20",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFI Taxi - consignes facturation double spécialité V1.1.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-293v3.04 Périmètre SEFI-FTE Taxi.pdf",
+    "pages": 3,
+    "sha256": "1d6fe0118f8aab98b1615ac0c4548966121c118a954e734c0857f15bea601c19",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-293v3.04 Périmètre SEFI-FTE Taxi.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-934-Diffusion du package SEFi Taxi DRAFT.pdf",
+    "pages": 3,
+    "sha256": "6ada8e8105f086411e36ed8e81c1ca9f175d2a6f632d6393b08ddae62384a84e",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-934-Diffusion du package SEFi Taxi DRAFT.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-029 DICO-Dictionnaire du système FTE TX v03.53_avec_MR.pdf",
+    "pages": 40,
+    "sha256": "0d18ba023d49dc231aa172b9fee77226743f32490116a506c03aea9fa6f78bb2",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-029 DICO-Dictionnaire du système FTE TX v03.53_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-030 PG-Présentation Générale du système FTE TX v05.47_avec_MR.pdf",
+    "pages": 26,
+    "sha256": "f555d8ee7d1179f4e1d5852951afd9a94f114e9a794fffe5ad6abfa4bbc394a5",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-030 PG-Présentation Générale du système FTE TX v05.47_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TX v03.17_avec_MR.pdf",
+    "pages": 12,
+    "sha256": "f7c5f08ad5e620b8e5b9df5e486f3f0a31b31b79a99f89658d16d3af22e69585",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TX v03.17_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-032 FTE02-Facturer des Prestations TX v03.57_avec_MR.pdf",
+    "pages": 126,
+    "sha256": "1b4a76cc9190cea2b83141d8245ca76bdd2b7c9d02eeceffacad54080b4f5009",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-032 FTE02-Facturer des Prestations TX v03.57_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TX v03.20_avec_MR.pdf",
+    "pages": 20,
+    "sha256": "f2bd000f62d8328cf27ee6fc284eb9f340fdaa52bd2fc83100f512d389737855",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TX v03.20_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TX v03.17_avec_MR.pdf",
+    "pages": 19,
+    "sha256": "445459e091869236a1591c98ecbbf3e4c3c992679431090a727285d9c332ff08",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TX v03.17_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-035 FTE05-Administrer le poste PS TX v03.44_avec_MR.pdf",
+    "pages": 16,
+    "sha256": "458d0f31a3f8daa6a8b2402086bb5410b39eb715c16e8fd084dedb39dee731f7",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-035 FTE05-Administrer le poste PS TX v03.44_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-060 FTE06-Superviser le poste PS TX v03.36_avec_MR.pdf",
+    "pages": 5,
+    "sha256": "431ecfa85fbaa7d6d5397115a9fb406508f513fccbf7f27b0e004f0c7fefaeca",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-060 FTE06-Superviser le poste PS TX v03.36_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-012 WS_PS TX v02.19_avec_MR.pdf",
+    "pages": 18,
+    "sha256": "8ef526f589a18c53e96d1dd428bc428e27c7ebfd12d6bb780f086bebe23305a9",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-012 WS_PS TX v02.19_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-014 WS_PL TX v03.16_avec_MR.pdf",
+    "pages": 28,
+    "sha256": "64b769bfd313bd4d60f4ed90a8a583f93b8505377dc610f96825485d4827f9d0",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-014 WS_PL TX v03.16_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-015 WS_FT TX v03.50_avec_MR.pdf",
+    "pages": 45,
+    "sha256": "b351f619dd8e051959037f3571b8d514959521c40b29ca523dcbf752f7b8bae0",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-015 WS_FT TX v03.50_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-016 WS_PEC TX v03.39_avec_MR.pdf",
+    "pages": 17,
+    "sha256": "0d41da9569f963f023619a4fb482f7f797f5e9a5bb4e0bab089d95bf6f975a63",
+    "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-016 WS_PEC TX v03.39_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2002-04-annexe-transporteur-norme-b2.pdf",
+    "pages": 3,
+    "sha256": "e7f03a05640e2fb5c435e0a35c01bd2c72bc4ca1b62f5163c400ee0e3d089d32",
+    "output": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2002-04-annexe-transporteur-norme-b2.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2015-07-geolocalisation-annexe-ta-norme-b2.pdf",
+    "pages": 3,
+    "sha256": "2e39faf5415bc647a5e253c1089913a30821383a2270dc47d10cadb41ea83a16",
+    "output": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2015-07-geolocalisation-annexe-ta-norme-b2.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Compte-rendu.pdf",
+    "pages": 7,
+    "sha256": "8e523fe8aa69c2e38cda66be99ed9037d3d24d702879bbbf494a8990d39dc2e5",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Compte-rendu.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Présentation-CDC-rénové.pdf",
+    "pages": 36,
+    "sha256": "9efdfb9da5866435b02cd85099d07fc05900ed28e9e9f416fead7b2827468295",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Présentation-CDC-rénové.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621-GT géolocalisation-VF.pdf",
+    "pages": 24,
+    "sha256": "7647a4fda0245f77cf4867065539ccf3720e84be9f41c591d49dfd1e9f36d268",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621-GT géolocalisation-VF.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621_CR_GT_Géolocalisation_VF.pdf",
+    "pages": 4,
+    "sha256": "98aed8e65766a2f2e790bea92537a8eee90dae9bb90bab1c45e3fef58ff9e23d",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621_CR_GT_Géolocalisation_VF.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_2020-12-22_JO_2021-03-07.pdf",
+    "pages": 18,
+    "sha256": "7c50034414c2c1678154d6c43eede81379032dd1a471361260aa097f25a72768",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_2020-12-22_JO_2021-03-07.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021.pdf",
+    "pages": 13,
+    "sha256": "3755894ffa10899ba96ef5926ee52edd608cb073191116c6d174debf60af19f8",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_2.pdf",
+    "pages": 1,
+    "sha256": "95565a48d97377de49247ff867486562e7af558d82a5481d1f74f24391560478",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_2.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_3.pdf",
+    "pages": 1,
+    "sha256": "04b82efe3ca67f2b918334d49474c7a297b6d35a3bf53f89ce34ec4d4fb25237",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_3.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_2023-04-13_JO_2023-05-06.pdf",
+    "pages": 14,
+    "sha256": "863de00f82400c76f13214d67949723febce80b979f38fae973860d92cc98c1e",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_2023-04-13_JO_2023-05-06.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_CIR-18-2023.pdf",
+    "pages": 16,
+    "sha256": "9a2a06b6d0ffc6a0d64e00a4848e5dd13f1336c557468939336d8f427cb6b1d0",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_CIR-18-2023.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_guide_SEFi_tarification_majoree.pdf",
+    "pages": 5,
+    "sha256": "9320f363ecb889133cae0b8acfa339b2aea2a3a67d3e507222b2f9d560c22c6b",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_guide_SEFi_tarification_majoree.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_2_2004-07-09_JO_2004-12-07.pdf",
+    "pages": 3,
+    "sha256": "6220ac4232d95867877cca549e232da8c70ac2ac05d8f9590a89199546239fa6",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_2_2004-07-09_JO_2004-12-07.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_3_2004-12-21_JO_2005-05-27.pdf",
+    "pages": 2,
+    "sha256": "5f483f44ea036012818686d5834a23433617fbb5086d7b2b86e044631ff444c3",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_3_2004-12-21_JO_2005-05-27.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_4_2005-06-29_JO_2005-07-31.pdf",
+    "pages": 3,
+    "sha256": "c0e4cddc2410616b0b9ffb552d97060a91f23814eac2f9a38151dba085c2fd09",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_4_2005-06-29_JO_2005-07-31.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_5_2008-03-14_JO_2008-08-05.pdf",
+    "pages": 12,
+    "sha256": "878abbd06f2ed48729d1e1c6e5e33a5c6f310add1af3aa304207fd88c271a6cb",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_5_2008-03-14_JO_2008-08-05.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_6_2011-07-26_JO_2011-10-21.pdf",
+    "pages": 5,
+    "sha256": "f9b255ebd2b6087cbabb35c010b6e29f7759241b1499fcdb5ac060a6f1c98e5f",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_6_2011-07-26_JO_2011-10-21.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_2014-03-25_JO_2014-07-04.pdf",
+    "pages": 6,
+    "sha256": "4e79f7b1b3b2b42bcf7145cffe90c1444b6f689ca79d393055bb6fb3e8c2ea9e",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_2014-03-25_JO_2014-07-04.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_rectificatif_JO_2014-08-05.pdf",
+    "pages": 1,
+    "sha256": "2bd34a75c1a2b3af62fae601577c6d74b6c5f1b082c6eea60bb305b498279a17",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_rectificatif_JO_2014-08-05.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_8_2017-03-20_JO_2017-07-20.pdf",
+    "pages": 2,
+    "sha256": "9de68c56d3ee53f7739d394ecead7fee7f1c3683418a24cd070865cae891509c",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_8_2017-03-20_JO_2017-07-20.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_2019-12-06_JO_2020-08-02.pdf",
+    "pages": 5,
+    "sha256": "e15837feb3069a34d38c9acc1027ee9e012da327473086619a6871e9e87be346",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_2019-12-06_JO_2020-08-02.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_cahier_des_charges_TPMR.pdf",
+    "pages": 5,
+    "sha256": "2b668e64d6c182976b1b7305fb47e5f254a4671143f1935725673bd370b1b459",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_cahier_des_charges_TPMR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Convention_nationale_transporteurs_sanitaires_2002-12-26_JO_2003-03-23.pdf",
+    "pages": 14,
+    "sha256": "f55cba100f543debee630d7a01d0fc8b381061bb7c5f9464fa2eb5aee05db65d",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Convention_nationale_transporteurs_sanitaires_2002-12-26_JO_2003-03-23.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Liste_communes_forfait_agglomeration_page_courante_2026-09-20.pdf",
+    "pages": 15,
+    "sha256": "efb9d97e9a28073ea8038d55e92b95cb136aac086e97f19416b71c898dc0496f",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Liste_communes_forfait_agglomeration_page_courante_2026-09-20.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/FAQ Avenant 11_ modalités de mise en œuvre de la tarification différenciée.pdf",
+    "pages": 6,
+    "sha256": "eb467162b2d4f022549dc37ae0ab4058346e2b5e437faff4b08d64aa2ccc94e1",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/FAQ Avenant 11_ modalités de mise en œuvre de la tarification différenciée.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/PDT-INF-818v4  Avenant 11 impacts pour les transporteurs sanitaires.pdf",
+    "pages": 5,
+    "sha256": "bb30a4555e5e9abe48888f8dfe18c6675e896242558d2626a52da62d02eedff7",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/PDT-INF-818v4  Avenant 11 impacts pour les transporteurs sanitaires.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Protocole_maitrise_depenses_transports_2025-09-24_JO_2025-09-30.pdf",
+    "pages": 11,
+    "sha256": "c1079718b367a6537e89420589e458c500aa437a2c5dbbe386bb9bf4876b66ef",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Protocole_maitrise_depenses_transports_2025-09-24_JO_2025-09-30.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Annexe_facture_modifiee_transports_sanitaires_Annexe_2.pdf",
+    "pages": 1,
+    "sha256": "e065ab926aca3eb9df20cb4855c7958fa0d53dd0d85d5a179f0a468573db0df7",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Annexe_facture_modifiee_transports_sanitaires_Annexe_2.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Facture_modifiee_transports_sanitaires_Annexe_1.pdf",
+    "pages": 1,
+    "sha256": "38b18595ec81f08518a0984aff469f59ccd62421fc8cfbcfc20a37740d453e87",
+    "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Facture_modifiee_transports_sanitaires_Annexe_1.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Cartes de test TS/Commande CDE CPE - Transporteur Sanitaires (octobre 2022).pdf",
+    "pages": 7,
+    "sha256": "49277f2c5f1ef455f80c7a00584df34541d8ddd9ffceb139d649690ab7fc5a49",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Cartes de test TS/Commande CDE CPE - Transporteur Sanitaires (octobre 2022).md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Archives/Conditions et modalités d application de la présérie du SEFi transport sanitaire - ancienne version non datée.pdf",
+    "pages": 6,
+    "sha256": "5659ae1955c0a81c3a8417a582cc77856bc25167c563ddd7a3b8c415ae4813c5",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Archives/Conditions et modalités d application de la présérie du SEFi transport sanitaire - ancienne version non datée.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi transport sanitaire - v6 août 2026 (publication septembre 2026).pdf",
+    "pages": 7,
+    "sha256": "a656e8c562f3b64b675a3691fc0030fb3c955cda89d28de1c8a45fb6f69df7b6",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi transport sanitaire - v6 août 2026 (publication septembre 2026).md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 1116303  Facture de transport VSL ou ambulance.pdf",
+    "pages": 1,
+    "sha256": "3001c6696a1993f68458a88437a14d15208558e391e7868b4f4911876925f9a1",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 1116303  Facture de transport VSL ou ambulance.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 5400301 Annexe à la facture valant attestation de service fait (ASF) - TS.pdf",
+    "pages": 1,
+    "sha256": "5cd5df08bd2c91066c3ab0d6c448a8361b7857db17fab8f76afb6083c37ea905",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 5400301 Annexe à la facture valant attestation de service fait (ASF) - TS.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/PDT-INF-374v2-Diffusion du package Geolocalisation.pdf",
+    "pages": 2,
+    "sha256": "a5f001347755518a0bd7107be389a7676268f30646e4d66cdbf504e65f403b38",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/PDT-INF-374v2-Diffusion du package Geolocalisation.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 avec MR.pdf",
+    "pages": 38,
+    "sha256": "5deb47bf71a7827b0c546cec0f6219a79d98e09582af940ce2d8d85f76c356b3",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 avec MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 sans MR.pdf",
+    "pages": 38,
+    "sha256": "50134262ee924e810cdf4e69a48e9ec78677ad7de30ac35ff45b639998a07707",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 sans MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/Conditions_contractuelles_Geolocalisation_V3.01.pdf",
+    "pages": 16,
+    "sha256": "986a21d12f4042d7123502601898595c30f96bf093b54906c0976eb1e2509470",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/Conditions_contractuelles_Geolocalisation_V3.01.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM-GEO_Package CNDA GEOLOCALISATION_V01.05.00.pdf",
+    "pages": 5,
+    "sha256": "c2dd90998fb5a364fc585fee093e33b4349c57c829c375da4abf4255c163a896",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM-GEO_Package CNDA GEOLOCALISATION_V01.05.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM_GEOLOCALISATION_01.05.00.pdf",
+    "pages": 18,
+    "sha256": "31fc3be536d7478345b6ef95a5553db5b914b609c9e6c002b577e4bbb15bdf5c",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM_GEOLOCALISATION_01.05.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFi_II.5_Multi-sociétés (2022).pdf",
+    "pages": 1,
+    "sha256": "58d0f9f0db4686627891dcf1eee942b164d975854102cb72b26179b76f4b3381",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFi_II.5_Multi-sociétés (2022).md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/PDT-INF-293v3.07 Périmètre SEFI-FTE Transporteur Sanitaire.pdf",
+    "pages": 3,
+    "sha256": "d4efd40c3d77b818fda34a8a6b4d09be3442620d9c134ff4447fea60499e87dc",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/PDT-INF-293v3.07 Périmètre SEFI-FTE Transporteur Sanitaire.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-307v6_Présérie FTE Traces Poste.pdf",
+    "pages": 5,
+    "sha256": "ee8cf558344fece87899e8e28b2221306dec4e9bedb18130e2c7de19f9846062",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-307v6_Présérie FTE Traces Poste.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-920v2 Diffusion du package SEFi‐Transporteur Sanitaire v3.50.pdf",
+    "pages": 3,
+    "sha256": "2483a7151d9205090e930c8d439370f3e6b6a7d53736a50b0e63abc9f1cfd3e7",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-920v2 Diffusion du package SEFi‐Transporteur Sanitaire v3.50.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-029 DICO-Dictionnaire du système FTE TS v03.54_avec_MR.pdf",
+    "pages": 67,
+    "sha256": "0e19d8acef3ea01760d8508c4c2fc2eca6c5735c38e2e0c770ed430a52e28c64",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-029 DICO-Dictionnaire du système FTE TS v03.54_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-030 PG-Présentation Générale du système FTE TS v05.48_avec_MR.pdf",
+    "pages": 27,
+    "sha256": "aad011523b034aef4a44ddd41fae0f8289e4a06374becde9683ced53fb7ed419",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-030 PG-Présentation Générale du système FTE TS v05.48_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TS v03.18_avec_MR.pdf",
+    "pages": 12,
+    "sha256": "13a63f22fb3816f276449c8d4e1dbdaf93186c6444969efa8d4f243d20bc7736",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TS v03.18_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-032 FTE02-Facturer des Prestations TS v03.60_avec_MR.pdf",
+    "pages": 88,
+    "sha256": "d33c281aff9d57bb0fc61e264dd097473ec07accec10b916ba6a2ea5c12574b6",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-032 FTE02-Facturer des Prestations TS v03.60_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TS v03.21_avec_MR.pdf",
+    "pages": 19,
+    "sha256": "fb7dab0a8e34775f854abbff17931f9ecfd86dd7df60fdaee34ba330e0f56307",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TS v03.21_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TS v03.18_avec_MR.pdf",
+    "pages": 21,
+    "sha256": "79528d0e15914873b997f341a9e2f984395e28f77e1c16d11ec197a2827bbf73",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TS v03.18_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-035 FTE05-Administrer le poste PS TS v03.45_avec_MR.pdf",
+    "pages": 15,
+    "sha256": "f271102a45d31afac53bb834b36087599a7de8857fc853f615c15e9751dcd31e",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-035 FTE05-Administrer le poste PS TS v03.45_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-060 FTE06-Superviser le poste PS TS v03.37_avec_MR.pdf",
+    "pages": 5,
+    "sha256": "68acba8f953a7b68085d2e59632a026f6ec744303a5395dc48f786ae8605fce3",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-060 FTE06-Superviser le poste PS TS v03.37_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-012 WS_PS TS v02.20_avec_MR.pdf",
+    "pages": 18,
+    "sha256": "5233910e16011f187d0953ce04417d96dfb583e598e26f15edac3b797de15311",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-012 WS_PS TS v02.20_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-014 WS_PL TS v03.17_avec_MR.pdf",
+    "pages": 28,
+    "sha256": "7f7ec8c7b5215758fe13c75f44e690bbd4379b2a65059a97461a4b0e33d1aa41",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-014 WS_PL TS v03.17_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-015 WS_FT TS v03.52_avec_MR.pdf",
+    "pages": 51,
+    "sha256": "1eababef8f1db59057c1523f7f76066f46463b6c1b238760e822cb4538f4427d",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-015 WS_FT TS v03.52_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-016 WS_PEC TS v03.40_avec_MR.pdf",
+    "pages": 17,
+    "sha256": "efb6332fc223578ff72cc0c8a2330f26d8f0c1105e87f5f9d3d72ca5f6621460",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-016 WS_PEC TS v03.40_avec_MR.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/Conditions_contractuelles_SEFi_TS_V3.02.pdf",
+    "pages": 18,
+    "sha256": "1f680d05de3804adb0d089e7c4ace0cc4584f6a9b0a521a22430998f0b516dba",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/Conditions_contractuelles_SEFi_TS_V3.02.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Administrer le poste du PS_V1.20.11.pdf",
+    "pages": 18,
+    "sha256": "1ad257eb52bbb5cc6d4bd9c36e421547f14d7ab1f332148ca692c4c82b26cb78",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Administrer le poste du PS_V1.20.11.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Calculer les montants d'une prestation_V0.60.13.pdf",
+    "pages": 29,
+    "sha256": "c754cab69aeec458dd60a7790ae09ffcef605313d16714b5ccd006f127277734",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Calculer les montants d'une prestation_V0.60.13.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Contrôler la recevabilité en FEL_V0.60.22.pdf",
+    "pages": 82,
+    "sha256": "bedebfed23963a4b3fb159a0043883008020a8979fe4b5ace69b1bbd002c5d0a",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Contrôler la recevabilité en FEL_V0.60.22.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_DMAT_V0.73.15.pdf",
+    "pages": 80,
+    "sha256": "68bc421e36ac5cd91e208530a63f680ac07cf21b1a5d88b010045b49a6c0ac3d",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_DMAT_V0.73.15.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Package CNDA SEFi_V3.50.00.pdf",
+    "pages": 8,
+    "sha256": "6c2afec8b6e6feeee82f37699835d82fce7ac7313c1d95cb468ea8e12edbfe8b",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Package CNDA SEFi_V3.50.00.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Prescription en ligne_V0.80.06.pdf",
+    "pages": 27,
+    "sha256": "fa48def5959cd34dafd86d558dcc85ff099546e4373ae41647403a26891dde81",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Prescription en ligne_V0.80.06.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Récupérer les données de la FEL_V0.63.pdf",
+    "pages": 10,
+    "sha256": "792d3d86e886f84876878699fc39593c8a94e11bcde7495cff05b8d0749f8bee",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Récupérer les données de la FEL_V0.63.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_RéférentielsAMO_V0.61.pdf",
+    "pages": 26,
+    "sha256": "86d89ccbd172382090150598af45ed86bb2b696444c693e3267346b302d6ec63",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_RéférentielsAMO_V0.61.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Valider la FEL_V0.60.13.pdf",
+    "pages": 24,
+    "sha256": "8411ede50b825c07f7522dce6e2fa2b298cb54619d7a4de1a1f126dda4180e4e",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Valider la FEL_V0.60.13.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_arbre de_décisions_V1.15.pdf",
+    "pages": 9,
+    "sha256": "f1c7264b01ff7d5f5858049d503fde4a5876a61f0b620faedab1ddd6fba962f6",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_arbre de_décisions_V1.15.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_consulter prise en charge_v0.09.13.pdf",
+    "pages": 25,
+    "sha256": "8bf7719297a6e52bd81fb5792ec8bb19f2031df8000956b9b83b1a55825c5012",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_consulter prise en charge_v0.09.13.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Annexe Transporteurs sanitaires/2016-02-annexe-scor-transporteurs-sanitaires-transport-flux.pdf",
+    "pages": 6,
+    "sha256": "f0cbb2627726f3e91de0bdd97f74e26e7ce38a4d9c6597f930948616f215029e",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Annexe Transporteurs sanitaires/2016-02-annexe-scor-transporteurs-sanitaires-transport-flux.md",
+    "status": "pending"
+  },
+  {
+    "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Sécurité certificats et CRL/Tutoriel IGC OSI - Utiliser les certificats de chiffrement et la CRL.pdf",
+    "pages": 11,
+    "sha256": "be1932b23b6a44fc9063262882612d09f06838cc4cb5ff9daebfdd90c0b228ca",
+    "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Sécurité certificats et CRL/Tutoriel IGC OSI - Utiliser les certificats de chiffrement et la CRL.md",
+    "status": "pending"
+  }
+]
