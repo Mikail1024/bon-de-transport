@@ -17,9 +17,19 @@
       "output_bytes": 71975,
       "images_directory": "Markdown/10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images",
       "missing_images": [],
-      "output_sha256": "487b2112329259e53dfd6259620005a35251906283f6c4cc977ae455693a351f",
-      "quality_check": "24 pages visible in export; tables and revisions present; all image references resolved; full transcription not manually audited",
-      "actual_credits": 1080
+      "output_sha256": "8c2bcde7b3bac9423160d28a186957e6a2f3981f9856521522e759b7051783d3",
+      "quality_check": "Images and image references removed at user request; alternative text preserved; original PDFs remain the reference for visual details.",
+      "actual_credits": 1080,
+      "output_sha256_before_image_removal": "487b2112329259e53dfd6259620005a35251906283f6c4cc977ae455693a351f",
+      "images_removed": {
+        "date": "2026-10-03",
+        "files": 201,
+        "markdown_references_removed": 47,
+        "html_tags_removed": 41,
+        "alternative_text_preserved": true
+      },
+      "images_status": "removed_by_user_request",
+      "quality_check_before_image_removal": "24 pages visible in export; tables and revisions present; all image references resolved; full transcription not manually audited"
     },
     {
       "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.pdf",
@@ -32,8 +42,18 @@
       "actual_credits": 135,
       "images_directory": "Markdown/10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28_images",
       "missing_images": [],
-      "output_sha256": "595bf3aee8f396bf8780db3c4a916906bde132af49f6463d58a1f09d4089ab11",
-      "quality_check": "3 pages in export; all image references resolved; full transcription not manually audited"
+      "output_sha256": "76608caab1acea0a6abe5720d40869b56e9eef76cada18c3462b0a8c554be4ab",
+      "quality_check": "Images and image references removed at user request; alternative text preserved; original PDFs remain the reference for visual details.",
+      "output_sha256_before_image_removal": "595bf3aee8f396bf8780db3c4a916906bde132af49f6463d58a1f09d4089ab11",
+      "images_removed": {
+        "date": "2026-10-03",
+        "files": 10,
+        "markdown_references_removed": 3,
+        "html_tags_removed": 0,
+        "alternative_text_preserved": true
+      },
+      "images_status": "removed_by_user_request",
+      "quality_check_before_image_removal": "3 pages in export; all image references resolved; full transcription not manually audited"
     },
     {
       "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.pdf",
@@ -46,8 +66,18 @@
       "actual_credits": 8010,
       "images_directory": "Markdown/10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2_images",
       "missing_images": [],
-      "output_sha256": "03d95f2c5fac6fb43690d558cbb27aad5f4a1eefc7830d67927a5c545d3b67ee",
-      "quality_check": "178 pages shown in UI; tables and revisions present; full transcription not manually audited"
+      "output_sha256": "17ead8751a27a3774916aaf9ef3b4d9df4767ea492d791b11907eeae4d5857fd",
+      "quality_check": "Images and image references removed at user request; alternative text preserved; original PDFs remain the reference for visual details.",
+      "output_sha256_before_image_removal": "03d95f2c5fac6fb43690d558cbb27aad5f4a1eefc7830d67927a5c545d3b67ee",
+      "images_removed": {
+        "date": "2026-10-03",
+        "files": 318,
+        "markdown_references_removed": 4,
+        "html_tags_removed": 0,
+        "alternative_text_preserved": true
+      },
+      "images_status": "removed_by_user_request",
+      "quality_check_before_image_removal": "178 pages shown in UI; tables and revisions present; full transcription not manually audited"
     }
   ],
   "settings": {
@@ -71,5 +101,7 @@
   "total_completed_documents": 3,
   "total_completed_pages": 205,
   "next_document_pages": 137,
-  "next_document_required_credits": 6165
+  "next_document_required_credits": 6165,
+  "image_removal_date": "2026-10-03",
+  "images_count_note": "Historical downloaded counts; image files subsequently removed at user request."
 }

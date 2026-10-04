@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-03",
+  "session_number": 7,
+  "project_id": "4b8e402a-62cb-4e41-b8a4-0bc04866d611",
+  "initial_credits": 10000,
+  "tier": "Agentic Plus",
+  "credits_per_page": 45,
+  "documents": [
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-SFG-004 - Editeurs - Demander l'authentification et gérer le contexte ApCV v1.5.10.pdf",
+      "pages": 31,
+      "sha256": "4091acb21327fa7e0b24ae79de6a113ca4380cd78bd5db764abaf0a7969ec692",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-SFG-004 - Editeurs - Demander l'authentification et gérer le contexte ApCV v1.5.10.md",
+      "status": "completed",
+      "estimated_credits": 1395,
+      "job_id": "pjb-zc78cz6guljm8p2s3k71xe254ekr",
+      "actual_credits": 1395,
+      "images_status": "not_downloaded_by_user_request",
+      "image_count": 0,
+      "image_references_removed": 61,
+      "output_sha256": "9ef10760106f3654ebe58631f565a8290ba11671aef0975c5748436fbfc727e9",
+      "raw_output_sha256": "c50e5df4bddf88ef92db327411e50efec6fb97cb3986c08d304171fc57bf2b2b",
+      "quality_check": "SUCCESS in UI; raw export preserved; only image markup removed preserving alternative text; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/PDT-INF-905-Qualification automatique INS ApCV.pdf",
+      "pages": 3,
+      "sha256": "983c06b744dd0a7ced4abdcdc0b8b8ec0924079d2af2b7e3940114d694dd4abb",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/PDT-INF-905-Qualification automatique INS ApCV.md",
+      "status": "completed",
+      "estimated_credits": 135,
+      "job_id": "pjb-rumm6ostue5f28z1r956n1u5cc6s",
+      "actual_credits": 135,
+      "images_status": "not_downloaded_by_user_request",
+      "image_count": 0,
+      "image_references_removed": 6,
+      "output_sha256": "d9925137fb6a6c97c73174f46db95791e6ea4090b441d06d7c57df68d4de477c",
+      "raw_output_sha256": "80d535b0f37c17d7e2c9051db06a7134c9cd2db05fed54c608018192bbd5b085",
+      "quality_check": "SUCCESS in UI; raw export preserved; only image markup removed preserving alternative text; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/Conditions_contractuelles_APCV_V1.1.pdf",
+      "pages": 17,
+      "sha256": "9e20a1ad501492f4077b7b796c78fc8e6b0edb2e3b58410b82789e65c714c8b3",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/Conditions_contractuelles_APCV_V1.1.md",
+      "status": "completed",
+      "estimated_credits": 765,
+      "job_id": "pjb-j42nkj9tdwpibni5ce291b6ttvjh",
+      "actual_credits": 765,
+      "images_status": "not_downloaded_by_user_request",
+      "image_count": 0,
+      "image_references_removed": 0,
+      "output_sha256": "c2051816c0df262c0045c515bd1461380c9a897727ac8142e53eb0fdffe0b8a7",
+      "raw_output_sha256": "c2051816c0df262c0045c515bd1461380c9a897727ac8142e53eb0fdffe0b8a7",
+      "quality_check": "SUCCESS in UI; raw export preserved; only image markup removed preserving alternative text; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL-GCONFORM-appli carte Vitale_Package CNDA_V01.00.06.pdf",
+      "pages": 6,
+      "sha256": "dab53af0ff1b54665d6ece326c9d5393d0dae5c98d803deb7a22f3f699fe0d70",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL-GCONFORM-appli carte Vitale_Package CNDA_V01.00.06.md",
+      "status": "completed",
+      "estimated_credits": 270,
+      "job_id": "pjb-7pww7kbp7mf27nvo7zv31xn6w9rp",
+      "actual_credits": 270,
+      "images_status": "not_downloaded_by_user_request",
+      "image_count": 0,
+      "image_references_removed": 2,
+      "output_sha256": "1c70fba97f2efbdf7331089988b366d75527fc749cd6171cd2d38e4233a15f5a",
+      "raw_output_sha256": "5bd348d486b9660c8fcbf479de076765eb52c56e413b11e0d4dd4b4834f20231",
+      "quality_check": "SUCCESS in UI; raw export preserved; only image markup removed preserving alternative text; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL_GCONFORM_appli carte Vitale_Demander l'authentification et gérer le contexte appli carte Vitale_v01.00.05.pdf",
+      "pages": 11,
+      "sha256": "39b30e0126412f68d0b5442740d75b53a2255ce625f3020ee2da63f2a6a50d4c",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL_GCONFORM_appli carte Vitale_Demander l'authentification et gérer le contexte appli carte Vitale_v01.00.05.md",
+      "status": "completed",
+      "estimated_credits": 495,
+      "job_id": "pjb-jo6oj9tv3wumdzjhllzunuktnyr3",
+      "actual_credits": 495,
+      "images_status": "not_downloaded_by_user_request",
+      "image_count": 0,
+      "image_references_removed": 3,
+      "output_sha256": "30ec29d4623741412ee1f82029a9a2b34375ddd38edcb26766d5ccadaa7f32e0",
+      "raw_output_sha256": "5304375f79601f3ab035300dfebccfc5c2fec970fae723929372f33cc81794f1",
+      "quality_check": "SUCCESS in UI; raw export preserved; only image markup removed preserving alternative text; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/20221116_JNI -Présentation-BSP-v1.2.pdf",
+      "pages": 6,
+      "sha256": "0a387ec304085587711049e71a408cd8a0f803b9237106115798ef7f3c209fae",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/20221116_JNI -Présentation-BSP-v1.2.md",
+      "status": "completed",
+      "estimated_credits": 270,
+      "job_id": "pjb-y18692v9mmk1cax2eue7inma7hnk",
+      "actual_credits": 270,
+      "images_status": "not_downloaded_by_user_request",
+      "image_count": 0,
+      "image_references_removed": 25,
+      "output_sha256": "e99b24b55c8daf439565d30a1b5bb63063597bc16582ff8eb883ddb925c6ce31",
+      "raw_output_sha256": "f1a3def68955d0cdf74e88301de28f5feed586f5517b95fe640ec5decc68791e",
+      "quality_check": "SUCCESS in UI; raw export preserved; only image markup removed preserving alternative text; full transcription not manually audited"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.pdf",
+      "pages": 102,
+      "sha256": "7aea43c27664cfd29ea126e61afd9e7c0a81cb2a8d347bcbf951d0b427f26ad4",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.md",
+      "status": "partial_requires_resume",
+      "estimated_credits": 4590,
+      "job_id": "pjb-dqowx2y80uucnelswr889jjt18r8",
+      "attempts": [
+        {
+          "job_id": "pjb-lppi7repo815vkq275vjval6mpgc",
+          "status": "FAILED",
+          "error": "An internal service error occurred during processing",
+          "charged_credits": 0
+        },
+        {
+          "job_id": "pjb-9q5nofu5up997fskdti0l813be08",
+          "status": "FAILED",
+          "error": "An internal service error occurred during processing",
+          "charged_credits": 0
+        }
+      ],
+      "parts": [
+        {
+          "job_id": "pjb-dqowx2y80uucnelswr889jjt18r8",
+          "target_indices": "1-51",
+          "source_pages": "2-52",
+          "pages": 51,
+          "credits": 2295,
+          "status": "SUCCESS"
+        },
+        {
+          "job_id": "pjb-5m9av6r318w4pihdfqlfwi0gmnaq",
+          "target_indices": "52-101",
+          "source_pages": "53-102",
+          "pages": 50,
+          "credits": 2250,
+          "status": "FAILED"
+        }
+      ],
+      "partial_export": "Markdown/_suivi/exports_bruts/session-07/partiels/CI-TLSi_AMO_V1_2_3_target_1-51.md",
+      "partial_export_sha256": "beb66239c55c444ed3834c9e023f89d1baf47d46e20ead5ea70324dbf97fc0b7",
+      "partial_pages_shown_in_ui": 51,
+      "coverage_note": "Target pages 1-51; actual source-page mapping must be verified before combining. Do not mark complete.",
+      "actual_credits_note": "Account used 5580 total vs 3330 for six complete documents: 2250 additional credits; per-attempt charge not confirmed.",
+      "page_zero_attempt": "No additional job appeared in history; not confirmed submitted."
+    }
+  ],
+  "status": "stopped_insufficient_credits_for_full_retry",
+  "staging_directory": "/tmp/bon-transport-session7-upload",
+  "estimated_credits": 7920,
+  "next_document": {
+    "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.pdf",
+    "pages": 102,
+    "sha256": "f0cedc24764166ee52d0ad9f63f268566a2b06474c89fba9912f04f9d57f5d5b",
+    "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.md",
+    "status": "pending"
+  },
+  "image_policy": "No images downloaded; image references removed preserving alternative text; original PDFs retained.",
+  "settings": {
+    "cost_optimizer": false,
+    "annotate_links": true,
+    "extract_revisions": true,
+    "inline_images": true,
+    "embedded_images": false,
+    "preserve_very_small_text": true,
+    "tables": "HTML",
+    "ocr_languages": [
+      "en"
+    ],
+    "ignore_watermark": false,
+    "ignore_image_text": false,
+    "ignore_hidden_text": false,
+    "custom_prompt": "Transcription intégrale sans résumé, sans reformulation ni traduction; préserver codes, nombres, conditions, exceptions, tableaux HTML, schémas, révisions et repères de pages."
+  },
+  "full_parse_confirmed": true,
+  "used_credits": 5580,
+  "remaining_credits": 4420,
+  "completed_documents": 6,
+  "completed_pages": 74,
+  "partial_documents": 1,
+  "source_hashes_verified": 190,
+  "previous_output_hashes_verified": 51,
+  "credit_balance_verified_in_brave": true,
+  "retry_document": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.pdf"
+}

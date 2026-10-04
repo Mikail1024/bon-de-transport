@@ -1,4 +1,4 @@
-![logo: sesam-vitale](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_1_image_1_v2.jpg)
+logo: sesam-vitale
 
 ## **FACTURATION SV**
 
@@ -35,7 +35,7 @@ Il en est de même pour sa traduction, sa transformation, son adaptation ou son 
 
 
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_2_image_1_v2.jpg)
+icon: icon
 
 *18/03/2026*
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
@@ -134,7 +134,7 @@ Version : **01.42**
 
 
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_3_image_1_v2.jpg)
+icon: icon
 
 18/03/2026
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
@@ -172,7 +172,7 @@ La version du socle fonctionnel de référence n’est pas modifiée par cet ave
 
 
 
-![icon: logo GIE SESAM-Vitale](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_4_image_1_v2.jpg)
+icon: logo GIE SESAM-Vitale
 
 *18/03/2026 Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *4 / 24*
 
@@ -187,7 +187,7 @@ La version du socle fonctionnel de référence n’est pas modifiée par cet ave
 
 **Indications dans la marge**
 
-![icon: hand pointing down-right](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_5_image_1_v2.jpg) Les éléments importants et les remarques sont indiqués par une main dans la marge.
+icon: hand pointing down-right Les éléments importants et les remarques sont indiqués par une main dans la marge.
 
 ---
 
@@ -210,7 +210,7 @@ Pour des besoins de commodités de lecture, lorsque le texte du paragraphe est e
 *18/03/2026*
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 
-![icon: GIE SESAM-Vitale logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_5_image_2_v2.jpg)
+icon: GIE SESAM-Vitale logo
 *5 / 24*
 
 *PDT-CDC-112*
@@ -230,7 +230,7 @@ Or, à ce jour, le renseignement des différents n° RPPS d’un flux de factura
 
 Le présent avenant fait donc évoluer les modalités de renseignement des RPPS pour les rendre obligatoires dans la facture.
 
-![icon: arrow](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_6_image_1_v2.jpg)
+icon: arrow
 
 A noter que cet avenant est un complément à l’avenant 33 qui rendait obligatoire le renseignement des RPPS des salariés en Centres de Santé.
 
@@ -250,7 +250,7 @@ Cette mesure correspond à la mise en œuvre des besoins suivants :
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 *6 / 24*
 
-![icon: logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_6_image_2_v2.jpg)
+icon: logo
 
 *PDT-CDC-112 - Avenant 48 - Addendum 8 - 2025 #CDC*
 *- EV144 - Renseignement des RPPS dans les factures - Version : **01.42***
@@ -259,7 +259,7 @@ Cette mesure correspond à la mise en œuvre des besoins suivants :
 
 ## **3.1 Synthèse des impacts**
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_7_image_1_v2.jpg) Les tableaux de synthèse ci-après reprennent les impacts détaillés pour chaque besoin au §2 ci-avant et les présentent pour chaque document du CDC, dans l'ordre du document.
+icon: icon Les tableaux de synthèse ci-après reprennent les impacts détaillés pour chaque besoin au §2 ci-avant et les présentent pour chaque document du CDC, dans l'ordre du document.
 
 <table>
   <thead>
@@ -380,7 +380,7 @@ Cette mesure correspond à la mise en œuvre des besoins suivants :
 
 *18/03/2026 Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *7 / 24*
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_7_image_2_v2.jpg)
+icon: icon
 
 * - Avenant 48 - Addendum 8 - 2025 #CDC*
 *PDT-CDC-112 - EV144 - Renseignement des RPPS dans les factures - Version : **01.42***
@@ -475,7 +475,7 @@ Cette mesure correspond à la mise en œuvre des besoins suivants :
 
 *18/03/2026 Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 
-![icon: SESAM-Vitale logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_8_image_1_v2.jpg)
+icon: SESAM-Vitale logo
 *8 / 24*
 
 *PDT-CDC-112* * - Avenant 48 - Addendum 8 - 2025 #CDC* * - EV144 - Renseignement des RPPS dans les factures -* Version : **01.42**
@@ -689,7 +689,7 @@ Les données de la carte PS (EF_PS01) et les données du PS nécessaires à la f
 
 *18/03/2026* *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *9 / 24*
 
-![icon: SESAM-Vitale logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_9_image_1_v2.jpg)
+icon: SESAM-Vitale logo
 
 PDT-CDC-112 *- Avenant 48 - Addendum 8 - 2025 #CDC - EV144 - Renseignement des RPPS dans les factures -* Version : **01.42**
 
@@ -712,13 +712,13 @@ PDT-CDC-112 *- Avenant 48 - Addendum 8 - 2025 #CDC - EV144 - Renseignement des R
 
 …/…
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_10_image_2_v2.jpg) ***Cas particuliers***
+icon: icon ***Cas particuliers***
 
 …/… B1
 
 ### **[CP2] *Centre de santé***
 
-![photo: professional categories](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_10_image_3_v2.jpg)
+photo: professional categories
 
 Pour les professionnels de santé salariés d’un centre de santé (EF_PS04_11 positionné) lors de l’élaboration d’une facture, le système de facturation doit utiliser les informations conventionnelles contenues sur le poste de travail (EF_AP36). En effet, les informations, restituées par la lecture de la carte PS ne sont pas significatives. Par exemple, au code conventionnel est attachée la valeur « 9 ».
 
@@ -796,13 +796,13 @@ Pour les autres données, cf. cas nominal de la règle.
 
 …/…
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_10_image_1_v2.jpg) ***Situations spécifiques***
+icon: icon ***Situations spécifiques***
 
 …/…
 
 
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_10_image_4_v2.jpg)
+icon: icon
 
 *18/03/2026 Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *10 / 24*
 
@@ -814,7 +814,7 @@ B3.5
 …/…
 
 ### **[RG_PS092] Acquérir le Numéro RPPS du remplaçant (EF_PS05_07) et sa clé (EF_PS05_08)**
-![photo: medical profession indicators](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_11_image_5_v2.jpg)
+photo: medical profession indicators
 
 Si le type d’identification nationale (groupe 2 – donnée 1) est RPPS, le tableau ci-dessous indique les données à acquérir.
 
@@ -849,12 +849,12 @@ Si le type d’identification nationale (groupe 2 – donnée 1) est RPPS, le ta
 <mark>Dans le cas contraire, le RPPS du remplaçant (EF_PS05_07) et sa clé (EF_PS05_08) <u>doivent être renseignés par le PS.</u></mark>
 
 ***[CE1] RPPS du remplaçant non renseigné***
-![photo: medical profession indicators](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_11_image_1_v2.jpg)
+photo: medical profession indicators
 
 <mark>Si cette information n’est pas renseignée, le processus de facturation ne peut se poursuivre.</mark>
 
 ### ***[RG_PS095] Contrôler la clé du RPPS du PS remplaçant***
-![photo: medical profession indicators](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_11_image_6_v2.jpg)
+photo: medical profession indicators
 
 <mark>Cette règle a pour objet de vérifier la clé du numéro RPPS du remplaçant (RG_PS05_08) <u>dans le cas où ce RPPS (RG_PS05_07) n’a pas été acquis à partir de la carte PS (cf. RG_PS092).</u></mark>
 
@@ -863,7 +863,7 @@ Si le type d’identification nationale (groupe 2 – donnée 1) est RPPS, le ta
 …/… B1
 
 ### ***[RG_PS093] Contrôler le renseignement du RPPS du PS salarié en Centre de Santé***
-![photo: medical profession indicators](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_11_image_3_v2.jpg)
+photo: medical profession indicators
 
 Dans une facture en Centre de Santé (EF_PS04_11 positionné) le numéro d’identification nationale (EF_PS02_02), correspondant au RPPS du PS salarié (cf. RG_PS090[CP2]), doit être obligatoirement renseigné, <mark>~~<u>hormis pour les salariés orthophonistes et orthoptistes (EF_PS03_14 = 28 ou 29).</u>~~</mark>
 
@@ -876,7 +876,7 @@ Dans le cas contraire, le LPS bloque la réalisation de la facture.
 …/…
 
 *18/03/2026* 
- ![icon: GIE SESAM-Vitale logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_11_image_4_v2.jpg) *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *11 / 24*
+ icon: GIE SESAM-Vitale logo *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *11 / 24*
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -890,7 +890,7 @@ Version : **01.42**
 
 ### **[RG_PS094] *Acquérir le RPPS, clé incluse, renseigné par le PS (EF_PS04_21 ; EF_PS04_22)***
 
-![icon: photograph](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_12_image_3_v2.jpg)
+icon: photograph
 
 <mark>Le renseignement du RPPS du PS (EF_PS04_21) et de sa clé (EF_PS04_22) doit être <u>demandé au PS si l’identifiant national en carte est de type Adeli : EF_PS02_01 = 0, ou 9.</u></mark>
 
@@ -898,7 +898,7 @@ Version : **01.42**
 
 ### **[RG_PS096] *Contrôler la clé du RPPS, renseigné par le PS (EF_PS04_22)***
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_12_image_1_v2.jpg)
+icon: icon
 
 <mark>Cette règle a pour objet de vérifier la clé du numéro RPPS renseigné par le PS <u>(RG_PS04_21).</u></mark>
 
@@ -992,7 +992,7 @@ Version : **01.42**
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 *12 / 24*
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_12_image_2_v2.jpg)
+icon: icon
 
 *PDT-CDC-112* *- Avenant 48 - Addendum 8 - 2025 #CDC* *Version : **01.42***
 *- EV144 - Renseignement des RPPS dans les factures -*
@@ -1087,7 +1087,7 @@ Cette information est :
 
 *18/03/2026* *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *13 / 24*
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_13_image_1_v2.jpg)
+icon: icon
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1099,7 +1099,7 @@ Cette déduction s’appuie sur la règle de recherche RG_IP502.
 Dans tous les cas, le LPS laisse la possibilité au PS de modifier les informations issues du référentiel PS proposées par le LPS.
 Le LPS doit laisser la possibilité au PS de renseigner manuellement les informations du prescripteur.
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_14_image_5_v2.jpg) ***Cas particuliers***
+icon: icon ***Cas particuliers***
 
 ### ***[CP1] Facturation de Télémédecine***
 
@@ -1144,7 +1144,7 @@ En cas de facturation de télémédecine, i.e. si la facture comporte au moins u
 
 <mark>Dans le cas d’une facture anonymisée (EF_IP01_10 = « oui »), le RPPS du prescripteur <u>n’est pas renseigné.</u></mark>
 
-![photo: Cas d’erreur](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_14_image_10_v2.jpg) ***Cas d’erreur***
+photo: Cas d’erreur ***Cas d’erreur***
 
 ### <mark>***[CE1] RPPS du prescripteur non renseigné***</mark>
 
@@ -1185,10 +1185,10 @@ En cas de facturation de télémédecine, i.e. si la facture comporte au moins u
     </tr>
 </table>
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_14_image_11_v2.jpg)
+icon: icon
 …/…
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_14_image_9_v2.jpg)
+icon: icon
 …/…
 B3.2
 
@@ -1237,7 +1237,7 @@ Si cette donnée n’est pas présente sur l’ordonnance, le Référentiel PS (
 
 *18/03/2026* *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *14 / 24*
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_14_image_7_v2.jpg)
+icon: icon
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1299,7 +1299,7 @@ Cette recherche peut être utilisée pour règles suivantes :
 …/… B3.4
 
 *18/03/2026* *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* 
- ![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_15_image_1_v2.jpg) *15 / 24*
+ icon: icon *15 / 24*
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1371,7 +1371,7 @@ graph TD
 
 La notion d’exécutant salarié concerne les salariés du professionnel de santé ou bien par extension un laboratoire sous-traitant ou les médecins directeurs de laboratoire d’analyses de biologie médicale dans le cas des laboratoires.
 
-![icon: exclamation mark](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_16_image_3_v2.jpg)
+icon: exclamation mark
 
 Ces informations ne sont pas renseignées dans le cas d’une facture en Centre de Santé. L’identification du PS facturant (le Centre de Santé) et du PS exécutant (le salarié) sont toutes réunies dans le domaine fonctionnel DF_PS.
 
@@ -1430,7 +1430,7 @@ Lorsque le professionnel de santé qui facture est aussi celui qui a exécuté l
 
 L’information numéro de la structure de l’exécutant salarié (EF_IP07_10) inclus la clé de ce numéro de structure.
 
-![icon: arrow](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_17_image_5_v2.jpg) ***Cas particuliers***
+icon: arrow ***Cas particuliers***
 
 ### **[CP1] *Prestation de type complément AT***
 
@@ -1472,7 +1472,7 @@ Pour une prestation de type complément AT (EF_IP05_03 = « Complément AT »), 
 
 Pour une prestation de type secondaire (EF_IP05_01 = « Secondaire »), les informations du PS exécutant salarié sont identiques à celles de l’acte support auquel cette prestation secondaire est rattachée.
 
-![icon: number 4](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_17_image_4_v2.jpg) ***Situations Spécifiques***
+icon: number 4 ***Situations Spécifiques***
 
 ### **[SP18] *Dépassement pour Victime d'Attentat***
 
@@ -1494,14 +1494,14 @@ Pour une prestation de type secondaire (EF_IP05_01 = « Secondaire »), les info
   </thead>
   <tbody>
     <tr>
-      <td colspan="8"><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_17_image_3_v2.jpg" alt="photo: photograph"></td>
+      <td colspan="8">photo: photograph</td>
     </tr>
   </tbody>
 </table>
 
 Pour une prestation de dépassement pour Victime d'Attentat (EF_IP05_03 = « Dépassement » et EF_IP05_04 = « Victime d'Attentat »), les informations du PS exécutant salarié sont identiques à celles de l’acte support auquel cette prestation de dépassement est rattachée.
 
-![icon: error case](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_17_image_10_v2.jpg) **Cas d’erreur**
+icon: error case **Cas d’erreur**
 
 ### **[CE1] *Informations de l’exécutant salarié non complètes***
 
@@ -1547,7 +1547,7 @@ Si les informations de l’exécutant salarié (EF_IP07) sont renseignées, i.e.
 
 *18/03/2026* *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *17 / 24*
 
-![icon: logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_17_image_9_v2.jpg)
+icon: logo
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1633,7 +1633,7 @@ Dans le cas contraire :
 
 *18/03/2026* *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *18 / 24*
 
-![icon: GIE SESAM-Vitale logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_18_image_1_v2.jpg)
+icon: GIE SESAM-Vitale logo
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1662,7 +1662,7 @@ Version : **01.42**
 
 ## **[RG_AP113] *Mettre à jour le référentiel PS (DF_REF_PS) sur le poste de travail du Professionnel de Santé***
 
-![photo: professional categories](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_19_image_4_v2.jpg)
+photo: professional categories
 
 Le LPS met à jour le référentiel PS (DF_REF_PS) sur le poste de travail du Professionnel de Santé à partir des informations obtenues par l’éditeur (cf. Guide d’intégration et d’utilisation du Référentiel PS : [FACT-GU-001])
 
@@ -1724,13 +1724,13 @@ Ce groupe concerne les familles de Professionnels de Santé ci-dessous :
     <tr>
       <td>N° d'identification de facturation</td>
       <td>EF_PS05_02</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_19_image_3_v2.jpg" alt="icon: star"></td>
+      <td>icon: star</td>
       <td>RG_PS091</td>
     </tr>
     <tr>
       <td>1. Clé</td>
       <td>EF_PS05_03</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_19_image_2_v2.jpg" alt="icon: star"></td>
+      <td>icon: star</td>
       <td>RG_PS091</td>
     </tr>
   </tbody>
@@ -1739,7 +1739,7 @@ Ce groupe concerne les familles de Professionnels de Santé ci-dessous :
 *18/03/2026*
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 
-![icon: SESAM-Vitale logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_19_image_1_v2.jpg)
+icon: SESAM-Vitale logo
 *19 / 24*
 
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1750,19 +1750,19 @@ Ce groupe concerne les familles de Professionnels de Santé ci-dessous :
     <tr>
       <td>2. Nom</td>
       <td>EF_PS05_05</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_20_image_7_v2.jpg" alt="icon: jecs"></td>
+      <td>icon: jecs</td>
       <td><u>RG_PS091</u></td>
     </tr>
     <tr>
       <td>3. Prénom</td>
       <td>EF_PS05_06</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_20_image_4_v2.jpg" alt="icon: juco"></td>
+      <td>icon: juco</td>
       <td><u>RG_PS091</u></td>
     </tr>
     <tr>
       <td>4. Indicateur de signature</td>
       <td></td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_20_image_6_v2.jpg" alt="icon: pvqg"></td>
+      <td>icon: pvqg</td>
       <td><u>RG_MF2A095[SP02]</u></td>
     </tr>
 </table>
@@ -1794,12 +1794,12 @@ Ce groupe concerne les familles de Professionnels de Santé ci-dessous :
     <tr>
       <td>N° RRPS du remplaçant</td>
       <td>EF_PS05_07</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_20_image_3_v2.jpg" alt="icon: icon"> <u>RG_PS092</u><br /><i>Pour rappel, le renseignement du RPPS est obligatoire en cas de remplacement</i></td>
+      <td>icon: icon <u>RG_PS092</u><br /><i>Pour rappel, le renseignement du RPPS est obligatoire en cas de remplacement</i></td>
     </tr>
     <tr>
       <td>5. Clé du N° RPPS du remplaçant</td>
       <td>EF_PS05_08</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_20_image_5_v2.jpg" alt="icon: icon"> <u>RG_PS092</u></td>
+      <td>icon: icon <u>RG_PS092</u></td>
     </tr>
   </tbody>
 </table>
@@ -1811,7 +1811,7 @@ Ce groupe concerne les familles de Professionnels de Santé ci-dessous :
 **Règles**
 
 
-![icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_20_image_1_v2.jpg) <u>IP01 - Préambule</u>
+icon <u>IP01 - Préambule</u>
 
 **Groupe de données**
 
@@ -1849,55 +1849,55 @@ Ce groupe doit être renseigné par la famille des Prescripteurs lorsque le PS f
         <tr>
             <td colspan="2">N° d'identification du PS libéral</td>
             <td>EF_IP03_04</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_9_v2.jpg" alt="icon: psvg"></td>
+            <td>icon: psvg</td>
             <td><u>RG_IP307</u></td>
         </tr>
         <tr>
             <td>6.</td>
             <td>Clé du n° d'identification du PS libéral</td>
             <td>EF_IP03_05</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_2_v2.jpg" alt="icon: vsim"></td>
+            <td>icon: vsim</td>
             <td><u>RG_IP308</u></td>
         </tr>
         <tr>
             <td>7.</td>
             <td>Date de prescription du PS libéral</td>
             <td>EF_IP03_02</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_7_v2.jpg" alt="icon: zrzn"></td>
+            <td>icon: zrzn</td>
             <td><u>RG_IP310</u></td>
         </tr>
         <tr>
             <td>8.</td>
             <td>Identification de la prescription du PS<br />libéral</td>
             <td>EF_IP03_01</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_6_v2.jpg" alt="icon: hfvx"></td>
+            <td>icon: hfvx</td>
             <td><u>RG_IP317</u></td>
         </tr>
         <tr>
             <td>9.</td>
             <td>N° RPPS du PS libéral</td>
             <td>EF_IP03_07</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_3_v2.jpg" alt="icon: lgmu"></td>
+            <td>icon: lgmu</td>
             <td><u>RG_IP367</u></td>
         </tr>
         <tr>
             <td>10.</td>
             <td>Clé du n° RPPS du PS libéral</td>
             <td>EF_IP03_08</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_8_v2.jpg" alt="icon: ckfs"></td>
+            <td>icon: ckfs</td>
             <td><u>RG_IP368</u></td>
         </tr>
         <tr>
             <td>11.</td>
             <td>N° de la structure du PS libéral</td>
             <td>EF_IP03_09</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_5_v2.jpg" alt="icon: mlen"></td>
+            <td>icon: mlen</td>
             <td><u>RG_IP369</u></td>
         </tr>
     </tbody>
 </table>
 
-![icon: warning](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_1_v2.jpg) *<u>Si ce groupe est utilisé, le renseignement du RPPS (champs 1211-7 et 1211-8) est obligatoire au même titre que le n° d’identification (champs 1211-1 et 1211-2).</u>*
+icon: warning *<u>Si ce groupe est utilisé, le renseignement du RPPS (champs 1211-7 et 1211-8) est obligatoire au même titre que le n° d’identification (champs 1211-1 et 1211-2).</u>*
 
 …/…
 B3.1
@@ -1930,7 +1930,7 @@ Le groupe 1213 est obligatoire pour toutes les familles suivantes :
 *18/03/2026*
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 
-![icon: decorative](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_21_image_4_v2.jpg)
+icon: decorative
 *21 / 24*
 
 * - Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -1954,53 +1954,53 @@ Dans le cadre de facturation d’actes de Téléexpertise ou de Téléassistance
     <tr>
       <td>N° d'identification du PS salarié</td>
       <td>EF_IP03_04</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_10_v2.jpg" alt="icon: phlv"></td>
+      <td>icon: phlv</td>
       <td>RG_IP307</td>
     </tr>
     <tr>
       <td>12.Clé du n° d'identification du PS salarié</td>
       <td>EF_IP03_05</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_4_v2.jpg" alt="icon: uoqf"></td>
+      <td>icon: uoqf</td>
       <td>RG_IP308</td>
     </tr>
     <tr>
       <td>13.Code spécialité du PS salarié</td>
       <td>EF_IP03_06</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_3_v2.jpg" alt="icon: shst"></td>
+      <td>icon: shst</td>
       <td>RG_IP309</td>
     </tr>
     <tr>
       <td>14.Date de prescription du PS salarié</td>
       <td>EF_IP03_02</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_6_v2.jpg" alt="icon: akhl"></td>
+      <td>icon: akhl</td>
       <td>RG_IP311</td>
     </tr>
     <tr>
       <td>15.Identification de la prescription du PS salarié</td>
       <td>EF_IP03_01</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_7_v2.jpg" alt="icon: kdux"></td>
+      <td>icon: kdux</td>
       <td>RG_IP317</td>
     </tr>
     <tr>
       <td>16.N° RPPS du PS salarié</td>
       <td>EF_IP03_07</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_9_v2.jpg" alt="icon: iicq"></td>
+      <td>icon: iicq</td>
       <td>RG_IP367</td>
     </tr>
     <tr>
       <td>17.Clé du n° RPPS du PS salarié</td>
       <td>EF_IP03_08</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_5_v2.jpg" alt="icon: havn"></td>
+      <td>icon: havn</td>
       <td>RG_IP368</td>
     </tr>
     <tr>
       <td>18.N° de la structure du PS salarié</td>
       <td>EF_IP03_09</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_8_v2.jpg" alt="icon: fhhc"></td>
+      <td>icon: fhhc</td>
       <td>RG_IP369</td>
     </tr>
     <tr>
-      <td colspan="4"><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_1_v2.jpg" alt="icon: dcuk"> <i>Si ce groupe est utilisé, le renseignement du RPPS (champs 1213-6 et 1213-7) est <u>obligatoire au même titre que le n° d’identification (champs 1213-1 et 1213-2).</u></i></td>
+      <td colspan="4">icon: dcuk <i>Si ce groupe est utilisé, le renseignement du RPPS (champs 1213-6 et 1213-7) est <u>obligatoire au même titre que le n° d’identification (champs 1213-1 et 1213-2).</u></i></td>
     </tr>
   </tbody>
 </table>
@@ -2032,7 +2032,7 @@ Le groupe 1214 est facultatif pour toutes les familles suivantes :
 
 
 
-![icon: logo](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_22_image_2_v2.jpg)
+icon: logo
 
 *18/03/2026 Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *22 / 24*
 
@@ -2057,55 +2057,55 @@ Dans le cadre de facturation d’actes de Téléexpertise ou de Téléassistance
     <tr>
       <td>N° d'identification du PS bénévole</td>
       <td>EF_IP03_04</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_9_v2.jpg" alt="icon: zrpn"></td>
+      <td>icon: zrpn</td>
       <td>RG_IP307</td>
     </tr>
     <tr>
       <td>19.Clé du n° d'identification du PS bénévole</td>
       <td>EF_IP03_05</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_3_v2.jpg" alt="icon: dotz"></td>
+      <td>icon: dotz</td>
       <td>RG_IP308</td>
     </tr>
     <tr>
       <td>20.Code spécialité du PS bénévole</td>
       <td>EF_IP03_06</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_10_v2.jpg" alt="icon: dslf"></td>
+      <td>icon: dslf</td>
       <td>RG_IP309</td>
     </tr>
     <tr>
       <td>21.Date de prescription du PS bénévole</td>
       <td>EF_IP03_02</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_7_v2.jpg" alt="icon: etvx"></td>
+      <td>icon: etvx</td>
       <td>RG_IP311</td>
     </tr>
     <tr>
       <td>22.Identification de la prescription du PS bénévole</td>
       <td>EF_IP03_01</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_6_v2.jpg" alt="icon: umir"></td>
+      <td>icon: umir</td>
       <td>RG_IP317</td>
     </tr>
     <tr>
       <td>23.N° RPPS du PS bénévole</td>
       <td>EF_IP03_07</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_4_v2.jpg" alt="icon: dvoo"></td>
+      <td>icon: dvoo</td>
       <td>RG_IP367</td>
     </tr>
     <tr>
       <td>24.Clé du n° RPPS du PS bénévole</td>
       <td>EF_IP03_08</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_5_v2.jpg" alt="icon: kchb"></td>
+      <td>icon: kchb</td>
       <td>RG_IP368</td>
     </tr>
     <tr>
       <td>25.N° de la structure du PS bénévole</td>
       <td>EF_IP03_09</td>
-      <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_8_v2.jpg" alt="icon: mvxe"></td>
+      <td>icon: mvxe</td>
       <td>RG_IP369</td>
     </tr>
   </tbody>
 </table>
 
-<mark>![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_1_v2.jpg) *<u>Si ce groupe est utilisé, le renseignement du RPPS (champs 1214-6 et 1214-7) est obligatoire au même titre que le n° d’identification (champs 1214-1 et 1214-2).</u>*
+<mark>icon: icon *<u>Si ce groupe est utilisé, le renseignement du RPPS (champs 1214-6 et 1214-7) est obligatoire au même titre que le n° d’identification (champs 1214-1 et 1214-2).</u>*
 </mark>
 
 …/… B3.4
@@ -2128,7 +2128,7 @@ Ce groupe concerne les familles de Professionnels de Santé ci-dessous :
 
 18/03/2026 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale* *23 / 24*
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_23_image_2_v2.jpg)
+icon: icon
 
 *PDT-CDC-112*
 *- Avenant 48 - Addendum 8 - 2025 #CDC*
@@ -2166,57 +2166,57 @@ Version : **01.42**
         <tr>
             <td>N° d'identification de l’exécutant</td>
             <td>EF_IP07_01</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_4_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>Clé du n° d'identification de l'exécutant</td>
             <td>EF_IP07_02</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_3_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>Code spécialité de l’exécutant</td>
             <td>EF_IP07_03</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_5_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>Code zone tarifaire de l’exécutant</td>
             <td>EF_IP07_04</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_9_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>Condition d'exercice de l'exécutant</td>
             <td>EF_IP07_05</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_8_v2.jpg" alt="icon: icon"> <u>RG_IP352</u></td>
+            <td>icon: icon <u>RG_IP352</u></td>
         </tr>
         <tr>
             <td>Code conventionnel de l'exécutant</td>
             <td>EF_IP07_06</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_7_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>N° RPPS de l’exécutant</td>
             <td>EF_IP07_08</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_6_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>Clé du n° RPPS de l’exécutant</td>
             <td>EF_IP07_09</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_10_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
         <tr>
             <td>N° de la structure de l’exécutant</td>
             <td>EF_IP07_10</td>
-            <td><img src="PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_10_v2.jpg" alt="icon: icon"> <u>RG_IP359</u></td>
+            <td>icon: icon <u>RG_IP359</u></td>
         </tr>
     </tbody>
 </table>
 
-<mark>![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_1_v2.jpg) *Pour rappel, le renseignement de toutes les données de ce groupe est obligatoire, à <u>l’exception de la dernière 1870-12 « N° de la structure de l’exécutant » (cf. RG_IP359)</u>*</mark>
+<mark>icon: icon *Pour rappel, le renseignement de toutes les données de ce groupe est obligatoire, à <u>l’exception de la dernière 1870-12 « N° de la structure de l’exécutant » (cf. RG_IP359)</u>*</mark>
 
 …/…
 
 *18/03/2026*
 *Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale*
 
-![icon: icon](PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE_images/page_24_image_2_v2.jpg)
+icon: icon
 *24 / 24*

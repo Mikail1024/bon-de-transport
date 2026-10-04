@@ -1,0 +1,27 @@
+Cadre d’interopérabilité des TLSi
+
+```xml
+<saml:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:Password
+            </saml:AuthnContextClassRef>
+    </saml:AuthnContext>
+  </saml:AuthnStatement>
+  <saml:AttributeStatement>
+    <saml:Attribute Name="PAGM">
+      <saml:AttributeValue>PAGM_PS</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="identifiantDeleguant">
+      <saml:AttributeValue>10003457801</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="identifiantFacturation">
+      <saml:AttributeValue>991048000</saml:AttributeValue>
+    </saml:Attribute>
+    <saml:Attribute Name="identifiantStructure">
+      <saml:AttributeValue>urn:finess:720000595:720000199</saml:AttributeValue>
+    </saml:Attribute>
+  </saml:AttributeStatement>
+</saml:Assertion>
+```
+
+23/04/2026 — 95 / 102
+
+Ce document à diffusion restreinte ne peut être diffusé sans l'autorisation d'une personne habilitée au GIE SESAM-Vitale

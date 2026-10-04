@@ -1,0 +1,345 @@
+{
+  "date": "2026-10-04",
+  "session_number": 18,
+  "project_id": "477ea77b-ab15-4028-9dbe-71d97c11552f",
+  "initial_credits": 10000,
+  "tier": "Agentic Plus",
+  "credits_per_page": 45,
+  "status": "completed",
+  "documents": [
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.pdf",
+      "pages": 102,
+      "sha256": "f0cedc24764166ee52d0ad9f63f268566a2b06474c89fba9912f04f9d57f5d5b",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.md",
+      "status": "completed",
+      "session": "2026-10-04-18",
+      "partial_export": "Markdown/_suivi/exports_bruts/session-17/partiels/CI-TLSi_AMO_V1_2_3_MR_pages_001-072.md",
+      "partial_export_sha256": "53b4dd0fd0b0f3fcb7cb5fe6ab4b974e471bdd73e1179e2315ddeecf823d2e5b",
+      "completed_source_pages": 102,
+      "remaining_source_page_ranges": [],
+      "parts": [
+        {
+          "upload_name": "S18D01_P073-077.pdf",
+          "source_page_start": 73,
+          "source_page_end": 77,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-gnnsimyybqvz3mrtvfvwljf5hq1b",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P073-077.md",
+          "sha256": "680af2e0c06d7b003ed7f5b92493a3ac3d10461d9830277d0b2651d08ef16d13"
+        },
+        {
+          "upload_name": "S18D01_P078-082.pdf",
+          "source_page_start": 78,
+          "source_page_end": 82,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-yvfpw3zgaa2r8cf91conulra3sx8",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P078-082.md",
+          "sha256": "f9fb581ae5a97cac750de147a112e63b2bac501e6f4f046178453b78adcfbdab"
+        },
+        {
+          "upload_name": "S18D01_P083-087.pdf",
+          "source_page_start": 83,
+          "source_page_end": 87,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-0p03vkrww9lt050dq9yt3pmdygwi",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P083-087.md",
+          "sha256": "fcaa3d18f25ba94d15a8b0ea758a26d8aa37535a53e6b7db816e22a4176ae108"
+        },
+        {
+          "upload_name": "S18D01_P088-092.pdf",
+          "source_page_start": 88,
+          "source_page_end": 92,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-ie86a4pia4rwhtly36t548zxa802",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P088-092.md",
+          "sha256": "9b78c5de789c62b8098d0cd63fc95ceebb36b3fa2d05a88449eb65ab704d14c9"
+        },
+        {
+          "upload_name": "S18D01_P093-097.pdf",
+          "source_page_start": 93,
+          "source_page_end": 97,
+          "pages": 5,
+          "status": "FAILED",
+          "job_id": "pjb-02b8ajzl9kzjeek9tl3bjghywpje"
+        },
+        {
+          "upload_name": "S18D01_P098-102.pdf",
+          "source_page_start": 98,
+          "source_page_end": 102,
+          "pages": 5,
+          "status": "FAILED",
+          "job_id": "pjb-doslab860lufzel23lr1mb35vz9o"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S18D01_P093.pdf",
+          "source_page_start": 93,
+          "source_page_end": 93,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-z6a2aecai39s2utzlv223sw2wy5j"
+        },
+        {
+          "upload_name": "S18D01_P094.pdf",
+          "source_page_start": 94,
+          "source_page_end": 94,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-rdjc8m09mluib9odnxc2igto4vxy"
+        },
+        {
+          "upload_name": "S18D01_P095.pdf",
+          "source_page_start": 95,
+          "source_page_end": 95,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-hz97f5zd4he23e3io778vmzmo0av",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P095.md",
+          "sha256": "dff732c82392961ed9815c160e8fb4132925aa25dda2f56d71dd2944c6be055d"
+        },
+        {
+          "upload_name": "S18D01_P096.pdf",
+          "source_page_start": 96,
+          "source_page_end": 96,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-zo3h9k73jakoc12quv70ahi49ewg"
+        },
+        {
+          "upload_name": "S18D01_P097.pdf",
+          "source_page_start": 97,
+          "source_page_end": 97,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-mmu49vysivspekjyjk4w21wh33qh"
+        },
+        {
+          "upload_name": "S18D01_P098.pdf",
+          "source_page_start": 98,
+          "source_page_end": 98,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-58bqz2eh33zpphghbild46jvqjst"
+        },
+        {
+          "upload_name": "S18D01_P099.pdf",
+          "source_page_start": 99,
+          "source_page_end": 99,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-exf7r6g3m25h9dzo6buqrbjvkizl"
+        },
+        {
+          "upload_name": "S18D01_P100.pdf",
+          "source_page_start": 100,
+          "source_page_end": 100,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-ij2mwsgsg9opcywm7gwz5p0rs2v6"
+        },
+        {
+          "upload_name": "S18D01_P101.pdf",
+          "source_page_start": 101,
+          "source_page_end": 101,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-ykflk2ps816eolvastjcv725n6b2"
+        },
+        {
+          "upload_name": "S18D01_P102.pdf",
+          "source_page_start": 102,
+          "source_page_end": 102,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-m4w5v9aaydmstd0wdep781u0smla"
+        }
+      ],
+      "manual_pages": [
+        {
+          "source_page": 93,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P093_manual.md",
+          "sha256": "d8f329b0c70c49911038aae0a1be92740857378f6bb6246c39b6000df21e804c",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 94,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P094_manual.md",
+          "sha256": "7f1c4d3c6f1465bb7bd354fabd6d5eda42c35054f484f340dd1794e837aff0f6",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 95,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P095_corrected.md",
+          "sha256": "2696281515a22a42c145ca0ef64adcf408a1ccf3819bf59f08d00d185cae4c80",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "LlamaParse misspells identifiantDeleguant as identifiantDelequant; original raw export preserved."
+        },
+        {
+          "source_page": 96,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P096_manual.md",
+          "sha256": "7934d5fff52321dbe00bb623a7961500b41f1b36e246de2747661f38feb46876",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 97,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P097_manual.md",
+          "sha256": "edbc511c438f13f2e54184435deffa5c2fcdb80538257c05945515610e88f663",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 98,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P098_manual.md",
+          "sha256": "1a3aa840cadb182bb49e092832f7a9139fd9c790a95d16d8dcecb65b39d69aa4",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 99,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P099_manual.md",
+          "sha256": "6a828aca80d8d07248e0543b28f81c7bd8a2ab41df3d3e5f8915a24d5cb19e45",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 100,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P100_manual.md",
+          "sha256": "a8fe62107fc8ddef98c26a026efb2a2a87054a95a51239cfed5997e5637e6753",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 101,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P101_manual.md",
+          "sha256": "4af5c96eabbed5c1c85c3a3acb45a513498d7211d1eacf602ba29de381a78b88",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        },
+        {
+          "source_page": 102,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-18/S18D01_P102_manual.md",
+          "sha256": "88c0b03a401c1edeceaebd60d4c9bc7f926a20e0c287fe91a7d15b85910ac4f2",
+          "method": "Visual verification against the rendered MR source and text comparison of every XML character ignoring whitespace; identical previously verified XML body reused, MR date/caption numbers and yellow highlights preserved.",
+          "reason": "Persistent LlamaParse failures in 5-page and individual-page jobs."
+        }
+      ],
+      "output_sha256": "153aa24a4183337764a4174d7843d1ff9433eca348626876e2dbd8464bde1dff",
+      "conversion_method": "Session 17 partial pages 1–72 plus session 18 split LlamaParse pages 73–92 and visually verified manual/corrected pages 93–102",
+      "images_status": "not_downloaded_by_user_request",
+      "historical_failed_job_id": "pjb-oiq2nu8ba4mfjfc4017bnfesyz04",
+      "job_ids": [
+        "pjb-gnnsimyybqvz3mrtvfvwljf5hq1b",
+        "pjb-yvfpw3zgaa2r8cf91conulra3sx8",
+        "pjb-0p03vkrww9lt050dq9yt3pmdygwi",
+        "pjb-ie86a4pia4rwhtly36t548zxa802",
+        "pjb-02b8ajzl9kzjeek9tl3bjghywpje",
+        "pjb-doslab860lufzel23lr1mb35vz9o",
+        "pjb-z6a2aecai39s2utzlv223sw2wy5j",
+        "pjb-rdjc8m09mluib9odnxc2igto4vxy",
+        "pjb-hz97f5zd4he23e3io778vmzmo0av",
+        "pjb-zo3h9k73jakoc12quv70ahi49ewg",
+        "pjb-mmu49vysivspekjyjk4w21wh33qh",
+        "pjb-58bqz2eh33zpphghbild46jvqjst",
+        "pjb-exf7r6g3m25h9dzo6buqrbjvkizl",
+        "pjb-ij2mwsgsg9opcywm7gwz5p0rs2v6",
+        "pjb-ykflk2ps816eolvastjcv725n6b2",
+        "pjb-m4w5v9aaydmstd0wdep781u0smla"
+      ],
+      "quality_checks": {
+        "source_coverage": [
+          [
+            1,
+            72
+          ],
+          [
+            73,
+            77
+          ],
+          [
+            78,
+            82
+          ],
+          [
+            83,
+            87
+          ],
+          [
+            88,
+            92
+          ],
+          [
+            93,
+            93
+          ],
+          [
+            94,
+            94
+          ],
+          [
+            95,
+            95
+          ],
+          [
+            96,
+            96
+          ],
+          [
+            97,
+            97
+          ],
+          [
+            98,
+            98
+          ],
+          [
+            99,
+            99
+          ],
+          [
+            100,
+            100
+          ],
+          [
+            101,
+            101
+          ],
+          [
+            102,
+            102
+          ]
+        ],
+        "new_pages_rendered_equal_to_original_before_upload": 30,
+        "all_new_page_numbers_present": true,
+        "pages_73_92_distinct_word_check": "NFC words of at least six letters and numbers compared; source typo Par example restored in final MD; this is not a character-by-character audit.",
+        "pages_93_102": "All ten rendered MR originals visually checked; code matches extracted source ignoring whitespace. MR date, figure numbering and yellow highlights preserved. Page 95 corrected from identifiantDelequant to original identifiantDeleguant.",
+        "other_pages_character_by_character_audited": false
+      }
+    }
+  ],
+  "successful_llamaparse_pages": 21,
+  "new_source_pages_recovered": 30,
+  "manual_or_corrected_source_pages": 10,
+  "consumed_credits": 945,
+  "remaining_credits": 9055,
+  "credit_balance_verified_in_brave": true,
+  "stop_reason": "corpus_completed",
+  "completed_document_count": 190,
+  "total_document_count": 190,
+  "total_source_pages": 3675,
+  "verification": {
+    "original_pdf_hashes_verified": 190,
+    "completed_markdown_hashes_verified": 190,
+    "previous_189_markdown_unchanged": true,
+    "new_raw_exports_present_and_hash_verified": true,
+    "final_markdown_has_no_image_markup": true
+  }
+}

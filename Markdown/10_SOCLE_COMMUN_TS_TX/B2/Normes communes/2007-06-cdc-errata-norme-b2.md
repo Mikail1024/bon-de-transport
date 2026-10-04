@@ -1,4 +1,4 @@
-![logo: l'Assurance Maladie](2007-06-cdc-errata-norme-b2_images/page_1_image_1_v2.jpg) ![logo: MSA](2007-06-cdc-errata-norme-b2_images/page_1_image_2_v2.jpg) ![logo: RSI Régime Social des Indépendants](2007-06-cdc-errata-norme-b2_images/page_1_image_2_v2.jpg) ![logo: UNRS](2007-06-cdc-errata-norme-b2_images/page_1_image_3_v2.jpg)
+logo: l'Assurance Maladie logo: MSA logo: RSI Régime Social des Indépendants logo: UNRS
 
 # ***NORMES B2***
 

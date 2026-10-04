@@ -7,7 +7,8 @@
     "status": "completed",
     "session": "2026-10-02",
     "job_id": "pjb-8jjue1xa939zeappocmer4qj2074",
-    "output_sha256": "487b2112329259e53dfd6259620005a35251906283f6c4cc977ae455693a351f"
+    "output_sha256": "8c2bcde7b3bac9423160d28a186957e6a2f3981f9856521522e759b7051783d3",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.pdf",
@@ -17,7 +18,8 @@
     "status": "completed",
     "session": "2026-10-02",
     "job_id": "pjb-apiu4rda290ka4ac13i6b94jcscc",
-    "output_sha256": "595bf3aee8f396bf8780db3c4a916906bde132af49f6463d58a1f09d4089ab11"
+    "output_sha256": "76608caab1acea0a6abe5720d40869b56e9eef76cada18c3462b0a8c554be4ab",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.pdf",
@@ -27,1315 +29,2138 @@
     "status": "completed",
     "session": "2026-10-02",
     "job_id": "pjb-5rkmdnzl5en3fwwxqundtbd80xzr",
-    "output_sha256": "03d95f2c5fac6fb43690d558cbb27aad5f4a1eefc7830d67927a5c545d3b67ee"
+    "output_sha256": "17ead8751a27a3774916aaf9ef3b4d9df4767ea492d791b11907eeae4d5857fd",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.pdf",
     "pages": 137,
     "sha256": "9ba50b70833ecc43ca69230743bd84e6f2ce6b30751028ad3f61a015afde8043",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-02",
+    "job_id": "pjb-uit43aalmt6fq94ebh16416ww5mg",
+    "output_sha256": "40b175c50ab154ce282dab9ab94cd420f173f63a05f0ef07b8811a4606ea6dee",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.pdf",
     "pages": 2,
     "sha256": "877d2bc50482d60b1b6795b83cda6a5969e53b0c7e44a51f36399d70fbd55932",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-02",
+    "job_id": "pjb-kspnauwduh67vutrkc3q1ljw9xw7",
+    "output_sha256": "0f93876cd290ae3b1c2571d7c72a5f9219567fdb15792dafd9ba1eb786ab68c3",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.pdf",
     "pages": 17,
     "sha256": "d5ecac160b8931c47cbcc3c91b090589cce4f9c32dff7c06f440438b3722eb82",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-02",
+    "job_id": "pjb-gnh5ncrxu8yn9hn34gb1sm1aynup",
+    "output_sha256": "3849e5c30d5eda3cebc4f5cc983fbbb7a0b4708a7d33c389cd4ae0df9f684fb6",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.pdf",
     "pages": 24,
     "sha256": "9d6c37569ed43ebb1c81442e595708d6aa743664db9e43087d1cc068a9cacb20",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-02",
+    "job_id": "pjb-1nqxq0njget9l4z8gwry0ulyxs17",
+    "output_sha256": "64a5c9a958c1c43a8815fb0bb6abd3417abd3f066f5a4634094a7c0425d011ab",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.pdf",
     "pages": 38,
     "sha256": "87efa025521550ee2512639b7447359129d5ca1bcb4f1d26bad7eeb00b1fb920",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-02",
+    "job_id": "pjb-htcleomhdbxjscv3n79l7gempnk6",
+    "output_sha256": "60b61d75776b23eb83f282d6c0d04f72d3b8dafbabec74a52975c90b06f7d511",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.pdf",
     "pages": 7,
     "sha256": "60d316f48e865ea1256542698c714635416537669ebb6bde112163c4eb091cd0",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-313qyulwktqw2pvmfw649xhvn9ld",
+    "output_sha256": "5a666c92c6d6b3f3a924f5920c45bd8cf50c3345ddd0113bc05577075fd31a70",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.pdf",
     "pages": 1,
     "sha256": "4d798d5555a3ee311b7f64406c4c762f5c6a2f1c62fe9f000f5e82655b504357",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-or3ax59aada5l1glms9onw1lyidr",
+    "output_sha256": "bcdb5e656acf759d38cceaa7c9865d2e94d619b88a3fbe9c68edb29080d22c05",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.pdf",
     "pages": 3,
     "sha256": "4b12f4dd26a90e3c041bf1458e83aefd526abede451eb2c7c85792e6519df71b",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-iynaszboxyidtc4ck7rxq2n0bxwe",
+    "output_sha256": "b481ec84fc20ba58c442acb1afd09173abea961a3aedf08933b79d40ec3519db",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.pdf",
     "pages": 16,
     "sha256": "6154fe26149adcdad2bf4807d38a99f4d47cb1581179f14ee7c0ddf210bc932e",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-4ual7qhmh4xgvdasrebcgl3ow47n",
+    "output_sha256": "a9fea0b04e3b3732b21079a18df9306ab0a3d9be60a16ea68435aa04ceea54f3",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.pdf",
     "pages": 5,
     "sha256": "872871f88f47688487b7e6ce6d938a61f461537b4a2a4af0161702ec2695d851",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-6jn191ybjlsk6vffo8tq3ax0o5kz",
+    "output_sha256": "9aa471243ee26baf0c8f72dfe8dedff72f889685d114bad1a0129997c3741dcd",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.pdf",
     "pages": 55,
     "sha256": "c692ac762c1f11f095070fe2e7c6a01510920a92aa3bfbf5b8749606f0438c58",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-3adudbhuo0grni99st6hzzyxdqvg",
+    "output_sha256": "75c973c9d85f7969adb8cd8e7b9824daf9c765dd21b0d9fc8f7e1177dd51ec35",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.pdf",
     "pages": 3,
     "sha256": "fdea17674f65fb8a9fc998bb6da39c5b13bb2f99735219519c4a67240036c1ba",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-gz6p7vtpsmjtul9nb901qiwggnz3",
+    "output_sha256": "781f647a1cd1831c5af81058aa121441f56698324fe31f17847e552b14fefddd",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.pdf",
     "pages": 6,
     "sha256": "48600bb7d2479b3a9013651eec3832d53358ba14be55e83eea4800610766e331",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-vgtzqbawf7tgqhlc5geomt3txv37",
+    "output_sha256": "ba55bc0a92e35d94c8af7d12ab5f4a7a396dc836fb448620375b42d6221e1bdd",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.pdf",
     "pages": 37,
     "sha256": "c6ab1c65cec2b11f5716497f62c524960446484ae0c67adcc40efae78c2fa6ac",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-vrvwiatwn4whbcpqehqaok9ds6qm",
+    "output_sha256": "0072b4179337ddb8b48177d85d098e8fcbee35e30714db7ae613262e9ed64a33",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.pdf",
     "pages": 69,
     "sha256": "a176d56e4a890aec639749c5daec8bb8546db70993214198f97d0a6dcd92f9c3",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-02-03",
+    "job_id": "pjb-4486myg9ip0l4rfjr5sxx1orcb5g",
+    "output_sha256": "740323d781b5bedeac47ca67d7961f7153b8c17e1d6631f3cb3c5091159dba97",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.pdf",
     "pages": 71,
     "sha256": "1dfaee564523c64bfb6a8596e84386dfb91a4cfa04dba50654d88c2bbf9dccea",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-cxwpumkfn2m1phtg9g5niha7jvq1",
+    "output_sha256": "b4aab121bfff9207c4cff8bb42069148e4b54fb12ec49753902d6eab6d005e68",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.pdf",
     "pages": 3,
     "sha256": "0079c0a1b9d7209f91b3f95c56d44c64d686c4593803e587acb454a405741cce",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-iuaaqaugp866xhdvm5q5cdjjiktp",
+    "output_sha256": "e57da6ce11c72fdf9e826674d424fac6736d9d3afbaa98d069a8a62f17025600",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
     "pages": 62,
     "sha256": "ff7db212b4f9be4e4b90c1e0839a744ecf4bb8d70fff9b4cb99a9918a4ec85e0",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-q2mhnkauqqjgrvyi6lrh9hd93c8x",
+    "output_sha256": "444544d3fac908dc8a9fc899562a0bc817bf06ed1b51b40f509f686d207e2b11",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.pdf",
     "pages": 52,
     "sha256": "335555d28ea5a45522dd092c400d1673934dc9ed51b661ba278e4acbf5e8ed32",
     "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-mapwpa5a9nn8mcqdgnrtltkzzcha",
+    "output_sha256": "9ec2b81b0acf8d70c57556b2ac8e01d1055e5f98f1c16fd76d23a45f38821b19",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.pdf",
     "pages": 4,
     "sha256": "3c39537f07606307632ab3e356e686a6036ae2f9ea60f9dce67b14a15a73b85b",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-qe9qp7716a2076dvu52996gybw3v",
+    "output_sha256": "373524972a65afd78db0368eb869ab36ab3f53c5cae970629966c6d85c4a0a08",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.pdf",
     "pages": 4,
     "sha256": "cb71e9b845d1ffcb2ac642745567b7b9160848ec12834c915c67a3143cf8eaad",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-7q7pqinqcb6hl2kc9i6b5ta7ynb0",
+    "output_sha256": "18edf0a316b126d6d3577323a736a82f2049a4b0b4c833467033d3364fc53f91",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.pdf",
     "pages": 1,
     "sha256": "d19a9584b2344185763ea6c066c812bf11b507e246c5a73fb17c3763b9f86702",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-wat63tsdsoblwr0ahicw81zsf8sf",
+    "output_sha256": "76c915765795319285128fb5b774caa50fa4da2c2908a2faa4aee7a50878bdac",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.pdf",
     "pages": 7,
     "sha256": "acee7019584d8bb808dec8f7310bacf068565c1f6c2301369c7e796da079de70",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-h5o97rtlz2b15drpf4r8aqpiewzq",
+    "output_sha256": "7405513533beeefa7a9d1504f38e2b21d35103c91f5d0c4d6d7cb0a677b08d7e",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.pdf",
     "pages": 8,
     "sha256": "a96e7e2016f1dd330eab92793a2db22e8486d312a9c669a3c72e56e8854baf5e",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-dbeuln87ija3wkbk32j7indq4yaa",
+    "output_sha256": "a9a97b2f8b686d464f1377b9aacb9c6becfb0caee582fc15400783b362139219",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.pdf",
     "pages": 3,
     "sha256": "1494da17cd720f2e42659cb33c9fea637e487ee01659623d0d41b9be58097137",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-2ys6z960qowrcpo5drjiko8pfzbi",
+    "output_sha256": "dbb0330f56f96087f1167275dd163b8d8b81c817e7362d38dfc9c36542224228",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.pdf",
     "pages": 2,
     "sha256": "c6abb9d1b5750e8fd0d80bc7356edc48dfea9816ffe44f901b25622002f65585",
     "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-1aa6h3qkw3t5p8fvm5n4vquuzcqv",
+    "output_sha256": "a802fc7fb54991b8b11b4da1dfd2c2943b996966cabb5c4493b7efe0e3831f25",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.pdf",
     "pages": 2,
     "sha256": "6a9d6efbabf659b7ae104e41767164547d1d695dc9da24a303035195daf07ff3",
     "output": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-04",
+    "job_id": "pjb-j5j48e2d3rnxhy2bomdqwe0jzmkf",
+    "output_sha256": "8ef03ccc1ab1f50b7ef22083c53ecd52ffc601c1cc4b9fe2326effc44473ad8c",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.pdf",
     "pages": 41,
     "sha256": "3759bc34a23dc70abb6418d0879908b37853af6f791f36ded2670c98feb457c2",
     "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-2xoxmwo9qq8wathk0yj4rb7qpsqi",
+    "output_sha256": "6c224508fe13c0da6c2c731c2aa4f5febf79155382ede9fa8bd0b4cad0495961",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.pdf",
     "pages": 49,
     "sha256": "916eccaba854085bf2c16f01b64e790fbaf04bb4e5e2edd4ecb599765bdb07c4",
     "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-4y4ryabcd1n8urwuqxxty2qkmol7",
+    "output_sha256": "5e17c46b3ba3a82b664e422073879838c5f631bfa5a7e49eba613860867f57b0",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.pdf",
     "pages": 9,
     "sha256": "aadf184e0f4eccbfe8e32aaa69f1f34a861956eae5bac6d6b1b1922bc6afadca",
     "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-bah5ve0plqafe696ognwbu2vdf92",
+    "output_sha256": "6b4a7313e90be6c23eff1cfd3f747972ef0be29d0fb1de83607b70d0f157d0fe",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.pdf",
     "pages": 1,
     "sha256": "001469173851d6cfde80034c3a0a8486ee51b3d42177ef4c163370a5d3fadef8",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-8bmqfph6jwikrh3ymlj3h139k886",
+    "output_sha256": "ec5056e06e4238db6d6fbdd81d84de78090d364e8bddcba121590916a298d385",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.pdf",
     "pages": 1,
     "sha256": "479297d4f0cb533c7bc67b7295e01b7cdfd964602ee30910db1cf24ae8faba13",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-yomss2472oubt7omxx8gkn2pgxyo",
+    "output_sha256": "b7d2701fab30db5005235f236e04ee69a64bf8d5b8dcadedf3f9bb84d7bc8964",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.pdf",
     "pages": 1,
     "sha256": "001469173851d6cfde80034c3a0a8486ee51b3d42177ef4c163370a5d3fadef8",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-0g1juv69xp64xir3ybuktdfhmgcm",
+    "output_sha256": "86f9503eb10ca658abba9ddf20acb216b3cf295627b01db1122c53a4c9e77be8",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.pdf",
     "pages": 1,
     "sha256": "67d3bc807c8f8093a08d9900bfe593c90ed95fa96fe70f94ba731f625e706eba",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-shz3k3rxgcvu63loes2lwurobq9b",
+    "output_sha256": "f1e6db6d7dbf3f28627d7f8c1da8666ce7cad856c2f4a3963551343076212f69",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).pdf",
     "pages": 2,
     "sha256": "590f48899dadc18e6e32e0be695277aeb4c9be3c5f7b9c917cdb72ad5c36422d",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-9kops7xhgxn05sdjbl80nqqebomi",
+    "output_sha256": "14b7cda002fcf2cc8857e2c708c03afc08c86b106ecc30958762eb062b8c6bb9",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.pdf",
     "pages": 2,
     "sha256": "a4688111bb3e65e71f62dd7fec898642688e8af8b3502adedd88c6dd387bae66",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-j8cfhbq08x9xtq5om4rcauc1o47l",
+    "output_sha256": "d49b6f2532e1b83373fda90644a47e9255c3bd38fb033fb4a3b74665dc8829d7",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
     "pages": 52,
     "sha256": "c4bd9c9780fda5d721170aab44bcc6d7db7d1101148f85aa252828d4f137494f",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-05",
+    "job_id": "pjb-p1fzjw1ap9oi15uet1dnub6dri71",
+    "output_sha256": "9ccd0b1335742d114e272482e215513fc797f1e32b46ccc9be1d1f032e18d7dc",
+    "images_status": "removed_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-003_01.26.01_TT-TA.pdf",
     "pages": 74,
     "sha256": "50a2347bd78673faafeb63b4c4529931eec10d4f88e0eb40861b959e75b2c2d9",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-003_01.26.01_TT-TA.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-nxvoqe8vyijkh8mq74vv7luv5w05",
+    "output_sha256": "51401ff778a384df5aed22f6a795397b76ce3ad80f4a2092026911eaad6ec42d",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-006_01.24_DICO.pdf",
     "pages": 34,
     "sha256": "b6370f6e11ba093b3466788948646d9970d4a113eb75055b97cdf52ec25a9e4b",
     "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-006_01.24_DICO.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-eejvdbw46onu05fqphr183to37ik",
+    "output_sha256": "ba3738a39d5394c4d7045191c07e1b12e419687d71af76fa8556e12fd4295d10",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/API Lecture Vitale - MEMO EDITEURS.pdf",
     "pages": 2,
     "sha256": "ae2c4b23a44668de4efb268902b502d178a925828283349143fd0a638ef2e274",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/API Lecture Vitale - MEMO EDITEURS.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-n4ju4vl73pt4efwqkr1y0xsrlsnp",
+    "output_sha256": "05127206275065493abb71ec90b751fff5b9b49f01e2156b9ed5e02dabe2aaf2",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Conditions_contractuelles_API_DE_LECTURE_v01.00.pdf",
     "pages": 15,
     "sha256": "6ee9fca66ff49179f018954d47704d9234b89cbeedc3a050321b1d80dcb23b26",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Conditions_contractuelles_API_DE_LECTURE_v01.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-yv7w68jcvbbwzxcn3vjr8day1txm",
+    "output_sha256": "f18ae715d9d24e6de325f07815225a1185cb57f3233313a2fc1f5b9ff7b7431b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Licence Package API de Lecture v0.8.pdf",
     "pages": 19,
     "sha256": "d3ae79f9665c1418989c23244a6ff44436101a04b97004ba2a02832a19f4d4c4",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Licence Package API de Lecture v0.8.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-bo275g562wvd1v2m19ggzzg2xn84",
+    "output_sha256": "bc9d003634a647cb6032aed2e013db1a72e1a59f8c27c751bbb60a6a1d70c600",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Solution lecture Vitale - tableau comparatif 2026-03-18.pdf",
     "pages": 1,
     "sha256": "caf6fcbb4c08704b7e0de64c768d72f7e0b69f1c34dd45eeb74d1419beef284f",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/API Lecture Vitale/Documentation officielle/Solution lecture Vitale - tableau comparatif 2026-03-18.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-tuublennf7xus4gquv9cd5r75rc4",
+    "output_sha256": "6038e95d01d8c5ab30078e7b6c386cdd112d81e2d686e1b13693d37e7f72db50",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-013 - Fiche Livraison Services appli carte Vitale v1.17.pdf",
     "pages": 5,
     "sha256": "352679a5a93edcbde90a64f4fe9e5767b7e5dd99273b856650b34ef6ca7f1417",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-013 - Fiche Livraison Services appli carte Vitale v1.17.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-tcdzvpao5ndr9bivdi1frmk20krc",
+    "output_sha256": "e13436627e2e0f1dcf2b7ad4bd201deb76e7ff4340f5fa2c53f3edc9f9a9e8fc",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-701 - Fiche Livraison globale appli carte Vitale v1.31.pdf",
     "pages": 6,
     "sha256": "1bbe3521d02fb4b9f51a77d0226542eafdfbe77364bea52aedcc103258eb0787",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-INF-701 - Fiche Livraison globale appli carte Vitale v1.31.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-txba1moetglqnoek5smqcfdpxuyk",
+    "output_sha256": "6f28c1ba4297c8ce3bd85876b3a7e8f709bb382a8f8a6cd3b10636342cc63d5b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-001-Echanges de proximité v1.6.pdf",
     "pages": 16,
     "sha256": "970688c82db8e9f7dbe919f59186059e0569bcd2724abb9162a34dc1ba8de9ed",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-001-Echanges de proximité v1.6.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-pixb4yzzobyzkyinvlgjxr36buq9",
+    "output_sha256": "747431490c96b3593526960b13928ab294d759ded9263c206890852dcb542daa",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-006-Préconisations paramétrage lecteurs.pdf",
     "pages": 3,
     "sha256": "a5992169dfbab773c9991b926c3f4c32ffb5a515ccbd74b106cafae075cfdcb6",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/ApCV-NT-006-Préconisations paramétrage lecteurs.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-tzeqkek586bopafp1w4r796ek6gc",
+    "output_sha256": "c4a8820fef9ddaf9127e3cc6ecd88a7f0d5fe85d1e4a9da5076c98d33358bcfa",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-MP-001 - GI Demander l'authentification et gérer le contexte ApCV v1.8.pdf",
     "pages": 45,
     "sha256": "2fd08367efbaf0b1adc3cbf28681c2e48db9ccd53f6cf2ebeb6625f9ad7b7a72",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-MP-001 - GI Demander l'authentification et gérer le contexte ApCV v1.8.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-06",
+    "job_id": "pjb-ekqa92ervuyxpu1exbk74bfs9acn",
+    "output_sha256": "d59679c3d8cbf91a7e6a788698c393d5d1ad692e01c5b43b1469f1d93dea9e3f",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-SFG-004 - Editeurs - Demander l'authentification et gérer le contexte ApCV v1.5.10.pdf",
     "pages": 31,
     "sha256": "4091acb21327fa7e0b24ae79de6a113ca4380cd78bd5db764abaf0a7969ec692",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/Authentifier et gérer le contexte ApCV v1.0.7f/ApCV-SFG-004 - Editeurs - Demander l'authentification et gérer le contexte ApCV v1.5.10.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07",
+    "job_id": "pjb-zc78cz6guljm8p2s3k71xe254ekr",
+    "output_sha256": "9ef10760106f3654ebe58631f565a8290ba11671aef0975c5748436fbfc727e9",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/PDT-INF-905-Qualification automatique INS ApCV.pdf",
     "pages": 3,
     "sha256": "983c06b744dd0a7ced4abdcdc0b8b8ec0924079d2af2b7e3940114d694dd4abb",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Documentation GIE/PDT-INF-905-Qualification automatique INS ApCV.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07",
+    "job_id": "pjb-rumm6ostue5f28z1r956n1u5cc6s",
+    "output_sha256": "d9925137fb6a6c97c73174f46db95791e6ea4090b441d06d7c57df68d4de477c",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/Conditions_contractuelles_APCV_V1.1.pdf",
     "pages": 17,
     "sha256": "9e20a1ad501492f4077b7b796c78fc8e6b0edb2e3b58410b82789e65c714c8b3",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/Conditions_contractuelles_APCV_V1.1.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07",
+    "job_id": "pjb-j42nkj9tdwpibni5ce291b6ttvjh",
+    "output_sha256": "c2051816c0df262c0045c515bd1461380c9a897727ac8142e53eb0fdffe0b8a7",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL-GCONFORM-appli carte Vitale_Package CNDA_V01.00.06.pdf",
     "pages": 6,
     "sha256": "dab53af0ff1b54665d6ece326c9d5393d0dae5c98d803deb7a22f3f699fe0d70",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL-GCONFORM-appli carte Vitale_Package CNDA_V01.00.06.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07",
+    "job_id": "pjb-7pww7kbp7mf27nvo7zv31xn6w9rp",
+    "output_sha256": "1c70fba97f2efbdf7331089988b366d75527fc749cd6171cd2d38e4233a15f5a",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL_GCONFORM_appli carte Vitale_Demander l'authentification et gérer le contexte appli carte Vitale_v01.00.05.pdf",
     "pages": 11,
     "sha256": "39b30e0126412f68d0b5442740d75b53a2255ce625f3020ee2da63f2a6a50d4c",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Appli carte Vitale/Qualification CNDA 01.00.06/SEL_GCONFORM_appli carte Vitale_Demander l'authentification et gérer le contexte appli carte Vitale_v01.00.05.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07",
+    "job_id": "pjb-jo6oj9tv3wumdzjhllzunuktnyr3",
+    "output_sha256": "30ec29d4623741412ee1f82029a9a2b34375ddd38edcb26766d5ccadaa7f32e0",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/20221116_JNI -Présentation-BSP-v1.2.pdf",
     "pages": 6,
     "sha256": "0a387ec304085587711049e71a408cd8a0f803b9237106115798ef7f3c209fae",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/20221116_JNI -Présentation-BSP-v1.2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07",
+    "job_id": "pjb-y18692v9mmk1cax2eue7inma7hnk",
+    "output_sha256": "e99b24b55c8daf439565d30a1b5bb63063597bc16582ff8eb883ddb925c6ce31",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.pdf",
     "pages": 102,
     "sha256": "7aea43c27664cfd29ea126e61afd9e7c0a81cb2a8d347bcbf951d0b427f26ad4",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-04-17",
+    "job_id": "pjb-dqowx2y80uucnelswr889jjt18r8",
+    "partial_export": "Markdown/_suivi/exports_bruts/session-07/partiels/CI-TLSi_AMO_V1_2_3_target_1-51.md",
+    "partial_export_sha256": "beb66239c55c444ed3834c9e023f89d1baf47d46e20ead5ea70324dbf97fc0b7",
+    "output_sha256": "c1fb34c988d22bc5f57834d24728bbabf0cfdb0c60b336063d95c30277fc2ee7",
+    "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.pdf",
     "pages": 102,
     "sha256": "f0cedc24764166ee52d0ad9f63f268566a2b06474c89fba9912f04f9d57f5d5b",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-04-18",
+    "partial_export": "Markdown/_suivi/exports_bruts/session-17/partiels/CI-TLSi_AMO_V1_2_3_MR_pages_001-072.md",
+    "partial_export_sha256": "53b4dd0fd0b0f3fcb7cb5fe6ab4b974e471bdd73e1179e2315ddeecf823d2e5b",
+    "completed_source_pages": 102,
+    "remaining_source_page_ranges": [],
+    "output_sha256": "153aa24a4183337764a4174d7843d1ff9433eca348626876e2dbd8464bde1dff",
+    "conversion_method": "Session 17 partial pages 1–72 plus session 18 split LlamaParse pages 73–92 and visually verified manual/corrected pages 93–102",
+    "images_status": "not_downloaded_by_user_request",
+    "job_ids": [
+      "pjb-gnnsimyybqvz3mrtvfvwljf5hq1b",
+      "pjb-yvfpw3zgaa2r8cf91conulra3sx8",
+      "pjb-0p03vkrww9lt050dq9yt3pmdygwi",
+      "pjb-ie86a4pia4rwhtly36t548zxa802",
+      "pjb-02b8ajzl9kzjeek9tl3bjghywpje",
+      "pjb-doslab860lufzel23lr1mb35vz9o",
+      "pjb-z6a2aecai39s2utzlv223sw2wy5j",
+      "pjb-rdjc8m09mluib9odnxc2igto4vxy",
+      "pjb-hz97f5zd4he23e3io778vmzmo0av",
+      "pjb-zo3h9k73jakoc12quv70ahi49ewg",
+      "pjb-mmu49vysivspekjyjk4w21wh33qh",
+      "pjb-58bqz2eh33zpphghbild46jvqjst",
+      "pjb-exf7r6g3m25h9dzo6buqrbjvkizl",
+      "pjb-ij2mwsgsg9opcywm7gwz5p0rs2v6",
+      "pjb-ykflk2ps816eolvastjcv725n6b2",
+      "pjb-m4w5v9aaydmstd0wdep781u0smla"
+    ],
+    "historical_failed_job_id": "pjb-oiq2nu8ba4mfjfc4017bnfesyz04"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_CIPHER_SUITE_V1_2_0.pdf",
     "pages": 1,
     "sha256": "4623f328d3bbf990bbb97ecc7a5e53b9b72ef31bdb3b43f114d6afdb413c48dd",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_CIPHER_SUITE_V1_2_0.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-hf2r94j80dx1r9qf0l4p1jtl7h2b",
+    "output_sha256": "8a39a4cd7c2e1b7cd517356254f694b7d880d0f4998f73f24b1d33effaa1d4ae",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-031_Modalite acces cartes et certificats_1.4.pdf",
     "pages": 20,
     "sha256": "ee5c4a3d6b1619471fd47aff7e0c94fce433f82e3fd0e526365e5ba358a5f054",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-031_Modalite acces cartes et certificats_1.4.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-wfqyi7l5fgauyanh9pdw9r3hizmm",
+    "output_sha256": "b0a61742fe7328108b6deaa03c5a999d43f6edc1ca1c91a087bb734eadb72457",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3.pdf",
     "pages": 9,
     "sha256": "10083c0db6a09f72c34cd0e25f48779723d7c6118506cdba2593825223af2743",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3.md",
-    "status": "pending"
+    "status": "completed",
+    "job_id": "pjb-rlrggqndpf1fsxts0o2ebjldno8g",
+    "session": "2026-10-04-16-split",
+    "failed_attempts": [
+      {
+        "session": "2026-10-04-16",
+        "job_id": "pjb-rlrggqndpf1fsxts0o2ebjldno8g",
+        "status": "FAILED"
+      }
+    ],
+    "output_sha256": "074fa72b989378ecdfcc15968969d57389a2f61c63e3a9c7ba9d4a12fe03cc0c",
+    "images_status": "not_downloaded_by_user_request",
+    "conversion_method": "Split LlamaParse pages 2-9 plus visually verified manual page 1"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3_MR.pdf",
     "pages": 9,
     "sha256": "763ba44868cb5609f09b76ea7c0a5d53f9b6527a28188c1d4776aa24997cd95a",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "job_id": "pjb-fo5vl960yu8n7g7kdhc02ce30duu",
+    "session": "2026-10-04-16-split",
+    "failed_attempts": [
+      {
+        "session": "2026-10-04-16",
+        "job_id": "pjb-fo5vl960yu8n7g7kdhc02ce30duu",
+        "status": "FAILED"
+      }
+    ],
+    "output_sha256": "9fda11dfd8cb830f811db98e4f72511fc98ee01794bb5dcfb1277ab652d58f58",
+    "images_status": "not_downloaded_by_user_request",
+    "conversion_method": "Split LlamaParse pages 2-9 plus visually verified manual page 1"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Modalités d'accès aux volets transport synchrone des services en santé ou des téléservices de l’AMO.pdf",
     "pages": 5,
     "sha256": "bc5dbcfcf0967100ae3ce829ee3cb50e95f4dd2e765790958c9dda5bf4739d88",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Modalités d'accès aux volets transport synchrone des services en santé ou des téléservices de l’AMO.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-rdu2sx1390kqnlnkw4gaqsz9xvpj",
+    "output_sha256": "798b0dca011c6b52c8e96302c5a2e8e7cfea00f1e7fd89fbc42b84f1eeda9c0a",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-850_CI_TLSI_AMO_1.2.3.pdf",
     "pages": 2,
     "sha256": "97d4758a6b7f61e4b6d1229c546fbeb520e92d690ac54a221ff8e7bab2e91095",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-850_CI_TLSI_AMO_1.2.3.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-h4x7tcgj2x9n5jciy4jhljfi6xhy",
+    "output_sha256": "589a66d8cc074ce8f3f714771e1da74d1cd14121d74e15d44e47cb4f994c6ba3",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-913 WSDL_XSD  Gestion Redirections et Recommandations Mise en Cache.pdf",
     "pages": 2,
     "sha256": "ec58041029fb2f057986ea87b479b92974a15fba05ade195d06ec298afb87568",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/PDT-INF-913 WSDL_XSD  Gestion Redirections et Recommandations Mise en Cache.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-3lv0zso0r87m3skx89by1sw1p686",
+    "output_sha256": "74d3a0df4d4c2f0944c3e3958b527557308bbcc49546b883a7ed2e9b0bdf9403",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Présentation du cadre d'intéropérabilité.pdf",
     "pages": 30,
     "sha256": "a1ce1bd2f0662166275742fd95403082da057ea59caa64663fb23f5456dad296",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Présentation du cadre d'intéropérabilité.md",
-    "status": "pending"
+    "status": "completed",
+    "job_id": "pjb-ds7kunpbjm7dmlcmdtdqxhox5z5c",
+    "session": "2026-10-04-16-split",
+    "failed_attempts": [
+      {
+        "session": "2026-10-04-16",
+        "job_id": "pjb-ds7kunpbjm7dmlcmdtdqxhox5z5c",
+        "status": "FAILED"
+      }
+    ],
+    "output_sha256": "d031e3d49a2e4d47b5b497fb9707dfc77302271c89fec1bc8bad65ed32b7a20e",
+    "images_status": "not_downloaded_by_user_request",
+    "conversion_method": "Split LlamaParse plus manual pages 11,12,13,22,27"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesDotNet/tls_icir/TLSi_LPS_Guide_Implementation_CSharp.pdf",
     "pages": 10,
     "sha256": "d08d51bed43b752a5c3ee8e183d86ff54624b438c319f2a15095fa5f87574779",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesDotNet/tls_icir/TLSi_LPS_Guide_Implementation_CSharp.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-ih5adsz8rx9p41v4i6dxfelm2fct",
+    "output_sha256": "9219df6303eb90f6439194039ccc6d9f1a667224c082c74090c14050794cef41",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesJava17/INSi/TLSi_LPS_Guide_Implementation_Java.pdf",
     "pages": 12,
     "sha256": "c497dddf8a731be5738d45f673bfd54fe484379066f4cc08bc8aec3b1f354ffa",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Codes exemples, tuto/TLSiCodesExemplesJava17/INSi/TLSi_LPS_Guide_Implementation_Java.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07c",
+    "job_id": "pjb-69iz688x37ybt01bbiq957dshsit",
+    "output_sha256": "684014914f5aef201555f9bd2a8dfe222d6139a3d374ed2415bb92f3eb079a73",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Disponibilite-des-TLSi-par-regime-publiee.pdf",
     "pages": 1,
     "sha256": "1d042f99b8b5c7882cb50251c7a1446381485093a207937753d8032c648729bd",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Disponibilite-des-TLSi-par-regime-publiee.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-363j3x68szmlugguijvu9sptk0uu",
+    "output_sha256": "5f3d533da568c89ccccda844488358db5d140d48f13d5ab3641090411c8a41b2",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide de demarrage TLSi 2026.pdf",
     "pages": 2,
     "sha256": "01612eb4644f330d5b6a0f100d32b95ffcd9998924cd2daeb95fac01e82484db",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide de demarrage TLSi 2026.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-pejhwpr45n1tsw4juzqoee2bpab2",
+    "output_sha256": "2f31b71312b2c37f4c700c4f4a84cb511eb97c300600990b835b2e6e7a47b5e5",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide des livrables TLSi 2026.pdf",
     "pages": 3,
     "sha256": "c50757f338bbc7bea19fa6f7bf3f019f2e51f9b1c35b50388ee377387f011f0d",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Guides et procédure/Guide des livrables TLSi 2026.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-dwccxmx1mu99ptdwvue94jaokp5w",
+    "output_sha256": "3e5fe3e0edfea17131997e36fc2833c4923393331206f3b3135d170e82a730a9",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Package GIE 05.00.01/SEL-MP-043_05-00-01_INSi avec MR.pdf",
     "pages": 44,
     "sha256": "9a607d0da22e6a7c98896ea0cbeef2e273c60bc2b5e6f3fbc7b381b050890abb",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Package GIE 05.00.01/SEL-MP-043_05-00-01_INSi avec MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-lq4zpha0letdutr3is4ocphbufpu",
+    "output_sha256": "a3fd27d4f85533c02c1e3f8fe4bb0131bfdab9b4755e10a30c25d5a241682e14",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Conditions_contractuelles_INSI_V4.2.pdf",
     "pages": 17,
     "sha256": "9a19a312c90db47cbafd0a59432b6817cd77b720728727b576da0f5a61335534",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Conditions_contractuelles_INSI_V4.2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07c",
+    "job_id": "pjb-r0c8gdu04bmn3mapmik2vvwaybg4",
+    "output_sha256": "9cf7e9c81d916b0a721b4f895607ee136051fb486350d590ca7eb13d8e231b0e",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Package_CNDA_INSi_V05.00.00.pdf",
     "pages": 6,
     "sha256": "ece5b7741ed024afce11f99149f752f6fb3646a8e1640151e7e0a769b3b3a81e",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/Package_CNDA_INSi_V05.00.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07c",
+    "job_id": "pjb-33hhowh2pa478zgx40eflyjk7iix",
+    "output_sha256": "9a8c64c2723627f0ccd862071f9abcccb55d5ccab67ccd10e43184d1ac080e2d",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/SEL-GCONFORM_INSi_V01.14.pdf",
     "pages": 42,
     "sha256": "e83d0fdb891046f25c30d0c44b80afda37f75ba1fd424c1b40d721d984df3d5d",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/INSi/Qualification CNDA 05.00.00/SEL-GCONFORM_INSi_V01.14.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-v611xuwh6brcl5sy3fppmm5rg185",
+    "output_sha256": "a48b3e92bc287286519ca7c19602293d5a3b322866de05971ff8e30de35f6485",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/CI-TLSi_CIPHER_SUITE_V1_2_0.pdf",
     "pages": 1,
     "sha256": "5d00b1359d91efbae2cf1e41a6f8424187bf08f9bc4a7187e181acd928d839c8",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/CI-TLSi_CIPHER_SUITE_V1_2_0.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-8v3xknp31y0eiof967rg1q78zfi9",
+    "output_sha256": "b5582f14b73e817b69ba7e080b0ac371b39895b69674e00cffc76cf159bee1e9",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/Tutorial_IGC_Santé_ANS - Vérification_des_certificats.pdf",
     "pages": 5,
     "sha256": "86152ada24e6a38705e9ab2e07f3a44de80678392233c696b109fc2c02d38b0b",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/Tutorial_IGC_Santé_ANS - Vérification_des_certificats.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07c",
+    "job_id": "pjb-ih7w8wsjicji9ri0jdhfzgppyv3a",
+    "output_sha256": "6215de399c9ccbe809346e43aed05c1410f48769126d9ed588d32771a10be9e2",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/bonnes_pratiques_versions_LPS_TLSi_V2.0.pdf",
     "pages": 2,
     "sha256": "a028fe65e2a41cc7a4add5f5bfefad81ab6a11a53c15134c72457d23f0cd1d7a",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Points de vigilance/bonnes_pratiques_versions_LPS_TLSi_V2.0.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-gidh1my98zcytpqrv4u60rfha2r9",
+    "output_sha256": "68c6b1213dfbaffe4d7004f3bc46d83ccd08ab34beddea5544e7c0364c810cb4",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/PDT-INF-846-Fiche de livraison Package documentaire TLSi bénéficiaire.pdf",
     "pages": 3,
     "sha256": "64b8ee7af54f77a56320e755a86916e3e1700e0de84bdd39e5c515d7d0be546c",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/PDT-INF-846-Fiche de livraison Package documentaire TLSi bénéficiaire.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07c",
+    "job_id": "pjb-p1xiughpsibtjcwdc2bah9oukxev",
+    "output_sha256": "44099f25dad15293b07503e9972f5a805ff723a5690db9339a3dbe86ed814999",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/Conditions_contractuelles_Beneficiaire_V1.0.pdf",
     "pages": 17,
     "sha256": "6af49096cab29f44d2bf73eee6e94b3fddd662c323707884b0b9ca9da10aff97",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/Conditions_contractuelles_Beneficiaire_V1.0.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-3zqccyop7nhjitjdobkutd99eqzw",
+    "output_sha256": "7d7002b5370d1b56673ac664d784c10da4fb58fcf25f260b640cc6b157a8e6ab",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_Package CNDA_V01.15.00.pdf",
     "pages": 5,
     "sha256": "9325a00172ff6d667764ba211aadee9c8efbd3f6d0d05af573277d5f8cd378a1",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_Package CNDA_V01.15.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07c",
+    "job_id": "pjb-dfajw92403mkegiwh43fqniqlyr9",
+    "output_sha256": "60a930f2911305cba8d8d50d829e77c2d107a00a7d4f9207cdf3e7212ec8fdfc",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_V01.00.pdf",
     "pages": 12,
     "sha256": "4cc76491a668ca052a6018e9cb3784a31c3e00d5e621cc2e3c06e6d1e190c6c3",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/Qualification CNDA 01.15.00/SEL-GCONFORM-Bénéficiaire_V01.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-47axwj6dftzdnqfbyabbz6pjsfhf",
+    "output_sha256": "9baf02f09152b81ee7a7c2a29afb1e35208c0f73da4a7dc85ece93c0702b09ad",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire avec MR.pdf",
     "pages": 16,
     "sha256": "f14b43c30a5a5268a478ee68b7308e66d9c52d5a9a83613170bc3c621c5810af",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire avec MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-p8u0yuq1emsqphy1uh6xtkdrlvnp",
+    "output_sha256": "b4800a88f4829d77c803c9fc758f3d7c9d9341619fdf4e3c033b4f3a3281ccb7",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire sans MR.pdf",
     "pages": 15,
     "sha256": "c156ab82b2f9fb8ea49c5e95c4a2b8d2840bdd506f24db5f897794e6b93be2f6",
     "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Package TLSi bénéficiaire version 01.15/SEL-MP-013_01.15_WS_BS Services en Ligne Bénéficiaire sans MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-9fmmiwlufrntt2dsyatnuhgasvk8",
+    "output_sha256": "37bfc9927ea56b4505819c6f55e9bd5d66f2e48c3d0bc2976c0800abe8a1f105",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/AMELI/Annexe-30-facturation-b2-nouvelle-convention.pdf",
     "pages": 60,
     "sha256": "5800e107536fa11c98d76b191b6c2e1a93c37808ebcd8bc2aa47b2ef481baca1",
     "output": "20_TAXI/B2/AMELI/Annexe-30-facturation-b2-nouvelle-convention.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-7lydq5nv0l2qe4859a13hb1lxs8a",
+    "output_sha256": "87c62072e5505b00abff5636ed751b292e6747d78b88413356a0d9f47ea30019",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/AMELI/Cahier-des-charges-éditeurs-logiciels-facturation-B2-taxis.pdf",
     "pages": 100,
     "sha256": "17ea4b58c7d0e8b7afb924cab3e978765faf677957379d04fc6a1f56718e18a2",
     "output": "20_TAXI/B2/AMELI/Cahier-des-charges-éditeurs-logiciels-facturation-B2-taxis.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-z3g47m7gedogq6fta9ltc560yps0",
+    "output_sha256": "4930bb0e2b568acfa5c468dd237f785293f76cc1839999c97fe0404f1354e4d1",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/AMELI/annexe-29-b2-facturation-taxi.pdf",
     "pages": 6,
     "sha256": "818dd40ea10fa2cd700b770d6f209bb0038a717a87c19d9f98d47e136c2c7479",
     "output": "20_TAXI/B2/AMELI/annexe-29-b2-facturation-taxi.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-3xxeodqzos71e0k8fhvikn0xqbzs",
+    "output_sha256": "ffe858b517ca6b3b04d98524ada48a5ca6bbeddd645017a9993b3f19a176ce1b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Cahier de Test_Facturation B2 NC TAXIS v03.00.00.pdf",
     "pages": 44,
     "sha256": "43beba81f10c8ef4471a05e0047c17435ebe9ac9e557e081e594bffafed7d1f4",
     "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Cahier de Test_Facturation B2 NC TAXIS v03.00.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-e1dozviok5kryqs9qskfcgh3joz4",
+    "output_sha256": "b36d583f0a178a3c90c24dfd82047da31d3b8a98daf88e86650ab0950268215e",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Conditions_contractuelles_Convention Taxis_v2.00.pdf",
     "pages": 18,
     "sha256": "18efef81a9e879986760bdaade139966339e2e073fb23a1befba41785284e2c3",
     "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Conditions_contractuelles_Convention Taxis_v2.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-vvzs5mshgzge2ix6mmrvckjvfeol",
+    "output_sha256": "757be212932b19471ef3ae139f4a139b23b16d1d3bf7be9a8f571d8b0827b7d9",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Facture_Taxi_et_annexe_606b_092025.pdf",
     "pages": 2,
     "sha256": "b14dd5ca1afb85c32fabbdfdc8b76c06ba3946f67e12e2c18fdae906710c2ad7",
     "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/Facture_Taxi_et_annexe_606b_092025.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-tg7hq56zdpt7nmhrp8jt3d5yz96v",
+    "output_sha256": "48f20d8ff83d03ac0ecefd46085cc6c286b287b4f93f8e13d1cdd9fa729cbc17",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/VOL_TECH_TA-rev2.pdf",
     "pages": 10,
     "sha256": "fac1cfc38ae1974c8af3b65a6b9d19c8ef0b47b9c39d79b0608ff5d82fdc4cfe",
     "output": "20_TAXI/B2/Qualification CNDA B2 Taxi 03.00.00/VOL_TECH_TA-rev2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-orbvhxr55dt9hd4mk0saln9unsh8",
+    "output_sha256": "b2b2173761fe49d9490b1290505c9571b7b2c6002a859187ef24d14b0ba3ae85",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/Métier Taxi/Référentiels métier/Cahier des charges supplément forfaitaire TPMR Taxi.pdf",
     "pages": 7,
     "sha256": "a55ad1c137eb103d1ba8b16968bd2351c59c35425810c8940bce3d763d282c7a",
     "output": "20_TAXI/Métier Taxi/Référentiels métier/Cahier des charges supplément forfaitaire TPMR Taxi.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-vekv25qz403is94auo49uo1deadq",
+    "output_sha256": "0d0e2d3fd85ad8a13add9f62f46a36626d4f404403a378c4bd07285267a156df",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/Métier Taxi/Référentiels métier/Convention-cadre nationale Taxi - arrêté du 29-07-2025 (JO 08-08-2025).pdf",
     "pages": 30,
     "sha256": "71f522b058163322550982b105c048a8d302f8c4f3023eae12b18590f23c6adc",
     "output": "20_TAXI/Métier Taxi/Référentiels métier/Convention-cadre nationale Taxi - arrêté du 29-07-2025 (JO 08-08-2025).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-d8trdph3e02x8o2ytuk3e57axzc8",
+    "output_sha256": "2a3c8931ed21de2ffe16e28afe5ecfb86c8dd9745697517933ce262365158972",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/Métier Taxi/Référentiels métier/Liste des établissements éligibles au forfait Grande Ville - 01-04-2026.pdf",
     "pages": 1,
     "sha256": "7f02c2ba392c67515e5986d1bfa7332ab8a4523aec93470bd56d54d57e093344",
     "output": "20_TAXI/Métier Taxi/Référentiels métier/Liste des établissements éligibles au forfait Grande Ville - 01-04-2026.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-07b",
+    "job_id": "pjb-khv7c3n4wxrnsvh74xnow5e1lky8",
+    "output_sha256": "c1f6c70c410c7442dc149bbc3b81ca838f71718fecb1edb01d410d8ec7270b41",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Cartes de test Taxi/Commande CDE CPE - Taxis Conventionnés (octobre 2022).pdf",
     "pages": 7,
     "sha256": "e943e9ce3f9f8bd141f237d8e8a352b06e218ffa6f0f8e121c7741c969fe9b61",
     "output": "20_TAXI/SEFi/Cartes de test Taxi/Commande CDE CPE - Taxis Conventionnés (octobre 2022).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-9ffp49zfyl848s95jcrk6v87939w",
+    "output_sha256": "6d66f4e132dbc98714c408e775b0dba41c903de1fe6d58c1245a0a0aed96a8ed",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi taxis.pdf",
     "pages": 6,
     "sha256": "ee58a053de68324a6abb774985888c9b4918e54eb8ebe616a43a8bfbbd736309",
     "output": "20_TAXI/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi taxis.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-09",
+    "job_id": "pjb-xmxac0t73602zit00sz2mdie34q1",
+    "output_sha256": "276a701513d5fefe497964d68458b01bd462d02213248cee46d2c871a49fad6c",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle annexe 4 à la facture taxis conventionnés - TX.pdf",
     "pages": 1,
     "sha256": "ec7eb3ec4ad1a83acda2aae90209de05cbc5b670a4af03911636405456200616",
     "output": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle annexe 4 à la facture taxis conventionnés - TX.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-dxea3m95vcpbvhdxk1ixmahrmgn5",
+    "output_sha256": "1ab952168b77c77d76372b670a60bfa7865e3250df089f9636d4efbc26b4c881",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle de facture national des taxis conventionnés - TX.pdf",
     "pages": 1,
     "sha256": "864248026e901e6fdd9800ac45ae6e4647ae9926ed90d81ad1622b7340be6060",
     "output": "20_TAXI/SEFi/Documents papier Taxi/Archives - modèles 2024/Modèle de facture national des taxis conventionnés - TX.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-of5nl1hgpg6rq0ptzmmzw78c2jv5",
+    "output_sha256": "3abb46c8b3e4b7465cab7cf7bef9c33f7118db3c5763a602aff2d6b40e1cd654",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Documents papier Taxi/Facture et annexe taxi conventionné - CNAM 606b-09-2025.pdf",
     "pages": 4,
     "sha256": "9b42db0960877201f64e0744e353cc97d20878def3d832514db3fb9109f4ed52",
     "output": "20_TAXI/SEFi/Documents papier Taxi/Facture et annexe taxi conventionné - CNAM 606b-09-2025.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-xuv1ltywox4n0knevm7u4x8m5j6y",
+    "output_sha256": "de35d2aa492f9bb6eb891156ebdf078af32e005faa81f78305ea92bcc93cac35",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Géolocalisation Taxi/Géolocalisation Taxi DRAFT/Géolocalisation Taxi DRAFT/FACT-SFG-039 Facturation Taxi - Constituer et transmettre les traces de géolocalisation v1.08.pdf",
     "pages": 36,
     "sha256": "cca533b4b84fe1d5c73f25cc314c16eac1870fdfcd604cccb29b5ee3dd253a96",
     "output": "20_TAXI/SEFi/Géolocalisation Taxi/Géolocalisation Taxi DRAFT/Géolocalisation Taxi DRAFT/FACT-SFG-039 Facturation Taxi - Constituer et transmettre les traces de géolocalisation v1.08.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-04-17",
+    "job_id": "pjb-turvadlatwvi96umajuthcbhz7s4",
+    "failed_attempts": [
+      {
+        "session": "2026-10-04-16",
+        "job_id": "pjb-turvadlatwvi96umajuthcbhz7s4",
+        "status": "FAILED"
+      }
+    ],
+    "output_sha256": "29aca0e4b9c53b1c9dabf228bd52b110d3274ec5fa74e3bd840904d859b8f140",
+    "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/Géolocalisation Taxi/PDT-INF-937 Diffusion Géolocalisation Taxi DRAFT.pdf",
     "pages": 2,
     "sha256": "8477437b555f59754fff6b5c363b0bccfe2608c03734ea3c54255b98d36804d7",
     "output": "20_TAXI/SEFi/Géolocalisation Taxi/PDT-INF-937 Diffusion Géolocalisation Taxi DRAFT.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-zeojii4vtqgxw0sd1jxlcde5vjac",
+    "output_sha256": "a08170ccffa18adeeefadcf1b1502c56810e90c68c0340aa1155de1a28ed39e5",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SCOR/SCOR - Rappel des conditions relatives à l'utilisation de SCOR par les taxis (25-03-2026).pdf",
     "pages": 1,
     "sha256": "b3120b08c310a51e3e7ed93029e647cbd7e94425639bd7e991aa7da7878603b4",
     "output": "20_TAXI/SEFi/SCOR/SCOR - Rappel des conditions relatives à l'utilisation de SCOR par les taxis (25-03-2026).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-jcnq6m2dmmq6w0uzs8hy1mb60fpj",
+    "output_sha256": "817f53f209468a40a1c77dfbde6f8b89501719458d388074f9ef29ad0d260566",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/2026 07 02 - présentation évolution corpus documentaire.pdf",
     "pages": 31,
     "sha256": "c79a675a9feb45183c5049852813af6e558f37aaec38395ec702942f2c5c2c21",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/2026 07 02 - présentation évolution corpus documentaire.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-f12qtwrruyvv9n1i6xtk9q2slj7s",
+    "output_sha256": "f6e10a7a3e50318b8bfffd15115517abfa48fe0f8c4a747c2563a5a4496b67d1",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFI Taxi - consignes facturation double spécialité V1.1.pdf",
     "pages": 4,
     "sha256": "5f9fd92620ed45db73b64ddacf56356a34f4a70167f06c84cd952cf06ba4ba20",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFI Taxi - consignes facturation double spécialité V1.1.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-rc1f94qhsnvl7fe26oph2sjal0i7",
+    "output_sha256": "d5926dd95e0239495525c72dd9d81bf1f7f196dec6dec15ba2b0a2a3eb9582c6",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-293v3.04 Périmètre SEFI-FTE Taxi.pdf",
     "pages": 3,
     "sha256": "1d6fe0118f8aab98b1615ac0c4548966121c118a954e734c0857f15bea601c19",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-293v3.04 Périmètre SEFI-FTE Taxi.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-v2ogp410omritn1zu771b7u1owpv",
+    "output_sha256": "99f06061a8f083ef2e51aa0eafd6fac7869898936df9286db626456b9b0a18e6",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-934-Diffusion du package SEFi Taxi DRAFT.pdf",
     "pages": 3,
     "sha256": "6ada8e8105f086411e36ed8e81c1ca9f175d2a6f632d6393b08ddae62384a84e",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/PDT-INF-934-Diffusion du package SEFi Taxi DRAFT.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-yqh8ejc0fen0nxt85v39ulfjana8",
+    "output_sha256": "0e6238681c0917a3823c32028ae280a1028506c66a271d9a79381ed912c6b67c",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-029 DICO-Dictionnaire du système FTE TX v03.53_avec_MR.pdf",
     "pages": 40,
     "sha256": "0d18ba023d49dc231aa172b9fee77226743f32490116a506c03aea9fa6f78bb2",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-029 DICO-Dictionnaire du système FTE TX v03.53_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-fqnx8vm2e27bnxvx9lpj0ikvn8eb",
+    "output_sha256": "a4655f804e24cc9713b7dd7769b763bc09eab54f9fdf6e0128296d97474fa96b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-030 PG-Présentation Générale du système FTE TX v05.47_avec_MR.pdf",
     "pages": 26,
     "sha256": "f555d8ee7d1179f4e1d5852951afd9a94f114e9a794fffe5ad6abfa4bbc394a5",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-030 PG-Présentation Générale du système FTE TX v05.47_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-3ztwx6qze9juh7xo22zggsodgowy",
+    "output_sha256": "04ec5a5d5000d706d6981c30b452f9e1f10046a6d6453cfe03395928153a0830",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TX v03.17_avec_MR.pdf",
     "pages": 12,
     "sha256": "f7c5f08ad5e620b8e5b9df5e486f3f0a31b31b79a99f89658d16d3af22e69585",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TX v03.17_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-9240lpnz0q7jbfybxuth54dplqcz",
+    "output_sha256": "03bfaa3968df0bdd90c3aa1801b2c4635d9c34d91ececac13d1f0ba656ec4508",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-032 FTE02-Facturer des Prestations TX v03.57_avec_MR.pdf",
     "pages": 126,
     "sha256": "1b4a76cc9190cea2b83141d8245ca76bdd2b7c9d02eeceffacad54080b4f5009",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-032 FTE02-Facturer des Prestations TX v03.57_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-dftylrztkbxl0d4xbjmdngtegtvu",
+    "output_sha256": "959f914bde4561a6c64bd51b4884c01d390f44f2832139c3a3e16672c01782a4",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TX v03.20_avec_MR.pdf",
     "pages": 20,
     "sha256": "f2bd000f62d8328cf27ee6fc284eb9f340fdaa52bd2fc83100f512d389737855",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TX v03.20_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-tei1w1slzu2zgnysms1tie9zq5bc",
+    "output_sha256": "5fe45e76348a19f807f8fe87bb6381d0a2982c64eb4baecf10b6c8f2b26d98b3",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TX v03.17_avec_MR.pdf",
     "pages": 19,
     "sha256": "445459e091869236a1591c98ecbbf3e4c3c992679431090a727285d9c332ff08",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TX v03.17_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-yrcq61ujzaw908gx99nlprduc3g0",
+    "output_sha256": "83cadc4dedd35ef3ef5f89f1238826cba317b593c253853ccacd91922101fcc6",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-035 FTE05-Administrer le poste PS TX v03.44_avec_MR.pdf",
     "pages": 16,
     "sha256": "458d0f31a3f8daa6a8b2402086bb5410b39eb715c16e8fd084dedb39dee731f7",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-035 FTE05-Administrer le poste PS TX v03.44_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-ztx1y0xpy8iprz84a0u6360rw69p",
+    "output_sha256": "1a1137c61b91506b479687a5f609c90106c187d030482033343a033a98b7a84c",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-060 FTE06-Superviser le poste PS TX v03.36_avec_MR.pdf",
     "pages": 5,
     "sha256": "431ecfa85fbaa7d6d5397115a9fb406508f513fccbf7f27b0e004f0c7fefaeca",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/FACT-SFG-060 FTE06-Superviser le poste PS TX v03.36_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-jqe8wsstfq6otvmt0km2lqcs29l7",
+    "output_sha256": "7eca918b8072f74f636acde8267b9153eac0d716b728917cdb243e75c9cec131",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-012 WS_PS TX v02.19_avec_MR.pdf",
     "pages": 18,
     "sha256": "8ef526f589a18c53e96d1dd428bc428e27c7ebfd12d6bb780f086bebe23305a9",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-012 WS_PS TX v02.19_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-esmg9mlv3po3pu01q5mgdf2lo05q",
+    "output_sha256": "be77b78baa025526af1a41a4c189ac2f9c8cc33745259bd67e5dbd4885588e82",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-014 WS_PL TX v03.16_avec_MR.pdf",
     "pages": 28,
     "sha256": "64b769bfd313bd4d60f4ed90a8a583f93b8505377dc610f96825485d4827f9d0",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-014 WS_PL TX v03.16_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-lu98j2alugflc5j31rwrjff6tjf3",
+    "output_sha256": "e94015f18f61d7e8a4a4ed0dc4eb34cdf342d34e90893a8ebc1fdd178cd99026",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-015 WS_FT TX v03.50_avec_MR.pdf",
     "pages": 45,
     "sha256": "b351f619dd8e051959037f3571b8d514959521c40b29ca523dcbf752f7b8bae0",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-015 WS_FT TX v03.50_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-mwvgwlanb5w4c32rgw8awtot3jc2",
+    "output_sha256": "2352fe876628c9d512178e37d222b5d35215a2aa87c0dff6c4ec9d327b88f55f",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-016 WS_PEC TX v03.39_avec_MR.pdf",
     "pages": 17,
     "sha256": "0d41da9569f963f023619a4fb482f7f797f5e9a5bb4e0bab089d95bf6f975a63",
     "output": "20_TAXI/SEFi/SEFi TX DRAFT/Package SEFi Taxi DRAFT/Package SEFi Taxi DRAFT/Corpus SEFi DRAFT/SEL-MP-016 WS_PEC TX v03.39_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-1nd0z6hud3xz8kasuwbdrkzv3j6r",
+    "output_sha256": "28e18ca651834bbb8f51c45368110a15ddea6b2895cf7dee2447171254f5fb85",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2002-04-annexe-transporteur-norme-b2.pdf",
     "pages": 3,
     "sha256": "e7f03a05640e2fb5c435e0a35c01bd2c72bc4ca1b62f5163c400ee0e3d089d32",
     "output": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2002-04-annexe-transporteur-norme-b2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-gs7xgdjg4j3bgr0ywwltok79tu2s",
+    "output_sha256": "081756cd9d3a96dab2613bd6372544ccd64b2f6807654c1fe371b7b7724f84e7",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2015-07-geolocalisation-annexe-ta-norme-b2.pdf",
     "pages": 3,
     "sha256": "2e39faf5415bc647a5e253c1089913a30821383a2270dc47d10cadb41ea83a16",
     "output": "30_TRANSPORTEURS_SANITAIRES/B2/AMELI/2015-07-geolocalisation-annexe-ta-norme-b2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-8659e9h57p8hp9fpis3hpk1xq3ug",
+    "output_sha256": "87c7f7954a97d84d96c622c2827b4e25e3a48b97bc53678574f2701c63effb24",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Compte-rendu.pdf",
     "pages": 7,
     "sha256": "8e523fe8aa69c2e38cda66be99ed9037d3d24d702879bbbf494a8990d39dc2e5",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Compte-rendu.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-uiuht0r18wtzevwycr32637fegjl",
+    "output_sha256": "43d6752df273b071dd4efd5b6a569f9f3b4873ec6eadc13a7246b4e2fcc7be22",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Présentation-CDC-rénové.pdf",
     "pages": 36,
     "sha256": "9efdfb9da5866435b02cd85099d07fc05900ed28e9e9f416fead7b2827468295",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20150624_Editeurs-TS_01_Présentation-CDC-rénové.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-l04gfflpzn3orgll3bfxe7bd63rj",
+    "output_sha256": "3c11c70661d16b8c1f8808edee4bfb922caef355f335202b9d998076bd3df111",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621-GT géolocalisation-VF.pdf",
     "pages": 24,
     "sha256": "7647a4fda0245f77cf4867065539ccf3720e84be9f41c591d49dfd1e9f36d268",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621-GT géolocalisation-VF.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-mevbwqn0nei4hjo4t89ihfmqsaod",
+    "output_sha256": "be493cf4f399f7d19c4fc5185ab713eabeda53dd8f3dfe7ba728bc06e2fc7205",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621_CR_GT_Géolocalisation_VF.pdf",
     "pages": 4,
     "sha256": "98aed8e65766a2f2e790bea92537a8eee90dae9bb90bab1c45e3fef58ff9e23d",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Archives - réunions géolocalisation/20220621_CR_GT_Géolocalisation_VF.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-jfm2hmdhrm7kg6v9lvavhtl7wi4b",
+    "output_sha256": "e40ab1daa504655780e94f3673da27595efdec8cf58acc7956a26e1a78f61dc2",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_2020-12-22_JO_2021-03-07.pdf",
     "pages": 18,
     "sha256": "7c50034414c2c1678154d6c43eede81379032dd1a471361260aa097f25a72768",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_2020-12-22_JO_2021-03-07.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-jcgcnhhg3ew8zqno2ohzlxoufyq2",
+    "output_sha256": "c820dd80b8c899c83f0f538ae258fd20a33f355939d4650cb6d1a8c279c4d510",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021.pdf",
     "pages": 13,
     "sha256": "3755894ffa10899ba96ef5926ee52edd608cb073191116c6d174debf60af19f8",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-bs5yumyb9t7k43dtv1ag6v7hovjb",
+    "output_sha256": "b1d4a3c44f7656dfabb6a370a0e1525e263fd522e0f8dd870e2888be850b67d6",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_2.pdf",
     "pages": 1,
     "sha256": "95565a48d97377de49247ff867486562e7af558d82a5481d1f74f24391560478",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-08",
+    "job_id": "pjb-b650yto0p0cjna0qb8cl764wq0e0",
+    "output_sha256": "296f58d223afe2bf7fa1b8000de21251e176a49cd748c456472f1fcc09bceee1",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_3.pdf",
     "pages": 1,
     "sha256": "04b82efe3ca67f2b918334d49474c7a297b6d35a3bf53f89ce34ec4d4fb25237",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_10_CIR-12-2021_annexe_3.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-f4df3j54833yr9m2j3k53x4yz12y",
+    "output_sha256": "650fa5fade42c465b250826a86d77cf0f51f9052d741734ba27c8bb328aeb4dd",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_2023-04-13_JO_2023-05-06.pdf",
     "pages": 14,
     "sha256": "863de00f82400c76f13214d67949723febce80b979f38fae973860d92cc98c1e",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_2023-04-13_JO_2023-05-06.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-gv7a1wz90xavmoj7kexu0b6crqv0",
+    "output_sha256": "ac399c1bb4d2c9be3cbbe0011df7b332be81bdacebaab95e8848be974b59d382",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_CIR-18-2023.pdf",
     "pages": 16,
     "sha256": "9a2a06b6d0ffc6a0d64e00a4848e5dd13f1336c557468939336d8f427cb6b1d0",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_CIR-18-2023.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-n8dv10kk9qm9xod2021cdamy2n3l",
+    "output_sha256": "feca0c2030f631cdf48cde5783b42b32209ec84d791fb18b3f89054bdfd20600",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_guide_SEFi_tarification_majoree.pdf",
     "pages": 5,
     "sha256": "9320f363ecb889133cae0b8acfa339b2aea2a3a67d3e507222b2f9d560c22c6b",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_11_guide_SEFi_tarification_majoree.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-qkt1z826onln666npm13379msztt",
+    "output_sha256": "e05ea1e9ef94eec8be792884d33e98100f9404fbf8ba11e15d5126a5a0ca2f95",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_2_2004-07-09_JO_2004-12-07.pdf",
     "pages": 3,
     "sha256": "6220ac4232d95867877cca549e232da8c70ac2ac05d8f9590a89199546239fa6",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_2_2004-07-09_JO_2004-12-07.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-q4s501tuzfn07ofnrlbwe2xnpxy1",
+    "output_sha256": "8ebd8c6f8239da131eff1f6e491bd481638571d2528f1ea959ba3d7ef1512a9f",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_3_2004-12-21_JO_2005-05-27.pdf",
     "pages": 2,
     "sha256": "5f483f44ea036012818686d5834a23433617fbb5086d7b2b86e044631ff444c3",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_3_2004-12-21_JO_2005-05-27.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-sdk6t3k8cit5nv2rgqwlgff5o8ls",
+    "output_sha256": "eab72f70081fcc24d0600415403414cd19f53e29bc2a8888e0cf870387962ac7",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_4_2005-06-29_JO_2005-07-31.pdf",
     "pages": 3,
     "sha256": "c0e4cddc2410616b0b9ffb552d97060a91f23814eac2f9a38151dba085c2fd09",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_4_2005-06-29_JO_2005-07-31.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-i73fchop1fbj8gn65h1bsmr0rrjz",
+    "output_sha256": "32c056c0796301d160b99682652cdcefb6dae77a35ab69c3235fa7069e588172",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_5_2008-03-14_JO_2008-08-05.pdf",
     "pages": 12,
     "sha256": "878abbd06f2ed48729d1e1c6e5e33a5c6f310add1af3aa304207fd88c271a6cb",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_5_2008-03-14_JO_2008-08-05.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-duis31mex52tr4k99daihis2v6lz",
+    "output_sha256": "948884f03f03a570c76f5f65779207744db093b84aa10d67b8b3a210064293b4",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_6_2011-07-26_JO_2011-10-21.pdf",
     "pages": 5,
     "sha256": "f9b255ebd2b6087cbabb35c010b6e29f7759241b1499fcdb5ac060a6f1c98e5f",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_6_2011-07-26_JO_2011-10-21.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-kqh84n9wn7ait83k3f5qy1p183zj",
+    "output_sha256": "2b663e0da30d98f06bb8379004eb503695fbf2444294235538f1304c67fa4c17",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_2014-03-25_JO_2014-07-04.pdf",
     "pages": 6,
     "sha256": "4e79f7b1b3b2b42bcf7145cffe90c1444b6f689ca79d393055bb6fb3e8c2ea9e",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_2014-03-25_JO_2014-07-04.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-57h5ddwibda7u7e5i04m6brr54vs",
+    "output_sha256": "1d2de4fb49105cb230134a3e60ce0fadfd4fd76bbb22213c22529e43db95f1d5",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_rectificatif_JO_2014-08-05.pdf",
     "pages": 1,
     "sha256": "2bd34a75c1a2b3af62fae601577c6d74b6c5f1b082c6eea60bb305b498279a17",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_7_rectificatif_JO_2014-08-05.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-8wcy0gaqmw1m816lyjao0r4i7r49",
+    "output_sha256": "cae645ba76cf810f9faa626185aa67956485de8b62e90cc743b38e2e6d802f5b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_8_2017-03-20_JO_2017-07-20.pdf",
     "pages": 2,
     "sha256": "9de68c56d3ee53f7739d394ecead7fee7f1c3683418a24cd070865cae891509c",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_8_2017-03-20_JO_2017-07-20.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-lfesfaz3dqk6ijhjsgq49gon7fvx",
+    "output_sha256": "dc9d52fac33cab49caa56d7ae18cb0716c07b85cde0031220b8730d16b3ea3ad",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_2019-12-06_JO_2020-08-02.pdf",
     "pages": 5,
     "sha256": "e15837feb3069a34d38c9acc1027ee9e012da327473086619a6871e9e87be346",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_2019-12-06_JO_2020-08-02.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-w278d5ts21r4679xqalcjmtecsp4",
+    "output_sha256": "3844a09764c1735d45cee41e78d6bfe8ee78004d0e5830ebe3f350c07b3e8c53",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_cahier_des_charges_TPMR.pdf",
     "pages": 5,
     "sha256": "2b668e64d6c182976b1b7305fb47e5f254a4671143f1935725673bd370b1b459",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Avenant_9_cahier_des_charges_TPMR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-agruhpts4x0ymy4x8ghhz0oq07n6",
+    "output_sha256": "d8748da6d06178b551e1b0818ea8dc5990e49aa6bec8c0587ebf4fee2dc631ec",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Convention_nationale_transporteurs_sanitaires_2002-12-26_JO_2003-03-23.pdf",
     "pages": 14,
     "sha256": "f55cba100f543debee630d7a01d0fc8b381061bb7c5f9464fa2eb5aee05db65d",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Convention_nationale_transporteurs_sanitaires_2002-12-26_JO_2003-03-23.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-h1akq71bqbyn4mf1fyb3e60jx4xh",
+    "output_sha256": "dd492a3be60b01948221e7633670767996cb1ecf8375932162d88795c1b2d6de",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Liste_communes_forfait_agglomeration_page_courante_2026-09-20.pdf",
     "pages": 15,
     "sha256": "efb9d97e9a28073ea8038d55e92b95cb136aac086e97f19416b71c898dc0496f",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Liste_communes_forfait_agglomeration_page_courante_2026-09-20.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-blkwavrzfuuo9x90iz6mqhnvrso8",
+    "output_sha256": "feb53a11b0c7eb6ace03656d2e2e69e2fa5259bbd06f536c2f276323ff631109",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/FAQ Avenant 11_ modalités de mise en œuvre de la tarification différenciée.pdf",
     "pages": 6,
     "sha256": "eb467162b2d4f022549dc37ae0ab4058346e2b5e437faff4b08d64aa2ccc94e1",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/FAQ Avenant 11_ modalités de mise en œuvre de la tarification différenciée.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-3neljkj2z08jzu8t6x6gu6ym3jrh",
+    "output_sha256": "54c34af6b69ce8f4f4879b1bdb9b7a4ea6b1c71913347de62548b9b27b8ab72d",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/PDT-INF-818v4  Avenant 11 impacts pour les transporteurs sanitaires.pdf",
     "pages": 5,
     "sha256": "bb30a4555e5e9abe48888f8dfe18c6675e896242558d2626a52da62d02eedff7",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Mise en œuvre SEFi - Avenant 11/PDT-INF-818v4  Avenant 11 impacts pour les transporteurs sanitaires.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-fg31cov0espxbdeb8guggyk2c37r",
+    "output_sha256": "82500c70da5b6c6eb5bec6064a44f55be77839472a8773d956541877a78d0a51",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Protocole_maitrise_depenses_transports_2025-09-24_JO_2025-09-30.pdf",
     "pages": 11,
     "sha256": "c1079718b367a6537e89420589e458c500aa437a2c5dbbe386bb9bf4876b66ef",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Convention et tarification/Protocole_maitrise_depenses_transports_2025-09-24_JO_2025-09-30.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-96egnv607nwleh168r8u6u3rzz7s",
+    "output_sha256": "b06e8bc7c5c4ab9065e05aa28a358f94ed8ab71484214027aa9f5dd5e054173d",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Annexe_facture_modifiee_transports_sanitaires_Annexe_2.pdf",
     "pages": 1,
     "sha256": "e065ab926aca3eb9df20cb4855c7958fa0d53dd0d85d5a179f0a468573db0df7",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Annexe_facture_modifiee_transports_sanitaires_Annexe_2.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-p8klm06un4ksg22d196bc4ic641n",
+    "output_sha256": "e8477072cdc4c67af95dd749cde7c428fc1c3ce0d8fee09eb85d0d1bcec00041",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Facture_modifiee_transports_sanitaires_Annexe_1.pdf",
     "pages": 1,
     "sha256": "38b18595ec81f08518a0984aff469f59ccd62421fc8cfbcfc20a37740d453e87",
     "output": "30_TRANSPORTEURS_SANITAIRES/Métier TS/Transport partagé/Annexes spécifiques TS - CIR-5-2025/CIR-DDGOS_Facture_modifiee_transports_sanitaires_Annexe_1.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-hkhed9u5t5bhze10tnt812x2wzzy",
+    "output_sha256": "07aeeddd1f0a6db3dd0291a469e4b391ceda6dbe540ba4b3541e8b22fb3ad6fc",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Cartes de test TS/Commande CDE CPE - Transporteur Sanitaires (octobre 2022).pdf",
     "pages": 7,
     "sha256": "49277f2c5f1ef455f80c7a00584df34541d8ddd9ffceb139d649690ab7fc5a49",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Cartes de test TS/Commande CDE CPE - Transporteur Sanitaires (octobre 2022).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-nyffhooqs0pytoruzok5zn9pu7hl",
+    "output_sha256": "4cfb51e5f785a28e408c4203c9c5cba7bb5f8c2095fa556e9f9bf44ccc710b1b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Archives/Conditions et modalités d application de la présérie du SEFi transport sanitaire - ancienne version non datée.pdf",
     "pages": 6,
     "sha256": "5659ae1955c0a81c3a8417a582cc77856bc25167c563ddd7a3b8c415ae4813c5",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Archives/Conditions et modalités d application de la présérie du SEFi transport sanitaire - ancienne version non datée.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-qhz0ssnk8v3f4otzke73uyehpy8a",
+    "output_sha256": "96023651b70e13889f1acdcbfc2652357274048548a14232b73db2635a3c8acf",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi transport sanitaire - v6 août 2026 (publication septembre 2026).pdf",
     "pages": 7,
     "sha256": "a656e8c562f3b64b675a3691fc0030fb3c955cda89d28de1c8a45fb6f69df7b6",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Conditions de présérie SEFi/Conditions et modalités d application de la présérie du SEFi transport sanitaire - v6 août 2026 (publication septembre 2026).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-qj9mprt3k02nk6acgfsfdl3g9o2r",
+    "output_sha256": "f62ce94c12ffa49d1200bd1481d33013b90c1422e52a20980faf8ac516d3a7a1",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 1116303  Facture de transport VSL ou ambulance.pdf",
     "pages": 1,
     "sha256": "3001c6696a1993f68458a88437a14d15208558e391e7868b4f4911876925f9a1",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 1116303  Facture de transport VSL ou ambulance.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-a1u9rnnit2gdyf4k8o5b8xh9j2ed",
+    "output_sha256": "0e009620c6bc264ae9b10aae9a64c5bb68f2e899082e8703d6709d820c98eb78",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 5400301 Annexe à la facture valant attestation de service fait (ASF) - TS.pdf",
     "pages": 1,
     "sha256": "5cd5df08bd2c91066c3ab0d6c448a8361b7857db17fab8f76afb6083c37ea905",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Documents papier TS/CERFA 5400301 Annexe à la facture valant attestation de service fait (ASF) - TS.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-1gxtgvihrx4ro6telsh8wrw7x97a",
+    "output_sha256": "5d9c1a2a92f15737061cb2cb1421972db502f2921c363b620c1dc3f633776e8a",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/PDT-INF-374v2-Diffusion du package Geolocalisation.pdf",
     "pages": 2,
     "sha256": "a5f001347755518a0bd7107be389a7676268f30646e4d66cdbf504e65f403b38",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/PDT-INF-374v2-Diffusion du package Geolocalisation.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-rdnmgm0ju9my8l8s1uc52tg3v76h",
+    "output_sha256": "75e7be0e635f2b89ed9a8d5673c1ae6246410f740f1d7e8cf5c482aeaf4047ab",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 avec MR.pdf",
     "pages": 38,
     "sha256": "5deb47bf71a7827b0c546cec0f6219a79d98e09582af940ce2d8d85f76c356b3",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 avec MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-04-17",
+    "job_id": "pjb-1m2jsr3x3wulzso508qxagubnwyq",
+    "failed_attempts": [
+      {
+        "session": "2026-10-04-16",
+        "job_id": "pjb-1m2jsr3x3wulzso508qxagubnwyq",
+        "status": "FAILED"
+      }
+    ],
+    "output_sha256": "f79f9e0c3c4df03815e39cb04059a9454435db518263588b5d8cb112426bfd70",
+    "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 sans MR.pdf",
     "pages": 38,
     "sha256": "50134262ee924e810cdf4e69a48e9ec78677ad7de30ac35ff45b639998a07707",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 sans MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-04-17",
+    "job_id": "pjb-ggrx348p5i3tljlt876uynz1su0p",
+    "failed_attempts": [
+      {
+        "session": "2026-10-04-16",
+        "job_id": "pjb-ggrx348p5i3tljlt876uynz1su0p",
+        "status": "FAILED"
+      }
+    ],
+    "output_sha256": "7640b38ac9fd39ce64630b6226e1de96ef522fe317edfc4347f657a7bce8cd57",
+    "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/Conditions_contractuelles_Geolocalisation_V3.01.pdf",
     "pages": 16,
     "sha256": "986a21d12f4042d7123502601898595c30f96bf093b54906c0976eb1e2509470",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/Conditions_contractuelles_Geolocalisation_V3.01.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-y5afxoxiynjgwifhd8beghyhq5pj",
+    "output_sha256": "c65058030c1f000b0b400d356416bd1f6a94e165f54e51e7d2668c377ae6a649",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM-GEO_Package CNDA GEOLOCALISATION_V01.05.00.pdf",
     "pages": 5,
     "sha256": "c2dd90998fb5a364fc585fee093e33b4349c57c829c375da4abf4255c163a896",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM-GEO_Package CNDA GEOLOCALISATION_V01.05.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-p5pbhikzkmthqxw5cb6tlkdd62yt",
+    "output_sha256": "be0b0e3f9acb944ed4ee0c22868df0bb26efab84a19e552e6b0b58cbdc1a3baf",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM_GEOLOCALISATION_01.05.00.pdf",
     "pages": 18,
     "sha256": "31fc3be536d7478345b6ef95a5553db5b914b609c9e6c002b577e4bbb15bdf5c",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Qualification CNDA 01.05.00/SEL-GCONFORM_GEOLOCALISATION_01.05.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-k4nxv2me5gzrwc5kdfr7g7xfpelr",
+    "output_sha256": "1e23809e15953b58742585036ea782df4b64d08548b83c1fb46f5dba16f37eca",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFi_II.5_Multi-sociétés (2022).pdf",
     "pages": 1,
     "sha256": "58d0f9f0db4686627891dcf1eee942b164d975854102cb72b26179b76f4b3381",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Kit accompagnement/Multi-sociétés et sociétés bicéphales/SEFi_II.5_Multi-sociétés (2022).md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-qwezeshlio5lvrukqlrec6hedtfe",
+    "output_sha256": "382fc2dec559f30a7f4a518c4b5e8524808a153c0e3876c401bc53c46e6f6054",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/PDT-INF-293v3.07 Périmètre SEFI-FTE Transporteur Sanitaire.pdf",
     "pages": 3,
     "sha256": "d4efd40c3d77b818fda34a8a6b4d09be3442620d9c134ff4447fea60499e87dc",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/PDT-INF-293v3.07 Périmètre SEFI-FTE Transporteur Sanitaire.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-kk1xmkb70rljrggaz4y6lx232g0k",
+    "output_sha256": "07085019cab3dac357f7b33b72c1acb1291039cae548d5daba375d916406b717",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-307v6_Présérie FTE Traces Poste.pdf",
     "pages": 5,
     "sha256": "ee8cf558344fece87899e8e28b2221306dec4e9bedb18130e2c7de19f9846062",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-307v6_Présérie FTE Traces Poste.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-m8tu5aip80t2gv1egnpxcc2xh9o0",
+    "output_sha256": "8f56dae863794e797f6f66c71f0f88a827c1d58241976b9feeb56235862cc04e",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-920v2 Diffusion du package SEFi‐Transporteur Sanitaire v3.50.pdf",
     "pages": 3,
     "sha256": "2483a7151d9205090e930c8d439370f3e6b6a7d53736a50b0e63abc9f1cfd3e7",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/PDT-INF-920v2 Diffusion du package SEFi‐Transporteur Sanitaire v3.50.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-nfa28oltccaodkaokwf0h5nz4hfu",
+    "output_sha256": "65d0686fe3163a1f3b3923c13c8132d48dfee21c3227ec9a213818de323f8bca",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-029 DICO-Dictionnaire du système FTE TS v03.54_avec_MR.pdf",
     "pages": 67,
     "sha256": "0e19d8acef3ea01760d8508c4c2fc2eca6c5735c38e2e0c770ed430a52e28c64",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-029 DICO-Dictionnaire du système FTE TS v03.54_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-82bvv4x5hi04sqjef5f3ct7sidz0",
+    "output_sha256": "5a0f3c181e5c6f29a0111fac538d75f72cce72c7b462c9ee89d853b4349412a9",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-030 PG-Présentation Générale du système FTE TS v05.48_avec_MR.pdf",
     "pages": 27,
     "sha256": "aad011523b034aef4a44ddd41fae0f8289e4a06374becde9683ced53fb7ed419",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-030 PG-Présentation Générale du système FTE TS v05.48_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-z7pn2jbuef0b49r7riqp21d0126z",
+    "output_sha256": "993cf9704400cedef4f40421d68cedfafc72fa22413f7d115144b5bbc8a140af",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TS v03.18_avec_MR.pdf",
     "pages": 12,
     "sha256": "13a63f22fb3816f276449c8d4e1dbdaf93186c6444969efa8d4f243d20bc7736",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-031 FTE01-Réaliser des Prestations d’une prescription TS v03.18_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-v3uka91sx0iuq81cnl3r9y77rnfn",
+    "output_sha256": "398c28cfca14301d71393e6430d4ad4d7c8b553186c6611b271ed1230f19e9c5",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-032 FTE02-Facturer des Prestations TS v03.60_avec_MR.pdf",
     "pages": 88,
     "sha256": "d33c281aff9d57bb0fc61e264dd097473ec07accec10b916ba6a2ea5c12574b6",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-032 FTE02-Facturer des Prestations TS v03.60_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-73hf4x602qgdp8cy9jvyywaa25w6",
+    "output_sha256": "80fb8e7f0662f5286135c8b11cfd70c855d70cbef28481ba0db1d67edbef5760",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TS v03.21_avec_MR.pdf",
     "pages": 19,
     "sha256": "fb7dab0a8e34775f854abbff17931f9ecfd86dd7df60fdaee34ba330e0f56307",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-033 FTE03-Contrôler et Transmettre les PJ TS v03.21_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-phsaiqeoj23d2nqkw7odssse759o",
+    "output_sha256": "f3389be6ca95daf80d37f022b397abe89611ac80188a63da960868194c354d4b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TS v03.18_avec_MR.pdf",
     "pages": 21,
     "sha256": "79528d0e15914873b997f341a9e2f984395e28f77e1c16d11ec197a2827bbf73",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-034 FTE04-Consulter les referentiels de l'AMO TS v03.18_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-irt1pe47z2t9robh8i1lzwewlwh3",
+    "output_sha256": "77686ee12009db4f41040ef94d229c7776d3758c047a5b3491658f548d614977",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-035 FTE05-Administrer le poste PS TS v03.45_avec_MR.pdf",
     "pages": 15,
     "sha256": "f271102a45d31afac53bb834b36087599a7de8857fc853f615c15e9751dcd31e",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-035 FTE05-Administrer le poste PS TS v03.45_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-8p7kwt14ywbgl9gs0r4u5vdmdit2",
+    "output_sha256": "aac56e4766b9699e0ee0e721a638a974d4f8220165258a6f8fbb0723163ea98e",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-060 FTE06-Superviser le poste PS TS v03.37_avec_MR.pdf",
     "pages": 5,
     "sha256": "68acba8f953a7b68085d2e59632a026f6ec744303a5395dc48f786ae8605fce3",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/FACT-SFG-060 FTE06-Superviser le poste PS TS v03.37_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-a73a1bsszu43nfk9he1c3u8whdyn",
+    "output_sha256": "7da2f4d938375463aa3477c5588e38be851ef771e152d3c46c5080192c24eb10",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-012 WS_PS TS v02.20_avec_MR.pdf",
     "pages": 18,
     "sha256": "5233910e16011f187d0953ce04417d96dfb583e598e26f15edac3b797de15311",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-012 WS_PS TS v02.20_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-lrnjo06zhfcvkud3w9vspvxxryn2",
+    "output_sha256": "cdec17d23bb6b1121d8323b79d90e659e8a94e9c132a2bf65815c07ddacd1dae",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-014 WS_PL TS v03.17_avec_MR.pdf",
     "pages": 28,
     "sha256": "7f7ec8c7b5215758fe13c75f44e690bbd4379b2a65059a97461a4b0e33d1aa41",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-014 WS_PL TS v03.17_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-1bauo8lfdkboya2wj557k0p4n2dz",
+    "output_sha256": "411d27001c337455365727a39bf685de4cbb02cc1f4c385f53e790ee4de3b5ef",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-015 WS_FT TS v03.52_avec_MR.pdf",
     "pages": 51,
     "sha256": "1eababef8f1db59057c1523f7f76066f46463b6c1b238760e822cb4538f4427d",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-015 WS_FT TS v03.52_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-4ems2wp7lx5wqafe8nwgkwx4qt4j",
+    "output_sha256": "582e1609d095ad3a995b082ff525f864aa2b55c6e94511c47c981f9576efe72f",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-016 WS_PEC TS v03.40_avec_MR.pdf",
     "pages": 17,
     "sha256": "efb6332fc223578ff72cc0c8a2330f26d8f0c1105e87f5f9d3d72ca5f6621460",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Package SEFi Transporteur Sanitaire 3.50/Spécifications Fonctionnelles et Guides d'intégration/SEL-MP-016 WS_PEC TS v03.40_avec_MR.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-0jkjb87loap061hsx1l9vu82mvup",
+    "output_sha256": "d812f818d3cca1550393933daa311f615f8e0c474f41ffc123c3ea9c1018218b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/Conditions_contractuelles_SEFi_TS_V3.02.pdf",
     "pages": 18,
     "sha256": "1f680d05de3804adb0d089e7c4ace0cc4584f6a9b0a521a22430998f0b516dba",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/Conditions_contractuelles_SEFi_TS_V3.02.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-09f0vf28iwthlu6dy1t3jwn67qqb",
+    "output_sha256": "c895a1924243e7027a00cecc984d72d87636be43449dc47b8f4876741c4c6540",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Administrer le poste du PS_V1.20.11.pdf",
     "pages": 18,
     "sha256": "1ad257eb52bbb5cc6d4bd9c36e421547f14d7ab1f332148ca692c4c82b26cb78",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Administrer le poste du PS_V1.20.11.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-bncbab2bb6yo6i71wzcvj65ttvu2",
+    "output_sha256": "3bb1f9999c842578247be59e37e318da7f340e5bdb35f30e8a9504347400d1bd",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Calculer les montants d'une prestation_V0.60.13.pdf",
     "pages": 29,
     "sha256": "c754cab69aeec458dd60a7790ae09ffcef605313d16714b5ccd006f127277734",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Calculer les montants d'une prestation_V0.60.13.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-rb54emd14gkzvotkdsdysioj7tet",
+    "output_sha256": "d833aa7525f05c7fdf5d9a82d41c2c5199fe97e73e392c616be8bcf9d5f3526b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Contrôler la recevabilité en FEL_V0.60.22.pdf",
     "pages": 82,
     "sha256": "bedebfed23963a4b3fb159a0043883008020a8979fe4b5ace69b1bbd002c5d0a",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Contrôler la recevabilité en FEL_V0.60.22.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-8es8lm3qenkmf7xv7bdav4m09nld",
+    "output_sha256": "ffedb5343010102c4b9b1c0d70ac7f77d4c5bcab936b4d6c5a76643f2a4d57c1",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_DMAT_V0.73.15.pdf",
     "pages": 80,
     "sha256": "68bc421e36ac5cd91e208530a63f680ac07cf21b1a5d88b010045b49a6c0ac3d",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_DMAT_V0.73.15.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-a2yi59rzrybtud3yqsygb1klbqym",
+    "output_sha256": "39d7987ed53cf4703ac152004c535e2f02b62d5e1ce41f993c0e742c617f0c50",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Package CNDA SEFi_V3.50.00.pdf",
     "pages": 8,
     "sha256": "6c2afec8b6e6feeee82f37699835d82fce7ac7313c1d95cb468ea8e12edbfe8b",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Package CNDA SEFi_V3.50.00.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-n8u80lgmxrq44hpbvu7wd9oiw76k",
+    "output_sha256": "658cc000f61b39f21822731ae4be4466aa6f50a43df6fc5e61c3d8280930709a",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Prescription en ligne_V0.80.06.pdf",
     "pages": 27,
     "sha256": "fa48def5959cd34dafd86d558dcc85ff099546e4373ae41647403a26891dde81",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Prescription en ligne_V0.80.06.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-hlik8mt1l17amku5s8p1dcekxxyu",
+    "output_sha256": "615727dc95cfbc0eaac3631c5b2a679ac7348f060d14ea1002f4e0f3ec0a27a0",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Récupérer les données de la FEL_V0.63.pdf",
     "pages": 10,
     "sha256": "792d3d86e886f84876878699fc39593c8a94e11bcde7495cff05b8d0749f8bee",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Récupérer les données de la FEL_V0.63.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-a0f60pmk1vady5wfzda6ys5c91ej",
+    "output_sha256": "25e4a0932b859dd1c71e02c052b3e04dd145bc66603a6fe68e14ebd403c28f75",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_RéférentielsAMO_V0.61.pdf",
     "pages": 26,
     "sha256": "86d89ccbd172382090150598af45ed86bb2b696444c693e3267346b302d6ec63",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_RéférentielsAMO_V0.61.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-6gdza2hbylxddnl06ifcl3aapnlk",
+    "output_sha256": "30312b7328c64c400d411946c053badd5d9861debc5bafe1d33bdefc384b5202",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Valider la FEL_V0.60.13.pdf",
     "pages": 24,
     "sha256": "8411ede50b825c07f7522dce6e2fa2b298cb54619d7a4de1a1f126dda4180e4e",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_Valider la FEL_V0.60.13.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-i834yide98sthowzcxdypxz26kb4",
+    "output_sha256": "47b559709e8b937e2a2770a0e8b776f2e552dbbc0ec6cab406995934f8830a4b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_arbre de_décisions_V1.15.pdf",
     "pages": 9,
     "sha256": "f1c7264b01ff7d5f5858049d503fde4a5876a61f0b620faedab1ddd6fba962f6",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_arbre de_décisions_V1.15.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-l6p2y9lftfkbwxzpecie85vhny83",
+    "output_sha256": "afdd85d01455423eabded5647859cb2c71995a5ac6df37d2eb7cb1f5c590c37b",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_consulter prise en charge_v0.09.13.pdf",
     "pages": 25,
     "sha256": "8bf7719297a6e52bd81fb5792ec8bb19f2031df8000956b9b83b1a55825c5012",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Package SEFi TS 3.50/Qualification CNDA 03.50.00/SEL-GCONFORM-FTE_consulter prise en charge_v0.09.13.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-8cy5yky9be4vxxjzqgqjpzviw7lz",
+    "output_sha256": "46d8954018d06034f789ef29267026382692dfcb9b5f1e4384a0d37071652a56",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Annexe Transporteurs sanitaires/2016-02-annexe-scor-transporteurs-sanitaires-transport-flux.pdf",
     "pages": 6,
     "sha256": "f0cbb2627726f3e91de0bdd97f74e26e7ce38a4d9c6597f930948616f215029e",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Annexe Transporteurs sanitaires/2016-02-annexe-scor-transporteurs-sanitaires-transport-flux.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-sshjaz1wbhf86gpwyl70p5dxu0ev",
+    "output_sha256": "cd9798dd1735c4f11605b60300fc099b68b14619550d4bddf3be4a3dbe0f69a9",
+    "images_status": "not_downloaded_by_user_request"
   },
   {
     "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Sécurité certificats et CRL/Tutoriel IGC OSI - Utiliser les certificats de chiffrement et la CRL.pdf",
     "pages": 11,
     "sha256": "be1932b23b6a44fc9063262882612d09f06838cc4cb5ff9daebfdd90c0b228ca",
     "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/SCOR/Sécurité certificats et CRL/Tutoriel IGC OSI - Utiliser les certificats de chiffrement et la CRL.md",
-    "status": "pending"
+    "status": "completed",
+    "session": "2026-10-03-10",
+    "job_id": "pjb-uyd9w183f0x1agdwsgatcwirrq7b",
+    "output_sha256": "a4da4f1c9cf3b24d48d109e3c5b4958a0c65fa7910e42de3fc0034520c537339",
+    "images_status": "not_downloaded_by_user_request"
   }
 ]

@@ -1,0 +1,25866 @@
+**GUIDE DE LECTURE**
+
+Les prestations sur fond jaune ont été modifiées dans cette version
+Les prestations sur fond bleu sont ou vont être fermées
+Les colonnes sur fond vert ont été ajoutées
+
+## **CODIFICATION DES PRESTATIONS OBLIGATOIRES ET COMPLEMENTAIRES A DESTINATION DES AMO**
+
+***Champ "Code"***
+Nature de prestation
+Si la nature de prestation est suivie d'une **astérisque**, se reporter à la colonne **commentaire**
+S'il s'agit d'une prestation complémentaire ou ne pouvant être facturée seule, alors le champ "acte de référence" est renseigné.
+
+***Champ "Libellé"***
+Libellé de la nature de prestation
+
+***Champ "Acte de référence"***
+En cas d'acte complémentaire, précise à quel acte il doit obligatoirement se rapporter
+
+***Champs "Date début" et "Date fin"***
+valeur "TAA" : date de démarrage de la TAA en établissement MCO
+valeur "CCAM" : date de démarrage de la CCAM
+valeur "CCAM DENTAIRE" : date de démarrage de la CCAM pour les actes dentaires
+
+***Champ "Majoration"***
+Compléments d'acte permis
+
+***Champs "Présence dans les normes"***
+Précise les normes dans lesquelles la prestation peut être facturée
+
+***Champ "Codage Obligatoire"***
+Précise si la nature de prestation doit être obligatoirement complétée d'un code "affiné", dans le type affiné correspondant (Type 4B, 4C, 4D, 4F, 4H, 4M)
+
+***Champ "Commentaire"***
+Sans commentaire
+
+## **CODIFICATION DES PRESTATIONS NON TRANSMISES EN B2, MAIS ENVOYEES AUX PS EN RETOURS NOEMIE**
+
+***Champ "Code"***
+Nature de prestation
+
+***Champ "Libellé"***
+Libellé de la nature de prestation
+
+***Champs "Date début" et "Date fin"***
+valeur "TAA" : date de démarrage de la TAA en établissement MCO
+valeur "CCAM" : date de démarrage de la CCAM
+valeur "CCAM DENTAIRE" : date de démarrage de la CCAM pour les actes dentaires
+
+***Champ "Majoration"***
+inutilisé pour l'instant
+
+***Champs "Nature de la prestation payée"***
+AIDE TELETRANS
+REMU PENALITES AMO
+REFERENT / TRAITANT
+ASTREINTE
+ACBUS : Accord de Bon Usage des Soins
+CBP : Contrat de Bonnes Pratiques
+CPP : Contrat de Pratiques Professionnelles
+CSP : Contrat de Santé Publique
+CONTRAT ACS
+CONTRAT OBJECTIF
+CONTRAT INCITATIF
+FORFAIT
+REMUNERATION CRMPP
+REMUNERATION GRIPPE A
+REMUNERATION OBJECTIF CAS
+COEF PRUDENTIEL
+AIDES PONCTUELLES
+HONORAIRES
+REMUNERATION OBJECTIF OPTAM
+FORFAITS INNOVATION
+
+***Champs de l'entité 262 en retours NOEMIE PS***
+Codification "cadrée à droite"
+Libellé
+Identification du patient : O / N
+Périodicité : "H (hebdo), M (Mensuel), T (Trimestriel), S (Semestriel), A (Annuel), P (Ponctuel)"
+
+***Champ "Commentaire"***
+Professions concernées ou autre commentaire
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026** **MISE A JOUR DU 28 AOUT 2013**
+
+<table>
+	<thead>
+		<tr>
+			<th rowspan="3"><b>CODE</b></th>
+			<th rowspan="3"><b>LIBELLE</b></th>
+			<th rowspan="3"><b>acte de référence</b></th>
+			<th rowspan="3">DATE DEBUT</th>
+			<th rowspan="3">DATE FIN</th>
+			<th rowspan="3">Majorations</th>
+			<th colspan="10"><b>PRESENCE DANS LES NORMES</b></th>
+			<th rowspan="3"><b>Codage</b> <b>Oblig.</b></th>
+			<th rowspan="3"><b>Commentaire</b></th>
+		</tr>
+		<tr>
+			<th rowspan="2">AM</th>
+			<th colspan="2">CP</th>
+			<th rowspan="2">CS</th>
+			<th rowspan="2">CT</th>
+			<th rowspan="2">ER</th>
+			<th rowspan="2">LB</th>
+			<th rowspan="2">PH</th>
+			<th rowspan="2">TA</th>
+			<th rowspan="2">FR</th>
+		</tr>
+		<tr>
+			<th>T3</th>
+			<th>T4</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>AAD</td>
+			<td>AUTRES ACCESSOIRES TRAITEMENT A DOMICILE<br />(Titre I - Chapitre 1 de la LPP)</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AAR</td>
+			<td>APPAREILLAGE ASSISTANCE RESPIRATOIRE<br />(Titre I - chapitre 1 de la LPP)</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AB0</td>
+			<td>Transport partagé taxi avec trajet seul ≥ seuil de X km</td>
+			<td></td>
+			<td>01/07/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Taxis</td>
+		</tr>
+		<tr>
+			<td>AB2</td>
+			<td>Transport partagé taxi avec 2 personnes</td>
+			<td></td>
+			<td>01/07/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Taxis</td>
+		</tr>
+		<tr>
+			<td>AB3</td>
+			<td>Transport partagé taxi avec 3 personnes</td>
+			<td></td>
+			<td>01/07/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Taxis</td>
+		</tr>
+		<tr>
+			<td>AB4</td>
+			<td>Transport partagé taxi avec 4 personnes ou plus</td>
+			<td></td>
+			<td>01/07/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Taxis</td>
+		</tr>
+		<tr>
+			<td>ABA</td>
+			<td>TRANSPORT PAR AMBULANCES AGREES</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ABG</td>
+			<td>AMBULANCE AGREE DE GARDE</td>
+			<td></td>
+			<td>01/04/2003</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AC1</td>
+			<td>Accompagnement Chimiothérapie sous traitements anticancéreux au long cours pour l'année initiale</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AC2</td>
+			<td>Accompagnement Chimiothérapie autres traitements anticancéreux pour l'année initiale</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AC3</td>
+			<td>Accompagnement Chimiothérapie sous traitements anticancéreux au long cours</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Accompagnement années suivantes</td>
+		</tr>
+		<tr>
+			<td>AC4</td>
+			<td>Accompagnement Chimiothérapie autres traitements anticancéreux</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Accompagnement années suivantes</td>
+		</tr>
+		<tr>
+			<td>ACD</td>
+			<td>AVIS PONCTUEL DE CONSULTANT DU CD</td>
+			<td></td>
+			<td>01/10/2023</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Chirurgiens-dentistes</td>
+		</tr>
+		<tr>
+			<td>ACO*</td>
+			<td>ACTES D'OBSTETRIQUE</td>
+			<td>CCAM</td>
+			<td></td>
+			<td></td>
+			<td>inclus CCAM</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ADA*</td>
+			<td>ACTES D'ANESTHESIE</td>
+			<td>CCAM</td>
+			<td></td>
+			<td></td>
+			<td>inclus CCAM</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ADC*</td>
+			<td>ACTES DE CHIRURGIE</td>
+			<td>CCAM</td>
+			<td></td>
+			<td></td>
+			<td>inclus CCAM</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ADE*</td>
+			<td>ACTES D'ECHOGRAPHIE</td>
+			<td>CCAM</td>
+			<td></td>
+			<td></td>
+			<td>inclus CCAM</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ADI*</td>
+			<td>ACTES D'IMAGERIE</td>
+			<td>CCAM</td>
+			<td></td>
+			<td></td>
+			<td>inclus CCAM</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ADM</td>
+			<td>ACTES TECHNIQUES MEDICAUX D (hors imagerie) CCAM</td>
+			<td></td>
+			<td>01/10/2023</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Chirurgiens-dentistes</td>
+		</tr>
+		<tr>
+			<td>AFG</td>
+			<td>Prestation fin de garde ambulance</td>
+			<td></td>
+			<td>01/06/2017</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AHG</td>
+			<td>Intervention hors garde</td>
+			<td></td>
+			<td>01/06/2021</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Transporteurs sanitaires</td>
+		</tr>
+		<tr>
+			<td>AID</td>
+			<td>ACTES D’IMAGERIE D CCAM</td>
+			<td></td>
+			<td>01/10/2023</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Chirurgiens-dentistes</td>
+		</tr>
+		<tr>
+			<td>AIG</td>
+			<td>Intervention durant garde</td>
+			<td></td>
+			<td>01/06/2021</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Transporteurs sanitaires</td>
+		</tr>
+		<tr>
+			<td>AIS</td>
+			<td>ACTES INFIRMIERS DE SOINS</td>
+			<td></td>
+			<td>01/03/1992</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AKI</td>
+			<td>Accompagnement Antivitamine K Initial</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td>01/10/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AKS</td>
+			<td>Accompagnement Antivitamine Suivant</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td>01/10/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMC</td>
+			<td>ACTES DE KINESITHERAPIE EN ETABLISSEMENT</td>
+			<td></td>
+			<td>19/05/1991</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMD</td>
+			<td>INTERVENTION+ANESTHESIE DUREE&#x3C;OU=12</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>AMF</td>
+			<td>FORFAIT PUBLIC IVG MEDICAMENTEUSE</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>AMI</td>
+			<td>SOINS INFIRMIERS</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMK</td>
+			<td>ACTES DE KINESITHERAPIE</td>
+			<td>19/05/1991</td>
+			<td></td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMO</td>
+			<td>SEANCES D’ORTHOPHONIE</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMP</td>
+			<td>SOINS DE PEDICURIE</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr style="background-color: #FFFF00;">
+			<td>AMR</td>
+			<td>Appareils et matériels PEC renforcée</td>
+			<td></td>
+			<td>01/12/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMS</td>
+			<td>SUIVI DES ACTES DE KINESITHERAPIE</td>
+			<td></td>
+			<td>01/10/1998</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AMX</td>
+			<td>SOINS INFIRMIERS EXTERNALISES</td>
+			<td>AIS, IFI</td>
+			<td>01/01/2020</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Infirmiers</td>
+		</tr>
+		<tr>
+			<td>AMY</td>
+			<td>SEANCES D’ORTHOPTIE</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ANP*</td>
+			<td>FORFAIT ACTIVITE NON PROGRAMMEE</td>
+			<td></td>
+			<td>01/09/1998</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>ANT</td>
+			<td>SUPPLEMENT ANTEPARTUM</td>
+			<td>GHS</td>
+			<td>15/02/2012</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AOI</td>
+			<td>Accompagnement Anticoagulants Oraux Intial</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td>01/10/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AOS</td>
+			<td>Accompagnement Anticoagulants Oraux Directs Suivant</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td>01/10/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AP2</td>
+			<td>ADMINISTRATION DE MEDICAMENTS EN ENVIRONNEMENT HOSPITALIER</td>
+			<td></td>
+			<td>01/03/2017</td>
+			<td>01/03/2020</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements publics et privés MCOO</td>
+		</tr>
+		<tr>
+			<td>APA</td>
+			<td>Prothèses auditives - Accessoires</td>
+			<td></td>
+			<td>01/01/2021</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>APC</td>
+			<td>Avis ponctuel de consultant</td>
+			<td></td>
+			<td>01/10/2017</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Avis ponctuel du médecin ex C2</td>
+		</tr>
+		<tr>
+			<td>APD</td>
+			<td>INTERVENTION+ANESTHESIE,24>DUREE>12</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>APE</td>
+			<td>ADMINISTRATION DE PRODUITS ET PRESTATIONS EN ENVIRONNEMENT HOSPITALIER</td>
+			<td></td>
+			<td>01/03/2011</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>APM</td>
+			<td>MK - Rééduc Amputations</td>
+			<td></td>
+			<td>22/02/2024</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+		</tr>
+		<tr>
+			<td>APU</td>
+			<td>Avis ponctuel de consultant PUPH</td>
+			<td></td>
+			<td>01/10/2017</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Avis ponctuel professeurs d'université praticiens hospitaliers ex C3</td>
+		</tr>
+		<tr>
+			<td>APV</td>
+			<td>Avis ponctuel de consultant (visite)</td>
+			<td></td>
+			<td>01/10/2017</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>APY</td>
+			<td>Avis ponctuel de consultant psychiatre</td>
+			<td></td>
+			<td>01/10/2017</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Avis ponctuel de psy ex C2,5</td>
+		</tr>
+		<tr>
+			<td>ARE*</td>
+			<td>FRAIS D’ANESTHESIE ET DE REANIMATION</td>
+			<td></td>
+			<td>01/07/1993</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>ARL</td>
+			<td>MK - Rééduc Affections respiratoires, maxillo-faciales et ORL</td>
+			<td></td>
+			<td>22/02/2024</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+		</tr>
+		<tr>
+			<td>ARO</td>
+			<td>GENERATEUR D'AEROSOL</td>
+			<td></td>
+			<td>06/03/2004</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AS1*</td>
+			<td>FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 1</td>
+			<td></td>
+			<td>01/03/1995</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>AS2*</td>
+			<td>FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 2.</td>
+			<td></td>
+			<td>01/03/1995</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>AS3*</td>
+			<td>FORFAIT HOSPITALISATION A TEMPS PARTIEL 15 %.</td>
+			<td></td>
+			<td>01/03/1995</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>AS4*</td>
+			<td>FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 2 + FAS1</td>
+			<td></td>
+			<td>01/03/1995</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>AS5*</td>
+			<td>FORFAIT HOSPITALISATION A TEMPS PARTIEL GROUPE 2 + FAS2</td>
+			<td></td>
+			<td>01/03/1995</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Uniquement pour les etablissements monégasques</td>
+		</tr>
+		<tr>
+			<td>ASC</td>
+			<td>ACTES DE CHIRURGIE D CCAM</td>
+			<td></td>
+			<td>01/10/2023</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Chirurgiens-dentistes sauf spé 36</td>
+		</tr>
+		<tr>
+			<td>ASI</td>
+			<td>Accompagnement suivi initial</td>
+			<td></td>
+			<td>01/10/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ASS</td>
+			<td>Accompagnement suivi supplémentaire</td>
+			<td></td>
+			<td>01/10/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>ATD*</td>
+			<td>COMPLEMENT AT 150% DENTAIRE</td>
+			<td>SPR - PRO</td>
+			<td>12/02/2009</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>arrêté du 03/02/2009 paru au JO du 11/02/2009</td>
+		</tr>
+		<tr>
+			<td>ATL*</td>
+			<td>COMPLEMENT AT 150% LPP</td>
+			<td>AAD, AAR, ARO, COR, DVO, GLU, LEN, LUN, MAC, MAD, OPC, OPT, ORP, PA, PAN, PAU, PEX, PII, POC, VEH, VER,</td>
+			<td>12/02/2009</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>arrêté du 03/02/2009 paru au JO du 11/02/2009<br />en hospitalisation uniquement pour PII<br />en ambulatoire tout sauf PDM et PME</td>
+		</tr>
+		<tr>
+			<td>ATM*</td>
+			<td>ACTES TECHNIQUES MEDICAUX (hors imagerie)</td>
+			<td>CCAM</td>
+			<td></td>
+			<td></td>
+			<td>inclus CCAM</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ATP</td>
+			<td>AUTRE MOYEN DE TRANSPORT</td>
+			<td></td>
+			<td>23/05/2012</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>Pour les transports des personnes à mobilité réduite</td>
+		</tr>
+		<tr>
+			<td>ATU</td>
+			<td>FORFAIT D’ACCUEIL ET DE TRAITEMENT DES URGENCES</td>
+			<td></td>
+			<td>01/05/2001</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>AVY</td>
+			<td>Avis ponctuel de consultant psychiatre (visite)</td>
+			<td></td>
+			<td>01/10/2017</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Avis ponctuel de psy ex V2,5</td>
+		</tr>
+		<tr>
+			<td>AXI*</td>
+			<td>PROPHYLAXIE BUCCO-DENTAIRE</td>
+			<td></td>
+			<td>01/06/2014</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>B</td>
+			<td>ACTES DE BIOLOGIE.</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>bio</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDA</td>
+			<td>Examen bucco-dentaire simple</td>
+			<td></td>
+			<td>01/04/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDB</td>
+			<td>Examen bucco-dentaire +1/2 radios</td>
+			<td></td>
+			<td>01/04/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDC</td>
+			<td>CONSULTATION DE PREVENTION BUCCO-DENTAIRE</td>
+			<td></td>
+			<td>01/01/1998</td>
+			<td>31/03/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDD</td>
+			<td>Examen bucco-dentaire +3/4 radios</td>
+			<td></td>
+			<td>01/04/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDP</td>
+			<td>Examen bucco-dentaire + radio panoramique</td>
+			<td></td>
+			<td>01/04/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDH</td>
+			<td>Supplément handicap à l’EBD</td>
+			<td></td>
+			<td>01/04/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BDX</td>
+			<td>BUCCO DENT. CONSULTATION COMPLEXE</td>
+			<td></td>
+			<td>01/07/2020</td>
+			<td>31/03/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BMI</td>
+			<td>Bilan médication partagé</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BMS</td>
+			<td>Bilan Médication sans Changement de traitement</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BMT</td>
+			<td>Bilan Médication avec Changement de traitement</td>
+			<td></td>
+			<td>01/01/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BPC</td>
+			<td>Broncho-pneumopathie chronique obstructive</td>
+			<td></td>
+			<td>01/04/2016</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>BR1</td>
+			<td>Bridge RAC modéré</td>
+			<td></td>
+			<td>01/04/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>code regroupement CCAM convention dentaire 2018</td>
+		</tr>
+		<tr>
+			<td>BR2</td>
+			<td>CONSULTATION ET RADIO 2 CLICHES DE PREVENTION BUCCO-DENTAIRE</td>
+			<td></td>
+			<td>01/01/1998</td>
+			<td>31/03/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10 2
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+<table>
+<thead>
+<tr>
+<th rowspan="3">CODE</th>
+<th rowspan="3">LIBELLE</th>
+<th rowspan="3">acte de référence</th>
+<th rowspan="3">DATE DEBUT</th>
+<th rowspan="3">DATE FIN</th>
+<th rowspan="3">Majorations</th>
+<th colspan="10">PRESENCE DANS LES NORMES</th>
+<th rowspan="3">Codage Oblig.</th>
+<th rowspan="3">Commentaire</th>
+</tr>
+<tr>
+<th>AM</th>
+<th colspan="2">CP</th>
+<th>CS</th>
+<th>CT</th>
+<th>ER</th>
+<th>LB</th>
+<th>PH</th>
+<th>TA</th>
+<th>FR</th>
+</tr>
+<tr>
+<th></th>
+<th>T3</th>
+<th>T4</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BR4</td>
+<td>CONSULTATION ET RADIO 4 CLICHES DE PREVENTION BUCCO-DENTAIRE</td>
+<td></td>
+<td>01/01/1998</td>
+<td>31/03/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BRP</td>
+<td>BUCCO DENT. CONSULTATION et RADIO PANORAMIQ</td>
+<td></td>
+<td>01/07/2020</td>
+<td>31/03/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td></td>
+</tr>
+<tr>
+<td>BSA</td>
+<td>SOINS INFIRMIERS EXTERNALISES (PEC LEGERE)</td>
+<td>IFI</td>
+<td>01/01/2020</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers</td>
+</tr>
+<tr>
+<td>BSB</td>
+<td>SOINS INFIRMIERS EXTERNALISES (PEC INTERMEDIAIRE)</td>
+<td>IFI</td>
+<td>01/01/2020</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers</td>
+</tr>
+<tr>
+<td>BSC</td>
+<td>SOINS INFIRMIERS EXTERNALISES (PEC LOURDE)</td>
+<td>IFI</td>
+<td>01/01/2020</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers</td>
+</tr>
+<tr>
+<td>BTC</td>
+<td>BILAN MRTC</td>
+<td></td>
+<td>01/09/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C</td>
+<td>CONSULTATION</td>
+<td></td>
+<td></td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CA</td>
+<td>CONSULTATION APPROFONDIE</td>
+<td></td>
+<td>01/03/2002</td>
+<td>30/06/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CD</td>
+<td>CONSULTATION CD</td>
+<td></td>
+<td>01/10/2023</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Chirurgiens-dentistes</td>
+</tr>
+<tr>
+<td>CCP</td>
+<td>Consultation Prévention santé sexuelle</td>
+<td></td>
+<td>01/11/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Médecin généraliste, gynécologue, pédiatre, sage-femme</td>
+</tr>
+<tr>
+<td>CCE</td>
+<td>Consultation très complexe enfant</td>
+<td></td>
+<td>01/11/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Le code CCE transmis à l'Assurance Maladie, correspond à une agrégation des codes suivants :<br />EPH Enfant Pathologie handicap<br />CGP Consultation Grand Prématuré<br />MPH Code affiné de CCE</td>
+</tr>
+<tr>
+<td>CCX</td>
+<td>Consultation complexe</td>
+<td></td>
+<td>01/11/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Le code CCX transmis à l'Assurance Maladie, correspond à une agrégation des codes suivants :<br />CSO Consultation Suivi de l'Obesité<br />CSM Consultation de Sortie Maternité<br />CBX Consultation bucco-dentaire Complexe<br />ASE Code affiné de CCX</td>
+</tr>
+<tr>
+<td>CEG</td>
+<td>Consultation pédiatre 6 ans et plus</td>
+<td></td>
+<td>22/12/2024</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CEH</td>
+<td>Consultation pédiatre 0-2 ans</td>
+<td></td>
+<td>22/12/2024</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CEK</td>
+<td>Consultation pédiatre 2-6 ans</td>
+<td></td>
+<td>22/12/2024</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr style="background-color: yellow;">
+<td>CEP</td>
+<td>Consultation de recours au pédiatre</td>
+<td></td>
+<td>01/07/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CFU</td>
+<td>Complément forfait urgence</td>
+<td>FPV, FPM</td>
+<td>01/09/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CG</td>
+<td>CONSULTATION SUIVI DE GROSSESSE</td>
+<td></td>
+<td>23/04/2008</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CDE</td>
+<td>CONSULTATION SPECIFIQUE DE DEPISTAGE</td>
+<td></td>
+<td>26/03/2012</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>n’est pas cumulable avec une majoration de nuit de férié d'urgence ni avec les majorations MPC ou MCS</td>
+</tr>
+<tr>
+<td>CM0</td>
+<td>Prothèse fixe métallique RAC0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>CNP</td>
+<td>CONSULTATION NEURO-PSYCHIATRE</td>
+<td></td>
+<td></td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COA</td>
+<td>Examen Obligatoire Enfant COA</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Enfants de 0 à 16 ans</td>
+</tr>
+<tr>
+<td>COB</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COB</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COD</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COD</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COE</td>
+<td>Consultation Obligatoire Enfant</td>
+<td></td>
+<td>01/05/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Enfants de 0 à 25 mois inclus, en assurance maternité</td>
+</tr>
+<tr>
+<td>COG</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COG</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COH</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COH</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COJ</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COJ</td>
+<td></td>
+<td>01/04/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COK</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COK</td>
+<td></td>
+<td>01/04/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COM</td>
+<td>EXAMEN OBLIGATOIRE ENFANT COM</td>
+<td></td>
+<td>01/09/2019</td>
+<td>21/12/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>COR</td>
+<td>PODO-ORTHESES (Titre II — Chapitre 6 de la LPP)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>COV</td>
+<td>Examen obligatoire enfant 0-6 ans</td>
+<td></td>
+<td>22/12/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>médecins généralistes secteur 2 non optam</td>
+</tr>
+<tr>
+<td>CP</td>
+<td>Consultation psychiatre ou neurologue</td>
+<td></td>
+<td>22/12/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>médecins secteur 2 non optam</td>
+</tr>
+<tr>
+<td>CPC*</td>
+<td>FRAIS DE CHAMBRE PARTICULIERE POUR CONVENANCE PERSONNELLE</td>
+<td>PJ ou GHS</td>
+<td>15/02/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Prestation non remboursable en AMO</td>
+</tr>
+<tr>
+<td>CPH</td>
+<td>COPIE D'ORDONNANCE</td>
+<td></td>
+<td></td>
+<td>30/06/2015</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CRD</td>
+<td>MAJORATION CONSULTATION REGULEE DIMANCHE ET FERIE</td>
+<td>ADA, ADE, ADI, ATM, ADC, ACO, K, KC, C, CNP, CS,G,GS</td>
+<td>02/06/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CRM</td>
+<td>MAJORATION CONSULTATION REGULEE MILIEU DE NUIT</td>
+<td>ADA, ADE, ADP, ADI, ATM, ADC, ACO, AXI, IMP, PAR, PFM, SDE, K, KC, C, CNP, CS, G, GS, PDA, PFE, TOR, TC, TCG</td>
+<td>02/06/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CRN</td>
+<td>MAJORATION CONSULTATION REGULEE DE NUIT</td>
+<td>ADA, ADE, ADP, ADI, ATM, ADC, ACO, AXI, IMP, PAR, PFM, SDE, K, KC, C, CNP, CS, G, GS, PDA, PFE, TOR, TC, TCG</td>
+<td>02/06/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CRS</td>
+<td>MAJORATION CONSULTATION REGULEE DU SAMEDI APRES-MIDI</td>
+<td>ADA, ADE, ADI, ATM, ADC, ACO, K, KC, C, CNP, CS,G,GS</td>
+<td>28/12/2007</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CS</td>
+<td>CONSULTATION SPECIALISTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CSD</td>
+<td>CONSULTATION SPECIALISTE CD</td>
+<td></td>
+<td>01/10/2023</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Chirurgiens-dentistes</td>
+</tr>
+<tr>
+<td>CSC</td>
+<td>CONSULTATION SPECIFIQUE AU CABINET PAR UN CARDIOLOGUE OU UN MEDECIN SPECIALISTE EN PATHOLOGIE CARDIO-VASCULAIRE</td>
+<td></td>
+<td>31/03/1997</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X <sup>(1)</sup></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Facturable en ville, établissements publics et privés</td>
+</tr>
+<tr>
+<td>CST</td>
+<td>CONTRAT DE SURVEILLANCE THERMAL</td>
+<td>STH</td>
+<td>19/09/2003</td>
+<td>01/01/2015</td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CT0</td>
+<td>Couronne transitoire RAC 0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>CT1</td>
+<td>Couronne transitoire RAC modéré</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>CTC</td>
+<td>Supplément Car-T Cell</td>
+<td></td>
+<td>01/03/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>CXD</td>
+<td>CONSULTATION COMPLEXE CD</td>
+<td></td>
+<td>01/10/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Chirurgiens-dentistes - code agrégé équivalent au CCX</td>
+</tr>
+<tr>
+<td>CZ0</td>
+<td>Couronne zircone RAC 0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>CZ1</td>
+<td>Couronne zircone RAC modéré</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>D</td>
+<td>ACTES DENTAIRES</td>
+<td></td>
+<td></td>
+<td>CCAM DENTAIRE</td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D01</td>
+<td>HEMODIALYSE EN CENTRE</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D02</td>
+<td>AUTODIALYSE SIMPLE OU ASSISTEE</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D03</td>
+<td>ENTRAINEMENT HEMODIALYSE A DOMICILE ET A L'AUTODIALYSE</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D04</td>
+<td>ENTRAINEMENT A LA DPA</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D05</td>
+<td>ENTRAINEMENT A LA DPCA</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D06</td>
+<td>HEMODIALYSE A DOMICILE</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D07</td>
+<td>DIALYSE PERITONEALE AUTOMATISEE (DPA)</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D08</td>
+<td>DIALYSE PERITONEALE CONTINUE AMBULATOIRE (DPCA)</td>
+<td></td>
+<td>01/03/2005</td>
+<td>29/02/2008</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D09</td>
+<td>FORFAIT HEMODIALYSE EN CENTRE</td>
+<td></td>
+<td>01/03/2005</td>
+<td>28/02/2013</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D10</td>
+<td>FORFAIT HEMODIALYSE EN CENTRE POUR ENFANT</td>
+<td></td>
+<td>01/03/2005</td>
+<td>28/02/2013</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D11</td>
+<td>FORFAIT HEMODIALYSE EN CENTRE</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D12</td>
+<td>FORFAIT D'AUTODIALYSE SIMPLE</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D13</td>
+<td>FORFAIT D'AUTODIALYSE ASSISTEE</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D14</td>
+<td>FORFAIT D'HEMODIALYSE A DOMICILE</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D15</td>
+<td>FORFAIT DE DIALYSE PERITONEALE AUTOMATISEE (DPA)</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D16</td>
+<td>FORFAIT DE DIALYSE PERITONEALE CONTINUE AMBULATOIRE (DPCA)</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D17</td>
+<td>FORFAIT ENTRAINEMENT HEMODIALYSE A DOMICILE ET A L'AUTODIALYSE</td>
+<td></td>
+<td>01/03/2005</td>
+<td>28/02/2013</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D18</td>
+<td>FORFAIT ENTRAINEMENT A LA DPA</td>
+<td></td>
+<td>01/03/2005</td>
+<td>28/02/2013</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D19</td>
+<td>FORFAIT ENTRAINEMENT A LA DPA</td>
+<td></td>
+<td>01/03/2005</td>
+<td>28/02/2013</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D20</td>
+<td>FORFAIT D'ENTRAINEMENT A LA DIALYSE PERITONEALE automatisée à domicile</td>
+<td></td>
+<td>01/03/2008</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D21</td>
+<td>FORFAIT D'ENTRAINEMENT A LA DIALYSE PERITONEALE continue ambulatoire à domicile</td>
+<td></td>
+<td>01/03/2008</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10 3
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+**MISE A JOUR DU28 AOUT 2013**
+
+**PRESENCE DANS LES NORMES**
+
+<table>
+<thead>
+<tr>
+<th rowspan="3"><b>CODE</b></th>
+<th rowspan="3"><b>LIBELLE</b></th>
+<th rowspan="3"><b>acte de référence</b></th>
+<th rowspan="3">DATE DEBUT</th>
+<th rowspan="3">DATE FIN</th>
+<th rowspan="3">Majorations</th>
+<th colspan="9">PRESENCE DANS LES NORMES</th>
+<th rowspan="3"><b>Codage</b> <b>Oblig.</b></th>
+<th rowspan="3"><b>Commentaire</b></th>
+</tr>
+<tr>
+<th>AM</th>
+<th colspan="2">CP</th>
+<th>CS</th>
+<th>CT</th>
+<th>ER</th>
+<th>LB</th>
+<th>PH</th>
+<th>TA</th>
+<th>FR</th>
+</tr>
+<tr>
+<th></th>
+<th>T3</th>
+<th>T4</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D22</td>
+<td>FORFAIT DE DIALYSE PERITONEALE AUTOMATISEE POUR<br />HOSPITALISATION DE 3 A 6 JOURS</td>
+<td></td>
+<td>01/03/2010</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D23</td>
+<td>FORFAIT DE DIALYSE PERITONEALE CONTINUE AMBULATOIRE POUR<br />HOSPITALISATION DE 3 A 6 JOURS</td>
+<td></td>
+<td>01/03/2010</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D24</td>
+<td>FORFAIT D’ENTRAINEMENT A L'HEMODIALYSE EN UNITE DE DIALYSE<br />MEDICALISEE</td>
+<td></td>
+<td>01/03/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DAD</td>
+<td>Code traceur Dispensation Adaptée</td>
+<td></td>
+<td>01/01/2020</td>
+<td>31/01/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DC</td>
+<td>ACTES DE CHIRURGIE DENTAIRE</td>
+<td></td>
+<td></td>
+<td>CCAM<br />DENTAIRE</td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DCC</td>
+<td>ACTE DE DEPISTAGE DU CANCER COLORECTAL</td>
+<td></td>
+<td>01/01/2015</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Acte de prévention</td>
+</tr>
+<tr>
+<td>DDO</td>
+<td>Dispensation pharmacie à domicile</td>
+<td></td>
+<td>01/05/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DDT</td>
+<td>PEC Exceptionnelle Dépassement Dentaire TP</td>
+<td></td>
+<td>14/07/2016</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Dépassement sur les soins dentaires en Tiers Payant</td>
+</tr>
+<tr>
+<td>DEN*</td>
+<td>ACTE DENTAIRE CCAM</td>
+<td></td>
+<td>CCAM<br />DENTAIRE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>Code regroupement CCAM</td>
+</tr>
+<tr>
+<td>DFG</td>
+<td>Détection fragilité sénior milieu thermal</td>
+<td></td>
+<td>01/03/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DHT</td>
+<td>PEC Exceptionnelle Dépassement Honoraire TP</td>
+<td></td>
+<td>14/07/2016</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Dépassement honoraires en Tiers Payant</td>
+</tr>
+<tr>
+<td>DI</td>
+<td>BILAN DE SOINS INFIRMIERS</td>
+<td></td>
+<td>01/12/2002</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DIP</td>
+<td>SUPPLEMENT JOURNALIER DIALYSE PERITONEALE</td>
+<td></td>
+<td>01/03/2010</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DLT</td>
+<td>PEC Exceptionnelle Dépassement LPP TP</td>
+<td></td>
+<td>14/07/2016</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>Dépassement sur les produits et prestations (LPP) en Tiers Payant</td>
+</tr>
+<tr>
+<td>DQU</td>
+<td>Dotation Qualité Urgence</td>
+<td>FU1, FU2, FU3, FU4</td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DRA</td>
+<td>MK - Rééduc Déviation du rachis</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>DSE</td>
+<td>Dépistage scolaire enfant</td>
+<td></td>
+<td>01/09/2024</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DSP</td>
+<td>Forfait sortie précoce</td>
+<td>SF16,5, SF23</td>
+<td>10/02/2019</td>
+<td></td>
+<td>F</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>majoration forfaitaire conventionnelle dans le cadre d'une sortie précoce après accouchement</td>
+</tr>
+<tr>
+<td>DTG</td>
+<td>Délivrance tests antigéniques en pharmacie</td>
+<td></td>
+<td>01/09/2022</td>
+<td>01/03/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DTP</td>
+<td>DIALYSE TIERCE PERSONNE</td>
+<td>D01 à D19</td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>DVO</td>
+<td>DIVERS ORTHESE</td>
+<td></td>
+<td>01/08/2009</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>EFE</td>
+<td>ENTRETIEN FEMME ENCEINTE</td>
+<td></td>
+<td>07/11/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EMI</td>
+<td>ECART MEDICAMENT INDEMNISABLE</td>
+<td>PH8</td>
+<td>27/05/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>END*</td>
+<td>ENDODONTIE</td>
+<td></td>
+<td>01/06/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>Code regroupement CCAM</td>
+</tr>
+<tr>
+<td>ENT</td>
+<td>FORFAIT D’ENTREE</td>
+<td></td>
+<td>01/09/1998</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EPA</td>
+<td>Entretien Patient Antalgique</td>
+<td></td>
+<td>08/01/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EPG</td>
+<td>Examen parental grossesse</td>
+<td></td>
+<td>13/07/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EPT</td>
+<td>Entretien Pharmacien TSN</td>
+<td></td>
+<td>30/11/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EQA</td>
+<td>Prélèvement/saignée</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQB</td>
+<td>Injection (toutes voies d'abord), hors vaccination</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQC</td>
+<td>Vaccination/test tuberculinique</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQD</td>
+<td>Pansements et soins de plaie</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQE</td>
+<td>Soins infirmiers sur l'appareil digestif</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQF</td>
+<td>Soins infirmiers sur l'appareil génito-urinaire</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQI</td>
+<td>Soins infirmiers sur l'appareil respiratoire</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQJ</td>
+<td>Administration et surveillance de thérapeutique orale par voie orale, sonde<br />nasogastrique ou stomie</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQK</td>
+<td>Soins et surveillance de perfusion</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQL</td>
+<td>Soins et surveillance de diabète (y compris injections, pansement, contrôle<br />glycémique, observation des pieds)</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQM</td>
+<td>Surveillance PRADO ou RAAC</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQN</td>
+<td>Coordination et transmissions (hors NGAP)</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQO</td>
+<td>Actes de dépistage et prévention (hors NGAP)</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQP</td>
+<td>Soins relationnels (hors NGAP)</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQQ</td>
+<td>Soins de nursing</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>EQR</td>
+<td>Autres actes techniques (hors NGAP)</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé et salariés de médecins</td>
+</tr>
+<tr>
+<td>ERI</td>
+<td>ECART INDEMNISABLE RETROCESSION</td>
+<td>PHH/PHS/PHQ</td>
+<td>01/07/2015</td>
+<td>01/01/2032</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ETI</td>
+<td>ECART TARIF INDEMNISABLE</td>
+<td></td>
+<td>10/07/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EXH</td>
+<td>SEJOUR EXTREME > SEUIL HAUT</td>
+<td></td>
+<td>15/02/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EXS*</td>
+<td>EXAMEN SPECIAL</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FA</td>
+<td>Forfait astreinte sage-femme</td>
+<td></td>
+<td>29/09/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FA1*</td>
+<td>FORFAIT D’ACCUEIL (CHIRURGIE AMBULATOIRE)</td>
+<td></td>
+<td>01/07/1993</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>uniquement hôpitaux publics et établissement Monégasques</td>
+</tr>
+<tr>
+<td>FA2*</td>
+<td>FORFAIT D’ACCUEIL (CHIRURGIE AMBULATOIRE)</td>
+<td></td>
+<td>01/07/1993</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>uniquement hôpitaux publics et établissement Monégasques</td>
+</tr>
+<tr>
+<td>FAD</td>
+<td>FORFAIT ACCOMPAGNEMENT DOMICILE</td>
+<td></td>
+<td>01/07/2018</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Accompagnement du retour à domicile post chirurgie orthopédique</td>
+</tr>
+<tr>
+<td>FAE*</td>
+<td>FRAIS D’ACCOMPAGNEMENT POUR ENFANT HOSPITALISE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Prestation non remboursable en AMO</td>
+</tr>
+<tr>
+<td>FAT*</td>
+<td>FORFAIT DE SEANCE D’AEROSOL THERAPIE<br />(acte réservé à l’assurance complémentaire)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>prestation utilisable par régime AMPI<br />en complément des prestations inter-régimes</td>
+</tr>
+<tr>
+<td>FCH</td>
+<td>FORFAIT CONSULTATION URGENCE HOPITAL</td>
+<td></td>
+<td>01/09/2019</td>
+<td>31/12/2020</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics</td>
+</tr>
+<tr>
+<td>FCO*</td>
+<td>FORFAIT CONSOMMABLES ONEREUX (CARDIOLOGIE)</td>
+<td></td>
+<td>01/12/1999</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Uniquement pour les etablissements monégasques</td>
+</tr>
+<tr>
+<td>FCP</td>
+<td>FORFAIT CONSULTATION URGENCE PRIVE</td>
+<td></td>
+<td>01/09/2019</td>
+<td>31/12/2020</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements privés</td>
+</tr>
+<tr>
+<td>FDA*</td>
+<td>FORFAIT DENTAIRE CMU : PROTHESES ADJOINTES</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Acte réservé à l'assurance complémentaire RC</td>
+</tr>
+<tr>
+<td>FDC*</td>
+<td>FORFAIT DENTAIRE CMU : PROTHESES CONJOINTES</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Acte réservé à l'assurance complémentaire RC</td>
+</tr>
+<tr>
+<td>FDO*</td>
+<td>FORFAIT DENTAIRE CMU : PROTHESES ORTHODONTIQUES</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Acte réservé à l'assurance complémentaire RC</td>
+</tr>
+<tr>
+<td>FDR*</td>
+<td>FORFAIT DENTAIRE CMU : REPARATION PROTHESES</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Acte réservé à l'assurance complémentaire RC</td>
+</tr>
+<tr>
+<td>FDS</td>
+<td>Formation Dépistage Scolaire</td>
+<td></td>
+<td>01/09/2024</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FE*</td>
+<td>FRAIS D’ENVIRONNEMENT</td>
+<td></td>
+<td>01/07/1993</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Uniquement pour les etablissements monégasques</td>
+</tr>
+<tr>
+<td>FEF</td>
+<td>Forfait fausse couche Etablissement avec echographie</td>
+<td></td>
+<td>01/03/2018</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements</td>
+</tr>
+<tr>
+<td>FEN*</td>
+<td>FORFAIT ENTRETIEN</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>prestation utilisable en MSA<br />en complément des prestations inter-régimes<br />RO et/ou RC</td>
+</tr>
+<tr>
+<td>FFE</td>
+<td>Forfait fausse couche Etablissement sans echographie</td>
+<td></td>
+<td>01/03/2018</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements</td>
+</tr>
+<tr>
+<td>FFC</td>
+<td>FORFAIT FAUSSE COUCHE VILLE</td>
+<td></td>
+<td>01/03/2018</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FFV</td>
+<td>Forfait fausse couche ville sans echographie</td>
+<td></td>
+<td>01/03/2018</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FFM</td>
+<td>FORFAIT FRAIS DE MATERIEL</td>
+<td></td>
+<td>01/07/1993</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FGA</td>
+<td>FRAIS DE GESTION POUR CENTRE DE GRAND APPAREILLAGE (attendre<br />décision réglementaire)</td>
+<td></td>
+<td>01/01/1997</td>
+<td>30/03/2001</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+</tr>
+<tr>
+<td>FGP*</td>
+<td>FRAIS DE GARDE PARTICULIERE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Prestation non remboursable en AMO</td>
+</tr>
+<tr>
+<td>FHF</td>
+<td>FORFAIT CONSULTATION URGENCE HOPITAL FERIE</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics, FCH modulé férié</td>
+</tr>
+<tr>
+<td>FHM</td>
+<td>FORFAIT CONSULTATION URGENCE HOPITAL MILIEU NUIT</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics, FCH modulé milieu de nuit</td>
+</tr>
+<tr>
+<td>FHN</td>
+<td>FORFAIT CONSULTATION URGENCE HOPITAL NUIT</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics, FCH modulé nuit</td>
+</tr>
+<tr>
+<td>FHV</td>
+<td>FORFAIT HONORAIRES DE VILLE</td>
+<td></td>
+<td>29/07/2004</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FIS</td>
+<td>FORFAIT INNOVATION SYSTÈME DE SANTE</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>Facturable dans le cadre de toutes les expérimentations</td>
+</tr>
+<tr>
+<td>FJA</td>
+<td>FORFAIT JOURNALIER DE SORTIE A LA CHARGE DE L’ASSURE</td>
+<td></td>
+<td>01/08/1993</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>FJC</td>
+<td>FORFAIT JOURNALIER SEUL (DU PAR UN ORGANISME<br />COMPLEMENTAIRE)</td>
+<td></td>
+<td>01/01/1996</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+**PRESENCE DANS LES NORMES**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="3"><b>CODE</b></th>
+      <th rowspan="3"><b>LIBELLE</b></th>
+      <th rowspan="3"><b>acte de référence</b></th>
+      <th rowspan="3">DATE DEBUT</th>
+      <th rowspan="3">DATE FIN</th>
+      <th rowspan="3">Majorations</th>
+      <th colspan="10">PRESENCE DANS LES NORMES</th>
+      <th rowspan="3"><b>Codage</b> <b>Oblig.</b></th>
+      <th rowspan="3"><b>Commentaire</b></th>
+    </tr>
+    <tr>
+      <th rowspan="2">AM</th>
+      <th colspan="2">CP</th>
+      <th rowspan="2">CS</th>
+      <th rowspan="2">CT</th>
+      <th rowspan="2">ER</th>
+      <th rowspan="2">LB</th>
+      <th rowspan="2">PH</th>
+      <th rowspan="2">TA</th>
+      <th rowspan="2">FR</th>
+    </tr>
+    <tr>
+      <th>T3</th>
+      <th>T4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FJL</td>
+      <td>FORFAIT JOURNALIER SEUL (DU PAR LE REGIME LOCAL ALSACE-MOSELLE)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FJR</td>
+      <td>FORFAIT JOURNALIER DE SORTIE A LA CHARGE DU REGIME OBLIGATOIRE</td>
+      <td></td>
+      <td>01/08/1993</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FJS</td>
+      <td>HEBERGEMENT > 24H</td>
+      <td></td>
+      <td>27/02/1990</td>
+      <td>30/03/2013</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Pour les assurées non anonymisées</td>
+    </tr>
+    <tr>
+      <td>FKS</td>
+      <td>FORFAIT THERMAL SUITE CANCER DU SEIN</td>
+      <td></td>
+      <td>01/05/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Réhabilitation post-thérapeutique pour les femmes en rémission complète de leur cancer du sein en milieu thermal</td>
+    </tr>
+    <tr>
+      <td>FLE</td>
+      <td>Formation langage enseignant</td>
+      <td></td>
+      <td>01/09/2024</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FLP</td>
+      <td>Forfait Régime Local Privé</td>
+      <td></td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissement OQN</td>
+    </tr>
+    <tr>
+      <td>FMN</td>
+      <td>Forfait maison de naissance</td>
+      <td></td>
+      <td>29/09/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FMV</td>
+      <td>FORFAIT MEDICAMENT DE VILLE</td>
+      <td>FHV</td>
+      <td>29/07/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FNN*</td>
+      <td>FORFAIT NOUVEAU NE</td>
+      <td></td>
+      <td>01/05/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Uniquement pour les etablissements monégasques</td>
+    </tr>
+    <tr>
+      <td>FOH</td>
+      <td>FORFAIT EVALUATION DOMICILE HANDICAP ORTHOPHONIE</td>
+      <td></td>
+      <td>01/07/2019</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Facturable une fois par an</td>
+    </tr>
+    <tr>
+      <td>FOT</td>
+      <td>FORFAIT EVALUATION DOMICILE</td>
+      <td>AMY</td>
+      <td>22/12/2017</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Orthoptistes</td>
+    </tr>
+    <tr>
+      <td>FPB</td>
+      <td>Forfait Préalable Biologie IVG ville</td>
+      <td></td>
+      <td>01/04/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FPC*</td>
+      <td>FORFAIT PROTHESE CONJOINTE (CMU hors panier de soins)</td>
+      <td></td>
+      <td>01/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte réservé à l'assurance complémentaire RC</td>
+    </tr>
+    <tr>
+      <td rowspan="2">FPE*</td>
+      <td rowspan="2">FORFAIT PEDIATRIQUE</td>
+      <td>CS (12)</td>
+      <td>04/08/2002</td>
+      <td rowspan="2">30/04/2017</td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+      <td rowspan="2">X</td>
+      <td rowspan="2">X</td>
+      <td rowspan="2"></td>
+      <td rowspan="2">X</td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+      <td rowspan="2"></td>
+      <td rowspan="2">acte complémentaire applicable aux pédiatres à compter du 04/08/2002 et aux généralistes à compter du 19/09/2003</td>
+    </tr>
+    <tr>
+      <td>C (01)</td>
+      <td>19/09/2003</td>
+    </tr>
+    <tr>
+      <td>FPH</td>
+      <td>FORFAIT POST HOSPITALISATION ORTHOPHONIE</td>
+      <td>AMO</td>
+      <td>01/07/2019</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Facturable une fois par an</td>
+    </tr>
+    <tr>
+      <td>FPI</td>
+      <td>FORFAIT PRESTATION INTERMEDIAIRE</td>
+      <td></td>
+      <td>01/03/2017</td>
+      <td>01/03/2020</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissement publics et privés MCOO</td>
+    </tr>
+    <tr>
+      <td>FPL</td>
+      <td>Forfait Urgence RL</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfait urgence à la charge du régime local</td>
+    </tr>
+    <tr>
+      <td>FPM</td>
+      <td>Forfait patient urgence minoré Alsace-Moselle</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfait patient urgence minoré Alsace-Moselle</td>
+    </tr>
+    <tr>
+      <td>FPO*</td>
+      <td>FORFAIT ORTHODONTIQUE (CMU hors panier de soins)</td>
+      <td></td>
+      <td>01/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte réservé à l'assurance complémentaire RC</td>
+    </tr>
+    <tr>
+      <td>FPU</td>
+      <td>Forfait Patient Urgence</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfait urgence à la charge de l’assuré ou de sa complémentaire</td>
+    </tr>
+    <tr>
+      <td>FPV</td>
+      <td>Forfait patient urgence minoré</td>
+      <td></td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfait urgence minoré (assuré C2S/exonération du ticket modérateur)</td>
+    </tr>
+    <tr>
+      <td>FPX</td>
+      <td>Forfait Urgence RO</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfait urgence à la charge du régime (c’est-à-dire au regard d’une situation médico administrative donnant lieu à exonération)</td>
+    </tr>
+    <tr>
+      <td>FR2</td>
+      <td>FORFAIT TECHNIQUE TARIF REDUIT N°2</td>
+      <td></td>
+      <td>12/09/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FR3</td>
+      <td>FORFAIT TECHNIQUE TARIF REDUIT N°3</td>
+      <td></td>
+      <td>12/09/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FRD</td>
+      <td>FORFAIT PRISE EN CHARGE RAPIDE</td>
+      <td></td>
+      <td>01/07/2018</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Prise en charge rapide liée à un accident vasculaire cérébral (AVC)</td>
+    </tr>
+    <tr>
+      <td>FRL</td>
+      <td>FORFAIT JOURNALIER DE SORTIE A LA CHARGE DU REGIME ALSACE-MOSELLE</td>
+      <td></td>
+      <td>01/08/1993</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FS</td>
+      <td>FRAIS DE SOINS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FSB</td>
+      <td>FORFAIT THERMAL SEVRAGE DES PSYCHOTROPES</td>
+      <td></td>
+      <td>01/05/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Sevrage des psychotropes par éducation psychothérapeutique en cure thermale</td>
+    </tr>
+    <tr>
+      <td>FSD*</td>
+      <td>FORFAIT DE SECURITE DERMATOLOGIQUE</td>
+      <td>ADC</td>
+      <td>28/05/2009</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>code acte FSD pour la facturation en ville et en établissement</td>
+    </tr>
+    <tr>
+      <td>FSG*</td>
+      <td>FRAIS SALLE TRAVAIL ACCOUCHEMENT GEMELLAIRE OU DYSTOCIE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Uniquement pour les etablissements monégasques</td>
+    </tr>
+    <tr>
+      <td>FSJ</td>
+      <td>FORFAIT DE SOINS JOURNALIER</td>
+      <td></td>
+      <td>03/12/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FSO*</td>
+      <td>FRAIS DE SALLE D'OPERATION</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Uniquement pour les etablissements monégasques</td>
+    </tr>
+    <tr>
+      <td>FSS</td>
+      <td>Forfait Séance de Soins</td>
+      <td></td>
+      <td>01/01/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FST*</td>
+      <td>FRAIS SALLE TRAVAIL ACCOUCHEMENT SIMPLE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Uniquement pour les etablissements monégasques</td>
+    </tr>
+    <tr>
+      <td>FSY</td>
+      <td>FRAIS DE SALLE D'OPERATION EN PSYCHIATRIE</td>
+      <td></td>
+      <td>22/04/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FTD</td>
+      <td>FORFAIT TROUBLES NEURO-DEVELOPPEMENT</td>
+      <td></td>
+      <td>06/04/2022</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FTN</td>
+      <td>FORFAIT TECHNIQUE NORMAL</td>
+      <td></td>
+      <td>01/01/1991</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FTG</td>
+      <td>FORFAIT TECHNIQUE GLOBAL</td>
+      <td></td>
+      <td>01/11/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FTR</td>
+      <td>FORFAIT TECHNIQUE REDUIT</td>
+      <td></td>
+      <td>01/01/1991</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FTS</td>
+      <td>FORFAIT TECHNIQUE SCANNER</td>
+      <td></td>
+      <td>01/01/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FTU</td>
+      <td>Forfait Transport d'urgence</td>
+      <td></td>
+      <td>01/01/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Expérimentation CPAM Aude</td>
+    </tr>
+    <tr>
+      <td>FU0</td>
+      <td>Forfait Consultation Urgence 0</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Le département de Mayotte n'est pas concerné</td>
+    </tr>
+    <tr>
+      <td>FU1</td>
+      <td>Forfait Consultation Urgence 1</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfaits consultation de base par classe d'âge</td>
+    </tr>
+    <tr>
+      <td>FU2</td>
+      <td>Forfait Consultation Urgence 2</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfaits consultation de base par classe d'âge</td>
+    </tr>
+    <tr>
+      <td>FU3</td>
+      <td>Forfait Consultation Urgence 3</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfaits consultation de base par classe d'âge</td>
+    </tr>
+    <tr>
+      <td>FU4</td>
+      <td>Forfait Consultation Urgence 4</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Forfaits consultation de base par classe d'âge</td>
+    </tr>
+    <tr>
+      <td>FUB</td>
+      <td>Forfait Ultérieur Biologie IVG ville</td>
+      <td></td>
+      <td>01/04/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FUS</td>
+      <td>Forfait d'urgence sur appel du SAMU</td>
+      <td></td>
+      <td>01/01/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Expérimentation CPAM Bouches du Rhône</td>
+    </tr>
+    <tr>
+      <td>FX1</td>
+      <td>Forfait Taxi prise en charge et accompagnement</td>
+      <td></td>
+      <td>01/07/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Taxis</td>
+    </tr>
+    <tr>
+      <td>FX2</td>
+      <td>Forfait Taxi prise en charge et accompagnement et marche lente</td>
+      <td></td>
+      <td>01/07/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Taxis</td>
+    </tr>
+    <tr>
+      <td>GCO</td>
+      <td>Consultation Protocole Coopératif</td>
+      <td></td>
+      <td>01/07/2020</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GL1</td>
+      <td>consultation de sortie d'hospitalisation</td>
+      <td></td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GL2</td>
+      <td>consultation de déprescription de patients hyperpolymédiqués</td>
+      <td></td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GL3</td>
+      <td>consultation longue d'orientation vers un parcours médico-social</td>
+      <td></td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GLU</td>
+      <td>NUTRIMENTS POUR INTOLERANTS AU GLUTEN</td>
+      <td></td>
+      <td>19/05/1996</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GMT</td>
+      <td>Frais Séjour SSR</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GHS</td>
+      <td>GROUPE HOMOGENE DE SEJOUR</td>
+      <td></td>
+      <td>15/02/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GHT</td>
+      <td>GROUPE HOMOGENE DE TARIF</td>
+      <td></td>
+      <td>01/03/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>G</td>
+      <td>Consultation Médecine générale</td>
+      <td></td>
+      <td>01/05/2017</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GS</td>
+      <td>Consultation Spécialiste Médecine Générale</td>
+      <td></td>
+      <td>01/05/2017</td>
+      <td>01/07/2025</td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GS1</td>
+      <td>VACCIN ANTI GRIPPE HEMISPHERE SUD VAXIGRIP HS</td>
+      <td></td>
+      <td>15/04/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GS2</td>
+      <td>VACCIN ANTI GRIPPE HEMISPHERE SUD FLUARIX HS</td>
+      <td></td>
+      <td>15/04/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HC</td>
+      <td>HONORAIRE COMPLEXE</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire facturé pour une délivrance d'au moins 5 CIP différents</td>
+    </tr>
+    <tr>
+      <td>HCS*</td>
+      <td>ACCES LIBRE HORS COORDINATION DES SOINS</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>HD1</td>
+      <td>HONORAIRES DE DISPENSATION à 100%</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH1</td>
+    </tr>
+    <tr>
+      <td>HD2</td>
+      <td>HONORAIRES DE DISPENSATION à 15%</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH2</td>
+    </tr>
+    <tr>
+      <td>HD4</td>
+      <td>HONORAIRES DE DISPENSATION à 30%</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH4 et MHU</td>
+    </tr>
+    <tr>
+      <td>HD7</td>
+      <td>HONORAIRES DE DISPENSATION à 65%</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH7</td>
+    </tr>
+    <tr>
+      <td>HDA</td>
+      <td>Honoraire de dispensation en lien avec l'age</td>
+      <td></td>
+      <td>01/01/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire de dispensation pour toute exécution d'ordonnance pour des jeunes enfants et des patients âgés</td>
+    </tr>
+    <tr>
+      <td>HDE</td>
+      <td>Honoraire de dispensation médicaments spécifiques</td>
+      <td></td>
+      <td>01/01/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire de dispensation particulière pour toute exécution d'ordonnance comportant au moins un médicament spécifique (liste annexe II.4)</td>
+    </tr>
+    <tr>
+      <td>HDR</td>
+      <td>Honoraire médicament remboursable</td>
+      <td></td>
+      <td>01/01/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire de dispensation perçu pour l'exécution d'une ordonnance contenant au moins un médicament</td>
+    </tr>
+    <tr>
+      <td>HDS</td>
+      <td>HONORAIRES DE DISPENSATION SPECIFIQUE VACCINS ANTI GRIPPAUX HEMISPHERE SUD</td>
+      <td></td>
+      <td>15/04/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé aux prestations GS1 et GS2</td>
+    </tr>
+    <tr>
+      <td>HG1</td>
+      <td>HONORAIRES DE DISPENSATION GRAND CONDITIONNEMENT à 100%</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH1</td>
+    </tr>
+    <tr>
+      <td>HG2</td>
+      <td>HONORAIRES DE DISPENSATION GRAND CONDITIONNEMENT à 15%</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH2</td>
+    </tr>
+    <tr>
+      <td>HG4</td>
+      <td>HONORAIRES DE DISPENSATION GRAND CONDITIONNEMENT à 30 %</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH4 et MHU</td>
+    </tr>
+    <tr>
+      <td>HG7</td>
+      <td>HONORAIRES DE DISPENSATION GRAND CONDITIONNEMENT à 65 %</td>
+      <td></td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Honoraire associé à la prestation PH7</td>
+    </tr>
+    <tr>
+      <td>HN</td>
+      <td>HORS NOMENCLATURE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HS</td>
+      <td>HONORAIRES DE SURVEILLANCE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HTH</td>
+      <td>FORFAIT HEBERGEMENT CURE THERMALE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>HTN</td>
+      <td>Hébergement Temporaire Non médicalisé</td>
+      <td></td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements privés et publics</td>
+    </tr>
+    <tr>
+      <td>HUM</td>
+      <td>PRODUITS ORIGINE HUMAINE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I13</td>
+      <td>Forfait innovation eCLIPs</td>
+      <td></td>
+      <td>24/12/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I14</td>
+      <td>Forfait innovation oncogramme</td>
+      <td></td>
+      <td>17/07/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>I15</td>
+      <td>Forfait innovation Sunrise</td>
+      <td></td>
+      <td>26/06/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>IC</td>
+      <td>CONSULTATION GENERALISTE IVG</td>
+      <td></td>
+      <td>27/02/1990</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Pour les assurées non anonymisées</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+**MISE A JOUR DU28 AOUT 2013**
+
+NORMES B2 et NOEMIE PS - Annexe 10
+5
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+<table>
+	<thead>
+		<tr>
+			<th rowspan="2"><b>CODE</b></th>
+			<th rowspan="2"><b>LIBELLE</b></th>
+			<th rowspan="2"><b>acte de référence</b></th>
+			<th rowspan="2">DATE DEBUT</th>
+			<th rowspan="2">DATE FIN</th>
+			<th rowspan="2">Majorations</th>
+			<th colspan="9"><b>PRESENCE DANS LES NORMES</b></th>
+			<th rowspan="2"><b>Codage</b> <b>Oblig.</b></th>
+			<th rowspan="2"><b>Commentaire</b></th>
+		</tr>
+		<tr>
+			<th>AM</th>
+			<th>CP</th>
+			<th>CS</th>
+			<th>CT</th>
+			<th>ER</th>
+			<th>LB</th>
+			<th>PH</th>
+			<th>TA</th>
+			<th>FR</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>IC0</td>
+			<td>Inlay core RAC 0</td>
+			<td></td>
+			<td>01/04/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>code regroupement CCAM convention dentaire 2018</td>
+		</tr>
+		<tr>
+			<td>IC1</td>
+			<td>Inlay core RAC modéré</td>
+			<td></td>
+			<td>01/04/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>code regroupement CCAM convention dentaire 2018</td>
+		</tr>
+		<tr>
+			<td>ICO*</td>
+			<td>INLAY-CORE</td>
+			<td></td>
+			<td>01/06/2014</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>C</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>ICS</td>
+			<td>CONSULTATION SPECIALISTE IVG</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>ID</td>
+			<td>INDEMNITE DE DEPLACEMENT</td>
+			<td>actes techniques</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IDD</td>
+			<td>INDEM FORFAITAIRE DEPLACEMENT CD</td>
+			<td></td>
+			<td>01/10/2023</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Chirurgiens-dentistes</td>
+		</tr>
+		<tr>
+			<td>IDS</td>
+			<td>Information Dépistage Scolaire</td>
+			<td></td>
+			<td>01/09/2024</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IEP</td>
+			<td>Entrée équipe patient</td>
+			<td></td>
+			<td>01/10/2024</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>code traceur dispositif ESCAP</td>
+		</tr>
+		<tr>
+			<td>IF*</td>
+			<td>INDEMNITE FORFAITAIRE DE DEPLACEMENT</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les spécialités 19, 21 et 36</td>
+		</tr>
+		<tr>
+			<td>IFA</td>
+			<td>INDEMNITE FORFAITAIRE DE DEPLACEMENT POUR AUXILIAIRES MEDICAUX</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IFI</td>
+			<td>INDEMINITES FORFAITAIRES DEPLACEMENT INFIRMIERS</td>
+			<td></td>
+			<td>01/01/2020</td>
+			<td></td>
+			<td>N-F</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Infirmiers</td>
+		</tr>
+		<tr>
+			<td>IFN*</td>
+			<td>INDEMNITE FORFAITAIRE DEPLACEMENT NEUROLOGIQUE</td>
+			<td></td>
+			<td>31/03/2006</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant à la convention des masseurs kinés. Ouverture à la spé 28 au 27/10/2022</td>
+		</tr>
+		<tr>
+			<td>IFO*</td>
+			<td>INDEMNITE FORFAITAIRE DE DEPLACEMENT MK ORTHOPEDIQUE ET RHUMATOLOGIQUE</td>
+			<td></td>
+			<td>31/03/2006</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant à la convention des masseurs kinés</td>
+		</tr>
+		<tr>
+			<td>IFP*</td>
+			<td>INDEMNITE FORFAITAIRE DEPLACEMENT MK PNEUMOLOGIE</td>
+			<td></td>
+			<td>31/03/2006</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant à la convention des masseurs kinés</td>
+		</tr>
+		<tr>
+			<td>IFR*</td>
+			<td>INDEMNITE FORFAITAIRE DEPLACEMENT MK RHUMATISMALE</td>
+			<td></td>
+			<td>31/03/2006</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant à la convention des masseurs kinés</td>
+		</tr>
+		<tr>
+			<td>IFS*</td>
+			<td>INDEMNITE FORFAITAIRE DEPLACEMENT MK DE SORTIE</td>
+			<td></td>
+			<td>01/04/2006</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant à la convention des masseurs kinés. Ouverture à la spé 28 au 27/10/2022</td>
+		</tr>
+		<tr>
+			<td>IFV</td>
+			<td>INDEMNITE FORFAITAIRE DEPLACEMENT MK pers âgée</td>
+			<td>AMK</td>
+			<td>01/11/2019</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant à la convention des masseurs kinés</td>
+		</tr>
+		<tr>
+			<td>IG</td>
+			<td>INTERVENTION IVG</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IGA</td>
+			<td>ANESTHESIE IVG</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IGB</td>
+			<td>INVESTIGATIONS BIOLOGIQUES</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IGM</td>
+			<td>MIFEGYNE - PHARMACIE IVG</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IGP</td>
+			<td>PROSTAGLANDINES - PHARMACIE IVG</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IK</td>
+			<td>INDEMNITES KILOMETRIQUES</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IKM</td>
+			<td>INDEMNITE KILOMETRIQUE MONTAGNE</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IKS</td>
+			<td>INDEMNITE KILOMETRIQUE SPECIALE (SKI-PIED-BAC)</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IMD</td>
+			<td>FORFAIT INTERVENTION DUREE &#x3C;OU= 12H</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IMI</td>
+			<td>Forfait Intervention duree &#x3C;OU= 12H Prive Medic</td>
+			<td></td>
+			<td>16/04/2008</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IMP*</td>
+			<td>IMPLANTOLOGIE</td>
+			<td></td>
+			<td>01/06/2014</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>IMT</td>
+			<td>Consultation initiale MT pour patient avec ALD</td>
+			<td></td>
+			<td>15/05/2023</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>INO*</td>
+			<td>INLAY-ONLAY</td>
+			<td></td>
+			<td>01/06/2014</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>Code regroupement CCAM</td>
+		</tr>
+		<tr>
+			<td>IN1</td>
+			<td>Inlay onlay RAC modéré</td>
+			<td></td>
+			<td>01/04/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>ccam</td>
+			<td>code regroupement CCAM convention dentaire 2018</td>
+		</tr>
+		<tr>
+			<td>INJ</td>
+			<td>Acte d'injection du vaccin Covid19</td>
+			<td></td>
+			<td>15/12/2020</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>IPD</td>
+			<td>FORFAIT INTERVENTION, 24H>DUREE>12H</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IPE</td>
+			<td>Echo pré IVG</td>
+			<td></td>
+			<td>01/04/2016</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés et ville</td>
+		</tr>
+		<tr>
+			<td>IVB</td>
+			<td>VERIFICATION BIOLOGIQUE - IVG</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>IVE</td>
+			<td>VERIFICATION ECHOGRAPHIQUE - IVG</td>
+			<td></td>
+			<td>27/02/1990</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les assurées non anonymisées</td>
+		</tr>
+		<tr>
+			<td>I01</td>
+			<td>Forfait Innovation HIFU</td>
+			<td></td>
+			<td>01/03/2015</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I02</td>
+			<td>Forfait Innovation ARGUS II</td>
+			<td></td>
+			<td>01/03/2015</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I03</td>
+			<td>Forfait innovation ECHOPULSE</td>
+			<td></td>
+			<td>29/06/2017</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I04</td>
+			<td>Forfait innovation METAglut1</td>
+			<td></td>
+			<td>01/04/2018</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I05</td>
+			<td>Forfait Inn RETINA</td>
+			<td></td>
+			<td>01/06/2018</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I07</td>
+			<td>Forfait innovation WISE CRT</td>
+			<td></td>
+			<td>17/02/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I08</td>
+			<td>Forfait innovation dNerva</td>
+			<td></td>
+			<td>01/09/2019</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>I19</td>
+			<td>Forfait Innovation ENDOTEST</td>
+			<td></td>
+			<td>12/02/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Etablissements privés</td>
+		</tr>
+		<tr>
+			<td>JC</td>
+			<td>TELECONSULTATION GENERALISTE IVG</td>
+			<td></td>
+			<td>20/02/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>JCS</td>
+			<td>TELECONSULTATION SPECIALISTE IVG</td>
+			<td></td>
+			<td>20/02/2022</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>K</td>
+			<td>ACTES DE SPECIALITE</td>
+			<td></td>
+			<td></td>
+			<td>CCAM</td>
+			<td>N-F-U</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KA</td>
+			<td>ACTES DE CHIRURGIE D’URGENCE</td>
+			<td></td>
+			<td></td>
+			<td>01/01/2011</td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KB</td>
+			<td>PRELEVEMENT DIRECTEUR DE LABORATOIRE</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KC</td>
+			<td>ACTES DE CHIRURGIE DENTAIRE PAR STOMATOLOGUE</td>
+			<td></td>
+			<td></td>
+			<td>CCAM DENTAIRE</td>
+			<td>N-F-U</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KCC</td>
+			<td>ACTES SPECIFIQUES DES CHIRURGIENS</td>
+			<td></td>
+			<td>06/04/1998</td>
+			<td>31/12/2006</td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KE</td>
+			<td>ACTES D’ECHOGRAPHIE, ECOTOMOGRAPHIE OU DOPPLER</td>
+			<td></td>
+			<td>01/10/1994</td>
+			<td>01/08/2016</td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KGP</td>
+			<td>Rému pharmacien Covid19</td>
+			<td></td>
+			<td>04/01/2021</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>anciennement kit anti grippe (01/09/09 au 31/05/10)</td>
+		</tr>
+		<tr>
+			<td>KMB*</td>
+			<td>PRELEVEMENT PAR PONCTION VEINEUSE DIRECTE POUR UN MEDECIN BIOLOGISTE</td>
+			<td></td>
+			<td>30/12/2008</td>
+			<td></td>
+			<td>N-F</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>avenant 28 à la convention médicale</td>
+		</tr>
+		<tr>
+			<td>KMO</td>
+			<td>ACTE EN K POUR PHONIATRE</td>
+			<td></td>
+			<td>01/01/1998</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KTH</td>
+			<td>PRATIQUES MEDICALES COMPLEMENTAIRES EN CURE THERMALE</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>KXN</td>
+			<td>MONTANT KM TAXI</td>
+			<td></td>
+			<td>01/07/2025</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>Taxis</td>
+		</tr>
+		<tr>
+			<td>LAI</td>
+			<td>LAIT HUMAIN</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>LEN</td>
+			<td>LENTILLES OPTIQUES</td>
+			<td></td>
+			<td>01/01/1992</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>LUN</td>
+			<td>MONTURE OPTIQUE (Titre II - chapitre 2 de la LPP)</td>
+			<td></td>
+			<td>01/01/1992</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>M01</td>
+			<td>MONTURE ADULTE DE CLASSE A</td>
+			<td></td>
+			<td>01/01/2020</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td>Réforme 100% santé</td>
+		</tr>
+		<tr>
+			<td>M02</td>
+			<td>MONTURE ENFANT DE CLASSE A</td>
+			<td></td>
+			<td>01/01/2020</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td>Réforme 100% santé</td>
+		</tr>
+		<tr>
+			<td>M03</td>
+			<td>MONTURE ADULTE DE CLASSE B</td>
+			<td></td>
+			<td>01/01/2020</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td>Réforme 100% santé</td>
+		</tr>
+		<tr>
+			<td>M04</td>
+			<td>MONTURE ENFANT DE CLASSE B</td>
+			<td></td>
+			<td>01/01/2020</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td>Réforme 100% santé</td>
+		</tr>
+		<tr>
+			<td>MA*</td>
+			<td>MAJORATION POUR ASTREINTE</td>
+			<td>actes techniques</td>
+			<td>01/01/2002</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>acte complémentaire, hospit.risque maternité pour les spé 07-02-12</td>
+		</tr>
+		<tr>
+			<td>MAC</td>
+			<td>MATERIELS ET APPAREILS DE CONTENTION (Titre I - chapitre 2 de la LPP)</td>
+			<td></td>
+			<td>01/06/1993</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td>Pharmaciens, fournisseurs, sages femmes et infirmières</td>
+		</tr>
+		<tr>
+			<td>MAD</td>
+			<td>MATERIELS ET APPAREILS DE TRAITEMENTS DIVERS (Titre I - Chapitre 3 de la LPP)</td>
+			<td></td>
+			<td>01/06/1993</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td>lpp</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MAF</td>
+			<td>MAJORATION ANNUELLE FAMILLE</td>
+			<td>CNP</td>
+			<td>04/10/2007</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MAP</td>
+			<td>MAJORATION ANATOMO-CYTO-PATHOLOGIE</td>
+			<td>P</td>
+			<td>08/08/2005</td>
+			<td>01/03/2011</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MAR*</td>
+			<td>MARGE FORFAITAIRE</td>
+			<td>PHI, PHM, PHP, PHU</td>
+			<td>01/07/2007</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Réservé hôpitaux publics, taux 100%</td>
+		</tr>
+		<tr>
+			<td>MAS</td>
+			<td>MAJORATION ANNUELLE DE SYNTHESE</td>
+			<td>CS, GS</td>
+			<td>04/10/2007</td>
+			<td>30/04/2017</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MAU</td>
+			<td>MAJORATION POUR ACTE UNIQUE</td>
+			<td>AMI</td>
+			<td>27/05/2012</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Elle peut être facturée uniquement en association avec 1 AMI 1,00 ou 1 AMI 1,50<br />Elle ne peut pas être facturée en association avec la vaccination antigrippale et son supplément du Titre XVI – chapitre I article 1</td>
+		</tr>
+		<tr>
+			<td>MBB</td>
+			<td>MAJORATION NOURRISSON AVANT 8 JOURS</td>
+			<td>CS, VS, GS, VGS</td>
+			<td>04/10/2007</td>
+			<td>31/10/2017</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MCC*</td>
+			<td>MAJORATION COORDINATION CARDIOLOGUE</td>
+			<td>CSC</td>
+			<td>01/07/2005</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Pour les spécialités 03 et 09</td>
+		</tr>
+		<tr>
+			<td>MCD</td>
+			<td>MAJORATION SPECIFIQUE PDS CLINIQUES DENTISTES</td>
+			<td>ADC ADI ATM AXI C CS D DC END G GS ICO IMP INO K KC PAM PAR PDT PFC PFM PRO RPN SC SCM SDE TDS V VG VGS VS Z</td>
+			<td>01/09/2014</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MCE*</td>
+			<td>MAJORATION CONSULTATION ENDOCRINO</td>
+			<td>CS, GS</td>
+			<td>17/05/2006</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>spécialité 42 exclusivement</td>
+		</tr>
+		<tr>
+			<td>MCG</td>
+			<td>MAJORATION COORDINATION GENERALISTE</td>
+			<td>C, CS, G, GS</td>
+			<td>01/07/2005</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MCI</td>
+			<td>MAJORATION DE COORDINATION ET D'ENVIRONNEMENT DE SOINS INFIRMIER</td>
+			<td>AMI, AIS</td>
+			<td>27/05/2012</td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Elle peut être facturée uniquement en association avec 1 AMI 1,00 ou 1 AIS 3,00<br />Elle ne peut pas être facturée par un laboratoire</td>
+		</tr>
+		<tr>
+			<td>MCS</td>
+			<td>MAJORATION COORDINATION SPECIALISTE</td>
+			<td>CNP, CS, GS</td>
+			<td>01/03/2005</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>MCU</td>
+			<td>MAJORATION CORRESPONDANT URGENCE</td>
+			<td>C, CS, G, GS, V, VG, VGS, VS, CDE, VL, CCX, CCE, CSC, APC, APV, APY, AVY, APU</td>
+			<td>01/01/2018</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Non cumulable avec les majorations applicables dans le cadre de la permanence de soins (CRN, CRM, CRD, CRS, VRM, VRD, VRS)</td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+**MISE A JOUR DU28 AOUT 2013**
+
+NORMES B2 et NOEMIE PS - Annexe 10
+6
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+**MISE A JOUR DU 28 AOUT 2013**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><b>CODE</b></th>
+      <th rowspan="2"><b>LIBELLE</b></th>
+      <th rowspan="2"><b>acte de référence</b></th>
+      <th rowspan="2">DATE DEBUT</th>
+      <th rowspan="2">DATE FIN</th>
+      <th rowspan="2">Majorations</th>
+      <th colspan="9"><b>PRESENCE DANS LES NORMES</b></th>
+      <th rowspan="2"><b>Codage</b> <b>Oblig.</b></th>
+      <th rowspan="2"><b>Commentaire</b></th>
+    </tr>
+    <tr>
+      <th>AM</th>
+      <th>CP</th>
+      <th colspan="2">CS</th>
+      <th>CT</th>
+      <th>ER</th>
+      <th>LB</th>
+      <th>PH</th>
+      <th>TA</th>
+      <th>FR</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>T3</th>
+      <th>T4</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MCY</td>
+      <td>Consultation psychiatre rapide suite orientation SAS ou MTT</td>
+      <td></td>
+      <td>01/08/2023</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Spé 17, 33 et 75</td>
+    </tr>
+    <tr>
+      <td>MCX</td>
+      <td>Majoration Consultation Complexe</td>
+      <td>C, CS, G, GS, V, VG, VGS, VS, CNP, VNP</td>
+      <td>01/11/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Le code MCX transmis à l'Assurance Maladie, correspond à une agrégation des codes suivants :<br />MSP Majoration suivi Prématurés<br />MPS Majoration pour Prise en charge de la Stérilité<br />POG Pathologie Oculaire Grave<br />PEG Pathologie Endocrinienne de la Grossesse<br />MCT Majoration patients Cérébrolésés ou Traumatisés<br />SLA Séquelles Lourdes AVC<br />MCA majoration Consultation Asthme déstabilisé<br />PPR Prise en charge Polyarthrite Rhumatoïde<br />PPN Prise en charge Pathologies Neurologiques<br />TCA Trouble du Comportement Alimentaire<br />MPT Majoration de Prise en charge de la Tuberculose<br />SGE Scoliose Grave de l'Enfant<br />PTG Première consultation Thrombophilie Grave<br />MMF Majoration prise en charge Mycose ou Fibrose pulmonaire</td>
+    </tr>
+    <tr>
+      <td>MD*</td>
+      <td>MAJORATION de DEPLACEMENT</td>
+      <td>K, V, VAC, VG, VGS, VL, VS</td>
+      <td>01/10/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>En norme CP, pour l'HAD uniquement</td>
+    </tr>
+    <tr>
+      <td>MDD*</td>
+      <td>MAJORATION de DEPLACEMENT de DIMANCHE et FERIE</td>
+      <td>K, V, VG, VGS,VS</td>
+      <td>01/10/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>En norme CP, pour l'HAD uniquement</td>
+    </tr>
+    <tr>
+      <td>MDE*</td>
+      <td>MAJORATION de DEPLACEMENT POUR ENVIRONNEMENT</td>
+      <td>V</td>
+      <td>01/10/2002</td>
+      <td>10/02/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>En norme CP, pour l'HAD uniquement</td>
+    </tr>
+    <tr>
+      <td>MDI*</td>
+      <td>MAJORATION de DEPLACEMENT de MI-NUIT 0 à 6 h</td>
+      <td>K, V, VG, VGS,VS</td>
+      <td>01/10/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>En norme CP, pour l'HAD uniquement. Ouvert à toutes les spécialités médecins au 01/04/2022</td>
+    </tr>
+    <tr>
+      <td>MDM</td>
+      <td>MAJORATION DE DEPLACEMENT EN MONTAGNE</td>
+      <td>VG, VL, VSP, VS, V, IMT, CCX, CCE, PPS, RDV</td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MDN*</td>
+      <td>MAJORATION de DEPLACEMENT de NUIT</td>
+      <td>K, V, VG, VGS,VS</td>
+      <td>01/10/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>En norme CP, pour l'HAD uniquement</td>
+    </tr>
+    <tr>
+      <td>MEG</td>
+      <td>Majoration Enfant Généraliste</td>
+      <td>C, CS, V, VS,G,GS,VG,VGS</td>
+      <td>01/05/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Remplace la MNO et MGE</td>
+    </tr>
+    <tr>
+      <td>MEO</td>
+      <td>MAJORATION ENFANT ORTHOPHONIE</td>
+      <td>AMO, TMO</td>
+      <td>01/07/2019</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Majoration facturable pour tous les actes de rééducation AMO réalisés jusqu'à la date anniversaire des 3 ans de l'enfant</td>
+    </tr>
+    <tr>
+      <td>MEP</td>
+      <td>Majoration enfant Pédiatre</td>
+      <td>C, CS, V, VS</td>
+      <td>01/05/2017</td>
+      <td>21/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Remplace la MPE</td>
+    </tr>
+    <tr>
+      <td>MG*</td>
+      <td>MAJORATION POUR GARDE</td>
+      <td>actes techniques</td>
+      <td>01/01/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>acte complémentaire, hospit.risque maternité pour les spé 07-02-12</td>
+    </tr>
+    <tr>
+      <td>MGE*</td>
+      <td>MAJORATION GENERALISTE ENFANT</td>
+      <td>C, CA, CS, G, GS, V, VG, VGS</td>
+      <td>17/05/2006</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>spécialité 01 exclusivement</td>
+    </tr>
+    <tr>
+      <td>MGM</td>
+      <td>MAJORATION GYNECO MEDICALE</td>
+      <td>CS, VS, TC</td>
+      <td>01/04/2022</td>
+      <td>21/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MHP</td>
+      <td>Majoration dimanche et nuit hors urgence</td>
+      <td>VS, VNP, VL, VGS, VG, V, TCS, TCG, TC, TCH, TCK, KMO, JC, IVE, IPE, IG, IC, GS, G, FHV, FFV, FFC, CSC, CS, CNP, CDE, CCX, CCE, C, AVY, APY, APV, APU, APC, CEG, CEH, CEK, VAC et VSP</td>
+      <td>22/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MHU</td>
+      <td>MEDICAMENT HOMEOPATHIQUE UNITAIRE (à 35 %)</td>
+      <td></td>
+      <td>19/01/2004</td>
+      <td>31/12/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MIC*</td>
+      <td>Majoration consultation longue et complexe par MT d’un patient insuffisant cardiaque après hospitalisation pour décompensation</td>
+      <td>C, CNP, CS, G, GS, V, VG, VGS, VNP, VS</td>
+      <td>01/07/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Elle n’est pas cumulable avec la MSH</td>
+    </tr>
+    <tr>
+      <td>MIE</td>
+      <td>MAJORATION INFIRMIER ENFANT</td>
+      <td>AMI, AIS, DI, IFI, TLL, TLD</td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Infirmiers</td>
+    </tr>
+    <tr>
+      <td>MIP</td>
+      <td>Majoration infirmier pratique avancée</td>
+      <td>PAI</td>
+      <td>10/04/2020</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Infirmiers, centres de santé</td>
+    </tr>
+    <tr>
+      <td>MK1</td>
+      <td>CURES THERMALES<br />FORFAIT KINE 18 séances collectives</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MK2</td>
+      <td>CURES THERMALES<br />FORFAIT KINE 18 séances individuelles</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MK3</td>
+      <td>CURES THERMALES<br />FORFAIT KINE 9 séances collectives</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MK4</td>
+      <td>CURES THERMALES FORFAIT KINE (9 séances individuelles)</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MM</td>
+      <td>MAJORATION MILIEU DE NUIT</td>
+      <td>AIS,AMI,C, CG, CS, G, GS, K,KC,KE,SF,SFI, V, VG, ,Z,SP</td>
+      <td>01/02/2002</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MNO</td>
+      <td>MAJORATION NOURISSON GENERALISTE</td>
+      <td>C, CS, G, GS, V, VG, VGS, VS</td>
+      <td>01/03/2005</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MNP</td>
+      <td>MAJORATION NOURISSON PEDIATRE</td>
+      <td>CS, GS</td>
+      <td>01/03/2005</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MOP</td>
+      <td>MAJORATION PERSONNES AGEES</td>
+      <td>C, CS, G, GS, CNP, CSC, CDE, CCX, U03, U45, APC, APY, APU, TCG, TC, C0.8, C0.4, C0.2, HS1, HS0.8, HS0.4, HS0.2</td>
+      <td>01/11/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements publics et privés, bénéficiaires à compter de 80 ans<br />Ouvert aux médecins libéraux au 01/01/2024</td>
+    </tr>
+    <tr>
+      <td>MP</td>
+      <td>MAJORATION PSY ENFANT</td>
+      <td>CNP, VNP, TC</td>
+      <td>01/04/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MPI</td>
+      <td>MAJORATION PHARMACIE DES ILES</td>
+      <td>PH7-PH4-PMR</td>
+      <td>01/01/1994</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MPC*</td>
+      <td>MAJORATION PROVISOIRE CLINICIENS</td>
+      <td>CNP, CS, CSC, GS</td>
+      <td>27/09/2003</td>
+      <td>21/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MPE</td>
+      <td>MAJORATION PEDIATRE ENFANT</td>
+      <td>C, CS, G, GS, V, VG, VGS, VS</td>
+      <td>26/03/2012</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Elle n’est pas cumulable avec MNP, FPE et MBB<br />Elle est cumulable avec MPC (MPJ)</td>
+    </tr>
+    <tr>
+      <td>MPF</td>
+      <td>MAJORATION PREMIERE CONSULTATION FAMILLE</td>
+      <td>CNP</td>
+      <td>04/10/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MPJ</td>
+      <td>MAJORATION PROVISOIRE CLINICIENS POUR - 16ANS</td>
+      <td>CNP, CS, CSC, GS</td>
+      <td>01/03/2005</td>
+      <td>30/06/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>MPC élargie aux assurés de -16 ans</td>
+    </tr>
+    <tr>
+      <td>MPP*</td>
+      <td>Majoration de suivi des enfants grands prématurés ou atteints de pathologie congénitale grave</td>
+      <td>C, CS, V, VS, G, GS, VG, VGS</td>
+      <td>01/07/2013</td>
+      <td>31/10/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Elle est cumulable le cas échéant avec les majorations FPE, MNP, MPE, MBB et MAS.</td>
+    </tr>
+    <tr>
+      <td>MRT</td>
+      <td>Majoration MT régulation</td>
+      <td>C, CS, V, VS, G, GS, VG, VGS, CNP, VNP</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Majoration médecin traitant régulation</td>
+    </tr>
+    <tr>
+      <td>MS</td>
+      <td>Majoration visites domicile entre J0 et J2</td>
+      <td>SF16,5, SF23</td>
+      <td>29/09/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MS1</td>
+      <td>OPTIQUE CLASSE A, SUPPLEMENT POUR MONTURE DE LUNETES A COQUE - MOINS DE 6 ANS</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>MS2</td>
+      <td>OPTIQUE CLASSE B, SUPPLEMENT POUR MONTURE DE LUNETES A COQUE - MOINS DE 6 ANS</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>MSF</td>
+      <td>Majoration sage-femme</td>
+      <td>C,V</td>
+      <td>10/02/2019</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Majoration conventionnelle applicable aux consultations et aux visites</td>
+    </tr>
+    <tr>
+      <td>MSH*</td>
+      <td>Majoration de suivi des enfants grands prématurés ou atteints de pathologie congénitale grave</td>
+      <td>C, CNP, CS, CSC, G, GS, V, VG, VGS, VNP, VS</td>
+      <td>01/07/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>La majoration MSH ne se cumule pas avec la majoration MIC</td>
+    </tr>
+    <tr>
+      <td>MSO</td>
+      <td>Orthophonie – Majoration MSO</td>
+      <td>AMO</td>
+      <td>23/02/2026</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MSQ</td>
+      <td>Délivrance masque</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MTA*</td>
+      <td>MAJORATION CONSULTATION APPAREILLAGE</td>
+      <td>CS, GS</td>
+      <td>17/05/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>spécialité 31 exclusivement</td>
+    </tr>
+    <tr>
+      <td>MTC</td>
+      <td>MAJORATION TRANSITOIRE CHIRURGIENS</td>
+      <td></td>
+      <td>01/10/2004</td>
+      <td>31/12/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MTD*</td>
+      <td>ACCES DIRECT SPECIFIQUE (MÉDECIN TRAITANT)</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>MTH*</td>
+      <td>HORS RESIDENCE HABITUEL (MÉDECIN TRAITANT)</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>MTI</td>
+      <td>Dépistage IST à domicile : acte d’analyse du laboratoire</td>
+      <td></td>
+      <td>15/11/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MTJ</td>
+      <td>Majoration spécifique moins de 16 ans MAYOTTE</td>
+      <td>CS, VS, CNP, VNP</td>
+      <td>01/08/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Spécifique CSS Mayotte</td>
+    </tr>
+    <tr>
+      <td>MTN*</td>
+      <td>NOUVEAU MÉDECIN TRAITANT</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>MTO*</td>
+      <td>PATIENT ORIENTE PAR LE MÉDECIN TRAITANT</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>MTR*</td>
+      <td>MÉDECIN TRAITANT REMPLACE</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>MTS</td>
+      <td>Majoration Transitoire Spécifique</td>
+      <td>CS, VS, CNP, VNP</td>
+      <td>30/01/2006</td>
+      <td>21/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Spécifique CSS Mayotte</td>
+    </tr>
+    <tr>
+      <td>MTU*</td>
+      <td>URGENCE (MÉDECIN TRAITANT)</td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+  </tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10 7
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+**MISE A JOUR DU28 AOUT 2013**
+
+<table>
+<thead>
+<tr>
+<th rowspan="2"><b>CODE</b></th>
+<th rowspan="2"><b>LIBELLE</b></th>
+<th rowspan="2"><b>acte de référence</b></th>
+<th rowspan="2">DATE DEBUT</th>
+<th rowspan="2">DATE FIN</th>
+<th rowspan="2">Majorations</th>
+<th colspan="9"><b>PRESENCE DANS LES NORMES</b></th>
+<th rowspan="2"><b>Codage</b> <b>Oblig.</b></th>
+<th rowspan="2"><b>Commentaire</b></th>
+</tr>
+<tr>
+<th>AM</th>
+<th>CP</th>
+<th>CS</th>
+<th>CT</th>
+<th>ER</th>
+<th>LB</th>
+<th>PH</th>
+<th>TA</th>
+<th>FR</th>
+</tr>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>T3</th>
+<th>T4</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MTX</td>
+<td>Majoration consultation Très Complexe</td>
+<td>C, CS, V, VS, G, GS, VG, VGS, CNP, VNP</td>
+<td>01/11/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Le code MTX transmis à l'Assurance Maladie, correspond à une agrégation des codes suivants :<br />MIS Majoration pour information initiale et mise en place de la stratégie thérapeutique<br />PIV Prise en charge infection VIH<br />MPB Majoration pour traitement par biothérapie anti-TNF alpha<br />MAV maladie Atteinte Viscérale<br />IGR Insuffisance Greffe Rénale<br />MMM Majoration pour prise en charge Malformation congénitale et Maladie grave du foetus<br />CPM Consultation Pédiatrique Malformation</td>
+</tr>
+<tr>
+<td>MU</td>
+<td>MAJORATION D'URGENCE</td>
+<td>ACO, ADA, ADC, ATM, CAM, V, VG, VGS, VS</td>
+<td>01/09/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MUT</td>
+<td>MAJORATION URGENCE MT</td>
+<td>C, CS, V, VS, G, GS, VG, VGS, CNP,<br />VNP,CDE,VL,CCX,<br />CCE,CSC,COE</td>
+<td>01/01/2018</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Majoration d'urgence du médecin traitant</td>
+</tr>
+<tr>
+<td>MVR</td>
+<td>Majoration visite délai court SAS</td>
+<td>VG, V, VS, CEH, CEK, CEG, MCY</td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>MVU</td>
+<td>Majoration urgence plus de 75 ans ambulance ou Samu</td>
+<td>G, U03, U45, CS</td>
+<td>22/12/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NFE</td>
+<td>Nouveau Forfait Enfant</td>
+<td>C, CS, V, VS</td>
+<td>01/05/2017</td>
+<td>21/12/2024</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Remplace la MNP</td>
+</tr>
+<tr>
+<td>NFP</td>
+<td>Nouveau Forfait Pédiatrique</td>
+<td>C, CS, V, VS</td>
+<td>01/05/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Remplace la FPE</td>
+</tr>
+<tr>
+<td>NMI</td>
+<td>MK – Rééduc Affections neuromusculaires ou rhumatologiques inflammatoires</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>NN1</td>
+<td>SUPPLEMENT NEONATOLOGIE 1</td>
+<td>GHS</td>
+<td>15/02/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NN2</td>
+<td>SUPPLEMENT NEONATOLOGIE 2</td>
+<td>GHS</td>
+<td>15/02/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NN3</td>
+<td>SUPPLEMENT NEONATOLOGIE 3</td>
+<td>GHS</td>
+<td>15/02/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NUT</td>
+<td>ALIMENT DIETETIQUE</td>
+<td></td>
+<td>01/01/2002</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>NXN</td>
+<td>Trajet taxi réalisé de nuit</td>
+<td></td>
+<td>01/07/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>Taxis</td>
+</tr>
+<tr>
+<td>NXF</td>
+<td>Trajet taxi réalisé un dimanche ou un jour férié</td>
+<td></td>
+<td>01/07/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>Taxis</td>
+</tr>
+<tr>
+<td>OAT</td>
+<td>Orientation Accomp. Tabacologue</td>
+<td></td>
+<td>30/11/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>OEP</td>
+<td>Sortie équipe patient</td>
+<td></td>
+<td>01/10/2024</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>code tracer dispositif ESCAP</td>
+</tr>
+<tr>
+<td>OME*</td>
+<td>FORFAIT MONTURE MOINS DE 18 ANS CMU</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>ONC</td>
+<td>Supplément Oncologie</td>
+<td></td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>OP1*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OP2*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OP3*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OP4*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/01/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OP5*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/05/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OP6*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/05/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OP7*</td>
+<td>FORFAIT OPTIQUE -No7 MULTIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OPM*</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) AVEC FORFAIT CMU</td>
+<td></td>
+<td>01/05/2000</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OPT</td>
+<td>OPTIQUE (Titre II - chapitre 2 de la LPP) hors verres et montures.</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>ORP</td>
+<td>ORTHOPROTHESES (Titre II - chapitre 7 de la LPP)</td>
+<td></td>
+<td>01/06/1993</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ORT</td>
+<td>ORTHOPEDIE DENTO-FACIALE PAR STOMATOLOGUE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>OTO</td>
+<td>Délivrance autotests en pharmacie</td>
+<td></td>
+<td>01/09/2022</td>
+<td>01/03/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Pharmaciens</td>
+</tr>
+<tr>
+<td>OV1*</td>
+<td>FORFAIT OPTIQUE ENFANT-No1UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV2*</td>
+<td>FORFAIT OPTIQUE ENFANT-No2UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV3*</td>
+<td>FORFAIT OPTIQUE ENFANT-No3UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV4*</td>
+<td>FORFAIT OPTIQUE ENFANT-No4UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV5*</td>
+<td>FORFAIT OPTIQUE ENFANT-No5UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV6*</td>
+<td>FORFAIT OPTIQUE ENFANT-No6UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV7*</td>
+<td>FORFAIT OPTIQUE ENFANT-No7UNIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV8*</td>
+<td>FORFAIT OPTIQUE ENFANT-No8MULTIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OV9*</td>
+<td>FORFAIT OPTIQUE ENFANT-No9MULTIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OVA*</td>
+<td>FORFAIT OPTIQUE ENFANT-A-MULTIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>OVB*</td>
+<td>FORFAIT OPTIQUE ENFANT-B-MULTIFOCAUX (CMU)</td>
+<td></td>
+<td>01/07/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td>forfait intégrant la part obligatoire et la part complémentaire,<br />y compris le TM RO+RC</td>
+</tr>
+<tr>
+<td>P</td>
+<td>ACTES ANATOMO-CYTO-PATHOLOGIE</td>
+<td></td>
+<td></td>
+<td>01/03/2011</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>P1D</td>
+<td>Prothèse auditive panier 1 - reste à charge zéro - oreille droite</td>
+<td></td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>P1G</td>
+<td>Prothèse auditive panier 1 - reste à charge zéro - oreille gauche</td>
+<td></td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>P2D</td>
+<td>Prothèse auditive panier 2 - avec reste à charge - oreille droite</td>
+<td></td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>P2G</td>
+<td>Prothèse auditive panier 2 - avec reste à charge - oreille gauche</td>
+<td></td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>PA</td>
+<td>ORTHESES (Titre II - Chapitre 1 de la LPP)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PA0</td>
+<td>Prothèse amovible RAC 0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>PA1</td>
+<td>Prothèse amovible RAC modéré</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>PAE</td>
+<td>PARTICIPATION ASSURE POUR SOINS EXTERNES EN ÉTABLISSEMENT<br />ex DG</td>
+<td></td>
+<td>01/09/2006</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PAH</td>
+<td>PARTICIPATION ASSURE POUR HOSPITALISATION EN ÉTABLISSEMENT<br />ex DG</td>
+<td></td>
+<td>01/09/2006</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PAI</td>
+<td>Pratique Avancée infirmier</td>
+<td></td>
+<td>10/04/2020</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Infirmiers, centres de santé, établissements publics</td>
+</tr>
+<tr>
+<td>PAJ</td>
+<td>PARTICIPATION ASSURE POUR HOSPITALISATION POUR BENEF ALSACE<br />MOSELLE</td>
+<td></td>
+<td>01/09/2006</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PAL</td>
+<td>PARTICIPATION ASSURE POUR SOINS EXTERNES POUR BENEF ALSACE<br />MOSELLE</td>
+<td></td>
+<td>01/09/2006</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PAM*</td>
+<td>PROTHESE AMOVIBLE DEFINITIVE METALLIQUE</td>
+<td></td>
+<td>01/06/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>Code regroupement CCAM</td>
+</tr>
+<tr>
+<td>PAN</td>
+<td>PANSEMENTS (Titre I - Chapitre 4 de la LPP)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10
+8
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><b>CODE</b></th>
+      <th rowspan="2"><b>LIBELLE</b></th>
+      <th rowspan="2"><b>acte de référence</b></th>
+      <th rowspan="2">DATE DEBUT</th>
+      <th rowspan="2">DATE FIN</th>
+      <th rowspan="2">Majorations</th>
+      <th colspan="9"><b>PRESENCE DANS LES NORMES</b></th>
+      <th rowspan="2">Codage <b>Oblig.</b></th>
+      <th rowspan="2"><b>Commentaire</b></th>
+    </tr>
+    <tr>
+      <th>AM</th>
+      <th>CP</th>
+      <th>CS</th>
+      <th>CT</th>
+      <th>ER</th>
+      <th>LB</th>
+      <th>PH</th>
+      <th>TA</th>
+      <th>FR</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PAR*</td>
+      <td>PARODOTONLOGIE</td>
+      <td></td>
+      <td>01/06/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Code regroupement CCAM</td>
+    </tr>
+    <tr>
+      <td>PAS*</td>
+      <td>PARTICIPATION ASSURE SEJOUR</td>
+      <td></td>
+      <td>01/09/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Prestation réservée aux établissements publics pour transmettre en <b><b>phase transitoire</b></b> les participations "assuré 18€", en séjours et soins externes,<br /><b>uniquement</b> pour les bénéficiaires du Régime SNCF.</td>
+    </tr>
+    <tr>
+      <td>PAT</td>
+      <td>PARTICIPATION ASSURE TRANSITOIRE</td>
+      <td></td>
+      <td>01/09/2006</td>
+      <td>30/09/2007</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PAU*</td>
+      <td>PROTHESE AUDITIVE (Titre II - Chapitre 3 de la LPP)</td>
+      <td></td>
+      <td></td>
+      <td>31/12/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>prestation utilisable dans le dispositif CMU<br />dans ce cas RO+RC</td>
+    </tr>
+    <tr>
+      <td>PAV</td>
+      <td>PARTICIPATION ASSURE POUR SOINS DE VILLE ET SOINS EXTERNES</td>
+      <td>actes médecins</td>
+      <td>01/01/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PAZ</td>
+      <td>PROTHESE AUDITIVE RAC ZERO</td>
+      <td></td>
+      <td>01/01/2019</td>
+      <td>31/12/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>PB</td>
+      <td>PRELEVEMENT SANGUIN PAR DIRECTEUR DE LABORATOIRE NON MEDECIN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PC1</td>
+      <td>Forfait pathologie chronique 1</td>
+      <td></td>
+      <td>01/07/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements MCO (publics et privés)</td>
+    </tr>
+    <tr>
+      <td>PC2</td>
+      <td>Forfait pathologie chronique 2</td>
+      <td></td>
+      <td>01/07/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements MCO (publics et privés)</td>
+    </tr>
+    <tr>
+      <td>PDM</td>
+      <td>DISPOSITIF MEDICAL</td>
+      <td></td>
+      <td>01/06/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PDT*</td>
+      <td>PROTHESE DENTAIRE PROVISOIRE</td>
+      <td></td>
+      <td>01/06/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Code regroupement CCAM</td>
+    </tr>
+    <tr>
+      <td>PE1</td>
+      <td>Supplément prise en charge Urgence</td>
+      <td>FU0, FU1</td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Le département de Mayotte n'est pas concerné</td>
+    </tr>
+    <tr>
+      <td>PE2</td>
+      <td>Supplément prise en charge Urgence</td>
+      <td>FU0, FU1</td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Le département de Mayotte n'est pas concerné</td>
+    </tr>
+    <tr>
+      <td>PEA</td>
+      <td>Supplément taxi péage et voie d'eau</td>
+      <td></td>
+      <td>01/07/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>Taxis</td>
+    </tr>
+    <tr>
+      <td>PEE</td>
+      <td>PHARMACIE DEPISTAGE INFECTION URINAIRE</td>
+      <td></td>
+      <td>07/05/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PEX</td>
+      <td>PROTHESE EXTERNE NON ORTHOPEDIQUE (Titre II - Chapitre 4 de la LPP)</td>
+      <td></td>
+      <td>01/06/1993</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PF0</td>
+      <td>PROTHESE FIXE RAC 0</td>
+      <td></td>
+      <td>01/04/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>PF1</td>
+      <td>PROTHESE FIXE RAC MODERE</td>
+      <td></td>
+      <td>01/04/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>PFA</td>
+      <td>PROTOCOLE FRANCO ALGERIEN</td>
+      <td></td>
+      <td>01/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements publics et privés</td>
+    </tr>
+    <tr>
+      <td>PFC*</td>
+      <td>PROTHÈSE FIXE CÉRAMIQUE</td>
+      <td></td>
+      <td>01/06/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Code regroupement CCAM</td>
+    </tr>
+    <tr>
+      <td>PFM*</td>
+      <td>PROTHESE DENTAIRE FIXE METALLIQUE</td>
+      <td></td>
+      <td>01/06/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Code regroupement CCAM</td>
+    </tr>
+    <tr>
+      <td>PH1</td>
+      <td>PHARMACIE 100%</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>ph. CIP</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PH2</td>
+      <td>PHARMACIE 15%</td>
+      <td></td>
+      <td>01/01/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>ph. CIP</td>
+      <td>article 28bis PLFSS 2006</td>
+    </tr>
+    <tr>
+      <td>PH4</td>
+      <td>PHARMACIE 30%</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>ph. CIP</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PH7</td>
+      <td>PHARMACIE 65%</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>ph. CIP</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PH8</td>
+      <td>PHARMACIE FACTUREE EN SUS DU GHS</td>
+      <td>GHS, SNS, GHT, Dxx, Sex, PJ</td>
+      <td>27/05/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PH9</td>
+      <td>Pharmacie en sus du GMT Molécules Onéreuses</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHA</td>
+      <td>FORFAIT PHARMACIE ACCOUCHEMENT A DOMICILE</td>
+      <td></td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHD*</td>
+      <td>PHARMACIE HOSPITALIERE DEROGATOIRE</td>
+      <td></td>
+      <td>01/07/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Codage facultatif</td>
+      <td>Etablissements publics et privés, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHH*</td>
+      <td>PHARMACIE HOSPITALIERE RETROCEDEE (taux 100%)</td>
+      <td></td>
+      <td>10/10/2000</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ph. UCD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHI*</td>
+      <td>MEDICAMENT AVEC AUTORISATION D'IMPORTATION</td>
+      <td></td>
+      <td>01/07/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Codage facultatif</td>
+      <td>Etablissements publics et privés, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHJ</td>
+      <td>FORFAIT PHARMACEUTIQUE JOURNALIER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHQ*</td>
+      <td>PHARMACIE HOSPITALIERE RETROCEDEE (taux 30%)</td>
+      <td></td>
+      <td>10/10/2000</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ph. UCD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHM*</td>
+      <td>PREPARATION HOSPITALIERE MAGISTRALE</td>
+      <td></td>
+      <td>01/07/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Codage facultatif</td>
+      <td>Etablissements publics et privés, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHN</td>
+      <td>PHARMACIE NON REMBOURSABLE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHP*</td>
+      <td>PREPARATION HOSPITALIERE</td>
+      <td></td>
+      <td>01/07/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Codage facultatif</td>
+      <td>Etablissements publics et privés, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHS*</td>
+      <td>PHARMACIE HOSPITALIERE RETROCEDEE (taux 65%)</td>
+      <td></td>
+      <td>10/10/2000</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ph. UCD</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PHT*</td>
+      <td>PHARMACIE HOSPITALIERE MMH</td>
+      <td></td>
+      <td>15/12/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>pas de codage</td>
+      <td>Etablissements publics et privés, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHU*</td>
+      <td>MEDICAMENT AVEC AUTORISATION TEMPORAIRE D'UTILISATION NOMINATIVE</td>
+      <td></td>
+      <td>01/07/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Codage facultatif</td>
+      <td>Etablissements publics et privés, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHX</td>
+      <td>Pharmacie sous ATU séjour</td>
+      <td></td>
+      <td>01/12/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ph. UCD</td>
+      <td>Réservé étab privés MCOo et étab publics FIDES volet séjour, taux 100%</td>
+    </tr>
+    <tr>
+      <td>PHY</td>
+      <td>Pharmacie en AAC et AAP séjour SSR</td>
+      <td></td>
+      <td>01/01/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PII</td>
+      <td>IMPLANT INERTE (Titre III - Chapitres 1, 2 et 3 de la LPP)</td>
+      <td>GHS, SNS, GHT, Dxx, Sex, PJ</td>
+      <td>01/06/1993</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PIL</td>
+      <td>Prothèses auditives - Piles</td>
+      <td></td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PIO</td>
+      <td>PROCESSEUR POUR IMPLANT OSTEO-INTEGRE</td>
+      <td></td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PJ</td>
+      <td>FRAIS DE SEJOUR</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PJF</td>
+      <td>Prix de journée FIDES ALM</td>
+      <td></td>
+      <td>01/11/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PJC</td>
+      <td>TICKET MODERATEUR RELATIF AUX FRAIS DE SEJOUR</td>
+      <td></td>
+      <td>01/01/1996</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PJE</td>
+      <td>FRAIS DE SEJOUR IME</td>
+      <td></td>
+      <td>01/01/2009</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PJL</td>
+      <td>PJ régime local</td>
+      <td></td>
+      <td>01/05/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements publics ex DG non démarré volet FIDES séjour</td>
+    </tr>
+    <tr>
+      <td>PLL</td>
+      <td>MK - Rééduc Soins palliatifs</td>
+      <td></td>
+      <td>22/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+    </tr>
+    <tr>
+      <td>PM2</td>
+      <td>PREPARATION MAGISTRALE ALLOPATHIQUE 15%</td>
+      <td></td>
+      <td>02/12/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PM4</td>
+      <td>PREPARATION MAGISTRALE ALLOPATHIQUE 35%</td>
+      <td></td>
+      <td>02/12/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PME</td>
+      <td>IMPLANT MU PAR ELECTRICITE (Titre III - Chapitre 4 de la LPP)</td>
+      <td>GHS, SNS, GHT, Dxx, Sex, PJ</td>
+      <td>01/06/1993</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PMH</td>
+      <td>PREPARATION MAGISTRALE HOMEOPATHIQUE</td>
+      <td></td>
+      <td>19/01/2004</td>
+      <td>31/12/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PML</td>
+      <td>PROTECTIONS MENSTRUELLES</td>
+      <td></td>
+      <td>01/09/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PMO*</td>
+      <td>PRESCRIPTION ETABLIE PAR MEDECIN CORRESPONDANT DANS LE PARCOURS DE SOINS</td>
+      <td></td>
+      <td>01/01/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>PMP*</td>
+      <td>PRESCRIPTION ETABLIE DANS UNE AUTRE SITUATION DU PARCOURS DE SOINS</td>
+      <td></td>
+      <td>01/01/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>PMR</td>
+      <td>PREPARATION MAGISTRALE</td>
+      <td></td>
+      <td>01/01/1994</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PMS</td>
+      <td>MAJORATION PMSI</td>
+      <td></td>
+      <td>01/07/1998</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PMT*</td>
+      <td>PRESCRIPTION ETABLIE PAR LE MEDECIN TRAITANT</td>
+      <td></td>
+      <td>01/01/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Acte informatif, non retourné en NOEMIE PS</td>
+    </tr>
+    <tr>
+      <td>PO1</td>
+      <td>PRELEVEMENT ORGANE 1</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO2</td>
+      <td>PRELEVEMENT ORGANE 2</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO3</td>
+      <td>PRELEVEMENT ORGANE 3</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO4</td>
+      <td>PRELEVEMENT ORGANE 4</td>
+      <td>GHS</td>
+      <td>01/03/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO5</td>
+      <td>PRELEVEMENT ORGANE 5</td>
+      <td>GHS</td>
+      <td>01/03/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO6</td>
+      <td>PRELEVEMENT ORGANE 6</td>
+      <td>GHS</td>
+      <td>01/03/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO7</td>
+      <td>PRELEVEMENT ORGANE 7</td>
+      <td>GHS</td>
+      <td>01/03/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO8</td>
+      <td>PRELEVEMENT ORGANE 8</td>
+      <td>GHS</td>
+      <td>01/03/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PO9</td>
+      <td>PRELEVEMENT ORGANE 9</td>
+      <td>GHS</td>
+      <td>01/03/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>POA</td>
+      <td>PRELEVEMENT D'ORGANE A</td>
+      <td>GHS</td>
+      <td>01/03/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr style="background-color: yellow;">
+      <td>POB</td>
+      <td>Prélèvement d'organe sous CRN</td>
+      <td></td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>POC</td>
+      <td>PROTHESE OCULAIRE ET FACIALE (Titre II - Chapitre 5 de la LPP)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>POD*</td>
+      <td>ACTE DE PEDICURE-PODOLOGUE ( diabétique)</td>
+      <td></td>
+      <td>24/05/2008</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Acte effectué au cabinet sans majoration nuit ou férié</td>
+    </tr>
+    <tr style="background-color: yellow;">
+      <td>POE</td>
+      <td>PRELEVEMENT ORGANE POSE CRN</td>
+      <td></td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>POT</td>
+      <td></td>
+      <td></td>
+      <td>07/03/2024</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PPH*</td>
+      <td>PLAN PERSONNALISE DE SANTE PHARMACIE</td>
+      <td></td>
+      <td>01/07/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>projets pilotes PAERPA<br />Personnes âgées en risque de perte d'autonomie</td>
+    </tr>
+    <tr>
+      <td>PPI*</td>
+      <td>PREPARATION PHARMACEUTIQUE INDIVIDUALISEE (allergènes)</td>
+      <td></td>
+      <td>01/05/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>le code PPI inclut les produits et les frais d'envoi</td>
+    </tr>
+    <tr>
+      <td>PPP</td>
+      <td>PRESTATION PARTICULIERE ET PANDEMIE</td>
+      <td></td>
+      <td>01/09/2010</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PPS*</td>
+      <td>PLAN PERSONNALISE DE SANTE</td>
+      <td></td>
+      <td>01/01/2014</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>projets pilotes PAERPA<br />Personnes âgées en risque de perte d'autonomie</td>
+    </tr>
+    <tr>
+      <td>PRI</td>
+      <td>Prescription renforcée invalide</td>
+      <td></td>
+      <td>01/06/2024</td>
+      <td>01/06/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PRO</td>
+      <td>PROTHESE DENTAIRE PAR STOMATOLOGUE</td>
+      <td></td>
+      <td></td>
+      <td>CCAM DENTAIRE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PRR</td>
+      <td>Prescription renforcée remboursable</td>
+      <td></td>
+      <td>01/02/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PRV</td>
+      <td>Délivrance gratuite de préservatifs</td>
+      <td></td>
+      <td>01/01/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+**MISE A JOUR DU 28 AOUT 2013**
+
+NORMES B2 et NOEMIE PS - Annexe 10 9
+
+CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO
+MISE A JOUR MARS 2026
+
+<table>
+<thead>
+<tr>
+<th rowspan="3">CODE</th>
+<th rowspan="3">LIBELLE</th>
+<th rowspan="3">acte de référence</th>
+<th rowspan="3">DATE DEBUT</th>
+<th rowspan="3">DATE FIN</th>
+<th rowspan="3">Majorations</th>
+<th colspan="10">PRESENCE DANS LES NORMES</th>
+<th rowspan="3">Codage Oblig.</th>
+<th rowspan="3">Commentaire</th>
+</tr>
+<tr>
+<th>AM</th>
+<th colspan="2">CP</th>
+<th>CS</th>
+<th>CT</th>
+<th>ER</th>
+<th>LB</th>
+<th>PH</th>
+<th>TA</th>
+<th>FR</th>
+</tr>
+<tr>
+<th></th>
+<th>T3</th>
+<th>T4</th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PSC*</td>
+<td>PRESCRIPTION ETABLIE HORS PARCOURS DE SOINS</td>
+<td></td>
+<td>01/01/2006</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Acte informatif, non retourné en NOEMIE PS</td>
+</tr>
+<tr>
+<td>PT0</td>
+<td>Prothèse amovible de transition RAC 0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>PY0</td>
+<td>FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 1 INTERVENANT</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY1</td>
+<td>FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY2</td>
+<td>FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 2 INTERVENANTS</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY3</td>
+<td>FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE 2 INTERVENANTS</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY4</td>
+<td>FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 1 INTERVENANT<br />- 6 A 8 H</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY5</td>
+<td>FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE 1 INTERVENANT<br />- 6 A 8 H</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY6</td>
+<td>FORFAIT PSYCHIATRIE SEANCE COLLECTIVE 2 INTERVENANTS<br />- 6 A 8 H</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY7</td>
+<td>FORFAIT PSYCHIATRIE SEANCE INDIVIDUELLE 2 INTERVENANTS<br />- 6 A 8 H</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY8</td>
+<td>FORFAIT PSYCHIATRIE DE SECURITE SANS HEBERGEMENT</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PY9</td>
+<td>FORFAIT PSYCHIATRIE D'ACCUEIL ET DE SUIVI DE NUIT</td>
+<td></td>
+<td>01/03/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>R1F</td>
+<td>REORIENTATION URGENCE 1 FERIE</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés, RU1 modulé férié / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>R1M</td>
+<td>REORIENTATION URGENCE 1 MILIEU DE NUIT</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés, RU1 modulé milieu de nuit / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>R1N</td>
+<td>REORIENTATION URGENCE 1 NUIT</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés, RU1 modulé nuit / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>R2F</td>
+<td>REORIENTATION URGENCE 2 FERIE</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés, RU2 modulé férié / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>R2M</td>
+<td>REORIENTATION URGENCE 2 MILIEU DE NUIT</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés, RU2 modulé milieu de nuit / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>R2N</td>
+<td>REORIENTATION URGENCE 2 NUIT</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés, RU2 modulé nuit / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>RA0</td>
+<td>Réparation adjonction RAC 0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>RAB</td>
+<td>MK - Rééducation abdominale et péinéo-sphinctérienne</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>MK - rééduc Rachis non opéré</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RAO</td>
+<td>MK - rééduc Rachis opéré</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RAP</td>
+<td>SUPPLEMENT RADIOTHERAPIE PEDIATRIQUE</td>
+<td>GHS</td>
+<td>01/03/2012</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RAV</td>
+<td>MK - Rééducation affections vasculaires</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RDI</td>
+<td>Rdv prévention infirmier</td>
+<td></td>
+<td>01/10/2023</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RDV</td>
+<td>Rdv prévention médecin / sage-femme</td>
+<td></td>
+<td>01/10/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RE1</td>
+<td>Réparation prothèse RAC modéré</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>REA</td>
+<td>SUPPLEMENT REANIMATION</td>
+<td>GHS</td>
+<td>15/02/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>REP</td>
+<td>REANIMATION PEDIATRIQUE</td>
+<td>GHS</td>
+<td>01/03/2007</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RIC</td>
+<td>MK - Rééduc Membre inférieur opéré sous référentiel</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RIM</td>
+<td>MK - Rééduc Membre inférieur non opéré sous référentiel</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RF0</td>
+<td>REPARATION FACETTE PROTHESE AMOVIBLE RAC 0</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>Réforme 100% santé</td>
+</tr>
+<tr>
+<td>RJT</td>
+<td>REJET NOMENCLATURE OBSOLETE</td>
+<td></td>
+<td>01/10/2020</td>
+<td>31/12/2020</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>RKD</td>
+<td>REMISE KIT DEPISTAGE CANCER COLORECTAL</td>
+<td></td>
+<td>01/01/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RNM</td>
+<td>BILAN VISUEL</td>
+<td></td>
+<td>06/05/2017</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Orthoptistes</td>
+</tr>
+<tr>
+<td>RNO</td>
+<td>RENOUVELLEMENT D'OPTIQUE</td>
+<td></td>
+<td>01/01/2015</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ophtalmologue, orthoptiste</td>
+</tr>
+<tr>
+<td>RPB</td>
+<td>MK - Rééducation patients atteints de brûlures</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RPE</td>
+<td>MK - Rééducation de la déambulation du sujet âgé</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RPN*</td>
+<td>RÉPARATION SUR PROTHÈSE</td>
+<td></td>
+<td>01/06/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>Code regroupement CCAM</td>
+</tr>
+<tr>
+<td>RQD</td>
+<td>Demande téléexpertise</td>
+<td></td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RS0</td>
+<td>Réparation prothèse adjointe simple RAC 0</td>
+<td></td>
+<td>01/04/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>code regroupement CCAM convention dentaire 2018</td>
+</tr>
+<tr>
+<td>RSC</td>
+<td>MK - Rééduc Membre supérieur opéré sous référentiel</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RSM</td>
+<td>MK - Rééduc Membre supérieur non opéré sous référentiel</td>
+<td></td>
+<td>22/02/2024</td>
+<td></td>
+<td>N-F</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+</tr>
+<tr>
+<td>RTG</td>
+<td>Réalisation test antigénique en pharmacie</td>
+<td></td>
+<td>01/09/2022</td>
+<td>01/03/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RU1</td>
+<td>REORIENTATION URGENCE 1</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>RU2</td>
+<td>REORIENTATION URGENCE 2</td>
+<td></td>
+<td>01/09/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés / réforme des urgences non en œuvre à ce jour</td>
+</tr>
+<tr>
+<td>RVA</td>
+<td>Rappel vaccination adulte pharmacien</td>
+<td></td>
+<td>07/11/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>RX1</td>
+<td>Retour à vide taxi suite à trajet en lien avec une hospitalisation</td>
+<td></td>
+<td>01/07/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Taxis</td>
+</tr>
+<tr>
+<td>S01</td>
+<td>OPTIQUE - ADAPTATION VERRE DE CLASSE A</td>
+<td></td>
+<td>01/01/2020</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>lpp</td>
+<td>Réforme 100% santé</td>
+</tr>
+<tr>
+<td>SAS</td>
+<td>Supplément avis de spécialiste</td>
+<td>FU1, FU2, FU3, FU4</td>
+<td>01/09/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SB2</td>
+<td>Biologie médicale classe d'âge 2</td>
+<td>FU1, FU2, FU3, FU4</td>
+<td>01/09/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SB3</td>
+<td>Biologie médicale classe d'âge 3</td>
+<td>FU1, FU2, FU3, FU4</td>
+<td>01/09/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SC</td>
+<td>SOINS CONSERVATEURS PAR DENTISTE</td>
+<td></td>
+<td>01/11/1994</td>
+<td>CCAM DENTAIRE</td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SCM</td>
+<td>SOINS CONSERVATEURS PAR MEDECIN</td>
+<td></td>
+<td>31/03/1997</td>
+<td>CCAM DENTAIRE</td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SD</td>
+<td>SEANCES DE DIAGNOSTIC</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SDC</td>
+<td>SUPPLEMENT DEFIBRILATEUR</td>
+<td>GHS</td>
+<td>01/12/2016</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés MCOO</td>
+</tr>
+<tr>
+<td>SDE*</td>
+<td>SOINS DENTAIRES</td>
+<td></td>
+<td>01/06/2014</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>ccam</td>
+<td>Code regroupement CCAM</td>
+</tr>
+<tr>
+<td>SDP</td>
+<td>Dépistage</td>
+<td></td>
+<td>01/06/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Centres de santé</td>
+</tr>
+<tr>
+<td>SE1</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 1</td>
+<td></td>
+<td>01/03/2007</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SE2</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 2</td>
+<td></td>
+<td>01/03/2007</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SE3</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 3</td>
+<td></td>
+<td>01/03/2007</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SE4</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 4</td>
+<td></td>
+<td>01/03/2008</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SE5</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 5</td>
+<td></td>
+<td>01/03/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés MCOO</td>
+</tr>
+<tr>
+<td>SE6</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 6</td>
+<td></td>
+<td>01/03/2018</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés MCOO</td>
+</tr>
+<tr>
+<td>SE7</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 7</td>
+<td></td>
+<td>01/03/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés MCOO</td>
+</tr>
+<tr>
+<td>SE8</td>
+<td>FORFAIT ENVIRONNEMENT HOSPITALIER 8</td>
+<td></td>
+<td>01/03/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Etablissements publics et privés MCOO</td>
+</tr>
+<tr>
+<td>SEH</td>
+<td>Supplément journalier Zone Extrême Haute</td>
+<td></td>
+<td>01/03/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SES</td>
+<td>SUITE EXAMEN DE SANTE</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SF</td>
+<td>ACTES DE SAGE-FEMME</td>
+<td></td>
+<td></td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SFC*</td>
+<td>SUPPLEMENT FORFAIT CHIMIOTHERAPIE</td>
+<td></td>
+<td>01/05/2001</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Uniquement pour les etablissements monégasques</td>
+</tr>
+<tr>
+<td>SFI</td>
+<td>SOINS INFIRMIERS PAR SAGE-FEMME</td>
+<td></td>
+<td></td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SFR</td>
+<td>Forfait sage-femme référente</td>
+<td></td>
+<td>29/09/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SHE</td>
+<td>Majoration 19h – 21h</td>
+<td>G, GS, C, CS, VG, VGS, V, VS, VL, VSP,<br />CCX,<br />TCG, TC, TCS , TCH, TCK,VAC, KMO<br />CEH, CEK, CEG,<br />FFC, FFV, FHV, IC, IG, IPE, IVE, JC</td>
+<td>22/12/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SHO</td>
+<td>SUPPLEMENT CHAMBRE PARTICULIERE POUR RAISON<br />THERAPEUTIQUE (Hors Taa)</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SIC</td>
+<td>Supplément imagerie en coupe</td>
+<td>FU1, FU2, FU3, FU4</td>
+<td>01/09/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SIM</td>
+<td>Suppl. Urgence Imagerie</td>
+<td>FU1, FU2, FU3, FU4</td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SMU</td>
+<td>TRANSPORT PAR SMUR</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SNG*</td>
+<td>SANG PLASMA ET DERIVES</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Supprimé dans le champ TAA</td>
+</tr>
+<tr>
+<td>SNP</td>
+<td>Code traceur SAS</td>
+<td></td>
+<td>01/01/2022</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Médecin et centre de santé</td>
+</tr>
+<tr>
+<td>SNS</td>
+<td>FRAIS DE SEANCE DE SOINS</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>SOA</td>
+<td>Supplt conditionnel Optique cls A</td>
+<td>M01, M02, V01, V02, V03, V04</td>
+<td>01/07/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>lpp</td>
+<td></td>
+</tr>
+<tr>
+<td>SP</td>
+<td>EXAMEN DE SUIVI POSTNATAL</td>
+<td></td>
+<td>23/04/2008</td>
+<td></td>
+<td>N-F</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td>X</td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10
+**10**
+
+**CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO** **MISE A JOUR MARS 2026** **MISE A JOUR DU28 AOUT 2013**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="3">CODE</th>
+      <th rowspan="3"><b>LIBELLE</b></th>
+      <th rowspan="3"><b>acte de référence</b></th>
+      <th rowspan="3">DATE DEBUT</th>
+      <th rowspan="3">DATE FIN</th>
+      <th rowspan="3">Majorations</th>
+      <th colspan="9"><b>PRESENCE DANS LES NORMES</b></th>
+      <th rowspan="3"><b>Codage</b><br /><b>Oblig.</b></th>
+      <th rowspan="3"><b>Commentaire</b></th>
+    </tr>
+    <tr>
+      <th rowspan="2">AM</th>
+      <th colspan="2">CP</th>
+      <th rowspan="2">CS</th>
+      <th rowspan="2">CT</th>
+      <th rowspan="2">ER</th>
+      <th rowspan="2">LB</th>
+      <th rowspan="2">PH</th>
+      <th rowspan="2">TA</th>
+      <th rowspan="2">FR</th>
+    </tr>
+    <tr>
+      <th>T3</th>
+      <th>T4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SPI</td>
+      <td>PrEP initiation</td>
+      <td></td>
+      <td>01/06/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>SP1</td>
+      <td>FORFAIT SORTIE PRECOCE</td>
+      <td></td>
+      <td>01/09/2015</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SP2</td>
+      <td>FORFAIT SORTIE PRECOCE ET TEST GUTHRIE</td>
+      <td></td>
+      <td>01/09/2015</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SPR</td>
+      <td>ACTES DE PROTHESE DENTAIRE PAR CHIRURGIEN DENTISTE</td>
+      <td></td>
+      <td>01/11/1994</td>
+      <td>CCAM<br />DENTAIRE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SRA</td>
+      <td>SUPPLEMENT REANIMATION</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td>28/02/2009</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SRC</td>
+      <td>SUPPLEMENT SURVEILLANCE CONTINUE</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SSC</td>
+      <td>SUPPLEMENT SOINS CONTINUS</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td>28/02/2009</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SSF</td>
+      <td>Supplément dimanche/férié spécialiste, biologiste, imagerie</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SSM</td>
+      <td>SUPPLEMENT POUR SURVEILLANCE MALADE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SSN</td>
+      <td>Supplément nuit spécialiste, biologiste, imagerie</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SSS</td>
+      <td>PrEP Suivi</td>
+      <td></td>
+      <td>01/06/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>SST</td>
+      <td>Traitement</td>
+      <td></td>
+      <td>01/06/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>SSV</td>
+      <td>Vaccination</td>
+      <td></td>
+      <td>01/06/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>ST1</td>
+      <td>Supplément transport définitif (PSY/SSR)</td>
+      <td>PJ, SNS, FS, Pyx</td>
+      <td>01/05/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Cliniques privées PSY et/ou SSR</td>
+    </tr>
+    <tr>
+      <td>ST2</td>
+      <td>Supplément transport provisoire (PSY/SSR)</td>
+      <td>PJ, SNS, FS, Pyx</td>
+      <td>01/05/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Cliniques privées PSY et/ou SSR</td>
+    </tr>
+    <tr>
+      <td>ST3</td>
+      <td>Supplément transport permission thérapeutique (PSY/SSR)</td>
+      <td>PJ, SNS, FS, Pyx</td>
+      <td>01/05/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Cliniques privées PSY et/ou SSR</td>
+    </tr>
+    <tr>
+      <td>ST4</td>
+      <td>Supplément transport définitif SSR</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ST5</td>
+      <td>Supplément transport provisoire SSR</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ST6</td>
+      <td>Supplément transport permission thérapeutique SSR</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>STC</td>
+      <td>SUIVI MRTC</td>
+      <td></td>
+      <td>01/09/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>STF</td>
+      <td>FORFAIT SOINS INTENSIFS</td>
+      <td>GHS</td>
+      <td>15/02/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>STH</td>
+      <td>FORFAIT SURVEILLANCE MEDICALE THERMALE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SU0</td>
+      <td>Supplément prothèse résine RAC 0</td>
+      <td></td>
+      <td>01/04/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>code regroupement CCAM convention dentaire 2018</td>
+    </tr>
+    <tr>
+      <td>SU1</td>
+      <td>Supplément prothèse métallique RAC modéré</td>
+      <td></td>
+      <td>01/04/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>code regroupement CCAM convention dentaire 2018</td>
+    </tr>
+    <tr>
+      <td>SU2</td>
+      <td>Supplément Urgence CCMU</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>supplément prise en charge spécifique (Etat du patient CCMU 2+)</td>
+    </tr>
+    <tr>
+      <td>SU3</td>
+      <td>Supplément Urgence CCMU3</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>supplément prise en charge spécifique (Etat du patient CCMU 3-4-5)</td>
+    </tr>
+    <tr>
+      <td>SUB</td>
+      <td>Suppl. Urgence Biologie</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SUF</td>
+      <td>Supplément dimanche/férié urgentiste</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SUI</td>
+      <td>Prothèse auditive suivi</td>
+      <td></td>
+      <td>01/01/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>code regroupement lpp suivi prothèse auditive RAC 0</td>
+    </tr>
+    <tr>
+      <td>SUM</td>
+      <td>Suppl. Urgence Mode Arr.</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>supplément prise en charge spécifique (Mode d’arrivée)</td>
+    </tr>
+    <tr>
+      <td>SUN</td>
+      <td>Supplément nuit médecin urgentiste</td>
+      <td>FU1, FU2, FU3, FU4</td>
+      <td>01/09/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SV1</td>
+      <td>Optique - adaptation verre de classe B</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>SV2</td>
+      <td>Optique - appairage niveau 1, 2 ou 3 verre de classe A</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>SV3</td>
+      <td>OPTIQUE - AUTRE SUPPLEMENT</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>SV4</td>
+      <td>Optique – supplément pour verres teintés (plafonné)</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>SX1</td>
+      <td>Supplément forfaitaire taxi</td>
+      <td></td>
+      <td>01/07/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Taxis</td>
+    </tr>
+    <tr>
+      <td>SZB</td>
+      <td>Supplément journalier Zone Basse</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SZH</td>
+      <td>Supplément journalier Zone Haute</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TAC</td>
+      <td>Code traceur accompagnement</td>
+      <td></td>
+      <td>01/01/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Pharmacies : début d'un accompagnement (adhésion du patient)</td>
+    </tr>
+    <tr>
+      <td>TB</td>
+      <td>PRELEVEMENT SANGUIN PAR TECHNICIEN DE LABORATOIRE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr style="background-color: yellow;">
+      <td>TBA</td>
+      <td>Transport Bariatrique</td>
+      <td></td>
+      <td>16/03/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>code acte traceur</td>
+    </tr>
+    <tr>
+      <td>TC</td>
+      <td>TELECONSULTATION</td>
+      <td></td>
+      <td>15/09/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Téléconsultation médecin<br />Suppression des compléments nuit et férié à compter du 22/12/2024</td>
+    </tr>
+    <tr>
+      <td>TC1</td>
+      <td>FORFAIT THERMAL TROUBLE DU COMPORTEMENT 72 SEANCES</td>
+      <td></td>
+      <td>01/05/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Prévention et traitement des troubles du comportement alimentaire et des conduites addictives chez les adolescents et jeunes adultes</td>
+    </tr>
+    <tr>
+      <td>TC2</td>
+      <td>FORFAIT THERMAL TROUBLE DU COMPORTEMENT 108 SEANCES</td>
+      <td></td>
+      <td>01/05/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Prévention et traitement des troubles du comportement alimentaire et des conduites addictives chez les adolescents et jeunes adultes</td>
+    </tr>
+    <tr>
+      <td>TCG</td>
+      <td>TELECONSULTATION GENERALISTE</td>
+      <td></td>
+      <td>15/09/2018</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Téléconsultation médecin<br />Suppression des compléments nuit et férié à compter du 22/12/2024<br />Paramétrage des compléments nuit et férié rétabli au 28/02/2025 afin que les sages-femmes puissent les facturer</td>
+    </tr>
+    <tr>
+      <td>TCH</td>
+      <td>Téléconsultation pédiatre 0-2 ans</td>
+      <td></td>
+      <td>22/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TCK</td>
+      <td>Téléconsultation pédiatre 2-6 ans</td>
+      <td></td>
+      <td>22/12/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TCS</td>
+      <td>TELECONSULTATION SPECIALISTE</td>
+      <td></td>
+      <td>01/11/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Suppression des compléments nuit et férié à compter du 22/12/2024</td>
+    </tr>
+    <tr>
+      <td>TDD</td>
+      <td>Transport définitif dialyse</td>
+      <td>D11 à D16 et D20 à D24</td>
+      <td>01/10/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Supplément transport définitif lors d'un transfert définitive vers un autre établissement</td>
+    </tr>
+    <tr>
+      <td>TDR</td>
+      <td>TEST DE DIAGNOSTIC RAPIDE (acte gratuit)</td>
+      <td></td>
+      <td>01/09/2002</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TDS*</td>
+      <td>PARODONTOLOGIE</td>
+      <td></td>
+      <td>01/06/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>ccam</td>
+      <td>Code regroupement CCAM</td>
+    </tr>
+    <tr>
+      <td>TDT</td>
+      <td>Télé expertise Dossier Traitant</td>
+      <td></td>
+      <td>01/11/2017</td>
+      <td>09/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TCP</td>
+      <td>Acte de téléconsultation</td>
+      <td></td>
+      <td>15/02/2015</td>
+      <td>31/12/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TDE</td>
+      <td>SUPPLEMENT TRANSPORT DEFINITIF</td>
+      <td>GHS</td>
+      <td>01/10/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements publics et privés MCOO</td>
+    </tr>
+    <tr>
+      <td>TE1</td>
+      <td>Télé expertise de niveau 1</td>
+      <td></td>
+      <td>10/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TE2</td>
+      <td>Télé expertise de niveau 2</td>
+      <td></td>
+      <td>10/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TEC</td>
+      <td>Forfait complémentaire télé expertise</td>
+      <td></td>
+      <td>01/06/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TEP</td>
+      <td>Acte de télé expertise</td>
+      <td></td>
+      <td>15/02/2015</td>
+      <td>31/12/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TER</td>
+      <td>MK - Rééduc Affections sur au moins deux territoires (membres ou rachis et<br />membres)</td>
+      <td></td>
+      <td>22/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+    </tr>
+    <tr>
+      <td>TFS</td>
+      <td>Télésoins SF</td>
+      <td></td>
+      <td>05/03/2022</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TH1</td>
+      <td>CURES THERMALES FORFAIT GLOBAL</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TH2</td>
+      <td>CURES THERMALES<br />FORFAIT GLOBAL + KINE</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TH3</td>
+      <td>CURES THERMALES<br />FORFAIT 2ème ORIENTATION</td>
+      <td></td>
+      <td>19/05/1997</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TH4</td>
+      <td>CURES THERMALES<br />FORFAIT GLOBAL + KINE</td>
+      <td></td>
+      <td>01/04/2001</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TH5</td>
+      <td>CURES THERMALES<br />FORFAIT 72 SEANCES HYDRO</td>
+      <td></td>
+      <td>10/08/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>THR</td>
+      <td>FORFAIT SURVEILLANCE MEDICALE REDUIT 2ème ORIENTATION</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TJC</td>
+      <td>TARIF JOURNALIER COMPLEMENTAIRE</td>
+      <td>GHS</td>
+      <td>01/04/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Hôpitaux publics</td>
+    </tr>
+    <tr>
+      <td>TJL</td>
+      <td>TARIF JOURNALIER LOCAL</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TJM</td>
+      <td>TARIF JOURNALIER MIGRANTS</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TJP</td>
+      <td>TARIF JOURNALIER PRESTATIONS</td>
+      <td></td>
+      <td>01/03/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TL1</td>
+      <td>TELESURVEILLANCE COMMUN</td>
+      <td></td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TL2</td>
+      <td>TELESURVEILLANCE DEROGATOIRE</td>
+      <td></td>
+      <td>01/07/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TLC</td>
+      <td>Télé consultation ALD et/ou EHPAD</td>
+      <td></td>
+      <td>01/06/2016</td>
+      <td>14/09/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TLD</td>
+      <td>TELECONSULTATION DOMICILE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Infirmiers</td>
+    </tr>
+    <tr>
+      <td>TLE</td>
+      <td>Télé expertise ALD et/ou EHPAD</td>
+      <td></td>
+      <td>01/06/2016</td>
+      <td>09/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TLL</td>
+      <td>TELECONSULTATION LIEU DEDIE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Infirmiers. Ouvert aux établissements publics dans le cadre des ACE uniquement.</td>
+    </tr>
+    <tr>
+      <td>TLM</td>
+      <td>CODE TRACEUR TELECONSULTATION</td>
+      <td></td>
+      <td>01/10/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TLS</td>
+      <td>TELECONSULTATION LORS D'UN SOIN</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Infirmiers. Ouvert aux établissements publics dans le cadre des ACE uniquement.</td>
+    </tr>
+    <tr>
+      <td>TMI</td>
+      <td>Télésoins infirmiers</td>
+      <td></td>
+      <td>23/09/2022</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TMK</td>
+      <td>Télésoins MK</td>
+      <td></td>
+      <td>09/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Téléconsultation kiné</td>
+    </tr>
+    <tr>
+      <td>TMO</td>
+      <td>Télésoins orthophonistes</td>
+      <td></td>
+      <td>21/04/2021</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TMP</td>
+      <td>Télésoins podologues</td>
+      <td></td>
+      <td>29/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TMR</td>
+      <td>Supplément transport personne mobilité réduite</td>
+      <td></td>
+      <td>01/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>Taxis, transporteurs sanitiaires</td>
+    </tr>
+    <tr>
+      <td>TMY</td>
+      <td>Télésoins orthoptistes</td>
+      <td></td>
+      <td>18/09/2021</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TNS</td>
+      <td>TRAITEMENT NICOTINIQUE DE SUBSTITUTION</td>
+      <td></td>
+      <td>01/02/2007</td>
+      <td>31/12/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>ph. CIP</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10 **11**
+
+CODIFICATION DES PRESTATIONS OBLIGATOIRES A DESTINATION DES AMO
+MISE A JOUR MARS 2026
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="3">CODE</th>
+      <th rowspan="3">LIBELLE</th>
+      <th rowspan="3">acte de référence</th>
+      <th rowspan="3">DATE DEBUT</th>
+      <th rowspan="3">DATE FIN</th>
+      <th rowspan="3">Majorations</th>
+      <th colspan="10">PRESENCE DANS LES NORMES</th>
+      <th rowspan="3">Codage Oblig.</th>
+      <th rowspan="3">Commentaire</th>
+    </tr>
+    <tr>
+      <th colspan="2">AM</th>
+      <th rowspan="2">CP</th>
+      <th rowspan="2">CS</th>
+      <th rowspan="2">CT</th>
+      <th rowspan="2">ER</th>
+      <th rowspan="2">LB</th>
+      <th rowspan="2">PH</th>
+      <th rowspan="2">TA</th>
+      <th rowspan="2">FR</th>
+    </tr>
+    <tr>
+      <th>T3</th>
+      <th>T4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TO</td>
+      <td>TRAITEMENTS D'ORTHOPEDIE DENTOFACIALE PAR CHIRURGIEN DENTISTE</td>
+      <td></td>
+      <td>01/11/1994</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TPH</td>
+      <td>Télésoins pharmacie</td>
+      <td>BMI, BMT, BMS, AKI, AKS, AOI, AOS, ASI, ASS</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TRD</td>
+      <td>TROD Angine pharmacien</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TSA</td>
+      <td>Télésurveillance : PS effectuant l'accompagnement</td>
+      <td></td>
+      <td>16/12/2016</td>
+      <td>31/12/2023</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>Médecin, auxiliaire médical, établissement, fournisseurs</td>
+    </tr>
+    <tr>
+      <td>TSD</td>
+      <td>Transport séance dialyse</td>
+      <td>D11 à D16 et D20 à D24</td>
+      <td>01/10/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Supplément transport en sus des forfaits dialyse</td>
+    </tr>
+    <tr>
+      <td>TSE</td>
+      <td>Supplément transport séances</td>
+      <td>GHS</td>
+      <td>01/10/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Etablissements publics et privés MCOO</td>
+    </tr>
+    <tr>
+      <td>TSF</td>
+      <td>Télésurveillance : fournisseur de la solution</td>
+      <td></td>
+      <td>16/12/2016</td>
+      <td>31/01/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TSG*</td>
+      <td>FRAIS TRANSPORT PRODUITS SANGUINS</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Supprimé dans le champ TAA</td>
+    </tr>
+    <tr>
+      <td>TSM</td>
+      <td>Télésurveillance : médecin télésurveillant</td>
+      <td></td>
+      <td>16/12/2016</td>
+      <td>31/03/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TTE</td>
+      <td>Téléconsultation médecin Traitant avec EHPAD</td>
+      <td></td>
+      <td>01/11/2017</td>
+      <td>14/09/2018</td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TTH</td>
+      <td>FRAIS DE TRANSPORT POUR CURE THERMALE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>TVA</td>
+      <td>Telesurveillance 1</td>
+      <td></td>
+      <td>01/04/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>TVB</td>
+      <td>Telesurveillance 2</td>
+      <td></td>
+      <td>01/04/2022</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Médecins.<br />Suite modification 05/2023, acte TVB reste ouvert aux spécialités auxiliaires jusqu'à forclusion</td>
+    </tr>
+    <tr>
+      <td>TXI</td>
+      <td style="background-color: #00FFFF;">TAXIS</td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;">01/01/1991</td>
+      <td style="background-color: #00FFFF;">30/11/2025</td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;">X</td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+      <td style="background-color: #00FFFF;"></td>
+    </tr>
+    <tr>
+      <td>U03</td>
+      <td>CONSULTATION CCMU 3</td>
+      <td></td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Consultation médecin urgentiste dans service d'urgence privé autorisé par l'ARS</td>
+    </tr>
+    <tr>
+      <td>U45</td>
+      <td>CONSULTATION CCMU 4 ET 5</td>
+      <td></td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Consultation médecin urgentiste dans service d'urgence privé autorisé par l'ARS</td>
+    </tr>
+    <tr>
+      <td>UPH</td>
+      <td>URGENCE PHARMACIE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>V*</td>
+      <td>VISITE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F-U</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>En norme CP, pour l'HAD uniquement</td>
+    </tr>
+    <tr>
+      <td>VA</td>
+      <td>VISITE D'URGENCE (sur site expérimental)</td>
+      <td></td>
+      <td></td>
+      <td>15/09/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VG</td>
+      <td>Visite Médecine Générale</td>
+      <td></td>
+      <td>01/05/2017</td>
+      <td></td>
+      <td>N-F-U</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VGS</td>
+      <td>Visite Spécialiste Médecine Générale</td>
+      <td></td>
+      <td>01/05/2017</td>
+      <td>01/07/2025</td>
+      <td>N-F-U</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VL</td>
+      <td>VISITE LONGUE ET COMPLEXE</td>
+      <td></td>
+      <td>26/03/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>cumulable avec la MD et les indemnités kilométriques<br />ne peut pas être cumulée avec une majoration nuit férie urgence ni avec une majoration MPC ou MCS</td>
+    </tr>
+    <tr>
+      <td>VAC</td>
+      <td>Acte de vaccination Covid19</td>
+      <td></td>
+      <td>15/12/2020</td>
+      <td>28/02/2025</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VAX</td>
+      <td>Administration vaccin</td>
+      <td></td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VD</td>
+      <td>VISITE CD</td>
+      <td></td>
+      <td>01/10/2023</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Chirurgiens-dentistes</td>
+    </tr>
+    <tr>
+      <td>VDC</td>
+      <td>VIDEOCAPSULE en cabinet de ville</td>
+      <td>ATM</td>
+      <td>21/12/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VDE*</td>
+      <td>VIDEOCAPSULE en établissement</td>
+      <td>ATM</td>
+      <td>21/12/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Incompatible avec les prestations hospitalières</td>
+    </tr>
+    <tr>
+      <td>VEH</td>
+      <td>VEHICULE POUR HANDICAPES PHYSIQUES (Titre IV de la LPP)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VER</td>
+      <td>VERRES OPTIQUES (Titre II - Chapitre 2 de la LPP)</td>
+      <td></td>
+      <td>01/01/1992</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VIC</td>
+      <td>MK - Rééduc Membre inférieur opéré sans référentiel</td>
+      <td></td>
+      <td>22/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+    </tr>
+    <tr>
+      <td>VIM</td>
+      <td>MK - Rééduc Membre inférieur non opéré sans référentiel</td>
+      <td></td>
+      <td>22/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+    </tr>
+    <tr>
+      <td>VGP</td>
+      <td>VACCINATION GRIPPE PHARMACIEN</td>
+      <td></td>
+      <td>08/10/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VNP</td>
+      <td>VISITE NEUROPSYCHIATRE</td>
+      <td></td>
+      <td></td>
+      <td>01/07/2005</td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VRD</td>
+      <td>MAJORATION VISITE REGULEE FERIE ET DIMANCHE</td>
+      <td>ACO, ADA, ADC, ADE, ADI, ATM, K, KC, V, VG, VGS, VNP, VS</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VRM</td>
+      <td>MAJORATION VISITE REGULEE MILIEU DE NUIT</td>
+      <td>ACO, ADA, ADC, ADE, ADI, ADP, ATM, AXI, IMP, K, KC, V, VG, VGS, VNP, VS, PAR, PDA, PFE, PFM, SDE, TOR</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VRN</td>
+      <td>MAJORATION VISITE REGULEE NUIT</td>
+      <td>ACO, ADA, ADC, ADE, ADI, ADP, ATM, AXI, IMP, K, KC, V, VG, VGS, VNP, VS, PAR, PDA, PFE, PFM, SDE, TOR</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VRS</td>
+      <td>MAJORATION VISITE REGULEE DU SAMEDI APRES-MIDI</td>
+      <td>ACO, ADA, ADC, ADE, ADI, ATM, K, KC, V, VG, VGS, VNP, VS</td>
+      <td>28/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VS</td>
+      <td>VISITE SPECIALISTE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F-U</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VSC</td>
+      <td>MK - Rééduc Membre supérieur opéré sans référentiel</td>
+      <td></td>
+      <td>22/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+    </tr>
+    <tr>
+      <td>VSD</td>
+      <td>VISITE SPECIALISTE CD</td>
+      <td></td>
+      <td>01/10/2023</td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Chirurgiens-dentistes</td>
+    </tr>
+    <tr>
+      <td>VSL</td>
+      <td>TRANSPORT PAR VEHICULE SANITAIRE LEGER</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>VSM</td>
+      <td>MK - Rééduc Membre supérieur non opéré sans référentiel</td>
+      <td></td>
+      <td>22/02/2024</td>
+      <td></td>
+      <td>N-F</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Ouvert aux établissements publics dans le cadre des ACE uniquement et en séjour en cliniques privées</td>
+    </tr>
+    <tr>
+      <td>VSP</td>
+      <td>VISITE SOINS PALLIATIFS</td>
+      <td></td>
+      <td>01/11/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>V01</td>
+      <td>VERRE DE CLASSE A, UNIFOCAL SIMPLE OU NEUTRE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>V02</td>
+      <td>VERRE DE CLASSE A, UNIFOCAL COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>V03</td>
+      <td>VERRE DE CLASSE A, MULTIFOCAL OU PROGRESSIF COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>V04</td>
+      <td>VERRE DE CLASSE A, MULTIFOCAL OU PROGRESSIF TRES COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM1</td>
+      <td>VERRE DE CLASSE B, VERRES MULTIFOCAUX OU PROGRESSIFS SPHERIQUES</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM2</td>
+      <td>VERRE DE CLASSE B, VERRES MULTIFOCAUX OU PROGRESSIFS SPHERO-CYLINDRIQUES</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM3</td>
+      <td>VERRE DE CLASSE B, VERRES MULTIFOCAUX OU PROGRESSIFS SPHERO-CYLINDRIQUES</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM4</td>
+      <td>VERRE DE CLASSE B, MULTIFOCAL OU PROGRESSIF SPHERIQUE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM5</td>
+      <td>VERRE DE CLASSE B, MULTIFOCAL OU PROGRESSIF SPHERO-CYLINDRIQUE A SPHERE NEGATIVE COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM6</td>
+      <td>VERRE DE CLASSE B, MULTIFOCAL OU PROGRESSIF SPHERO-CYLINDRIQUE A SPHERE NEGATIVE TRES COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VM7</td>
+      <td>VERRE DE CLASSE B, MULTIFOCAL OU PROGRESSIF SPHERO-CYLINDRIQUE A SPHERE POSITIVE COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU1</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SPHERIQUE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU2</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SPHERO-CYLINDRIQUE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU3</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SHPERO-CYLINDRIQUE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU4</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SPHERIQUE COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU5</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SPHERO-CYLINDRIQUE A SPHERE NEGATIVE COMPLEXE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU6</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SPHERO-CYLINDRIQUE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>VU7</td>
+      <td>VERRE DE CLASSE B, UNIFOCAL SPHERO-CYLINDRIQUE</td>
+      <td></td>
+      <td>01/01/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td>lpp</td>
+      <td>Réforme 100% santé</td>
+    </tr>
+    <tr>
+      <td>Z</td>
+      <td>ACTES DE RADIOLOGIE DENTAIRE</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N-F</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td>X</td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10
+**12**
+
+**CODIFICATION DES PRESTATIONS NON TRANSMISES EN B2, MAIS ENVOYEES AUX PS EN RETOURS NOEMIE** **MISE A JOUR MARS 2026** 
+**MISE A JOUR DU 28/08/2013**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><b>CODE</b></th>
+      <th rowspan="2"><b>LIBELLE</b></th>
+      <th rowspan="2"><b>DATE DEBUT</b><br />(acte)</th>
+      <th rowspan="2"><b>DATE FIN</b><br />(acte)</th>
+      <th rowspan="2">MAJO-<br /><b>RATION</b></th>
+      <th colspan="21"><b>Nature de la prestation payée</b></th>
+      <th colspan="2"><b>Champs de l'entité 262 en retours NOEMIE PS</b></th>
+      <th rowspan="2"><b>Identification</b><br /><b>du patient</b><br /><b>"O / N"</b></th>
+      <th rowspan="2"><b>Périodicité</b><br /><b>"H, M, T, S,</b><br /><b>A, P"</b></th>
+      <th rowspan="2"><b>Commentaire</b></th>
+    </tr>
+    <tr>
+      <th>A<br />I<br />D<br />E<br /><br />T<br />R<br />A<br />N<br />S<br />A<br />L<br />I<br />T<br />E<br />S</th>
+      <th>R<br />E<br />M<br />U<br /><br />P<br />E<br />N<br />A<br />L<br />I<br />T<br />E<br />S</th>
+      <th>A<br />M<br />O<br /><br />D<br />E<br />C<br />I<br />S<br />I<br />O<br />N</th>
+      <th>M<br />T<br /><br />R<br />E<br />D<br />A<br />C<br />T<br />I<br />O<br />N<br />N<br />E<br />L</th>
+      <th>T<br />R<br />A<br />I<br />T<br />E<br />M<br />E<br />N<br />T</th>
+      <th>A<br />S<br />T<br />R<br />E<br />I<br />N<br />T<br />E</th>
+      <th>A<br />C<br />B<br />U<br />S</th>
+      <th>C<br />B<br />P</th>
+      <th>C<br />P<br />P</th>
+      <th>C<br />S<br />P</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />A<br />C<br />S</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />I<br />T<br />I</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />A<br />A<br />T<br />F</th>
+      <th>I<br />N<br />C<br />E<br />N<br />T<br />I<br />F</th>
+      <th>F<br />O<br />R<br />F<br />A<br />I<br />T</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+      <th>C<br />R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />A<br />A<br />F<br />T<br />I<br />C<br />O<br />A<br />N<br />S</th>
+      <th>G<br />R<br />I<br />P<br />P<br />E<br /><br />I<br />N<br />F<br />I<br />R<br />M<br />I<br />E<br />R</th>
+      <th>R<br />O<br />S<br />P<br /><br />B<br />O<br />N<br /><br />U<br />S<br />A<br />G<br />E</th>
+      <th>O<br />P<br />T<br />I<br />O<br />N<br /><br />D<br />E<br />M<br />O<br />G<br />R<br />A<br />P<br />H<br />I<br />E</th>
+      <th>C<br />P<br />A<br />M<br /><br />R<br />E<br />D<br />U<br />C<br />T<br />I<br />O<br />N<br /><br />P<br />A<br />R<br />T<br />I<br />E<br />L<br />L<br />E<br />S</th>
+      <th>A<br />P<br />I<br />O<br />N<br />D<br />E<br />C<br />S<br />T<br />R<br />U<br />C<br />T<br />U<br />R<br />E<br />L<br />L<br />E<br />S</th>
+      <th>H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S</th>
+      <th>A<br />P<br />P<br />U<br />I<br /><br />I<br />N<br />F<br />O<br />R<br />M<br />A<br />T<br />I<br />Q<br />U<br />E</th>
+      <th>H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S<br /><br />M<br />J<br /><br />E<br />N<br />C<br />A<br />I<br />S<br />S<br />E<br />M<br />E<br />N<br />T</th>
+      <th>R<br />O<br />S<br />P<br /><br />M<br />E<br />D<br />E<br />C<br />I<br />N<br /><br />T<br />R<br />A<br />I<br />T<br />A<br />N<br />T</th>
+      <th>O<br />P<br />T<br />I<br />O<br />N<br /><br />B<br />A<br />S<br />E<br /><br />R<br />E<br />T<br />R<br />A<br />I<br />T<br />E</th>
+      <th>F<br />O<br />N<br />D<br />S<br /><br />I<br />N<br />N<br />O<br />V<br />A<br />T<br />I<br />O<br />N</th>
+      <th><b>Codification</b><br />"cadrée à droite"</th>
+      <th>Libellé</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A51</td>
+      <td>Fond Innovation - paiement</td>
+      <td>01/01/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ASB</td>
+      <td>Paiement sortie blanche</td>
+      <td>01/06/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>Transporteur</td>
+    </tr>
+    <tr>
+      <td>ACR</td>
+      <td>PRIME ACCREDITATION SPECIALISTE</td>
+      <td>01/04/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>ADS</td>
+      <td>Avance rémunération spécifique centres de santé</td>
+      <td>01/02/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>ADT</td>
+      <td>AIDE AU DEMARRAGE TELETRANSMISSION</td>
+      <td>01/01/2002</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>AFC</td>
+      <td>Aide financère maternité paternité adoption</td>
+      <td>29/10/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>AHM</td>
+      <td>ROSP ASTHME</td>
+      <td>03/12/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>AIF</td>
+      <td>AIDE FORFAITAIRE - COSCOM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>AJS</td>
+      <td>ASTREINTE DE JOUR CORRESPONDANT SAMU</td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>AMT</td>
+      <td>AIDE A LA MAINTENANCE TELETRANSMISSION</td>
+      <td>01/01/2002</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ANS</td>
+      <td>ASTREINTE DE NUIT CORRESPONDANT SAMU</td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>AOF</td>
+      <td>AIDE OFFICINES FRAGILES</td>
+      <td>01/01/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>APT</td>
+      <td>AIDE PORTABLE TELETRANSMISSION</td>
+      <td>01/01/2002</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ARC</td>
+      <td>Complément minimum garantie</td>
+      <td>01/06/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>Transporteurs</td>
+    </tr>
+    <tr>
+      <td>ARD</td>
+      <td>AIDE ADHESION RAPIDE AU DISPOSITIF</td>
+      <td>01/01/2003</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ASB</td>
+      <td>Paiement sortie blanche</td>
+      <td>01/06/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>transporteurs</td>
+    </tr>
+    <tr>
+      <td>ASR</td>
+      <td>ASTREINTE</td>
+      <td>01/01/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins généralistes</td>
+    </tr>
+    <tr>
+      <td>AVK</td>
+      <td>ROSP AVK</td>
+      <td>28/06/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>BMC</td>
+      <td>Bilan Médication Contestation pharmacie</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>BMR</td>
+      <td>Bilan Médication Rémunération pharmacie</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>BUP</td>
+      <td>Paiement ROSP Bon usage des produits de santé</td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>CAA</td>
+      <td>AIDE ACTIVITE COTRAM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CAD</td>
+      <td>Rémunération contrat d'accès aux soins dentaires</td>
+      <td>01/07/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>CAC</td>
+      <td>Contrat d’amélioration de la qualité et de la coordination des soins complément</td>
+      <td>31/12/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs en VSL dans le cadre de l’amélioration de la qualité et de la coordination des soins.</td>
+    </tr>
+    <tr>
+      <td>CAG</td>
+      <td>Contestation pour Aide à l’activité pour les adhérents à l’option démographie dans un groupe</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CAP</td>
+      <td>Contrat d’amélioration de l’organisation des soins –Pharmacie/LPP</td>
+      <td>31/12/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements (publics, ESPIC)en lien avec la signature du « CAQOS- médicaments / LPP ».</td>
+    </tr>
+    <tr>
+      <td>CAQ</td>
+      <td>Contrat d'amélioration de la qualité et de la coordination des soins</td>
+      <td>30/06/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>S</td>
+      <td>Transporteursen VSL dans le cadre de l’amélioration de la qualité et de la coordination des soins.</td>
+    </tr>
+    <tr>
+      <td>CAS</td>
+      <td>Contestation pour Aide à l’activité pour les adhérents à l’option démographie dans un pôle de santé</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CAT</td>
+      <td>Contrat d’amélioration de l’organisation des soins -Transports</td>
+      <td>31/12/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements (publics ou privés) en lien avec la signature du « CAQOS – transports ».</td>
+    </tr>
+    <tr>
+      <td>CBM</td>
+      <td>Contrat de bonnes pratiques en zone de montagne</td>
+      <td>12/01/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins généralistes</td>
+    </tr>
+    <tr>
+      <td>CBP</td>
+      <td>FORFAIT CONTRAT DE BONNES PRATIQUES</td>
+      <td>01/07/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>chirurgiens-dentistes, sages-femmes, orthoptistes, orthophonistes, infirmières et masseurs-kinésithérapeutes</td>
+    </tr>
+    <tr>
+      <td>CBR</td>
+      <td>Contrat de bonnes pratiques en zone rurale</td>
+      <td>12/01/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CBU</td>
+      <td>Contrat de bonnes pratiques en zone urbaine</td>
+      <td>12/01/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CCA</td>
+      <td>CONTRAT COLLECTIF ATTEINTE DES OBJECTIFS</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centres de santé, maisons pluridisciplinaires</td>
+    </tr>
+    <tr>
+      <td>CCI</td>
+      <td>CONTRAT COLLECTIF AIDE INVESTISSEMENT</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centres de santé, maisons pluridisciplinaires</td>
+    </tr>
+    <tr>
+      <td>CCO</td>
+      <td>Contestation CAS cotisations sociales</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>contestation participation médecins adhérents au CAS secteur 2</td>
+    </tr>
+    <tr>
+      <td>CDF</td>
+      <td>CENTRE SANTE DENTAIRE OPTANT - FORFAIT FIN</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CDG</td>
+      <td>Contestation pour Aide forfaitaire pour les adhérents à l’option démographie dans un groupe</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CDI</td>
+      <td>CENTRE SANTE DENTAIRE OPTANT - FORFAIT DEBUT</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CDP</td>
+      <td>Contestation pour Aide forfaitaire pour les adhérents à l’option démographie dans un pôle de santé</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CDS</td>
+      <td>CENTRE SANTE DENTAIRE OPTANT - FORFAIT SUIVI</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CFM</td>
+      <td>CONTESTATION FORFAIT MEDECIN TRAITANT</td>
+      <td>01/07/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins, Centres de Santé</td>
+    </tr>
+    <tr>
+      <td>CGC</td>
+      <td>CONTESTATION GARANTIE CONVENTIONNELLE PHARMACIE</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>CHM</td>
+      <td>CONTEST ASTHME</td>
+      <td>03/12/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>CIC</td>
+      <td>CONTRAT INCITATIF CHIRURGIEN-DENTISTE</td>
+      <td>01/02/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>chirurgiens-dentistes</td>
+    </tr>
+    <tr>
+      <td>CID</td>
+      <td>CENTRE SANTE INFIRMIER OPTANT - FORFAIT DEBUT</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CIF</td>
+      <td>CENTRE SANTE INFIRMIER OPTANT - FORFAIT FIN</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CII</td>
+      <td>CONTRAT INCITATIF INFIRMIER</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Infirmier, Centres de Santé</td>
+    </tr>
+    <tr>
+      <td>CIK</td>
+      <td>CONTRAT DEMOGRAPHIQUE KINESITHERAPEUTE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Kinésithérapeutes</td>
+    </tr>
+    <tr>
+      <td>CIM</td>
+      <td>Forfait aide à l'installation du médecin - CAIM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>CIO</td>
+      <td>CONTRAT INCITATIF ORTHOPHONISTE</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>aide à l installation en zones très sous dotées</td>
+    </tr>
+    <tr>
+      <td>CIS</td>
+      <td>CONTRAT DEMOGRAPHIQUE SAGE FEMME</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Sage femme</td>
+    </tr>
+    <tr>
+      <td>CMD</td>
+      <td>CENTRE SANTE MEDICAL OPTANT - FORFAIT DEBUT</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CMF</td>
+      <td>CENTRE SANTE MEDICAL OPTANT - FORFAIT FIN</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CMT</td>
+      <td>CENTRE SANTE MEDICAL OPTANT - FORFAIT TACITE</td>
+      <td>01/03/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>COC</td>
+      <td>CONTRAT INDIVIDUEL EMBAUCHE - OBJECTIFS COMPLEMENTAIRES</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Objectifs complémentaires embauche orthoptiste</td>
+    </tr>
+  </tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10 13
+
+**CODIFICATION DES PRESTATIONS NON TRANSMISES EN B2, MAIS ENVOYEES AUX PS EN RETOURS NOEMIE** **MISE A JOUR MARS 2026**
+
+**MISE A JOUR DU 28/08/2013**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><b>CODE</b></th>
+      <th rowspan="2"><b>LIBELLE</b></th>
+      <th rowspan="2"><b>DATE DEBUT</b> (acte)</th>
+      <th rowspan="2"><b>DATE FIN</b> (acte)</th>
+      <th rowspan="2">MAJO- <b>RATION</b></th>
+      <th colspan="23"><b>Nature de la prestation payée</b></th>
+      <th colspan="5"><b>Champs de l'entité 262 en retours NOEMIE PS</b></th>
+    </tr>
+    <tr>
+      <th>A<br />I<br />D<br />E<br /><br />T<br />R<br />A<br />N<br />S</th>
+      <th>T<br />R<br />A<br />N<br />S<br />P<br /><br />P<br />E<br />N<br />A<br />L<br />I<br />T<br />E<br />S</th>
+      <th>R<br />E<br />M<br />U<br /><br />O<br />B<br />J</th>
+      <th>A<br />M<br />E<br />N<br />A<br />G<br />E<br />M<br />E<br />N<br />T</th>
+      <th>M<br />O<br />D<br />A<br />L<br />I<br />T<br />E<br /><br />C<br />T<br />I<br />A<br />N<br />N<br />T</th>
+      <th>T<br />R<br />A<br />I<br />T<br />E<br />M<br />E<br />N<br />T</th>
+      <th>A<br />S<br />T<br />R<br />E<br />I<br />N<br />T<br />E</th>
+      <th>A<br />C<br />B<br />U<br />S</th>
+      <th>C<br />B<br />P</th>
+      <th>C<br />P<br />P</th>
+      <th>C<br />S<br />P</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />A<br />C<br />S</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />I<br />T<br />I</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />F</th>
+      <th>I<br />F<br />O<br />R<br />M<br />A<br />T<br />I<br />O<br />N</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+      <th>C<br />R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />A<br />A<br />T</th>
+      <th>G<br />R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />I<br />C<br />A<br />S</th>
+      <th>R<br />O<br />B<br />J<br />E<br />C<br />T<br />I<br />F<br /><br />P<br />H<br />A<br />R<br />M</th>
+      <th>C<br />P<br />R<br />E<br />U<br />D<br />E<br />N<br />T<br />I<br />E<br />L<br />L<br />E<br />S</th>
+      <th>A<br />P<br />I<br />O<br />N<br />D<br />E<br />S<br />T</th>
+      <th>P<br />O<br />N<br />D<br />E<br />U<br />R<br />A<br />I<br />R<br />E<br />S</th>
+      <th>H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S</th>
+      <th>R<br />O<br />E<br />B<br />M<br />J<br />U<br />E<br />N<br />C<br />E<br />T<br />I<br />A<br />F<br />T<br />I<br />O<br />N<br />P<br />T<br />A<br />M</th>
+      <th>F<br />I<br />O<br />N<br />N<br />R<br />N<br />F<br />O<br />A<br />V<br />I<br />A<br />T<br />T<br />S<br />I<br />O<br />N</th>
+      <th><b>Codification</b><br />"cadrée à droite"</th>
+      <th>Libellé</th>
+      <th><b>Identification</b><br /><b>du patient</b><br /><b>"O / N"</b></th>
+      <th><b>Périodicité</b><br /><b>"H, M, T, S,</b><br /><b>A, P"</b></th>
+      <th><b>Commentaire</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>COF</td>
+      <td>CONTRAT DE FORMATION</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Formation orthoptiste par ophtalmologiste</td>
+    </tr>
+    <tr>
+      <td>COI</td>
+      <td>CONTRAT INDIVIDUEL EMBAUCHE - AVANCE</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Embauche d'un orhoptiste</td>
+    </tr>
+    <tr>
+      <td>COP</td>
+      <td>REMUNERATION OBJECTIF PHARMACIENS- COMPLEMENT</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>rémunération sur objectifs de santé publique des pharmaciens (Performance).</td>
+    </tr>
+    <tr>
+      <td>COS</td>
+      <td>CONTRAT INDIVIDUEL EMBAUCHE - SOLDE</td>
+      <td>30/04/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Solde calculé selon l'atteinte des objectifs embauche orthoptiste</td>
+    </tr>
+    <tr>
+      <td>COT</td>
+      <td>Rémunération CAS cotisations sociales</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Participation médecins adhérents au CAS secteur 2</td>
+    </tr>
+    <tr>
+      <td>CP1</td>
+      <td>FORFAIT CONTRAT DE BONNES PRATIQUES 1</td>
+      <td>01/07/2003</td>
+      <td>31/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>CP2</td>
+      <td>FORFAIT CONTRAT DE BONNES PRATIQUES 2</td>
+      <td>01/07/2004</td>
+      <td>31/12/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>CP3</td>
+      <td>FORFAIT CONTRAT DE BONNES PRATIQUES 3</td>
+      <td>01/07/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>CP6</td>
+      <td>Contrat de Bonnes Pratiques Transporteurs 2006</td>
+      <td>01/01/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>CP7</td>
+      <td>Contrat de Bonnes Pratiques Transporteurs 2007</td>
+      <td>01/01/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>CP8</td>
+      <td>Contrat de Bonnes Pratiques Transporteurs 2008</td>
+      <td>01/01/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>CPA</td>
+      <td>Contestation rémunération suivi personnes âgées</td>
+      <td>01/07/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CPL</td>
+      <td>FORFAIT CONTRAT DE BONNES PRATIQUES LABORATOIRE</td>
+      <td>01/07/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Laboratoires</td>
+    </tr>
+    <tr>
+      <td>CPO</td>
+      <td>COORDINATION PRELEVEMENT ORGANE</td>
+      <td>01/03/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Cliniques</td>
+    </tr>
+    <tr>
+      <td>CPS</td>
+      <td>compensation de la perte d’activité des PS</td>
+      <td>01/08/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CPU</td>
+      <td>CONTRAT PRATIQUE VERSEMENT UNIQUE</td>
+      <td>26/12/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CQS</td>
+      <td>Contestation Qualité de Service PHARMACIE</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CRA</td>
+      <td>Contestation ROSP AOD</td>
+      <td>22/12/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>CRC</td>
+      <td>Complément de rémunération chef de clinique</td>
+      <td>01/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>CRT</td>
+      <td>Forfait Requérant Complémentaire</td>
+      <td>10/02/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CSI</td>
+      <td>FORFAIT CONTRAT DE SANTE PUBLIQUE INFIRMIER</td>
+      <td>01/07/2004</td>
+      <td>01/01/2010</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Infirmiers</td>
+    </tr>
+    <tr>
+      <td>CSL</td>
+      <td>FORFAIT CONTRAT DE SANTE PUBLIQUE LABORATOIRE</td>
+      <td>01/07/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Laboratoires</td>
+    </tr>
+    <tr>
+      <td>CSR</td>
+      <td>Rémunération médecin traitant Centres de Santé</td>
+      <td>01/11/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>S</td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>CTA</td>
+      <td>Contestation pour Aide à l’activité pour les adhérents à l’option SST</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CTD</td>
+      <td>Contestation pour Frais de déplacement pour les adhérents à l’option SST</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CTM</td>
+      <td>CONTESTATION CTM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>CTR</td>
+      <td>Paiement ponctuel pharmacie</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>CTU</td>
+      <td>Complément transports d'urgence</td>
+      <td>01/01/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Expérimentation transports urgents</td>
+    </tr>
+    <tr>
+      <td>CVK</td>
+      <td>ROSP AVK Complément</td>
+      <td>28/06/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>DA1</td>
+      <td>Rémunération dispensation adaptée</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>DA2</td>
+      <td>Contestation dispensation adaptée</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>DAG</td>
+      <td>Aide activité Option Démographie - groupe physique</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>DAY</td>
+      <td>Dotation liée à la qualité du codage</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements publics et privés</td>
+    </tr>
+    <tr>
+      <td>DDP</td>
+      <td>Paiement rémunération pharmacien dispensation à domicile</td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>DEP</td>
+      <td>Paiement prise en charge frais de déplacement - CSTM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>DFA</td>
+      <td>Dotation File Active PSY</td>
+      <td>01/01/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>DMA</td>
+      <td>Dotation Modulée à l'activité</td>
+      <td>01/03/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements SSR</td>
+    </tr>
+    <tr>
+      <td>DMM</td>
+      <td>Dotation Mixte Médecine</td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements ex OQN</td>
+    </tr>
+    <tr>
+      <td>DMP</td>
+      <td>Aide financière à l'intéropérabilité DMP</td>
+      <td>01/06/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Laboratoires</td>
+    </tr>
+    <tr>
+      <td>DNA</td>
+      <td>Dotation relative aux nouvelles activités</td>
+      <td>01/01/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><mark>DNU</mark></td>
+      <td><mark>Dotation Numérique</mark></td>
+      <td><mark>01/01/2025</mark></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><mark>X</mark></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td><mark>N</mark></td>
+      <td><mark>P</mark></td>
+      <td><mark>Médecins</mark></td>
+    </tr>
+    <tr>
+      <td>DOP</td>
+      <td>Aide activité Option Démographie - groupe physiqueForfait adhérent Option Démographie – pole de santé</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins, Centres de Santé</td>
+    </tr>
+    <tr>
+      <td>DP1</td>
+      <td>Dotation Populationnelle SSR</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DP2</td>
+      <td>Dotation Populationnelle PSY</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>DP3</td>
+      <td>Dotation de Responsabilité Territoriale</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DPA</td>
+      <td>Différentiel Psy AME</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>DPC</td>
+      <td>Différentiel Psy réglementaire</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>DPH</td>
+      <td>DEPLACEMENT COMITE REGIONAL RECONNAISSANCE MP</td>
+      <td>01/01/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>DPM</td>
+      <td>Différentiel Psy Migrants</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>DRT</td>
+      <td>DIFFERENTIEL REFERENT TRAITANT</td>
+      <td>01/01/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>DRY</td>
+      <td>Dotation relative à la structuration de la recherche</td>
+      <td>01/01/2023</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DSA</td>
+      <td>Différentiel SSR AME</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements SSR</td>
+    </tr>
+    <tr>
+      <td>DSC</td>
+      <td>Différentiel SSR Réglementaire</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements SSR</td>
+    </tr>
+    <tr>
+      <td>DSM</td>
+      <td>Différentiel SSR Migrants</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements SSR</td>
+    </tr>
+    <tr>
+      <td>DT1</td>
+      <td>Dotation pédiatrie</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>DT2</td>
+      <td>Dotation de Transformation PSY</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>DTA</td>
+      <td>DIFFERENTIEL TARIFAIRE AME</td>
+      <td>01/05/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>DTC</td>
+      <td>DIFFERENTIEL TARIFAIRE CLINIQUE</td>
+      <td>21/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>DTF</td>
+      <td>Différentiel tarifaire FIDES</td>
+      <td>01/05/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements ex-DG FIDES</td>
+    </tr>
+    <tr>
+      <td>DTM</td>
+      <td>DIFFERENTIEL TARIFAIRE MIGRANTS</td>
+      <td>01/05/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>DUP</td>
+      <td>Paiement rémunération pharmacien dispensation à l’unité</td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>ECP</td>
+      <td>EXAMEN COMPLEMENTAIRE CRMPP</td>
+      <td>01/01/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>EHP</td>
+      <td>Majoration pour exercice partiel en hôpital de proximité - CAIM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>EXP</td>
+      <td>Frais d'expertise</td>
+      <td>09/03/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins sapiteurs</td>
+    </tr>
+    <tr>
+      <td>FAZ</td>
+      <td>FORFAIT ADHESION ZONE DEFICITAIRE</td>
+      <td>01/01/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+  </tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10
+**14**
+
+**CODIFICATION DES PRESTATIONS NON TRANSMISES EN B2, MAIS ENVOYEES AUX PS EN RETOURS NOEMIE** **MISE A JOUR MARS 2026**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><b>CODE</b></th>
+      <th rowspan="2"><b>LIBELLE</b></th>
+      <th rowspan="2"><b>DATE DEBUT</b><br />(acte)</th>
+      <th rowspan="2"><b>DATE FIN</b><br />(acte)</th>
+      <th rowspan="2">MAJO-<br /><b>RATION</b></th>
+      <th colspan="26"><b>Nature de la prestation payée</b></th>
+      <th colspan="2"><b>Champs de l'entité 262 en retours NOEMIE PS</b></th>
+      <th rowspan="2"><b>Identification</b><br /><b>du patient</b><br /><b>"O / N"</b></th>
+      <th rowspan="2"><b>Périodicité</b><br /><b>"H, M, T, S,</b><br /><b>A, P"</b></th>
+      <th rowspan="2"><b>Commentaire</b></th>
+    </tr>
+    <tr>
+      <th>A<br />I<br />D<br />E<br /><br />E<br />T<br />R<br />A<br />N<br />S</th>
+      <th>T<br />R<br />A<br />N<br />S<br />M<br />I<br />S<br />S<br />I<br />O<br />N<br /><br />P<br />E<br />N<br />A<br />L<br />I<br />T<br />E<br />S</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />M<br />E<br />D<br />E<br />C<br />I<br />N<br /><br />T<br />R<br />A<br />I<br />T<br />A<br />N<br />T</th>
+      <th>M<br />A<br />J<br />O<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />A<br />I<br />D<br />E<br /><br />I<br />N<br />S<br />T<br />A<br />L<br />L<br />A<br />T<br />I<br />O<br />N</th>
+      <th>T<br />R<br />A<br />N<br />S<br />M<br />I<br />S<br />S<br />I<br />O<br />N<br /><br />A<br />S<br />T<br />R<br />E<br />I<br />N<br />T<br />E</th>
+      <th>A<br />C<br />S</th>
+      <th>C<br />B<br />P</th>
+      <th>C<br />P<br />P</th>
+      <th>C<br />S<br />P</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />A<br />C<br />S</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />T<br />A<br />R<br />I<br />F<br />I<br />C<br />A<br />T<br />I<br />O<br />N</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />O<br />P<br />T<br />A<br />M</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />O<br />P<br />T<br />A<br />M<br /><br />A<br />C<br />S</th>
+      <th>I<br />N<br />C<br />I<br />T<br />A<br />T<br />I<br />O<br />N<br /><br />T<br />A<br />R<br />I<br />F</th>
+      <th>F<br />O<br />R<br />F<br />A<br />I<br />T</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+      <th>F<br />O<br />R<br />F<br />A<br />I<br />T<br /><br />M<br />O<br />D<br />E<br />R<br />N<br />I<br />S<br />A<br />T<br />I<br />O<br />N</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />M<br />I<br />S<br />S<br />I<br />O<br />N<br /><br />P<br />U<br />B<br />L<br />I<br />Q<br />U<br />E</th>
+      <th>G<br />A<br />R<br />D<br />E<br /><br />E<br />T<br /><br />A<br />S<br />T<br />R<br />E<br />I<br />N<br />T<br />E</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />O<br />B<br />J<br />E<br />C<br />T<br />I<br />F<br />S<br /><br />S<br />A<br />N<br />T<br />E<br /><br />P<br />U<br />B<br />L<br />I<br />Q<br />U<br />E</th>
+      <th>O<br />P<br />T<br />I<br />O<br />N<br /><br />D<br />E<br />M<br />O<br />G<br />R<br />A<br />P<br />H<br />I<br />E</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />P<br />R<br />A<br />T<br />I<br />Q<br />U<br />E<br /><br />T<br />A<br />R<br />I<br />F<br />A<br />I<br />R<br />E<br /><br />M<br />A<br />I<br />T<br />R<br />I<br />S<br />E</th>
+      <th>P<br />A<br />R<br />T<br />I<br />C<br />I<br />P<br />A<br />T<br />I<br />O<br />N<br /><br />A<br />S<br />S<br />U<br />R<br />E</th>
+      <th>A<br />I<br />D<br />E<br /><br />P<br />O<br />N<br />C<br />T<br />U<br />E<br />L<br />L<br />E</th>
+      <th>H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />O<br />P<br />T<br />A<br />M</th>
+      <th>F<br />O<br />R<br />F<br />A<br />I<br />T<br /><br />I<br />N<br />N<br />O<br />V<br />A<br />T<br />I<br />O<br />N</th>
+      <th><b>Codification</b><br />"cadrée à droite"</th>
+      <th>Libellé</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FCS</td>
+      <td>FORFAIT STRUCTURE CENTRE DE SANTE</td>
+      <td>01/01/2003</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centre de Santé</td>
+    </tr>
+    <tr>
+      <td>FFN</td>
+      <td>AIDE A LA TRANSMISSION DES FLUX NON SECURISES</td>
+      <td>01/01/2002</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>FFS</td>
+      <td>AIDE PERENNE (FACTURATION FEUILLES DE SOINS)</td>
+      <td>01/07/1999</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Laboratoires, Fournisseurs</td>
+    </tr>
+    <tr>
+      <td>FHT</td>
+      <td>FORFAIT HAUTE TECHNICITE</td>
+      <td>01/03/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Cliniques</td>
+    </tr>
+    <tr>
+      <td>FI1</td>
+      <td>FORFAIT PDSES PUBLIQUE</td>
+      <td>01/03/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>FI2</td>
+      <td>FORFAIT CENTRE DE DEPISTAGE ANONYME ET GRATUIT</td>
+      <td>01/03/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>FI3</td>
+      <td>FORFAIT PERINATAUX DE PROXIMITE</td>
+      <td>01/03/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>FI4</td>
+      <td>FORFAIT EDUCATION THERAPEUTIQUE</td>
+      <td>01/03/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Cliniques Hôpitaux ESPIC</td>
+    </tr>
+    <tr>
+      <td>FIM</td>
+      <td>FORFAIT D'INTERVENTION PAR SORTIE SUR DEMANDE DE LA REGULATION</td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Medecins</td>
+    </tr>
+    <tr>
+      <td>FIP</td>
+      <td>FIR ets privés EX OQN</td>
+      <td>01/07/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements EX OQN</td>
+    </tr>
+    <tr>
+      <td>FMC</td>
+      <td>FORFAIT MENSUEL DE COORDINNATION</td>
+      <td>19/09/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>M</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>FMP</td>
+      <td>FORFAIT MENSUEL DE PARTICIPATION</td>
+      <td>19/09/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>M</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>FMS</td>
+      <td>FORFAIT MENSUEL DE SOINS</td>
+      <td>19/09/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>M</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>FMT</td>
+      <td>FORFAIT MEDECIN TRAITANT</td>
+      <td>01/07/2013</td>
+      <td>31/12/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>T</td>
+      <td>Médecins, Centres de Santé</td>
+    </tr>
+    <tr style="background-color: yellow;">
+      <td>FMT</td>
+      <td>Forfait médecin traitant 2024 volet Socle</td>
+      <td>01/01/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>P</td>
+      <td>Médecins, Centres de santé</td>
+    </tr>
+    <tr>
+      <td>FPA</td>
+      <td>FORFAIT D'ASTREINTE NUIT ET FERIE EN ETABLISSEMENT PRIVE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins libéraux et salariés des établissements privés</td>
+    </tr>
+    <tr>
+      <td>FPG</td>
+      <td>FORFAIT DE GARDE NUIT ET FERIE EN ETABLISSSEMENT PRIVE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins libéraux et salariés des établissements privés</td>
+    </tr>
+    <tr>
+      <td>FPS</td>
+      <td>FORFAIT PS - CENTRE DE SANTE</td>
+      <td>01/01/2003</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centre de Santé</td>
+    </tr>
+    <tr>
+      <td>FSA</td>
+      <td>FORFAIT STRUCTURE PS AUXILIAIRES</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Auxiliaires</td>
+    </tr>
+    <tr>
+      <td>FSC</td>
+      <td>CONTESTATION FORFAIT STRUCTURE PS AUXILIAIRES</td>
+      <td>01/04/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Auxiliaires</td>
+    </tr>
+    <tr>
+      <td>G51</td>
+      <td>Projets généralisés-Art 51</td>
+      <td>01/03/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>GPD</td>
+      <td>GARDE PHARMACIE DE DIMANCHE</td>
+      <td>26/07/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>GPF</td>
+      <td>GARDE PHARMACIE DE FERIE</td>
+      <td>26/07/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>GPN</td>
+      <td>GARDE PHARMACIE DE NUIT</td>
+      <td>26/07/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>HMP</td>
+      <td>HONORAIRE COMITE REGIONALRECONNAISSANCE MP</td>
+      <td>01/01/2008</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>IAS</td>
+      <td>Rémunération Traçage COVid 19</td>
+      <td>01/08/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>IEX</td>
+      <td>Forfait IPA</td>
+      <td>01/12/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>centres de santé</td>
+    </tr>
+    <tr>
+      <td>I01</td>
+      <td>FORFAIT INNOVATION HIFU</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Etablissements publics et privés</td>
+    </tr>
+    <tr>
+      <td>I02</td>
+      <td>FORFAIT INNOVATION ARGUS II</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Etablissements publics et privés</td>
+    </tr>
+    <tr>
+      <td>IFT</td>
+      <td>Forfait d'Incitation à la numérisation et à la télétransmission</td>
+      <td>01/05/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens, laboratoires,fournisseurs</td>
+    </tr>
+    <tr>
+      <td>IFY</td>
+      <td>Forfait IFAQ PSY</td>
+      <td>01/03/2020</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements PSY</td>
+    </tr>
+    <tr>
+      <td>IFZ</td>
+      <td>Forfait IFAQ SSR</td>
+      <td>01/03/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements SSR</td>
+    </tr>
+    <tr>
+      <td>IKG</td>
+      <td>FRAIS DE DEPLACEMENT VACATIONS</td>
+      <td>01/11/2009</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Infirmiers et Médecins</td>
+    </tr>
+    <tr style="background-color: yellow;">
+      <td>INC</td>
+      <td>Valorisation Accompagnement Insuffisance Cardiaque</td>
+      <td>22/06/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Cardiologues</td>
+    </tr>
+    <tr>
+      <td>ING</td>
+      <td>GARDE AMBULANCIERE</td>
+      <td>01/04/2003</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>ITP</td>
+      <td>Indiciaire transport partagé</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>KIT</td>
+      <td>Rémunération dépistage du cancer colorectal</td>
+      <td>01/01/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>LTD</td>
+      <td>LOCATION LIGNE TELEPHONIQUE DEDIEE</td>
+      <td>19/03/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>S</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>MAI</td>
+      <td>Majoration aide à l'installation du médecin - CAIM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>MDS</td>
+      <td>Mécanisme de compensation aux centres de santé</td>
+      <td>01/02/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Centres de santé</td>
+    </tr>
+    <tr>
+      <td>MGC</td>
+      <td>FORFAIT ANNUEL MIGAC</td>
+      <td>01/03/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Cliniques</td>
+    </tr>
+    <tr>
+      <td>MGS</td>
+      <td>Mission d'intérêt Général SSR</td>
+      <td>01/01/2016</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissement SSR</td>
+    </tr>
+    <tr>
+      <td>MAM</td>
+      <td>Majo rémunération ARS - CSTM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>MAO</td>
+      <td>Paiement majoration de la rémunération ARS-COSCOM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>MGY</td>
+      <td>Dotation liée aux activités spécifiques</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>MIA</td>
+      <td>Missions spécifiques</td>
+      <td>01/01/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>MPA</td>
+      <td>Rémunération forfaitaire MPA (suivi des personnes agées)</td>
+      <td>01/07/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>MRA</td>
+      <td>MAJORATION REMUNERATION COTRAM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>MRD</td>
+      <td>MEDECIN REFERENT DEBUT</td>
+      <td>20/10/1997</td>
+      <td>28/02/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>MRF</td>
+      <td>MEDECIN REFERENT FIN</td>
+      <td>20/10/1997</td>
+      <td>28/02/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>MTF</td>
+      <td>FORFAIT PATIENTELE MEDECIN TRAITANT</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>NRD</td>
+      <td>Versement de pénalité de retard AMO</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Toutes spécialités sauf 55,56,57</td>
+    </tr>
+    <tr>
+      <td>ODG</td>
+      <td>Forfait adhérent Option Démographie - groupe physique</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>ODP</td>
+      <td>Forfait adhérent Option Démographie – pole santé</td>
+      <td>31/03/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins, Centres de Santé</td>
+    </tr>
+    <tr>
+      <td>OMJ</td>
+      <td>AIDE OUTIL DE MISE A JOUR VITALE</td>
+      <td>19/03/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>S</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>OSP</td>
+      <td>Dot. Objectifs Santé Publique</td>
+      <td>01/01/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PAA</td>
+      <td>Aide ponctuelle en ZIP - CSTM ou CA</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>P4P</td>
+      <td>ROSP clinique</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins avec indicateurs spécifiques cardiologues, centres de santé</td>
+    </tr>
+    <tr>
+      <td>P5P</td>
+      <td>REMUNERATION MT ENFANT</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>P6P</td>
+      <td>REMUNERATION FORFAIT STRUCTURE</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>P7P</td>
+      <td>Aide assistant médical</td>
+      <td>15/09/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PAP</td>
+      <td>PARTICIPATION ASSURE</td>
+      <td>01/09/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td></td>
+      <td>Médecins, Centres de Santé, chirurgiens-dentistes</td>
+    </tr>
+    <tr>
+      <td>PAS</td>
+      <td>PARTICIPATION ASSURE</td>
+      <td>01/09/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td></td>
+      <td>Cliniques</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+**MISE A JOUR DU 28/08/2013**
+
+NORMES B2 et NOEMIE PS - Annexe 10
+15
+
+**CODIFICATION DES PRESTATIONS NON TRANSMISES EN B2, MAIS ENVOYEES AUX PS EN RETOURS NOEMIE** **MISE A JOUR MARS 2026**
+**MISE A JOUR DU 28/08/2013**
+
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2"><b>CODE</b></th>
+      <th rowspan="2"><b>LIBELLE</b></th>
+      <th rowspan="2"><b>DATE DEBUT</b> (acte)</th>
+      <th rowspan="2"><b>DATE FIN</b> (acte)</th>
+      <th rowspan="2">MAJO- <b>RATION</b></th>
+      <th colspan="21"><b>Nature de la prestation payée</b></th>
+      <th colspan="5"><b>Champs de l'entité 262 en retours NOEMIE PS</b></th>
+    </tr>
+    <tr>
+      <th>A<br />I<br />D<br />E<br />E<br />T<br />R<br />A<br />N<br />S</th>
+      <th>T<br />R<br />A<br />N<br />S<br />P<br />O<br />R<br />T<br />P<br />E<br />N<br />A<br />L<br />I<br />T<br />E<br />S</th>
+      <th>R<br />E<br />M<br />O<br />U<br />N</th>
+      <th>A<br />M<br />O<br />D<br />E<br />C<br />I<br />A<br />N<br />T</th>
+      <th>M<br />T<br />R<br />A<br />I<br />T<br />A<br />N<br />T</th>
+      <th>A<br />S<br />T<br />R<br />E<br />I<br />N<br />T<br />E</th>
+      <th>A<br />C<br />B<br />U<br />S</th>
+      <th>C<br />B<br />P</th>
+      <th>C<br />P<br />P</th>
+      <th>C<br />S<br />P</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />A<br />C<br />S</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />F<br />I</th>
+      <th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />F</th>
+      <th>I<br />F<br />O<br />R<br />M<br />A<br />T<br />I<br />O<br />N</th>
+      <th>F<br />O<br />R<br />M<br />E<br />R</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+      <th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />A<br />A</th>
+      <th>G<br />R<br />I<br />E<br />F<br />F<br />I<br />E<br />R<br />R<br />I<br />C<br />O<br />A<br />N<br />S</th>
+      <th>R<br />O<br />S<br />P<br />J<br />E<br />U<br />N<br />E<br />D<br />E<br />S<br />T<br />I<br />E<br />L</th>
+      <th>C<br />P<br />A<br />I<br />D<br />E<br />U<br />N<br />T<br />E<br />L<br />L<br />E<br />S</th>
+      <th>P<br />R<br />O<br />D<br />N<br />E<br />C<br />E<br />S<br />T<br />R<br />A<br />I<br />R<br />E<br />S</th>
+      <th>A<br />P<br />I<br />O<br />N<br />H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S</th>
+      <th>H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S<br /><br />O<br />P<br />T<br />A<br />M</th>
+      <th>R<br />O<br />E<br />B<br />M<br />J<br />U<br />E<br />N<br />C<br />T<br />E<br />T<br />I<br />R<br />I<br />A<br />F<br />T<br />I<br />O<br />N</th>
+      <th>F<br />I<br />O<br />N<br />R<br />N<br />F<br />O<br />A<br />V<br />I<br />A<br />T<br />T<br />I<br />O<br />N</th>
+      <th><b>Codification</b> "cadrée à droite"</th>
+      <th>Libellé</th>
+      <th><b>Identification</b> <b>du patient</b> <b>"O / N"</b></th>
+      <th><b>Périodicité</b> <b>"H, M, T, S,</b> <b>A, P"</b></th>
+      <th><b>Commentaire</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PCC</td>
+      <td>Contestation Pharmacien cancer colorectal</td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens, centres de santé</td>
+    </tr>
+    <tr>
+      <td>PCL</td>
+      <td>Pénalités Contrat d’amélioration de l’organisation des soins –Pharmacie/LPP</td>
+      <td>31/12/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements (publics, ESPIC)en lien avec la signature du « CAQOS- médicaments / LPP ».</td>
+    </tr>
+    <tr>
+      <td>PCS</td>
+      <td>Pacte consultation solidaire</td>
+      <td>01/09/2025</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecin et centre de santé</td>
+    </tr>
+    <tr>
+      <td>PCT</td>
+      <td>Pénalités Contrat d’amélioration de l’organisation des soins –transport</td>
+      <td>31/12/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements (publics ou privés) en lien avec la signature du « CAQOS – transports ».</td>
+    </tr>
+    <tr>
+      <td>PDE</td>
+      <td>Forfait effecteur SAS</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecin et centre de santé</td>
+    </tr>
+    <tr>
+      <td>PDR</td>
+      <td>Forfait régulateur SAS</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecin, centre de santé et infirmiers</td>
+    </tr>
+    <tr>
+      <td>PGC</td>
+      <td>PAIEMENT GARANTIE CONVENTIONNELLE PHARMACIE</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>PGE</td>
+      <td>PRATIQUE DE GEOLOCALISATION PAR DISPOSITIF EMBARQUE</td>
+      <td>01/06/2009</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>P</td>
+      <td>Transporteurs sanitaires</td>
+    </tr>
+    <tr>
+      <td>PQS</td>
+      <td>Paiement Qualité de Service PHARMACIE</td>
+      <td>01/01/2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>x</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>PRC</td>
+      <td>Permanence rémunération demi journée chirurgien dentiste</td>
+      <td>01/09/2014</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PRD</td>
+      <td>PERMANENCE REMUNERATION DIMANCHE ET FERIE</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>PRM</td>
+      <td>PERMANENCE REMUNERATION MILIEU DE NUIT</td>
+      <td>02/06/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>PRN</td>
+      <td>PERMANENCE REMUNERATION DE NUIT</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>PRS</td>
+      <td>PRIME RESPONSABILITE PROFESSIONNELLE SPECIALISTE</td>
+      <td>01/04/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>PRT</td>
+      <td>PERMANENCE REMUNERATION TOTALE</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>PRX</td>
+      <td>REMUNERATIONDES SOINS DE PROXIMITE</td>
+      <td>01/03/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Maisons de santé pluriprofesionnelles/centre de santé</td>
+    </tr>
+    <tr>
+      <td>PSM</td>
+      <td>PIED SUPPORT MATERIEL</td>
+      <td>19/03/2004</td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>S</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>PSO</td>
+      <td>Orthophonie – Régulation PSO</td>
+      <td>23/02/2026</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>PTM</td>
+      <td>REMUNERATION OPTAM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>PTS</td>
+      <td>Plateau Technique Spécialisé</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Etablissements SSR</td>
+    </tr>
+    <tr>
+      <td>PWC</td>
+      <td>Paiement rémunération pharmacien exceptionnelle</td>
+      <td>01/01/2024</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens</td>
+    </tr>
+    <tr>
+      <td>R4P</td>
+      <td>ROSP Clin. Add.</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins avec indicateurs spécifiques cardiologues, centres de santé</td>
+    </tr>
+    <tr>
+      <td>R5P</td>
+      <td>REUNERATION ADDITIONNELLE MT ENFANT</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>R6P</td>
+      <td>REMUNERATION FORFAIT STRUCTURE COMPLEMENT</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>R7P</td>
+      <td>Aide assistant médical complément</td>
+      <td>15/09/2019</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RAA</td>
+      <td>REMUNERATION ADDITIONNELLE CAPI</td>
+      <td>01/10/2010</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>RAC</td>
+      <td>REMUNERATION DES ADHERENTS AU CAPI</td>
+      <td>01/07/2010</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>RAD</td>
+      <td>Retour à domicile pour insuffisant cardiaque</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>P</td>
+      <td>Infirmiers</td>
+    </tr>
+    <tr>
+      <td>RAG</td>
+      <td>FORFAIT POUR ASTREINTE DE NUIT OU SAMEDI MATIN EN ETABLISSEMENT PRIVE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins libéraux et salariés des établissements privés</td>
+    </tr>
+    <tr>
+      <td>RAN</td>
+      <td>FORFAIT POUR ASTREINTE DE DEBUT DE NUIT EN ETABLISSEMENT PRIVE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins libéraux et salariés des établissements privés</td>
+    </tr>
+    <tr>
+      <td>RC1</td>
+      <td>Responsabilité civile chirurgie 1</td>
+      <td>07/04/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>RC2</td>
+      <td>Responsabilité civile chirurgie 2</td>
+      <td>07/04/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>RCC</td>
+      <td>Redevance chef de clinique</td>
+      <td>01/12/2007</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>T</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>RCA</td>
+      <td>Responsabilite civile anesthésie réanimation</td>
+      <td>07/04/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>RCD</td>
+      <td>Rémunération pour certificat de décès</td>
+      <td>01/05/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RCL</td>
+      <td>Reversement Contrat d’amélioration de l’organisation des soins –Pharmacie/LPP</td>
+      <td>31/12/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements (publics, ESPIC)en lien avec la signature du « CAQOS- médicaments / LPP ».</td>
+    </tr>
+    <tr>
+      <td>RCM</td>
+      <td>Rémunération des Praticiens Territoriaux de Médecine Ambulatoire</td>
+      <td>01/07/2015</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>RCO</td>
+      <td>Responsabilité civile échographie obstétricale</td>
+      <td>07/04/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Spécialistes</td>
+    </tr>
+    <tr>
+      <td>RCP</td>
+      <td>RESPONSABILITE CIVILE PROFESSIONNELLE</td>
+      <td>26/12/2003</td>
+      <td>06/04/2006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>RCR</td>
+      <td>REMUNERATION PTMR MALADIE MATERNITE PATERNITE</td>
+      <td>06/05/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RCT</td>
+      <td>Reversements Contrat d’amélioration de l’organisation des soins transports</td>
+      <td>31/12/2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Etablissements (publics ou privés) en lien avec la signature du « CAQOS – transports ».</td>
+    </tr>
+    <tr>
+      <td>RDA</td>
+      <td>CDE garantie revenu 1ere année</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RDB</td>
+      <td>CDE congé maladie</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RDC</td>
+      <td>CDE congé parental</td>
+      <td>01/01/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>REG</td>
+      <td>FORFAIT REGULATION</td>
+      <td>02/06/2005</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins, Centre de Santé</td>
+    </tr>
+    <tr>
+      <td>RFC</td>
+      <td>REMUNERATION PTMR REMPLACEMENT</td>
+      <td>06/05/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>RGD</td>
+      <td>FORFAIT POUR GARDE DE DEBUT DE NUIT EN ETABLISSEMENT PRIVE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins libéraux et salariés des établissements privés</td>
+    </tr>
+    <tr>
+      <td>RGN</td>
+      <td>FORFAIT POUR GARDE DE NUIT OU SAMEDI MATIN EN ETABLISSEMENT PRIVE</td>
+      <td>01/01/2012</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Médecins libéraux et salariés des établissements privés</td>
+    </tr>
+    <tr>
+      <td>RHP</td>
+      <td>Rémunération complémentaire exercice en hopital - COSCOM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>RLC</td>
+      <td>Rémunération labo tests PCR Covid19</td>
+      <td>15/03/2021</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Laboratoires</td>
+    </tr>
+    <tr>
+      <td>RMS</td>
+      <td>Rémunération complémentaire accueil de stagiaire - COSCOM</td>
+      <td>01/01/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Médecins et centres de santé</td>
+    </tr>
+    <tr>
+      <td>RMT</td>
+      <td>REMUNERATION MÉDECIN TRAITANT</td>
+      <td>01/05/2005</td>
+      <td>31/12/2017</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>O</td>
+      <td>A</td>
+      <td>Médecins, Centres de Santé</td>
+    </tr>
+    <tr>
+      <td>ROP</td>
+      <td>REMUNERATION OBJECTIF PHARMACIENS</td>
+      <td>01/01/2013</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>A</td>
+      <td>rémunération sur objectifs de santé publique des pharmaciens (Performance).</td>
+    </tr>
+    <tr>
+      <td>RPA</td>
+      <td>REMUNERATION POUR ASTREINTE EN ETABLISSEMENT PRIVE</td>
+      <td>01/12/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Médecins</td>
+    </tr>
+    <tr>
+      <td>RPC</td>
+      <td>Rémunération pharmacien cancer colorectal</td>
+      <td>01/01/2022</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>P</td>
+      <td>Pharmaciens, centres de santé</td>
+    </tr>
+    <tr>
+      <td>RPG</td>
+      <td>REMUNERATION POUR GARDE EN ETABLISSEMENT PRIVE</td>
+      <td>01/12/2004</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>X</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>N</td>
+      <td>M</td>
+      <td>Spécialistes cliniques</td>
+    </tr>
+  </tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10 16
+
+**CODIFICATION DES PRESTATIONS NON TRANSMISES EN B2, MAIS ENVOYEES AUX PS EN RETOURS NOEMIE** **MISE A JOUR MARS 2026**
+**MISE A JOUR DU 28/08/2013**
+
+<table>
+<thead>
+<tr>
+<th rowspan="2"><b>CODE</b></th>
+<th rowspan="2"><b>LIBELLE</b></th>
+<th rowspan="2"><b>DATE DEBUT</b><br />(acte)</th>
+<th rowspan="2"><b>DATE FIN</b><br />(acte)</th>
+<th rowspan="2">MAJO-<br /><b>RATION</b></th>
+<th colspan="21"><b>Nature de la prestation payée</b></th>
+<th colspan="4"><b>Champs de l'entité 262 en retours NOEMIE PS</b></th>
+<th rowspan="2"><b>Commentaire</b></th>
+</tr>
+<tr>
+<th>A<br />I<br />D<br />E<br /><br />T<br />R<br />A<br />N<br />S</th>
+<th>T<br />R<br />E<br />L<br />E<br />T<br /><br />P<br />E<br />N<br />A<br />L<br />I<br />T<br />E<br />S</th>
+<th>R<br />E<br />M<br />U<br /><br />A<br />M<br />O</th>
+<th>M<br />E<br />D<br />I<br />A<br />T<br />I<br />O<br />N</th>
+<th>T<br />R<br />A<br />I<br />T<br />E<br />M<br />E<br />N<br />T</th>
+<th>A<br />S<br />T<br />R<br />E<br />I<br />N<br />T<br />E</th>
+<th>A<br />C<br />B<br />U<br />S</th>
+<th>C<br />B<br />P</th>
+<th>C<br />P<br />P</th>
+<th>C<br />S<br />P</th>
+<th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />A<br />C<br />S</th>
+<th>C<br />O<br />N<br />J<br />O<br />N<br />C<br />T<br />U<br />R<br />E</th>
+<th>C<br />O<br />N<br />T<br />R<br />A<br />T<br /><br />F<br />I</th>
+<th>I<br />N<br />C<br />I<br />T<br />A<br />T<br />I<br />F<br /><br />F</th>
+<th>F<br />O<br />R<br />F<br />A<br />I<br />T</th>
+<th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N</th>
+<th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />P<br />O<br />N<br />C<br />T</th>
+<th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />E<br />T<br />A<br />B<br />L<br />I<br />S<br />S</th>
+<th>G<br />R<br />O<br />U<br />P<br />E<br />M<br />E<br />N<br />T<br /><br />I<br />C<br />A<br />N<br />S</th>
+<th>R<br />O<br />S<br />P<br /><br />E<br />N<br />T<br />I<br />E<br />L</th>
+<th>C<br />O<br />E<br />F<br /><br />P<br />R<br />U<br />D<br />E<br />N<br />T<br />I<br />E<br />L</th>
+<th>A<br />I<br />D<br />E<br /><br />D<br />E<br />S<br />T<br />U<br />E<br />L<br />L<br />E<br />S</th>
+<th>P<br />O<br />N<br />C<br />T<br />U<br />E<br />L<br />S</th>
+<th>H<br />O<br />N<br />O<br />R<br />A<br />I<br />R<br />E<br />S</th>
+<th>R<br />E<br />M<br />U<br />N<br />E<br />R<br />A<br />T<br />I<br />O<br />N<br /><br />O<br />P<br />T<br />A<br />M</th>
+<th>F<br />I<br />N<br /><br />O<br />R<br />N<br />F<br />O<br />A<br />V<br />I<br />A<br />T<br />T<br />S<br />I<br />O<br />N</th>
+<th><b>Codification</b><br />"cadrée à droite"</th>
+<th>Libellé</th>
+<th><b>Identification</b><br /><b>du patient</b><br /><b>"O / N"</b></th>
+<th><b>Périodicité</b><br /><b>"H, M, T, S,</b><br /><b>A, P"</b></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RPT</td>
+<td>Rémunération des Praticiens Territoriaux de Médecine Générale</td>
+<td>16/08/2013</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>M</td>
+<td></td>
+</tr>
+<tr>
+<td>RPV</td>
+<td>Rémunération prescription vaccins</td>
+<td>01/01/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>Pharmaciens</td>
+</tr>
+<tr>
+<td>RQT</td>
+<td>Forfait requérant</td>
+<td>10/02/2019</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td>RSF</td>
+<td>Rémunération forfaitaire sages-femmes</td>
+<td>01/01/2024</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>sages-femmes</td>
+</tr>
+<tr>
+<td>RRA</td>
+<td>Rémunération ROSP AOD</td>
+<td>22/12/2015</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>Pharmaciens</td>
+</tr>
+<tr>
+<td>RST</td>
+<td>Rémunération forfaitaire pour le suivi des patients en Post ALD</td>
+<td>08/12/2013</td>
+<td>31/12/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>O</td>
+<td>A</td>
+<td>Médecins, Centres de Santé</td>
+</tr>
+<tr>
+<td>RTR</td>
+<td>Paiement poncutel pharmacie</td>
+<td>01/01/2017</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>Pharmaciens</td>
+</tr>
+<tr>
+<td>SBR</td>
+<td>Médecin - Rémunération sobriété</td>
+<td>01/01/2026</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>Médecins</td>
+</tr>
+<tr>
+<td>SDS</td>
+<td>Solde rémunération spécifique centres de santé</td>
+<td>01/12/2016</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>Centres de santé</td>
+</tr>
+<tr>
+<td>SOD</td>
+<td>OUTILS DE MISE A JOUR PHARMACIENS SPECIFICITES DOM</td>
+<td>19/03/2004</td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>S</td>
+<td>Pharmaciens DOM</td>
+</tr>
+<tr>
+<td>SPO</td>
+<td>Spécialité Pharm. Onéreuse SSR</td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>M</td>
+<td>Etablissements SSR</td>
+</tr>
+<tr>
+<td>STA</td>
+<td>Aide à l’activité – Option SST</td>
+<td>31/03/2013</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td>Médecins</td>
+</tr>
+<tr>
+<td>STD</td>
+<td>Frais de déplacement STT</td>
+<td>31/03/2013</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td>Médecins</td>
+</tr>
+<tr>
+<td>TSP</td>
+<td>Télésurveillance prime variable</td>
+<td>15/12/2016</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td>Médecins, établissements</td>
+</tr>
+<tr>
+<td>UOE</td>
+<td>utilisation outil ESCAP</td>
+<td>01/01/2025</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td>VAM</td>
+<td>Versement Activité SSR AME</td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>M</td>
+<td></td>
+</tr>
+<tr>
+<td>VCO</td>
+<td>Rémunération vaccination Covid19</td>
+<td>15/12/2020</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td></td>
+</tr>
+<tr>
+<td>VGI</td>
+<td>REMUNERATION VACCINATION GRIPPE A INFIRMIERS LIBERAUX</td>
+<td>01/11/2009</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td>Vacations infirmiers libéraux</td>
+</tr>
+<tr>
+<td>VGM</td>
+<td>REMUNERATION VACCINATION GRIPPE A MEDECIN</td>
+<td>01/11/2009</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td>Vacations médecins libéraux</td>
+</tr>
+<tr>
+<td>VIR</td>
+<td>Vacation infirmier vaccination Covid19</td>
+<td>24/12/2020</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td></td>
+</tr>
+<tr>
+<td>VMR</td>
+<td>Vacation médecin vaccination Covid19</td>
+<td>24/12/2020</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td></td>
+</tr>
+<tr>
+<td>VSA</td>
+<td>FORFAIT VSM</td>
+<td>01/06/2023</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>P</td>
+<td>Médecins, centres de santé</td>
+</tr>
+<tr>
+<td>VSU</td>
+<td>Versement Soins Urgents SSR</td>
+<td>01/01/2021</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>M</td>
+<td></td>
+</tr>
+<tr>
+<td>ZFU</td>
+<td>Contrat de bonnes pratiques en zone franche urbaine</td>
+<td>12/01/2005</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>N</td>
+<td>A</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+NORMES B2 et NOEMIE PS - Annexe 10
+17

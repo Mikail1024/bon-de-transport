@@ -1,4 +1,4 @@
-![logo: sesam-vitale](PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28_images/page_1_image_1_v2.jpg)
+logo: sesam-vitale
 
 # <u>Fiche d’information.</u>
 
@@ -70,7 +70,7 @@ Le présent avenant fait donc évoluer les modalités de renseignement des RPPS 
 **www.sesam-vitale.fr**
 **1 / 3**
 
-![logo: sesam-vitale](PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28_images/page_2_image_1_v2.jpg)
+logo: sesam-vitale
 
 # <u>Fiche d’information.</u>
 
@@ -127,7 +127,7 @@ Homologation pour prendre en compte la maintenance du produit.
 **5, boulevard Marie et Alexandre Oyon – 72019 LE MANS Cedex 2**
 *PDT-INF-926v2* **www.sesam-vitale.fr** *2 / 3*
 
-![logo: sesam-vitale](PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28_images/page_3_image_1_v2.jpg)
+logo: sesam-vitale
 
 # <u>Fiche d’information.</u>
 

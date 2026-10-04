@@ -1,0 +1,423 @@
+{
+  "date": "2026-10-04",
+  "session_number": "16-split",
+  "project_id": "971eb2f9-963b-4589-9388-a08b08582763",
+  "initial_credits": 3295,
+  "tier": "Agentic Plus",
+  "credits_per_page": 45,
+  "documents": [
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3.pdf",
+      "pages": 9,
+      "sha256": "10083c0db6a09f72c34cd0e25f48779723d7c6118506cdba2593825223af2743",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3.md",
+      "status": "completed",
+      "job_id": "pjb-rlrggqndpf1fsxts0o2ebjldno8g",
+      "session": "2026-10-04-16",
+      "failed_attempts": [
+        {
+          "session": "2026-10-04-16",
+          "job_id": "pjb-rlrggqndpf1fsxts0o2ebjldno8g",
+          "status": "FAILED"
+        }
+      ],
+      "parts": [
+        {
+          "upload_name": "S16D01_P001-003.pdf",
+          "source_page_start": 1,
+          "source_page_end": 3,
+          "pages": 3,
+          "status": "FAILED",
+          "job_id": "pjb-m1llctl3uf88k4bhkooahmqqsjyw"
+        },
+        {
+          "upload_name": "S16D01_P004-006.pdf",
+          "source_page_start": 4,
+          "source_page_end": 6,
+          "pages": 3,
+          "status": "SUCCESS",
+          "job_id": "pjb-8b6cxhbg03f8s318z8onjjlr2t06",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D01_P004-006.md",
+          "sha256": "ec70b05df013c24b02128d8b664ad0adaafb972a6ed8c665a1e05b09e2f036a5"
+        },
+        {
+          "upload_name": "S16D01_P007-009.pdf",
+          "source_page_start": 7,
+          "source_page_end": 9,
+          "pages": 3,
+          "status": "SUCCESS",
+          "job_id": "pjb-wrnpwh2hhz9ozr557pekqc9zfs1r",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D01_P007-009.md",
+          "sha256": "c9c7623d35a2999e68f8633c1445db2b9f782272ce0b6628c0352dbd3ba823a6"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S16D01_P001.pdf",
+          "source_page_start": 1,
+          "source_page_end": 1,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-waqr2p1sn5rsm25w5gjb5hvfo82v"
+        },
+        {
+          "upload_name": "S16D01_P002.pdf",
+          "source_page_start": 2,
+          "source_page_end": 2,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-cqpc6v9a42uxkbv2znjud3y5y223",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D01_P002.md",
+          "sha256": "c3a9e9688e6fa9ad6d3258ef540926dbef55eeda925f6306b3543fab099527a0"
+        },
+        {
+          "upload_name": "S16D01_P003.pdf",
+          "source_page_start": 3,
+          "source_page_end": 3,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-hsjf9jnd0y66369whwdvlat63ekw",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D01_P003.md",
+          "sha256": "685cf290bab2735172a7e1e2588c87f90bcdecab18be79dc51a710703f4029e1"
+        }
+      ],
+      "cover_retry": {
+        "upload_name": "S16D01_P001_raster.pdf",
+        "pages": 1,
+        "status": "FAILED",
+        "method": "300 dpi raster PDF copy of original page 1",
+        "job_id": "pjb-dadstb9nuzvqkpspks9jnltpuojk"
+      },
+      "manual_page1": {
+        "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D01_P001_manual.md",
+        "method": "Visual transcription by Codex, compared with both rendered originals; SOAP code visually checked. Original version label V1.2 retained despite V1_3 filename."
+      },
+      "output_sha256": "074fa72b989378ecdfcc15968969d57389a2f61c63e3a9c7ba9d4a12fe03cc0c",
+      "quality_check": "All source pages 1-9 covered in order without overlaps; HTML tables kept separate at page boundaries. Page 1 manually transcribed; remaining pages not character-by-character audited."
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3_MR.pdf",
+      "pages": 9,
+      "sha256": "763ba44868cb5609f09b76ea7c0a5d53f9b6527a28188c1d4776aa24997cd95a",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/SEL-INF-032_V1_3_MR.md",
+      "status": "completed",
+      "job_id": "pjb-fo5vl960yu8n7g7kdhc02ce30duu",
+      "session": "2026-10-04-16",
+      "failed_attempts": [
+        {
+          "session": "2026-10-04-16",
+          "job_id": "pjb-fo5vl960yu8n7g7kdhc02ce30duu",
+          "status": "FAILED"
+        }
+      ],
+      "parts": [
+        {
+          "upload_name": "S16D02_P001-003.pdf",
+          "source_page_start": 1,
+          "source_page_end": 3,
+          "pages": 3,
+          "status": "FAILED",
+          "job_id": "pjb-o4f1d1wgmsky73izz2115wya9ahp"
+        },
+        {
+          "upload_name": "S16D02_P004-006.pdf",
+          "source_page_start": 4,
+          "source_page_end": 6,
+          "pages": 3,
+          "status": "SUCCESS",
+          "job_id": "pjb-sabsp565i2gcmd6vbcb857hoc51z",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D02_P004-006.md",
+          "sha256": "8af0f985af6ee5dce30bfe6b05d59f967f425e0699c3730cef20291dee5e72dd"
+        },
+        {
+          "upload_name": "S16D02_P007-009.pdf",
+          "source_page_start": 7,
+          "source_page_end": 9,
+          "pages": 3,
+          "status": "SUCCESS",
+          "job_id": "pjb-ryp6av75tlmsq8u6cca91l4noh7l",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D02_P007-009.md",
+          "sha256": "8adada2d82d647b9122b4a9aad5ed5441191437f16ca2367106dfafdad6c899a"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S16D02_P001.pdf",
+          "source_page_start": 1,
+          "source_page_end": 1,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-d2xxuy678d2gd46g5mzdtvksxk4e"
+        },
+        {
+          "upload_name": "S16D02_P002.pdf",
+          "source_page_start": 2,
+          "source_page_end": 2,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-kk4owgk3g3lkos3s943f15tae4yh",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D02_P002.md",
+          "sha256": "e858fe3f9f71143b47f819597faaf5154d195373194e80089db9ff3b73f10c68"
+        },
+        {
+          "upload_name": "S16D02_P003.pdf",
+          "source_page_start": 3,
+          "source_page_end": 3,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-chy2rlij93w39zvucv50mvid6f8c",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D02_P003.md",
+          "sha256": "4fdc5ddad53afbab6bb6708f9c3036ae8df43e49f8c7c30ab8a04a5fbe0e8534"
+        }
+      ],
+      "cover_retry": {
+        "upload_name": "S16D02_P001_raster.pdf",
+        "pages": 1,
+        "status": "FAILED",
+        "method": "300 dpi raster PDF copy of original page 1",
+        "job_id": "pjb-i7kexxv9zxh7lqt2zsnul0tw91yn"
+      },
+      "manual_page1": {
+        "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D02_P001_manual.md",
+        "method": "Visual transcription by Codex, compared with both rendered originals; SOAP code visually checked. Original version label V1.2 retained despite V1_3 filename."
+      },
+      "output_sha256": "9fda11dfd8cb830f811db98e4f72511fc98ee01794bb5dcfb1277ab652d58f58",
+      "quality_check": "All source pages 1-9 covered in order without overlaps; HTML tables kept separate at page boundaries. Page 1 manually transcribed; remaining pages not character-by-character audited."
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Présentation du cadre d'intéropérabilité.pdf",
+      "pages": 30,
+      "sha256": "a1ce1bd2f0662166275742fd95403082da057ea59caa64663fb23f5456dad296",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Présentation du cadre d'intéropérabilité.md",
+      "status": "completed",
+      "job_id": "pjb-ds7kunpbjm7dmlcmdtdqxhox5z5c",
+      "session": "2026-10-04-16",
+      "failed_attempts": [
+        {
+          "session": "2026-10-04-16",
+          "job_id": "pjb-ds7kunpbjm7dmlcmdtdqxhox5z5c",
+          "status": "FAILED"
+        }
+      ],
+      "parts": [
+        {
+          "upload_name": "S16D03_P001-005.pdf",
+          "source_page_start": 1,
+          "source_page_end": 5,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-x9fsz3itcklvmwxmibcgcjyhk2lv",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P001-005.md"
+        },
+        {
+          "upload_name": "S16D03_P006-010.pdf",
+          "source_page_start": 6,
+          "source_page_end": 10,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-1zwfvxwczinrdx39k23xsrsku49e",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P006-010.md"
+        },
+        {
+          "upload_name": "S16D03_P011-015.pdf",
+          "source_page_start": 11,
+          "source_page_end": 15,
+          "pages": 5,
+          "status": "FAILED",
+          "job_id": "pjb-6oilgua0ej3n90efgxi2qyyoade6"
+        },
+        {
+          "upload_name": "S16D03_P016-020.pdf",
+          "source_page_start": 16,
+          "source_page_end": 20,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-i1yvoheoka3nwifdzn2tnahwn0q4",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P016-020.md"
+        },
+        {
+          "upload_name": "S16D03_P021-025.pdf",
+          "source_page_start": 21,
+          "source_page_end": 25,
+          "pages": 5,
+          "status": "FAILED",
+          "job_id": "pjb-dl9g6h1emb35c2ps3kf4852c8fn9"
+        },
+        {
+          "upload_name": "S16D03_P026-030.pdf",
+          "source_page_start": 26,
+          "source_page_end": 30,
+          "pages": 5,
+          "status": "FAILED",
+          "job_id": "pjb-863cpy9lqk03787vl2eu93kevx5s"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S16D03_P011.pdf",
+          "source_page_start": 11,
+          "source_page_end": 11,
+          "pages": 1,
+          "status": "FAILED"
+        },
+        {
+          "upload_name": "S16D03_P012.pdf",
+          "source_page_start": 12,
+          "source_page_end": 12,
+          "pages": 1,
+          "status": "FAILED"
+        },
+        {
+          "upload_name": "S16D03_P013.pdf",
+          "source_page_start": 13,
+          "source_page_end": 13,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-139zurae70ptm5zdfjfixffit378"
+        },
+        {
+          "upload_name": "S16D03_P014.pdf",
+          "source_page_start": 14,
+          "source_page_end": 14,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-z91y8pi0qa266evd6n2sk9kv6v14",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P014.md"
+        },
+        {
+          "upload_name": "S16D03_P015.pdf",
+          "source_page_start": 15,
+          "source_page_end": 15,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-8fydbazbqw9u85hny37a4nam0l0t",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P015.md"
+        },
+        {
+          "upload_name": "S16D03_P021.pdf",
+          "source_page_start": 21,
+          "source_page_end": 21,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-7sxoenzn0c6p8h4904h6hbwrnv39",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P021.md"
+        },
+        {
+          "upload_name": "S16D03_P022.pdf",
+          "source_page_start": 22,
+          "source_page_end": 22,
+          "pages": 1,
+          "status": "FAILED"
+        },
+        {
+          "upload_name": "S16D03_P023.pdf",
+          "source_page_start": 23,
+          "source_page_end": 23,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-28zjqcgooeccf4o48nfsa94kq9ge",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P023.md"
+        },
+        {
+          "upload_name": "S16D03_P024.pdf",
+          "source_page_start": 24,
+          "source_page_end": 24,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-lejy2w9w1wqgcphabfq8sfus3okk",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P024.md"
+        },
+        {
+          "upload_name": "S16D03_P025.pdf",
+          "source_page_start": 25,
+          "source_page_end": 25,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-7c05izmpei4slxbttgekcojdigmc",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P025.md"
+        },
+        {
+          "upload_name": "S16D03_P026.pdf",
+          "source_page_start": 26,
+          "source_page_end": 26,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-vjiup0857hoqvixe11hoe9twd2wj",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P026.md"
+        },
+        {
+          "upload_name": "S16D03_P027.pdf",
+          "source_page_start": 27,
+          "source_page_end": 27,
+          "pages": 1,
+          "status": "FAILED"
+        },
+        {
+          "upload_name": "S16D03_P028.pdf",
+          "source_page_start": 28,
+          "source_page_end": 28,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-zpy3q30ieln3i1xhm5jr9adww45u",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P028.md"
+        },
+        {
+          "upload_name": "S16D03_P029.pdf",
+          "source_page_start": 29,
+          "source_page_end": 29,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-r1eny3h9zzeha3laatm6t1yjcpzj",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P029.md"
+        },
+        {
+          "upload_name": "S16D03_P030.pdf",
+          "source_page_start": 30,
+          "source_page_end": 30,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-ooi36adb7iqfexahv566s99ierek",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P030.md"
+        }
+      ],
+      "manual_pages": [
+        {
+          "page": 11,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P011_manual.md",
+          "method": "Codex visual transcription from rendered source, XML values and diagram labels preserved"
+        },
+        {
+          "page": 12,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P012_manual.md",
+          "method": "Codex visual transcription from rendered source, XML values and diagram labels preserved"
+        },
+        {
+          "page": 13,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P013_manual.md",
+          "method": "Codex visual transcription from rendered source, XML values and diagram labels preserved"
+        },
+        {
+          "page": 22,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P022_manual.md",
+          "method": "Codex visual transcription from rendered source, XML values and diagram labels preserved"
+        },
+        {
+          "page": 27,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-16-split/S16D03_P027_manual.md",
+          "method": "Codex visual transcription from rendered source, XML values and diagram labels preserved"
+        }
+      ],
+      "output_sha256": "d031e3d49a2e4d47b5b497fb9707dfc77302271c89fec1bc8bad65ed32b7a20e",
+      "quality_check": "All source pages 1-30 covered once, ordered; 5 technical pages visually transcribed, original inconsistencies retained; remaining LlamaParse pages not audited character by character."
+    }
+  ],
+  "split_verification": "Each split page rendered identical to original page pixels",
+  "consumed_credits": 1845,
+  "remaining_credits": 1450,
+  "status": "completed",
+  "completed_documents": 3,
+  "completed_source_pages": 48,
+  "manual_pages_count": 7,
+  "account_total_consumed": 8550,
+  "credits_verified_in_browser": true
+}

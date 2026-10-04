@@ -1,0 +1,609 @@
+{
+  "date": "2026-10-03",
+  "completed_documents": 40,
+  "pages": 1003,
+  "images": 4644,
+  "image_references": 1021,
+  "raw_exports_verified": 37,
+  "sources_hash_verified": 190,
+  "issues": [
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.pdf",
+      "issue": "image référencée absente : image_url_placeholder (6 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.pdf",
+      "issue": "image référencée absente : image_url_placeholder (14 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.pdf",
+      "issue": "image référencée absente : image_url_placeholder (4 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.pdf",
+      "issue": "image référencée absente : image_url_placeholder (1 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.pdf",
+      "issue": "image référencée absente : image_url_placeholder (2 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
+      "issue": "image référencée absente : fdmp (1 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
+      "issue": "image référencée absente : ryar (1 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
+      "issue": "image référencée absente : image_url_placeholder (2 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.pdf",
+      "issue": "image référencée absente : image_url_placeholder (23 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.pdf",
+      "issue": "image référencée absente : xipr (3 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.pdf",
+      "issue": "image référencée absente : image_url_placeholder (33 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.pdf",
+      "issue": "image référencée absente : drjf (3 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.pdf",
+      "issue": "image référencée absente : uhxv (5 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
+      "issue": "image référencée absente : image_url_placeholder (2 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
+      "issue": "image référencée absente : ltma (2 occurrences)"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
+      "issue": "image référencée absente : ycnu (6 occurrences)"
+    }
+  ],
+  "documents": [
+    {
+      "session": 2,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.md",
+      "pages": 137,
+      "images": 274,
+      "image_references": 4,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 2,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.md",
+      "pages": 2,
+      "images": 4,
+      "image_references": 0,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 2,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.md",
+      "pages": 17,
+      "images": 34,
+      "image_references": 0,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 2,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.md",
+      "pages": 24,
+      "images": 80,
+      "image_references": 22,
+      "issues": [
+        "image référencée absente : image_url_placeholder (6 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 6
+      },
+      "diagram_placeholder_references": 7
+    },
+    {
+      "session": 2,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.md",
+      "pages": 38,
+      "images": 110,
+      "image_references": 11,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.md",
+      "pages": 7,
+      "images": 217,
+      "image_references": 43,
+      "issues": [
+        "image référencée absente : image_url_placeholder (14 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 14
+      },
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.md",
+      "pages": 1,
+      "images": 13,
+      "image_references": 7,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.md",
+      "pages": 3,
+      "images": 15,
+      "image_references": 9,
+      "issues": [
+        "image référencée absente : image_url_placeholder (4 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 4
+      },
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.md",
+      "pages": 16,
+      "images": 16,
+      "image_references": 0,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.md",
+      "pages": 5,
+      "images": 14,
+      "image_references": 2,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.md",
+      "pages": 55,
+      "images": 973,
+      "image_references": 3,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.md",
+      "pages": 3,
+      "images": 9,
+      "image_references": 3,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.md",
+      "pages": 6,
+      "images": 49,
+      "image_references": 19,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.md",
+      "pages": 37,
+      "images": 184,
+      "image_references": 38,
+      "issues": [
+        "image référencée absente : image_url_placeholder (1 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 1
+      },
+      "diagram_placeholder_references": 8
+    },
+    {
+      "session": 3,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.md",
+      "pages": 69,
+      "images": 308,
+      "image_references": 97,
+      "issues": [
+        "image référencée absente : image_url_placeholder (2 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 2
+      },
+      "diagram_placeholder_references": 15
+    },
+    {
+      "session": 1,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.md",
+      "pages": 24,
+      "images": 201,
+      "image_references": 88,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 1,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.md",
+      "pages": 3,
+      "images": 10,
+      "image_references": 3,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 1,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.md",
+      "pages": 178,
+      "images": 318,
+      "image_references": 4,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.md",
+      "pages": 71,
+      "images": 315,
+      "image_references": 95,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 14
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.md",
+      "pages": 3,
+      "images": 17,
+      "image_references": 9,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.md",
+      "pages": 62,
+      "images": 320,
+      "image_references": 96,
+      "issues": [
+        "image référencée absente : fdmp (1 occurrences)",
+        "image référencée absente : ryar (1 occurrences)",
+        "image référencée absente : image_url_placeholder (2 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "fdmp": 1,
+        "ryar": 1,
+        "image_url_placeholder": 2
+      },
+      "diagram_placeholder_references": 13
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.md",
+      "pages": 52,
+      "images": 280,
+      "image_references": 81,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.md",
+      "pages": 4,
+      "images": 12,
+      "image_references": 5,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.md",
+      "pages": 4,
+      "images": 8,
+      "image_references": 4,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.md",
+      "pages": 1,
+      "images": 2,
+      "image_references": 0,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.md",
+      "pages": 7,
+      "images": 21,
+      "image_references": 5,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 4
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.md",
+      "pages": 8,
+      "images": 10,
+      "image_references": 1,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.md",
+      "pages": 3,
+      "images": 5,
+      "image_references": 1,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.md",
+      "pages": 2,
+      "images": 4,
+      "image_references": 0,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 4,
+      "source": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.md",
+      "pages": 2,
+      "images": 10,
+      "image_references": 4,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.md",
+      "pages": 41,
+      "images": 199,
+      "image_references": 77,
+      "issues": [
+        "image référencée absente : image_url_placeholder (23 occurrences)",
+        "image référencée absente : xipr (3 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 23,
+        "xipr": 3
+      },
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.md",
+      "pages": 49,
+      "images": 275,
+      "image_references": 190,
+      "issues": [
+        "image référencée absente : image_url_placeholder (33 occurrences)",
+        "image référencée absente : drjf (3 occurrences)",
+        "image référencée absente : uhxv (5 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 33,
+        "drjf": 3,
+        "uhxv": 5
+      },
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.md",
+      "pages": 9,
+      "images": 30,
+      "image_references": 9,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 2
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.md",
+      "pages": 1,
+      "images": 5,
+      "image_references": 2,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.md",
+      "pages": 1,
+      "images": 4,
+      "image_references": 1,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.md",
+      "pages": 1,
+      "images": 5,
+      "image_references": 3,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.md",
+      "pages": 1,
+      "images": 7,
+      "image_references": 1,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).md",
+      "pages": 2,
+      "images": 11,
+      "image_references": 4,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.md",
+      "pages": 2,
+      "images": 10,
+      "image_references": 4,
+      "issues": [],
+      "unresolved_image_references": {},
+      "diagram_placeholder_references": 0
+    },
+    {
+      "session": 5,
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.md",
+      "pages": 52,
+      "images": 265,
+      "image_references": 76,
+      "issues": [
+        "image référencée absente : image_url_placeholder (2 occurrences)",
+        "image référencée absente : ltma (2 occurrences)",
+        "image référencée absente : ycnu (6 occurrences)"
+      ],
+      "unresolved_image_references": {
+        "image_url_placeholder": 2,
+        "ltma": 2,
+        "ycnu": 6
+      },
+      "diagram_placeholder_references": 27
+    }
+  ],
+  "limits": [
+    "Contrôle matériel et cohérence des journaux ; pas audit de transcription caractère par caractère.",
+    "Options de conversion et soldes historiques ne peuvent être prouvés à partir des seuls fichiers locaux."
+  ],
+  "diagram_placeholders": [
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.pdf",
+      "occurrences": 7
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.pdf",
+      "occurrences": 8
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.pdf",
+      "occurrences": 15
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.pdf",
+      "occurrences": 14
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.pdf",
+      "occurrences": 13
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.pdf",
+      "occurrences": 4
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.pdf",
+      "occurrences": 2
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.pdf",
+      "occurrences": 27
+    }
+  ],
+  "diagram_placeholder_count": 90,
+  "unresolved_image_occurrences": 108,
+  "documents_with_unresolved_images": 9,
+  "verified_local_image_references": 913
+}

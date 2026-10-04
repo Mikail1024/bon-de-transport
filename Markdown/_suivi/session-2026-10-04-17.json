@@ -1,0 +1,918 @@
+{
+  "date": "2026-10-04",
+  "session_number": 17,
+  "project_id": "25ad8c35-f6d7-4aa7-ba52-f8eee704e0d9",
+  "initial_credits": 10000,
+  "tier": "Agentic Plus",
+  "credits_per_page": 45,
+  "status": "completed",
+  "documents": [
+    {
+      "source": "20_TAXI/SEFi/Géolocalisation Taxi/Géolocalisation Taxi DRAFT/Géolocalisation Taxi DRAFT/FACT-SFG-039 Facturation Taxi - Constituer et transmettre les traces de géolocalisation v1.08.pdf",
+      "pages": 36,
+      "sha256": "cca533b4b84fe1d5c73f25cc314c16eac1870fdfcd604cccb29b5ee3dd253a96",
+      "output": "20_TAXI/SEFi/Géolocalisation Taxi/Géolocalisation Taxi DRAFT/Géolocalisation Taxi DRAFT/FACT-SFG-039 Facturation Taxi - Constituer et transmettre les traces de géolocalisation v1.08.md",
+      "status": "completed",
+      "session": "2026-10-04-16",
+      "job_id": "pjb-turvadlatwvi96umajuthcbhz7s4",
+      "failed_attempts": [
+        {
+          "session": "2026-10-04-16",
+          "job_id": "pjb-turvadlatwvi96umajuthcbhz7s4",
+          "status": "FAILED"
+        }
+      ],
+      "parts": [
+        {
+          "upload_name": "S17D01_P001-010.pdf",
+          "source_page_start": 1,
+          "source_page_end": 10,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-5pv3dhjbwl8jj2dk7kgs10253d2a",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P001-010.md",
+          "sha256": "3fd6e4e2b8e1b48b1266c99f95b38986615fcf46ac8778189a421cd59f6c2912"
+        },
+        {
+          "upload_name": "S17D01_P011-020.pdf",
+          "source_page_start": 11,
+          "source_page_end": 20,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-ix48tw498i6i2rhqzr4szxl570gt",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P011-020.md",
+          "sha256": "7a24cd0653a24118ab7cefd16eba099a53ab4443bb0fc709ef4342c6ae40161d"
+        },
+        {
+          "upload_name": "S17D01_P021-030.pdf",
+          "source_page_start": 21,
+          "source_page_end": 30,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-h9sszak54n8oh4cb4ma2hrus4dgh",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P021-030.md",
+          "sha256": "be972841e5dc5b887502b3ef22bfa58ba9df809e7a6b7658e6ec0a0b630060e2"
+        },
+        {
+          "upload_name": "S17D01_P031-036.pdf",
+          "source_page_start": 31,
+          "source_page_end": 36,
+          "pages": 6,
+          "status": "FAILED",
+          "job_id": "pjb-gnnzg5dfnz3rwfz91ncdcfgjxt8o"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S17D01_P031.pdf",
+          "source_page_start": 31,
+          "source_page_end": 31,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-3rl4rppygyrawkgf2nlxuyj5wyx1",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P031.md",
+          "sha256": "a7ca6abd6383eb34d583d2cabaae722edd08d2ffb3cd0553875bea49c079c14e"
+        },
+        {
+          "upload_name": "S17D01_P032.pdf",
+          "source_page_start": 32,
+          "source_page_end": 32,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-3r690pskuajvq9u109lbwhjizc0p",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P032.md",
+          "sha256": "062f6931c14f5d2964ff95a4f1f2d64e45cab3d375a982d9b83e89ffabdb1a16"
+        },
+        {
+          "upload_name": "S17D01_P033.pdf",
+          "source_page_start": 33,
+          "source_page_end": 33,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-h1snnin81ub4j3zgfrd7ypo8dh5g",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P033.md",
+          "sha256": "182286c45ecae2c30c4102872df4281bba9b4a881fdb406bd0d96f8f8115ed79"
+        },
+        {
+          "upload_name": "S17D01_P034.pdf",
+          "source_page_start": 34,
+          "source_page_end": 34,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-62f7j8gflgny712jj1xox04jyh70",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P034.md",
+          "sha256": "e23741e10b58df8a91176c573511f990f30d6f9cf96c5a7fc883f05832c8c107"
+        },
+        {
+          "upload_name": "S17D01_P035.pdf",
+          "source_page_start": 35,
+          "source_page_end": 35,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-6n4kop32lip6moq5h13rxgdysuj6"
+        },
+        {
+          "upload_name": "S17D01_P036.pdf",
+          "source_page_start": 36,
+          "source_page_end": 36,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-9iekyhc2pcaeqeha9igkqn01x9oo",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P036.md",
+          "sha256": "98febcb026f6719b8e3dbcbbdc3c37cb2c74f8fffb9ed5de16dc1956741afb5d"
+        }
+      ],
+      "manual_pages": [
+        {
+          "source_page_start": 35,
+          "source_page_end": 35,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D01_P035_manual.md",
+          "sha256": "05699d8fc2225eb7eff855b03f486cff960fa58d36c4ac0b02dd27dc86871da2",
+          "method": "Embedded text assisted transcription checked visually against full original page render. HTML tables preserve nesting, bold/italic and attribute color; XML sample deliberately ends at source page boundary."
+        }
+      ],
+      "output_sha256": "29aca0e4b9c53b1c9dabf228bd52b110d3274ec5fa74e3bd840904d859b8f140",
+      "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages"
+    },
+    {
+      "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 avec MR.pdf",
+      "pages": 38,
+      "sha256": "5deb47bf71a7827b0c546cec0f6219a79d98e09582af940ce2d8d85f76c356b3",
+      "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 avec MR.md",
+      "status": "completed",
+      "session": "2026-10-04-16",
+      "job_id": "pjb-1m2jsr3x3wulzso508qxagubnwyq",
+      "failed_attempts": [
+        {
+          "session": "2026-10-04-16",
+          "job_id": "pjb-1m2jsr3x3wulzso508qxagubnwyq",
+          "status": "FAILED"
+        }
+      ],
+      "parts": [
+        {
+          "upload_name": "S17D02_P001-010.pdf",
+          "source_page_start": 1,
+          "source_page_end": 10,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-4y6hl1r6ws6768wnoemr5zuyybtv",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P001-010.md",
+          "sha256": "79d708c255ace04b345e3fa9cd43e1fdd9b5cf3f60a69ead7d1b92f1ac9e8817"
+        },
+        {
+          "upload_name": "S17D02_P011-020.pdf",
+          "source_page_start": 11,
+          "source_page_end": 20,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-1n4ngfnt9kq4fxgljvfaktyteu3t",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P011-020.md",
+          "sha256": "003fa75837194647267eba4c4f25be65bec9cf73aaedab5ff1ebf6ec726a2870"
+        },
+        {
+          "upload_name": "S17D02_P021-030.pdf",
+          "source_page_start": 21,
+          "source_page_end": 30,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-5bjeko4wqj73eur3ie89vbhlxukq",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P021-030.md",
+          "sha256": "fa6188f1502298798f1d60647bb724ccfb02774188a2e71b23e1345b43df9cc3"
+        },
+        {
+          "upload_name": "S17D02_P031-038.pdf",
+          "source_page_start": 31,
+          "source_page_end": 38,
+          "pages": 8,
+          "status": "FAILED",
+          "job_id": "pjb-xk4l689umgpuu06bif20nvzma42h"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S17D02_P031.pdf",
+          "source_page_start": 31,
+          "source_page_end": 31,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-frurfml16dzbwjwwivl2kisexiol",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P031.md",
+          "sha256": "6734df7368bebc735224c0c6262f0fa4181f5af3f3043ef87f7df3c9bfc0c52d"
+        },
+        {
+          "upload_name": "S17D02_P032.pdf",
+          "source_page_start": 32,
+          "source_page_end": 32,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-d7lezztr8w79sfce0gha6fzqykw8",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P032.md",
+          "sha256": "03dfb77984fd6695afbdfaba4143658736faf4df59c8f19f1446de7c4812ab88"
+        },
+        {
+          "upload_name": "S17D02_P033.pdf",
+          "source_page_start": 33,
+          "source_page_end": 33,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-hmj6ykwk4qvbffu4vuzm4iy9qd6e",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P033.md",
+          "sha256": "e851c0b5738fdd2e88aaf66a50b4599b047c228e6860ad70f56fa10ad31b4dab"
+        },
+        {
+          "upload_name": "S17D02_P034.pdf",
+          "source_page_start": 34,
+          "source_page_end": 34,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-nv9nk5uprc5n7ibev2khwaysxhhb",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P034.md",
+          "sha256": "6f49a595c7baa9884531eddcec0dd60cacae6d9d280a7186439eccd8ee816dc8"
+        },
+        {
+          "upload_name": "S17D02_P035.pdf",
+          "source_page_start": 35,
+          "source_page_end": 35,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-sdd5wo3b5i51szngx0s1nadtgvxb",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P035.md",
+          "sha256": "8714327c79e3e677a00c24907239407fc394c7a00ecfdd09ed8097047268e6c6"
+        },
+        {
+          "upload_name": "S17D02_P036.pdf",
+          "source_page_start": 36,
+          "source_page_end": 36,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-exm4323l1dx6b2hbgpfv08t7p284",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P036.md",
+          "sha256": "1068168388ac843d218d71ffc795d7354dda62a0d3647129e710d6af205d8037"
+        },
+        {
+          "upload_name": "S17D02_P037.pdf",
+          "source_page_start": 37,
+          "source_page_end": 37,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-zuyra3fz70061a72toujkz498waf"
+        },
+        {
+          "upload_name": "S17D02_P038.pdf",
+          "source_page_start": 38,
+          "source_page_end": 38,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-vgiinz7e0c54uy87cb7hgktccac2",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P038.md",
+          "sha256": "b8cc1feb7fc1e34bd86fb237bc6ea6ab9871dfd2366d73492f1cdbfed514c0c8"
+        }
+      ],
+      "manual_pages": [
+        {
+          "source_page_start": 37,
+          "source_page_end": 37,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D02_P037_manual.md",
+          "sha256": "eb9c3aba5073e80213273d87330708db6df5b448160efe3e7e2dccd12a9c6dd8",
+          "method": "Embedded text assisted transcription checked visually against full original page render. HTML tables preserve nesting, bold/italic and attribute color; XML sample deliberately ends at source page boundary."
+        }
+      ],
+      "output_sha256": "f79f9e0c3c4df03815e39cb04059a9454435db518263588b5d8cb112426bfd70",
+      "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages"
+    },
+    {
+      "source": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 sans MR.pdf",
+      "pages": 38,
+      "sha256": "50134262ee924e810cdf4e69a48e9ec78677ad7de30ac35ff45b639998a07707",
+      "output": "30_TRANSPORTEURS_SANITAIRES/SEFi/Géolocalisation Transporteur Sanitaire/Package GEOLOCALISATION v1.05/Package GEOLOCALISATION v1.05/FACT-SFG-039 Facturation Transporteur - Constituer et Transmettre les traces de geolocalisation_1.05 sans MR.md",
+      "status": "completed",
+      "session": "2026-10-04-16",
+      "job_id": "pjb-ggrx348p5i3tljlt876uynz1su0p",
+      "failed_attempts": [
+        {
+          "session": "2026-10-04-16",
+          "job_id": "pjb-ggrx348p5i3tljlt876uynz1su0p",
+          "status": "FAILED"
+        }
+      ],
+      "parts": [
+        {
+          "upload_name": "S17D03_P001-010.pdf",
+          "source_page_start": 1,
+          "source_page_end": 10,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-8hudyx8gnzdm8ljr1xtlv9n9hyxy",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P001-010.md",
+          "sha256": "43ad76a87f33bb2d04589620384c60ecd91c626213244f8c4002d2711dc4c9de"
+        },
+        {
+          "upload_name": "S17D03_P011-020.pdf",
+          "source_page_start": 11,
+          "source_page_end": 20,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-j73as6u7uj8qvth24iwxc23zbna4",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P011-020.md",
+          "sha256": "c1ff46b76b6e223e456acfec4f312dae4678489da173e1767f3ec7d71b9a217c"
+        },
+        {
+          "upload_name": "S17D03_P021-030.pdf",
+          "source_page_start": 21,
+          "source_page_end": 30,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-urk6b1k1npfvik724m2nc32pbpmt",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P021-030.md",
+          "sha256": "ae1e386529cae1c70e5d9c665aea00e5e81fba95d463328b86f52d31d3c8396b"
+        },
+        {
+          "upload_name": "S17D03_P031-038.pdf",
+          "source_page_start": 31,
+          "source_page_end": 38,
+          "pages": 8,
+          "status": "FAILED",
+          "job_id": "pjb-twajuboty27godowcvb0g29641zt"
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S17D03_P031.pdf",
+          "source_page_start": 31,
+          "source_page_end": 31,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-7cw129kttyj82uih4dbzqx9l8o5z",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P031.md",
+          "sha256": "6d22076ef45865bc906c28ee2c3f3172b457ddff1a9def9cc5356a8195510d82"
+        },
+        {
+          "upload_name": "S17D03_P032.pdf",
+          "source_page_start": 32,
+          "source_page_end": 32,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-xanxii2pzxhix3qo6b03k069bgkf",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P032.md",
+          "sha256": "3a5e7216edbfb8d4dd4cb103df3e2f41f55c045f983d6296376d84ade6fb790b"
+        },
+        {
+          "upload_name": "S17D03_P033.pdf",
+          "source_page_start": 33,
+          "source_page_end": 33,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-9p37j0epr7jkfgo5nowdbzg4x0f0",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P033.md",
+          "sha256": "d4b7effcb635e6984c3ecd7b5d9ca86e0b7ec5905282d4755ba802ef28c94dc6"
+        },
+        {
+          "upload_name": "S17D03_P034.pdf",
+          "source_page_start": 34,
+          "source_page_end": 34,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-2xjlwtm3lg0tasu5tblf23l5xjwr",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P034.md",
+          "sha256": "e896254d61c4d2410e412a145efefdf58b18ce3af4dde02be4cce6e9eaca21ee"
+        },
+        {
+          "upload_name": "S17D03_P035.pdf",
+          "source_page_start": 35,
+          "source_page_end": 35,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-sdj6qgji1duswadoo3addz9tu4e1",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P035.md",
+          "sha256": "e6cf95266e80ce1942272ef95a173d5a335021d415bdc7b247053fc5bf711cb2"
+        },
+        {
+          "upload_name": "S17D03_P036.pdf",
+          "source_page_start": 36,
+          "source_page_end": 36,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-uj8nvwjl2yunmakrythrixqz1vj6",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P036.md",
+          "sha256": "cff10ebe7ed05d846647552728e2dafa6e7818e60488f44c80cde4a511bd36fb"
+        },
+        {
+          "upload_name": "S17D03_P037.pdf",
+          "source_page_start": 37,
+          "source_page_end": 37,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-8smbmcgzzhne2a7j2npuaz3gej5q"
+        },
+        {
+          "upload_name": "S17D03_P038.pdf",
+          "source_page_start": 38,
+          "source_page_end": 38,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-1ysvtleu9lm35p40bpe7wop6cj99",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P038.md",
+          "sha256": "8fa7498debb1a0668e5fdd1d585fe335e19f780ac0588a4d7d0a0c988f2ba27e"
+        }
+      ],
+      "manual_pages": [
+        {
+          "source_page_start": 37,
+          "source_page_end": 37,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D03_P037_manual.md",
+          "sha256": "eb9c3aba5073e80213273d87330708db6df5b448160efe3e7e2dccd12a9c6dd8",
+          "method": "Embedded text assisted transcription checked visually against full original page render. HTML tables preserve nesting, bold/italic and attribute color; XML sample deliberately ends at source page boundary."
+        }
+      ],
+      "output_sha256": "7640b38ac9fd39ce64630b6226e1de96ef522fe317edfc4347f657a7bce8cd57",
+      "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.pdf",
+      "pages": 102,
+      "sha256": "7aea43c27664cfd29ea126e61afd9e7c0a81cb2a8d347bcbf951d0b427f26ad4",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3.md",
+      "status": "completed",
+      "session": "2026-10-03-07",
+      "job_id": "pjb-dqowx2y80uucnelswr889jjt18r8",
+      "partial_export": "Markdown/_suivi/exports_bruts/session-07/partiels/CI-TLSi_AMO_V1_2_3_target_1-51.md",
+      "partial_export_sha256": "beb66239c55c444ed3834c9e023f89d1baf47d46e20ead5ea70324dbf97fc0b7",
+      "parts": [
+        {
+          "upload_name": "S17D04_P052-061.pdf",
+          "source_page_start": 52,
+          "source_page_end": 61,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-906fkd1iifa0vtkj1nvh9m79jpkv",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P052-061.md",
+          "sha256": "ba04f618c239538f7ad297f7de8d513a509d210ded133005317467b8f9d18b9e"
+        },
+        {
+          "upload_name": "S17D04_P062-071.pdf",
+          "source_page_start": 62,
+          "source_page_end": 71,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-rblz63erg8am3jmoa7t35y03arit",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P062-071.md",
+          "sha256": "080a2d69cefa8f1774aaed0005c38d420faa2830545be72c3faac6210606973a"
+        },
+        {
+          "upload_name": "S17D04_P072-081.pdf",
+          "source_page_start": 72,
+          "source_page_end": 81,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-u1xsxdn05b1o5dw2jgrs84lqerkv",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P072-081.md",
+          "sha256": "08cf79c643ae6cd339645f550d9fea044f1288ce2da19ab2b0e4d6e7cd61d001"
+        },
+        {
+          "upload_name": "S17D04_P082-091.pdf",
+          "source_page_start": 82,
+          "source_page_end": 91,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-i8gcjn0shqh9jmwdbjzc7qy4m78i",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P082-091.md",
+          "sha256": "a5df382b6310a3399484abbe69ecb53deec455e57f80c7a9b0b844571a0952f9"
+        },
+        {
+          "upload_name": "S17D04_P092-101.pdf",
+          "source_page_start": 92,
+          "source_page_end": 101,
+          "pages": 10,
+          "status": "FAILED",
+          "job_id": "pjb-2lmzx2282e7eqmcd7e6ydm9vowy0"
+        },
+        {
+          "upload_name": "S17D04_P102-102.pdf",
+          "source_page_start": 102,
+          "source_page_end": 102,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-mjkb6iv7srf895tm30cv1zxhhut5"
+        }
+      ],
+      "reused_partial": {
+        "raw_export": "Markdown/_suivi/exports_bruts/session-07/partiels/CI-TLSi_AMO_V1_2_3_target_1-51.md",
+        "source_page_start": 1,
+        "source_page_end": 51,
+        "verification": "Cover present; original-page footer sequence 2–51 present in order. Full page 51 text matches original and export ends before original page 52. Duplicate footer 45 retained as source/export data, not a duplicated imported page."
+      },
+      "page_retries": [
+        {
+          "upload_name": "S17D04_P092.pdf",
+          "source_page_start": 92,
+          "source_page_end": 92,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-ekpy9bwjl2gqdrw5vruubijudg3c",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P092.md",
+          "sha256": "83dee1056d9eeab8c5c0a31793efaf57ac60f1ffdcdc1d6385ad166313751c31"
+        },
+        {
+          "upload_name": "S17D04_P093.pdf",
+          "source_page_start": 93,
+          "source_page_end": 93,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-ekhm26r9b45c1pjt353l2rukn1bi"
+        },
+        {
+          "upload_name": "S17D04_P094.pdf",
+          "source_page_start": 94,
+          "source_page_end": 94,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-9udd2ozsee82xk5rabyw8hy62vzm"
+        },
+        {
+          "upload_name": "S17D04_P095.pdf",
+          "source_page_start": 95,
+          "source_page_end": 95,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-eky35buve8m5hjb294fm2o3lg7jl",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P095.md",
+          "sha256": "a234d4314da6f6a65cc7e6ac879e394c3d44ac35c688f4253bd33e6c2b47702c"
+        },
+        {
+          "upload_name": "S17D04_P096.pdf",
+          "source_page_start": 96,
+          "source_page_end": 96,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-uog4b91gle41l2mh138pa72wc0v3"
+        },
+        {
+          "upload_name": "S17D04_P097.pdf",
+          "source_page_start": 97,
+          "source_page_end": 97,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-2clcvlsmww7vyenrf9yveeyk72r4"
+        },
+        {
+          "upload_name": "S17D04_P098.pdf",
+          "source_page_start": 98,
+          "source_page_end": 98,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-xxlu4ck0r8zig0nlm6f0s6ndtjus"
+        },
+        {
+          "upload_name": "S17D04_P099.pdf",
+          "source_page_start": 99,
+          "source_page_end": 99,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-5tm3g1h009wvcfqgu14asednne0n"
+        },
+        {
+          "upload_name": "S17D04_P100.pdf",
+          "source_page_start": 100,
+          "source_page_end": 100,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-7kg3graadod0y5ku2pcvy9f8wo03"
+        },
+        {
+          "upload_name": "S17D04_P101.pdf",
+          "source_page_start": 101,
+          "source_page_end": 101,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-rk06ujqqi41hj53w9hkfkuv6aofg"
+        },
+        {
+          "upload_name": "S17D04_P102.pdf",
+          "source_page_start": 102,
+          "source_page_end": 102,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-ohofu6tgk7j2kxhrg1pluv3sk7u9"
+        }
+      ],
+      "manual_pages": [
+        {
+          "source_page_start": 93,
+          "source_page_end": 93,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P093_manual.md",
+          "sha256": "d4ddcd642a6df3f802eabf82e6a3f35d118fb84ab602f880213a83f80a5a08c4",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 94,
+          "source_page_end": 94,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P094_manual.md",
+          "sha256": "711637adde7c1889d5b1a8f6258cd38397e16ac8371efa39fc1413ffeb193230",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 96,
+          "source_page_end": 96,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P096_manual.md",
+          "sha256": "13c31461c12506996d258944644c21a336c92bbd11eaead43998162a41b37958",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 97,
+          "source_page_end": 97,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P097_manual.md",
+          "sha256": "3ccee77d0bd36f550ed3cc4c45be25cdeaec0d1966e607405dbbedb8777cc712",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 98,
+          "source_page_end": 98,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P098_manual.md",
+          "sha256": "e70b7780d6e642e5a7c0af430a3028d7d92ef847fba987ee234e6562b72c34ea",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 99,
+          "source_page_end": 99,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P099_manual.md",
+          "sha256": "7e52093388d7dc5b38bf1c35e3f1ea2717d7bffe6686c1b57fba782f6a996e1c",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 100,
+          "source_page_end": 100,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P100_manual.md",
+          "sha256": "575d42b1fdde91bb9532f4057e27316db2824e5b4b32f77d9b9814b00373604e",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 101,
+          "source_page_end": 101,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P101_manual.md",
+          "sha256": "4bd0155a8b16a5238ea86ef6e45c8f92d3746b823237d1f0f3749a4edd077273",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 102,
+          "source_page_end": 102,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P102_manual.md",
+          "sha256": "02d13f5e09aabc00edbcb4ab55ac156207bb5aabb0729a333a2b07fa44f99945",
+          "method": "Embedded text assisted transcription, checked against full rendered original page; XML values retained; only visual wraps inside URI/UUID joined. Example on page 94 continues on page 95."
+        },
+        {
+          "source_page_start": 95,
+          "source_page_end": 95,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D04_P095_manual.md",
+          "sha256": "ab22da2fb10f983aa9ca920403381ad76208a55e88332643f7f3a127284346f7",
+          "method": "Successful LlamaParse output corrected by visually verified full page transcription: source identifiantDeleguant had been altered to identifiantDelegant and markdown bold markers had entered XML. Raw LlamaParse output preserved."
+        }
+      ],
+      "output_sha256": "c1fb34c988d22bc5f57834d24728bbabf0cfdb0c60b336063d95c30277fc2ee7",
+      "conversion_method": "LlamaParse split exports with explicitly recorded visually checked manual/corrected pages"
+    },
+    {
+      "source": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.pdf",
+      "pages": 102,
+      "sha256": "f0cedc24764166ee52d0ad9f63f268566a2b06474c89fba9912f04f9d57f5d5b",
+      "output": "10_SOCLE_COMMUN_TS_TX/Services AMO/Intégrer un TLSi AMO/Cadre d'interopérabilité 1.2.3/Cadre d'intéropérabilité TLSi_AMO_1.2.3/CI-TLSi_AMO_V1_2_3_MR.md",
+      "status": "partial_requires_resume",
+      "session": "2026-10-03-08",
+      "job_id": "pjb-oiq2nu8ba4mfjfc4017bnfesyz04",
+      "parts": [
+        {
+          "upload_name": "S17D05_P001-010.pdf",
+          "source_page_start": 1,
+          "source_page_end": 10,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-14ava6ggssah4k9jqolxotc62h8k",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P001-010.md",
+          "sha256": "3e1e33a8444dc567095d1ee0effde78ca3a1f5b55e8a10c3db560572b75c7662"
+        },
+        {
+          "upload_name": "S17D05_P011-020.pdf",
+          "source_page_start": 11,
+          "source_page_end": 20,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-ljokwzj0oun0se0iui5g48809ezj",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P011-020.md",
+          "sha256": "100eedbe816fa6b175f280e9ccfd2fd4e53494c4962f071e31e264c70df7992e"
+        },
+        {
+          "upload_name": "S17D05_P021-030.pdf",
+          "source_page_start": 21,
+          "source_page_end": 30,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-m8hu56p3zm0oph0jmxqbffrhfjh7",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P021-030.md",
+          "sha256": "db8748e02d1965f5b9df953a0e9674e228b42fc55560f6abe2552e83c5df9cf9"
+        },
+        {
+          "upload_name": "S17D05_P031-040.pdf",
+          "source_page_start": 31,
+          "source_page_end": 40,
+          "pages": 10,
+          "status": "FAILED",
+          "job_id": "pjb-cijukeanqxqgarcbmtqvuu7zpra2"
+        },
+        {
+          "upload_name": "S17D05_P041-050.pdf",
+          "source_page_start": 41,
+          "source_page_end": 50,
+          "pages": 10,
+          "status": "SUCCESS",
+          "job_id": "pjb-mqgd770ypfid4vte8pylthv5shgf",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P041-050.md",
+          "sha256": "9695141984f5324ed6288b7d79fc9d59465ae592d088efb5e21a61f3d03e6b7d"
+        },
+        {
+          "upload_name": "S17D05_P051-059.pdf",
+          "source_page_start": 51,
+          "source_page_end": 59,
+          "pages": 9,
+          "status": "SUCCESS",
+          "job_id": "pjb-2b8j6cblj5uw7pj7uf5dw5pwi8aq",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P051-059.md",
+          "sha256": "2104b3f627b12b99507a0bd36f968234878adf7c012e3adaf1f709fb794f2d9b"
+        },
+        {
+          "upload_name": "S17D05_P060-064.pdf",
+          "source_page_start": 60,
+          "source_page_end": 64,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-t14sysovc6qb0snoc89lr3npyeg0",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P060-064.md",
+          "sha256": "9d208731f3a5bc7fd13043310b8e378bc9247b2cb312a8b6b165e830b8fa072f",
+          "options_note": "Agentic Plus; HTML tables, annotate links and revisions retained. UI reset custom prompt and preserve very small text for this last 13-page batch. All original page footers and all distinct source words of >=6 letters verified present in exported text; not a character-by-character audit."
+        },
+        {
+          "upload_name": "S17D05_P065-069.pdf",
+          "source_page_start": 65,
+          "source_page_end": 69,
+          "pages": 5,
+          "status": "SUCCESS",
+          "job_id": "pjb-epdviadksolmpqjrauotpn6esw6i",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P065-069.md",
+          "sha256": "532c61f76a632dfbba7d15923b7c55f1e823f2b513435caee743fceac9f97ae1",
+          "options_note": "Agentic Plus; HTML tables, annotate links and revisions retained. UI reset custom prompt and preserve very small text for this last 13-page batch. All original page footers and all distinct source words of >=6 letters verified present in exported text; not a character-by-character audit."
+        },
+        {
+          "upload_name": "S17D05_P070-072.pdf",
+          "source_page_start": 70,
+          "source_page_end": 72,
+          "pages": 3,
+          "status": "SUCCESS",
+          "job_id": "pjb-qqapckx0c723spoxl4bj110wbaiu",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P070-072.md",
+          "sha256": "97ef3adeb6c48f4c3030685c435e8ea3a6b88af894ba8ee4d723b5ecee7b3095",
+          "options_note": "Agentic Plus; HTML tables, annotate links and revisions retained. UI reset custom prompt and preserve very small text for this last 13-page batch. All original page footers and all distinct source words of >=6 letters verified present in exported text; not a character-by-character audit."
+        }
+      ],
+      "page_retries": [
+        {
+          "upload_name": "S17D05_P031.pdf",
+          "source_page_start": 31,
+          "source_page_end": 31,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-8cx1x8ucna1opnxwgdmd3c89zies",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P031.md",
+          "sha256": "8a1f75f039393be3ef67db7c124b7f3aaf90a90aa7b2ad07c8068477f94a40d6"
+        },
+        {
+          "upload_name": "S17D05_P032.pdf",
+          "source_page_start": 32,
+          "source_page_end": 32,
+          "pages": 1,
+          "status": "FAILED",
+          "job_id": "pjb-mvs366kbltkfh6jql4jhmy3jj84y"
+        },
+        {
+          "upload_name": "S17D05_P033.pdf",
+          "source_page_start": 33,
+          "source_page_end": 33,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-li08awhduxwame9gr4qtc1u3a2d6",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P033.md",
+          "sha256": "998186d86e567fe279164b530e88ae7ef6e080435e745e9cfb8386d18e3bc34f"
+        },
+        {
+          "upload_name": "S17D05_P034.pdf",
+          "source_page_start": 34,
+          "source_page_end": 34,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-dv84i2cyksboql62oj79yyvr22u2",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P034.md",
+          "sha256": "1b2dffc5e212480f83b636619b93b3c51bd9a29b688852ccfb9ca2fe1700e3e5"
+        },
+        {
+          "upload_name": "S17D05_P035.pdf",
+          "source_page_start": 35,
+          "source_page_end": 35,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-azq502w1lk33p0984lbss8z9fi88",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P035.md",
+          "sha256": "ebccb5f7a7b8919ad5fc2ddc9f8d5e79f9ebe878eaca1a76477a9b0254a40b06"
+        },
+        {
+          "upload_name": "S17D05_P036.pdf",
+          "source_page_start": 36,
+          "source_page_end": 36,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-rtinuzbeepo9hfz0h6tdi90xlcoi",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P036.md",
+          "sha256": "5452dc78f76ef7df4a4961b59e1feb01b7545b238dcd5b902328a5b597afb882"
+        },
+        {
+          "upload_name": "S17D05_P037.pdf",
+          "source_page_start": 37,
+          "source_page_end": 37,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-x77p4x0b8rjj2wnuijy0sonuqd79",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P037.md",
+          "sha256": "c6a6f3d7a99f66aaf1038ad9e4fe7d375fddd05d4c79b6db6f902505a53a1966"
+        },
+        {
+          "upload_name": "S17D05_P038.pdf",
+          "source_page_start": 38,
+          "source_page_end": 38,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-u14icmz0aoe19hyjsz9s4t4gjakh",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P038.md",
+          "sha256": "94116d6e0a152030e640d46c37400ce1da57822b1dffd385a146d12cd98f8775"
+        },
+        {
+          "upload_name": "S17D05_P039.pdf",
+          "source_page_start": 39,
+          "source_page_end": 39,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-uw24w8ir8dgioi5npvo1cr5l4l5d",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P039.md",
+          "sha256": "6ffd215abafb0c11b91fa99622e485c6a6e253c0c936f43bc57063aea5c28a18"
+        },
+        {
+          "upload_name": "S17D05_P040.pdf",
+          "source_page_start": 40,
+          "source_page_end": 40,
+          "pages": 1,
+          "status": "SUCCESS",
+          "job_id": "pjb-vgy3dzhdvnpqi6xsqb0sc8r5qvb2",
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P040.md",
+          "sha256": "26b57af02a949017060ac5b25186d702341e753563a0a7a998bd8d51842aac00"
+        }
+      ],
+      "manual_pages": [
+        {
+          "source_page_start": 32,
+          "source_page_end": 32,
+          "pages": 1,
+          "raw_export": "Markdown/_suivi/exports_bruts/session-17/S17D05_P032_manual.md",
+          "sha256": "33583b9be8e42985b7ffeb0590d716a0c71e0236a2e04d41f0cd9dbd10fbe26b",
+          "method": "Visual transcription checked against full rendered original, assisted by embedded text. Incomplete SOAP start tag retained as source."
+        }
+      ],
+      "partial_export": "Markdown/_suivi/exports_bruts/session-17/partiels/CI-TLSi_AMO_V1_2_3_MR_pages_001-072.md",
+      "partial_export_sha256": "53b4dd0fd0b0f3fcb7cb5fe6ab4b974e471bdd73e1179e2315ddeecf823d2e5b",
+      "completed_source_pages": 72,
+      "remaining_source_page_ranges": [
+        [
+          73,
+          102
+        ]
+      ],
+      "conversion_method": "LlamaParse split exports plus visually verified manual page 32"
+    }
+  ],
+  "completed_documents": 4,
+  "manual_source_pages": 14,
+  "new_source_pages_recovered": 235,
+  "llamaparse_successful_pages": 222,
+  "consumed_credits": 9990,
+  "remaining_credits": 10,
+  "account_total_consumed": 9990,
+  "stop_reason": "Balance 10 credits below one Agentic Plus page (45). Only MR original pages 73–102 remain. Originals unchanged."
+}

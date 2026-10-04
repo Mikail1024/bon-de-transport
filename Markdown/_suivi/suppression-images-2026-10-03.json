@@ -1,0 +1,408 @@
+{
+  "date": "2026-10-03",
+  "deleted_images": 4644,
+  "modified_markdown_files": 40,
+  "scope": "40 final Markdown files and their extracted image directories; raw exports unchanged; all original PDFs unchanged",
+  "documents": [
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2016-06-cdc-ps-norme-noemie.md",
+      "previous_sha256": "c28a24ef397e8fc7a077c2792bf128897801f0a50631d74c98412798e2b23287",
+      "new_sha256": "40b175c50ab154ce282dab9ab94cd420f173f63a05f0ef07b8811a4606ea6dee",
+      "date": "2026-10-03",
+      "files": 274,
+      "markdown_references_removed": 4,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2018-05-annexe-8-v2-norme-b2.md",
+      "previous_sha256": "0f93876cd290ae3b1c2571d7c72a5f9219567fdb15792dafd9ba1eb786ab68c3",
+      "new_sha256": "0f93876cd290ae3b1c2571d7c72a5f9219567fdb15792dafd9ba1eb786ab68c3",
+      "date": "2026-10-03",
+      "files": 4,
+      "markdown_references_removed": 0,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/Annexe10-B2-AMO_mars_2026.md",
+      "previous_sha256": "3849e5c30d5eda3cebc4f5cc983fbbb7a0b4708a7d33c389cd4ae0df9f684fb6",
+      "new_sha256": "3849e5c30d5eda3cebc4f5cc983fbbb7a0b4708a7d33c389cd4ae0df9f684fb6",
+      "date": "2026-10-03",
+      "files": 34,
+      "markdown_references_removed": 0,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/FACT-SFG-037 SFG-Facturation Transporteur A PEC+ v03.11_sans MR.md",
+      "previous_sha256": "a5bff2743fe7bf1a12bc3b23d73c108b56ecac1ef7a6777c176d1f4a88a696cf",
+      "new_sha256": "64a5c9a958c1c43a8815fb0bb6abd3417abd3f066f5a4634094a7c0425d011ab",
+      "date": "2026-10-03",
+      "files": 80,
+      "markdown_references_removed": 29,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/2016-12-09 - SFG et GI sans MR/SEL-MP-010 PEC v03.11_sans MR.md",
+      "previous_sha256": "6ec987ab9f6a54628ae82e4d63c7a7c7d4d5cb5f54434c21f5a39c6faeead0e8",
+      "new_sha256": "60b61d75776b23eb83f282d6c0d04f72d3b8dafbabec74a52975c90b06f7d511",
+      "date": "2026-10-03",
+      "files": 110,
+      "markdown_references_removed": 11,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/ep-procdures-11_09_2013_vf.md",
+      "previous_sha256": "95047fdf809fed950cd6e5a69ffbbcb2b303f9d4521ee4df7d42c69ebeb6a9a1",
+      "new_sha256": "5a666c92c6d6b3f3a924f5920c45bd8cf50c3345ddd0113bc05577075fd31a70",
+      "date": "2026-10-03",
+      "files": 217,
+      "markdown_references_removed": 43,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Kit accompagnement/pec-tirat_circuit-de-support_v1.0.md",
+      "previous_sha256": "5815273634a117cdf3d05b518ed98004ca5c7b8f3aced689a7e4ec14937794a8",
+      "new_sha256": "bcdb5e656acf759d38cceaa7c9865d2e94d619b88a3fbe9c68edb29080d22c05",
+      "date": "2026-10-03",
+      "files": 13,
+      "markdown_references_removed": 7,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/PDT-INF-198 - Corpus documentaire PEC V02 13 00.md",
+      "previous_sha256": "0f4753adaf40210c305b53902ea3d9817fe442bcdcd782edf856c89e50d27fa1",
+      "new_sha256": "b481ec84fc20ba58c442acb1afd09173abea961a3aedf08933b79d40ec3519db",
+      "date": "2026-10-03",
+      "files": 15,
+      "markdown_references_removed": 6,
+      "html_tags_removed": 3,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/Conditions_contractuelles_PEC_V4.0.md",
+      "previous_sha256": "a9fea0b04e3b3732b21079a18df9306ab0a3d9be60a16ea68435aa04ceea54f3",
+      "new_sha256": "a9fea0b04e3b3732b21079a18df9306ab0a3d9be60a16ea68435aa04ceea54f3",
+      "date": "2026-10-03",
+      "files": 16,
+      "markdown_references_removed": 0,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM-PEC_Package CNDA PEC+_V2.13.07.md",
+      "previous_sha256": "18cd04065992ad1a6476f33c6166cb59d594f7d64d0b1a1864363199ac3d42a6",
+      "new_sha256": "9aa471243ee26baf0c8f72dfe8dedff72f889685d114bad1a0129997c3741dcd",
+      "date": "2026-10-03",
+      "files": 14,
+      "markdown_references_removed": 2,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/Qualification CNDA 02.13.07/SEL-GCONFORM_PEC+_CI_2.13.07.md",
+      "previous_sha256": "19d662ad42b7ebb845e14538c17651821146e6cda738b2f7b16845b65a2de228",
+      "new_sha256": "75c973c9d85f7969adb8cd8e7b9824daf9c765dd21b0d9fc8f7e1177dd51ec35",
+      "date": "2026-10-03",
+      "files": 973,
+      "markdown_references_removed": 3,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/PEC Plus 2.13/pdt-inf-219-pecplus_aide_a_implementation_wsdl_v1.1.md",
+      "previous_sha256": "0aca88260742ef79e83a6ab38e24e9ea3a4ae5f2949c538b66943ec378d775c2",
+      "new_sha256": "781f647a1cd1831c5af81058aa121441f56698324fe31f17847e552b14fefddd",
+      "date": "2026-10-03",
+      "files": 9,
+      "markdown_references_removed": 3,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/ETS-FDC-002_Formulaire de demande de tests de chiffrement de transport_3.2vfinale.md",
+      "previous_sha256": "0c694e724ee33ddf5e46d8d5e9672c636bc2b97c8cc96b56e619f46cab17ba6d",
+      "new_sha256": "ba55bc0a92e35d94c8af7d12ab5f4a7a396dc836fb448620375b42d6221e1bdd",
+      "date": "2026-10-03",
+      "files": 49,
+      "markdown_references_removed": 19,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Cahier de tests/VALID-PTV-001-v01.05 - Tests de chiffrement des flux.md",
+      "previous_sha256": "4853bfd48c4d264560a2243d7f6f1d1a388ae15798c6ff1dd323dacf57a466be",
+      "new_sha256": "0072b4179337ddb8b48177d85d098e8fcbee35e30714db7ae613262e9ed64a33",
+      "date": "2026-10-03",
+      "files": 184,
+      "markdown_references_removed": 50,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.50.30.md",
+      "previous_sha256": "f39ce2a9e62088888b95e6940b4c1b424d95f47824e5e183341c64fcb1c0995b",
+      "new_sha256": "740323d781b5bedeac47ca67d7961f7153b8c17e1d6631f3cb3c5091159dba97",
+      "date": "2026-10-03",
+      "files": 308,
+      "markdown_references_removed": 115,
+      "html_tags_removed": 2,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/Annuaire_Sante_DSFT_extractions_libre_acces_v3.1_2025-11-07.md",
+      "previous_sha256": "cf348db4bbba62de8a945f23e1dbccf9b2742521295518c3d4cd23de6d2e7c52",
+      "new_sha256": "6c224508fe13c0da6c2c731c2aa4f5febf79155382ede9fa8bd0b4cad0495961",
+      "date": "2026-10-03",
+      "files": 199,
+      "markdown_references_removed": 77,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/FINESS_plus_webinaire_2026-04-15.md",
+      "previous_sha256": "893dd11a382a79af436726ccf08fdceac6c6d3b1b2d625c01886d682436f61eb",
+      "new_sha256": "5e17c46b3ba3a82b664e422073879838c5f631bfa5a7e49eba613860867f57b0",
+      "date": "2026-10-03",
+      "files": 275,
+      "markdown_references_removed": 187,
+      "html_tags_removed": 3,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Référentiels nationaux/RPPS_regles_de_correspondance_GIE/FACT-GU-001_v1.22_Guide_referentiel_PS_2016-04-05.md",
+      "previous_sha256": "78c6abbd62c24465db4f9ff62df0d3f73f357ade0258bb5ef715a0d6bd8b5fac",
+      "new_sha256": "6b4a7313e90be6c23eff1cfd3f747972ef0be29d0fb1de83607b70d0f157d0fe",
+      "date": "2026-10-03",
+      "files": 30,
+      "markdown_references_removed": 11,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-001-001.md",
+      "previous_sha256": "ada7db3bffa54fe589493b2e81c233a80d13a1cdab92832eec03d8307764c0b2",
+      "new_sha256": "ec5056e06e4238db6d6fbdd81d84de78090d364e8bddcba121590916a298d385",
+      "date": "2026-10-03",
+      "files": 5,
+      "markdown_references_removed": 2,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-002-001.md",
+      "previous_sha256": "2a2fefb0419fc0a8e4234743e2be679dae6c7b61b15acf2bcdbc0991dd5336ba",
+      "new_sha256": "b7d2701fab30db5005235f236e04ee69a64bf8d5b8dcadedf3f9bb84d7bc8964",
+      "date": "2026-10-03",
+      "files": 4,
+      "markdown_references_removed": 1,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-001.md",
+      "previous_sha256": "7fdb3db75490ac9b5dc797044ca0c239c70a3084b267314c2e05941ce306e3af",
+      "new_sha256": "86f9503eb10ca658abba9ddf20acb216b3cf295627b01db1122c53a4c9e77be8",
+      "date": "2026-10-03",
+      "files": 5,
+      "markdown_references_removed": 3,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/Exemples de fichiers SCOR non chiffrés/496245570-entscanordo-2012012711140023006/P-003-002.md",
+      "previous_sha256": "3dbda8211a39d16221ec5b934d5e2107ec9bb13f2e513f0d28ffdf04e500e641",
+      "new_sha256": "f1e6db6d7dbf3f28627d7f8c1da8666ce7cad856c2f4a3963551343076212f69",
+      "date": "2026-10-03",
+      "files": 7,
+      "markdown_references_removed": 1,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/PDT-INF-747 SCOR évolution SCOR-SFG-003 v1.26 (optimisation de la volumétrie des lot de PJ SCOR).md",
+      "previous_sha256": "5e5875ecf75f13aee80eff86db6162bcf3e954a00f56f5828cf389c3a45a265f",
+      "new_sha256": "14b7cda002fcf2cc8857e2c708c03afc08c86b106ecc30958762eb062b8c6bb9",
+      "date": "2026-10-03",
+      "files": 11,
+      "markdown_references_removed": 4,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-INF-609 Diffusion des spécifications SCOR v2.12.md",
+      "previous_sha256": "62c9f6c8a11c38a6e1b866de47712a8804808dbd8ce946baffee871c11170dc5",
+      "new_sha256": "d49b6f2532e1b83373fda90644a47e9255c3bd38fb033fb4a3b74665dc8829d7",
+      "date": "2026-10-03",
+      "files": 10,
+      "markdown_references_removed": 4,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/SCOR/Baseline commune 2.12/SCOR-SFG-002_V01.24_PG.md",
+      "previous_sha256": "0993f12dbda86903d31a49146662cd50447b985320f6b10772ec5697a856ae05",
+      "new_sha256": "9ccd0b1335742d114e272482e215513fc797f1e32b46ccc9be1d1f032e18d7dc",
+      "date": "2026-10-03",
+      "files": 265,
+      "markdown_references_removed": 103,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/ETS-DT-001_TransportsFlux_SpecsTechCommune_v1.51.11.md",
+      "previous_sha256": "6a3a3e824acd2207840533ce528c12cbd053bfa8c4888207b76208b6ea52db33",
+      "new_sha256": "b4aab121bfff9207c4cff8bb42069148e4b54fb12ec49753902d6eab6d005e68",
+      "date": "2026-10-03",
+      "files": 315,
+      "markdown_references_removed": 116,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/Archives/PDT-INF-856-Fiche d'information-spécifications_chiffrement_transport_v1.51.11v4.md",
+      "previous_sha256": "ff062bd21cd5dea5309dcfa1081d1a711d77170ee35adf95bfc0323a063600e4",
+      "new_sha256": "e57da6ce11c72fdf9e826674d424fac6736d9d3afbaa98d069a8a62f17025600",
+      "date": "2026-10-03",
+      "files": 17,
+      "markdown_references_removed": 9,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-001_TransportsFlux_SpecsTechCommune_V1.52.00.md",
+      "previous_sha256": "badf7686a8861647f060e8bd557d9131f532bfe441a4816eb6ef1705bc6b2ba2",
+      "new_sha256": "444544d3fac908dc8a9fc899562a0bc817bf06ed1b51b40f509f686d207e2b11",
+      "date": "2026-10-03",
+      "files": 320,
+      "markdown_references_removed": 112,
+      "html_tags_removed": 1,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Transport des flux de facturation/Spécifications de chiffrement de transport/ETS-DT-003_Création du fichier logique de facturation AMO et traitement des retours_v02.20.md",
+      "previous_sha256": "e98dc20d780e0602db61d800a25aa92f1cc584e3c9e55677c6f05851ae5ac740",
+      "new_sha256": "9ec2b81b0acf8d70c57556b2ac8e01d1055e5f98f1c16fd76d23a45f38821b19",
+      "date": "2026-10-03",
+      "files": 280,
+      "markdown_references_removed": 81,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3138g_Cerfa_11574-07_Prescription_medicale_transport_Ameli_2026-02-12.md",
+      "previous_sha256": "a8c9189d7d997d0437e89c57d168447f7b598bf507c3dc611eaab9dc5f8417ed",
+      "new_sha256": "373524972a65afd78db0368eb869ab36ab3f53c5cae970629966c6d85c4a0a08",
+      "date": "2026-10-03",
+      "files": 12,
+      "markdown_references_removed": 5,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Formulaires officiels/S3139h_Cerfa_11575-08_Demande_accord_prealable_transport_Ameli_2026-02-12.md",
+      "previous_sha256": "2afff0860b3936a3605b9e58d46dda444ac2963e5f074bab46d785ae89308960",
+      "new_sha256": "18edf0a316b126d6d3577323a736a82f2049a4b0b4c833467033d3364fc53f91",
+      "date": "2026-10-03",
+      "files": 8,
+      "markdown_references_removed": 4,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Arrete_2025-02-28_transports_partages.md",
+      "previous_sha256": "76c915765795319285128fb5b774caa50fa4da2c2908a2faa4aee7a50878bdac",
+      "new_sha256": "76c915765795319285128fb5b774caa50fa4da2c2908a2faa4aee7a50878bdac",
+      "date": "2026-10-03",
+      "files": 2,
+      "markdown_references_removed": 0,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CIR-5-2025_transport_partage_tiers_payant.md",
+      "previous_sha256": "afb033a10120e5f2d66cabf32180062a1c9f1ba25d839eb457036db1e6a309b0",
+      "new_sha256": "7405513533beeefa7a9d1504f38e2b21d35103c91f5d0c4d6d7cb0a677b08d7e",
+      "date": "2026-10-03",
+      "files": 21,
+      "markdown_references_removed": 9,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_L322-5_a_L322-5-5_version_2026-09-20.md",
+      "previous_sha256": "c4e1060b42e6c6b47396b9aaf86543776165df6edede4eff63b6ea9c0a169b82",
+      "new_sha256": "a9a97b2f8b686d464f1377b9aacb9c6becfb0caee582fc15400783b362139219",
+      "date": "2026-10-03",
+      "files": 10,
+      "markdown_references_removed": 1,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/CSS_R322-11-1_a_R322-11-8_version_2026-09-20.md",
+      "previous_sha256": "7058825cc2dbba215b97ab323b789f3e70dcc2f10c0b895a411f66c7af9e23c8",
+      "new_sha256": "dbb0330f56f96087f1167275dd163b8d8b81c817e7362d38dfc9c36542224228",
+      "date": "2026-10-03",
+      "files": 5,
+      "markdown_references_removed": 1,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Droit et règles/Transport partagé/Decret_2025-202_2025-02-28_transport_partage.md",
+      "previous_sha256": "a802fc7fb54991b8b11b4da1dfd2c2943b996966cabb5c4493b7efe0e3831f25",
+      "new_sha256": "a802fc7fb54991b8b11b4da1dfd2c2943b996966cabb5c4493b7efe0e3831f25",
+      "date": "2026-10-03",
+      "files": 4,
+      "markdown_references_removed": 0,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/Formulaires de facturation/PDT-INF-897-Mise à disposition des modèles de factures TS et TX attestation de service fait (ASF) et modèle dannexe 4.md",
+      "previous_sha256": "d32a08921f2e76c78e8a4c03fc2264d62d5a28d3711a82ce7ef849a2b398d4ef",
+      "new_sha256": "8ef03ccc1ab1f50b7ef22083c53ecd52ffc601c1cc4b9fe2326effc44473ad8c",
+      "date": "2026-10-03",
+      "files": 10,
+      "markdown_references_removed": 4,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-CDC-112_Avenant_48_RPPS_v01.42_2026-03-18_PROVISOIRE.md",
+      "previous_sha256": "487b2112329259e53dfd6259620005a35251906283f6c4cc977ae455693a351f",
+      "new_sha256": "8c2bcde7b3bac9423160d28a186957e6a2f3981f9856521522e759b7051783d3",
+      "date": "2026-10-03",
+      "files": 201,
+      "markdown_references_removed": 47,
+      "html_tags_removed": 41,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Evolutions/Avenant 48 RPPS - provisoire/PDT-INF-926v2_Diffusion_Avenant_48_RPPS_2026-04-28.md",
+      "previous_sha256": "595bf3aee8f396bf8780db3c4a916906bde132af49f6463d58a1f09d4089ab11",
+      "new_sha256": "76608caab1acea0a6abe5720d40869b56e9eef76cada18c3462b0a8c554be4ab",
+      "date": "2026-10-03",
+      "files": 10,
+      "markdown_references_removed": 3,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    },
+    {
+      "output": "10_SOCLE_COMMUN_TS_TX/B2/Normes communes/2007-06-cdc-errata-norme-b2.md",
+      "previous_sha256": "03d95f2c5fac6fb43690d558cbb27aad5f4a1eefc7830d67927a5c545d3b67ee",
+      "new_sha256": "17ead8751a27a3774916aaf9ef3b4d9df4767ea492d791b11907eeae4d5857fd",
+      "date": "2026-10-03",
+      "files": 318,
+      "markdown_references_removed": 4,
+      "html_tags_removed": 0,
+      "alternative_text_preserved": true
+    }
+  ]
+}
